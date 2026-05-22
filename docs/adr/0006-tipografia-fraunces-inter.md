@@ -1,7 +1,11 @@
 # ADR 0006 — Tipografia: Fraunces (display) + Inter (texto), auto-hospedadas
 
-- **Status:** Aceito
+- **Status:** ❌ Substituído pelo [ADR 0007](0007-fidelidade-manual-marca-poppins.md) (2026-05-22)
 - **Data:** 2026-05-22
+
+> **Nota:** esta decisão foi tomada **antes** de recebermos o manual oficial da marca
+> ("BRAND & DESIGN - FIORE.pdf"), que especifica **Poppins** como tipografia oficial.
+> Mantida aqui como registro histórico. Ver [ADR 0007](0007-fidelidade-manual-marca-poppins.md).
 
 ## Contexto
 

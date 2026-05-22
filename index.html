@@ -16,7 +16,7 @@
   <meta name="geo.placename" content="Bauru">
 
   <!-- Ícones -->
-  <link rel="icon" href="./assets/images/simbol.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/images/fiore-simbolo.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
   <link rel="manifest" href="./site.webmanifest">
 
@@ -40,9 +40,9 @@
     content="Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher. Cuidado acolhedor e seguro.">
   <meta name="twitter:image" content="https://www.fiorepilates.com.br/assets/images/og-image.jpg">
 
-  <!-- Fontes (preload do display para LCP) -->
-  <link rel="preload" href="./assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="./assets/fonts/inter-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- Fontes (preload para LCP) -->
+  <link rel="preload" href="./assets/fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/poppins-latin-300.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./assets/css/fiore.css">
 
   <!-- Dados estruturados: Negócio local -->
@@ -55,7 +55,7 @@
     "alternateName": "Fiore Pilates e Fisioterapia",
     "description": "Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher, com atendimento individualizado e acolhedor.",
     "url": "https://www.fiorepilates.com.br/",
-    "logo": "https://www.fiorepilates.com.br/assets/images/logo-fiore.svg",
+    "logo": "https://www.fiorepilates.com.br/assets/images/fiore-logo.svg",
     "image": "https://www.fiorepilates.com.br/assets/images/og-image.jpg",
     "telephone": "+5514996598955",
     "priceRange": "$$",
@@ -70,9 +70,10 @@
     },
     "areaServed": { "@type": "City", "name": "Bauru" },
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "21:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "12:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "06:00", "closes": "20:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:00", "closes": "12:00" }
     ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "44", "bestRating": "5", "worstRating": "1" },
     "founder": { "@type": "Person", "name": "Raquel Cardoso", "jobTitle": "Fisioterapeuta" },
     "sameAs": [
       "https://www.instagram.com/pilatesfiore/",
@@ -110,8 +111,7 @@
   <header class="site-header" data-header>
     <div class="container nav">
       <a class="brand" href="/" aria-label="Fiore Pilates — página inicial">
-        <img src="./assets/images/simbol.svg" alt="" width="34" height="34">
-        <span>fiore</span>
+        <img src="./assets/images/fiore-logo.svg" alt="Fiore Pilates" width="105" height="36">
       </a>
       <nav class="nav-links" aria-label="Navegação principal">
         <a href="#gestantes">Gestantes</a>
@@ -158,13 +158,11 @@
         <div class="hero-media reveal d2">
           <img src="./assets/images/hero-espaco.jpg" alt="Espaço acolhedor do Fiore Pilates com luz natural e plantas" width="618" height="1100" fetchpriority="high">
           <div class="hero-badge">
-            <span class="leaf-mark" aria-hidden="true">
-              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 20A7 7 0 0 1 4 13c0-5 3-8 7-9 0 0-1 4 0 7s4 4 4 7a5 5 0 0 1-4 2Z"/><path d="M11 20c0-4 1-7 3-9"/></svg>
-            </span>
+            <svg class="gicon" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;flex:none"><path fill="#4285F4" d="M23 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.2a5.3 5.3 0 0 1-2.3 3.5v2.9h3.7C21.7 18.9 23 15.9 23 12.3Z"/><path fill="#34A853" d="M12 24c3.1 0 5.7-1 7.6-2.8l-3.7-2.9c-1 .7-2.3 1.1-3.9 1.1-3 0-5.5-2-6.4-4.7H1.8v3A12 12 0 0 0 12 24Z"/><path fill="#FBBC05" d="M5.6 14.7a7.2 7.2 0 0 1 0-4.6v-3H1.8a12 12 0 0 0 0 10.6l3.8-3Z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.2.6 4.4 1.7l3.3-3.3A12 12 0 0 0 1.8 7.1l3.8 3C6.5 7.3 9 4.8 12 4.8Z"/></svg>
             <div>
               <span class="stars" aria-hidden="true">★★★★★</span>
-              <strong>+300</strong>
-              <small>alunas cuidadas com carinho</small>
+              <strong>5,0</strong>
+              <small>44 avaliações no Google</small>
             </div>
           </div>
         </div>
@@ -183,8 +181,8 @@
           <p>são gestantes acompanhadas de perto</p>
         </div>
         <div class="proof-item reveal d2">
-          <div class="num">5<span>★</span></div>
-          <p>avaliações reais de alunas no Google</p>
+          <div class="num">5,0<span>★</span></div>
+          <p>nota no Google, com 44 avaliações</p>
         </div>
         <div class="proof-item reveal d3">
           <div class="num">100<span>%</span></div>
@@ -301,7 +299,7 @@
     <section class="section" id="sobre">
       <div class="container split reverse">
         <div class="split-media reveal">
-          <img src="./assets/images/conceito-marca.png" alt="Construção da marca Fiore — logo e símbolo" width="820" height="1024" loading="lazy">
+          <img src="./assets/images/espaco-recanto.jpg" alt="Recanto acolhedor do estúdio Fiore, com plantas e luz natural" width="618" height="1100" loading="lazy">
         </div>
         <div class="split-copy">
           <span class="eyebrow reveal">Nossa história</span>
@@ -357,11 +355,29 @@
       </div>
     </section>
 
+    <!-- ===================== TIME FLORESCER ===================== -->
+    <section class="section" id="time">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow center">Time Florescer</span>
+          <h2 class="text-balance">Quem cuida de você</h2>
+          <p class="lead">Florescer é o nosso time — profissionais dedicados a acompanhar cada fase da sua
+            jornada, com técnica e carinho.</p>
+        </div>
+        <div class="team">
+          <div class="member reveal"><div class="ph"><span>RC</span></div><h4>Raquel Cardoso</h4><p>Fundadora · Fisioterapeuta</p></div>
+          <div class="member reveal d1"><div class="ph"><span>J</span></div><h4>Jamile</h4><p>Fisioterapeuta</p></div>
+          <div class="member reveal d2"><div class="ph"><span>F</span></div><h4>Filipe</h4><p>Fisioterapeuta</p></div>
+          <div class="member reveal d3"><div class="ph"><span>R</span></div><h4>Rosana</h4><p>Fiore Toque · Massoterapia</p></div>
+        </div>
+      </div>
+    </section>
+
     <!-- ===================== TECNOLOGIA & CUIDADO ===================== -->
     <section class="section" id="tecnologia">
       <div class="container split">
         <div class="split-media reveal">
-          <img src="./assets/images/conceito-paleta.png" alt="Paleta e identidade visual da Fiore" width="819" height="1024" loading="lazy">
+          <img src="./assets/images/pilates-aula.jpg" alt="Aula de Pilates em aparelho no estúdio Fiore" width="618" height="1100" loading="lazy">
         </div>
         <div class="split-copy">
           <span class="eyebrow reveal">Tecnologia acolhedora</span>
@@ -410,6 +426,25 @@
       </div>
     </section>
 
+    <!-- ===================== NOSSO ESPAÇO ===================== -->
+    <section class="section" id="espaco">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow center">Nosso espaço</span>
+          <h2 class="text-balance">Um ambiente pensado para o seu bem-estar</h2>
+          <p class="lead">Elegante, sereno e acolhedor — cada detalhe foi preparado para você se sentir em casa.</p>
+        </div>
+        <div class="gallery reveal">
+          <img src="./assets/images/espaco-studio.jpg" alt="Sala de Pilates da Fiore com aparelhos e luz natural" width="618" height="1100" loading="lazy">
+          <img src="./assets/images/espaco-recanto.jpg" alt="Recanto acolhedor com plantas no estúdio Fiore" width="618" height="1100" loading="lazy">
+          <img src="./assets/images/pilates-aula.jpg" alt="Aula de Pilates em aparelho na Fiore" width="618" height="1100" loading="lazy">
+          <img src="./assets/images/espaco-reformer.jpg" alt="Aparelho Reformer no estúdio Fiore" width="618" height="1100" loading="lazy">
+          <img src="./assets/images/espaco-detalhe.jpg" alt="Detalhes e acessórios do estúdio Fiore" width="618" height="1100" loading="lazy">
+          <img src="./assets/images/espaco-fachada.jpg" alt="Fachada e entrada do estúdio Fiore em Bauru" width="618" height="1100" loading="lazy">
+        </div>
+      </div>
+    </section>
+
     <!-- ===================== DEPOIMENTOS ===================== -->
     <section class="section" id="depoimentos">
       <div class="container">
@@ -418,11 +453,12 @@
             <span class="eyebrow">Quem vive a Fiore</span>
             <h2 class="text-balance" style="margin-top:0.8rem">Amado por quem valoriza<br>o bem-estar</h2>
           </div>
-          <a class="grating reveal d1" href="https://share.google/ljNUIfplyfd3QRWD0" target="_blank" rel="noopener" aria-label="Ver avaliações no Google">
+          <a class="grating reveal d1" href="https://share.google/fBmJ25ksCZVUaQaLe" target="_blank" rel="noopener" aria-label="Ver avaliações no Google">
             <svg class="gicon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.2a5.3 5.3 0 0 1-2.3 3.5v2.9h3.7C21.7 18.9 23 15.9 23 12.3Z"/><path fill="#34A853" d="M12 24c3.1 0 5.7-1 7.6-2.8l-3.7-2.9c-1 .7-2.3 1.1-3.9 1.1-3 0-5.5-2-6.4-4.7H1.8v3A12 12 0 0 0 12 24Z"/><path fill="#FBBC05" d="M5.6 14.7a7.2 7.2 0 0 1 0-4.6v-3H1.8a12 12 0 0 0 0 10.6l3.8-3Z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.2.6 4.4 1.7l3.3-3.3A12 12 0 0 0 1.8 7.1l3.8 3C6.5 7.3 9 4.8 12 4.8Z"/></svg>
+            <span class="g">5,0</span>
             <div>
               <span class="stars" aria-hidden="true">★★★★★</span>
-              <small>Avaliações reais no Google</small>
+              <small>44 avaliações no Google</small>
             </div>
           </a>
         </div>
@@ -545,7 +581,7 @@
             </li>
             <li>
               <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-              <div><h4>Horário</h4><p>Seg a Sex: 7h às 21h<br>Sábado: 8h às 12h</p></div>
+              <div><h4>Horário</h4><p>Seg a Sex: 6h às 20h<br>Sábado: 7h às 12h</p></div>
             </li>
             <li>
               <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
@@ -564,7 +600,7 @@
     <section class="section">
       <div class="container">
         <div class="cta-band reveal">
-          <img class="leaf-bg" src="./assets/images/simbol.svg" alt="" aria-hidden="true">
+          <img class="leaf-bg" src="./assets/images/fiore-simbolo.svg" alt="" aria-hidden="true">
           <span class="eyebrow center" style="justify-content:center">Vamos começar?</span>
           <h2 class="text-balance" style="margin-top:1rem">Aqui, você vai ser cuidada de verdade</h2>
           <p>Dê o primeiro passo da sua jornada de bem-estar. Agende sua avaliação inicial e venha sentir o cuidado da
@@ -584,7 +620,7 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <a class="brand" href="/"><img src="./assets/images/simbol.svg" alt="" width="34" height="34"><span>fiore</span></a>
+          <a class="brand" href="/"><img src="./assets/images/fiore-logo-light.svg" alt="Fiore Pilates" width="105" height="36"></a>
           <address>
             R. Baltazar Rodrigues, 4-82<br>
             Jardim Planalto — Bauru/SP<br>
@@ -617,7 +653,7 @@
           <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." target="_blank" rel="noopener">Agendar avaliação</a>
           <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20conhecer%20a%20Fiore." target="_blank" rel="noopener">Sou gestante</a>
           <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20as%20aulas%20da%20Fiore." target="_blank" rel="noopener">Tirar dúvidas</a>
-          <a href="https://share.google/ljNUIfplyfd3QRWD0" target="_blank" rel="noopener">Avaliações no Google</a>
+          <a href="https://share.google/fBmJ25ksCZVUaQaLe" target="_blank" rel="noopener">Avaliações no Google</a>
         </div>
       </div>
       <div class="footer-bottom">

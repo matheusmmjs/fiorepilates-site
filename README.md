@@ -10,7 +10,7 @@ em **gestantes** e saúde da mulher. *Floresça com leveza e bem-estar.*
 - **HTML estático puro** (sem framework/build) — `index.html`, `gestantes.html`.
 - **CSS** próprio: `assets/css/fiore.css` (design system da marca).
 - **JS** mínimo: `assets/js/fiore.js` (nav, scroll, reveal, FAQ).
-- **Fontes** auto-hospedadas: Fraunces (títulos) + Inter (texto) em `assets/fonts/`.
+- **Fonte** auto-hospedada: **Poppins** (oficial da marca) em `assets/fonts/`.
 - **SEO:** `robots.txt`, `sitemap.xml`, `site.webmanifest`, JSON-LD nas páginas, `vercel.json`.
 
 > Por que esta stack e estas decisões? Veja **[docs/](docs/README.md)** (SPEC, BRAND,

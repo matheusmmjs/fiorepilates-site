@@ -1,4 +1,4 @@
-# CLAUDE.md — contexto para agentes
+# AGENTS.md — contexto para agentes
 
 Site institucional do **Fiore Pilates** (Bauru/SP) — Pilates especializado em
 **gestantes** e saúde da mulher. Objetivo: site premium, mobile-first, SEO local forte,

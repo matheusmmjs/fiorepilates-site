@@ -57,21 +57,38 @@ organizada, protocolos estruturados, experiência moderna. Tom: humano, suave, e
 | `--ink`      | `#181917` | quase-preto quente — texto forte |
 | `--sand`     | `#F4F2E8` | areia — fundo alternado |
 | `--sage-tint`| `#E7EAD9` | sálvia clara — fundos suaves, ícones |
-| `--gold`     | `#B08D4F` | dourado — acentos premium, eyebrows, regras finas |
+| `--gold` (olive) | `#5E6440` | accent de texto/linhas/estrelas (o manual **não** usa dourado) |
+| `--gold-soft` (sálvia) | `#A7AE84` | accent sobre fundos escuros |
+
+> O deck de estratégia citava "dourado", mas o **manual visual usa só verdes + creme +
+> quase-preto** — seguimos o manual. Para reativar dourado, ajustar os tokens. Ver [ADR 0007](adr/0007-fidelidade-manual-marca-poppins.md).
 
 ## Tipografia
 
-- **Display:** Fraunces (serifa quente/elegante).
-- **Texto/UI:** Inter.
-- Ver [ADR 0006](adr/0006-tipografia-fraunces-inter.md).
+- **Poppins** (oficial, conforme manual "BRAND & DESIGN - FIORE.pdf") — sans geométrica,
+  limpa, arredondada e moderna. Usada em títulos (pesos leves 200–300) e texto (400–500).
+- Auto-hospedada em `assets/fonts/` (woff2, latin + latin-ext). Ver [ADR 0007](adr/0007-fidelidade-manual-marca-poppins.md).
 
-## Tom de voz
+## Público (manual)
 
-Acolhedor, elegante, seguro, humano. Feminino sem exageros. Frases curtas e claras.
-Para gestantes: **linguagem ética** (ver [ADR 0005](adr/0005-conteudo-etico-e-prova-social-real.md)).
+Pessoas com dores/lesões · terceira idade (60+) · empresárias e profissionais liberais ·
+mulheres de 30–45 · **gestantes e puérperas** · atletas/praticantes de esporte.
+→ Forte em gestantes (diferencial), mas posicionamento **premium para todos os perfis**.
+
+## Tom de voz (manual)
+
+Elegância, empatia e leveza. Humano e acolhedor; claro, gentil e inspirador.
+- **Como falamos:** *"Cuidar do seu corpo é um gesto de carinho com você mesma. Estamos
+  aqui pra te acompanhar nessa jornada de bem-estar."* (cuidado, conexão, leve)
+- **Como NÃO falamos:** *"Oferecemos sessões com foco em reeducação postural através de
+  técnicas específicas…"* (seco, técnico, impessoal)
+- Para gestantes: **linguagem ética** (ver [ADR 0005](adr/0005-conteudo-etico-e-prova-social-real.md)).
+
+**Taglines:** "Floresça com leveza e bem-estar" · "O florescer do seu equilíbrio".
 
 ## Logo
 
-Símbolo de folhas/pétalas que "florescem" (sálvia) + wordmark "fiore" em caixa-baixa.
-Arquivos: `assets/images/simbol.svg` (símbolo), `logo-fiore.svg` e `fiore-pilates.svg`
-(lockups). Marca registrada (®).
+Símbolo (folha + flor) que "floresce" + wordmark "fiore" geométrico (caixa-baixa, Poppins),
+com subtítulo "Pilates". Recolore por fundo. Arquivos oficiais:
+`assets/images/fiore-simbolo.svg` (símbolo), `fiore-logo.svg` (lockup, fundo claro),
+`fiore-logo-light.svg` (wordmark creme, fundo escuro). Marca registrada (®).
