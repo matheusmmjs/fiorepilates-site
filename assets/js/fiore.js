@@ -19,6 +19,7 @@
   if (toggle && menu) {
     var setMenu = function (open) {
       toggle.setAttribute("aria-expanded", String(open));
+      toggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
       menu.classList.toggle("is-open", open);
       document.body.style.overflow = open ? "hidden" : "";
     };
