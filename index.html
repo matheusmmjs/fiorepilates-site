@@ -1,875 +1,654 @@
 <!doctype html>
-<html class="h-100" lang="pt-BR">
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fiore Pilates — Pilates para Gestantes em Bauru | Estúdio Especializado</title>
   <meta name="description"
-    content="Fiore Pilates em Bauru. Estúdio especializado no cuidado e fortalecimento de mulheres na maternidade. Floresça com leveza e bem-estar.">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/simbol.svg">
-  <link rel="icon" sizes="32x32" href="./assets/images/simbol.svg">
-  <link rel="icon" sizes="16x16" href="./assets/images/simbol.svg">
-  <link rel="icon" sizes="96x96" href="./assets/images/simbol.svg">
-  <meta name="author" content="Fiore">
-  <meta name="generator" content="Fiore">
-  <meta name="HandheldFriendly" content="true">
-  <title>Fiore Pilates - Especializado em Gestantes em Bauru</title>
-  <link rel="stylesheet" href="./assets/css/theme.min.css">
+    content="Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher. Cuidado individualizado, acolhedor e seguro em todas as fases da vida. Agende sua avaliação inicial.">
+  <link rel="canonical" href="https://www.fiorepilates.com.br/">
+  <meta name="author" content="Fiore Pilates">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#24281D">
+  <meta name="geo.region" content="BR-SP">
+  <meta name="geo.placename" content="Bauru">
 
-  <style>
-    /* inter-300 - latin */
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 300;
-      font-display: swap;
-      src: local(''),
-        url('./assets/fonts/inter-v12-latin-300.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('./assets/fonts/inter-v12-latin-300.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+  <!-- Ícones -->
+  <link rel="icon" href="./assets/images/simbol.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="./site.webmanifest">
 
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 500;
-      font-display: swap;
-      src: local(''),
-        url('./assets/fonts/inter-v12-latin-500.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('./assets/fonts/inter-v12-latin-500.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Fiore Pilates">
+  <meta property="og:title" content="Fiore Pilates — Pilates para Gestantes em Bauru">
+  <meta property="og:description"
+    content="Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher. Cuidado individualizado, acolhedor e seguro. Agende sua avaliação inicial.">
+  <meta property="og:url" content="https://www.fiorepilates.com.br/">
+  <meta property="og:image" content="https://www.fiorepilates.com.br/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Espaço acolhedor do Fiore Pilates em Bauru">
 
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-      src: local(''),
-        url('./assets/fonts/inter-v12-latin-700.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('./assets/fonts/inter-v12-latin-700.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-  </style>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fiore Pilates — Pilates para Gestantes em Bauru">
+  <meta name="twitter:description"
+    content="Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher. Cuidado acolhedor e seguro.">
+  <meta name="twitter:image" content="https://www.fiorepilates.com.br/assets/images/og-image.jpg">
 
+  <!-- Fontes (preload do display para LCP) -->
+  <link rel="preload" href="./assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/inter-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./assets/css/fiore.css">
+
+  <!-- Dados estruturados: Negócio local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "@id": "https://www.fiorepilates.com.br/#business",
+    "name": "Fiore Pilates",
+    "alternateName": "Fiore Pilates e Fisioterapia",
+    "description": "Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher, com atendimento individualizado e acolhedor.",
+    "url": "https://www.fiorepilates.com.br/",
+    "logo": "https://www.fiorepilates.com.br/assets/images/logo-fiore.svg",
+    "image": "https://www.fiorepilates.com.br/assets/images/og-image.jpg",
+    "telephone": "+5514996598955",
+    "priceRange": "$$",
+    "currenciesAccepted": "BRL",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Baltazar Rodrigues, 4-82 - Jardim Planalto",
+      "addressLocality": "Bauru",
+      "addressRegion": "SP",
+      "postalCode": "17012-090",
+      "addressCountry": "BR"
+    },
+    "areaServed": { "@type": "City", "name": "Bauru" },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "21:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "12:00" }
+    ],
+    "founder": { "@type": "Person", "name": "Raquel Cardoso", "jobTitle": "Fisioterapeuta" },
+    "sameAs": [
+      "https://www.instagram.com/pilatesfiore/",
+      "https://www.facebook.com/pilatesfiore"
+    ],
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Gestantes", "description": "Pilates pré-natal individualizado, respeitando cada fase da gestação." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Saúde da Mulher" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Dores e Postura" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Idosos" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reabilitação e Pós-parto" } }
+    ]
+  }
+  </script>
+  <!-- Dados estruturados: Perguntas frequentes -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Pilates é seguro durante a gestação?", "acceptedAnswer": { "@type": "Answer", "text": "Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo." } },
+      { "@type": "Question", "name": "Preciso ter experiência prévia para começar?", "acceptedAnswer": { "@type": "Answer", "text": "Não. Recebemos alunas iniciantes e experientes. Tudo começa por uma avaliação inicial individualizada, que define um plano de aula feito para você." } },
+      { "@type": "Question", "name": "A partir de quando uma gestante pode iniciar o Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "O momento ideal varia para cada mulher. O recomendado é iniciar com liberação do seu médico e com acompanhamento de profissionais especializados, como na Fiore." } },
+      { "@type": "Question", "name": "Como funciona a avaliação inicial?", "acceptedAnswer": { "@type": "Answer", "text": "É um encontro individual em que entendemos seu histórico, objetivos e necessidades. A partir dele montamos um plano personalizado e acompanhamos sua evolução ao longo das aulas." } },
+      { "@type": "Question", "name": "Onde fica o estúdio Fiore Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Estamos na R. Baltazar Rodrigues, 4-82 - Jardim Planalto, Bauru/SP, em um espaço pensado para o seu conforto e bem-estar." } }
+    ]
+  }
+  </script>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navScroll">
+<body>
+  <a href="#conteudo" class="btn" style="position:absolute;left:-9999px;top:0;z-index:100;" onfocus="this.style.left='1rem';this.style.top='1rem'" onblur="this.style.left='-9999px'">Pular para o conteúdo</a>
 
-  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
-    <div class="container">
-      <a class="navbar-brand pe-4 fs-4" href="/">
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-layers-half"
-          viewbox="0 0 16 16">
-          <path
-            d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z" />
-        </svg> -->
-        <img src="./assets/images/simbol.svg" width="32" height="32" fill="currentColor" class="bi bi-layers-half"
-          viewbox="0 0 16 16" alt="Símbolo Fiore Pilates">
-        <span class="ms-1 fw-bolder">Fiore Pilates</span>
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" data-header>
+    <div class="container nav">
+      <a class="brand" href="/" aria-label="Fiore Pilates — página inicial">
+        <img src="./assets/images/simbol.svg" alt="" width="34" height="34">
+        <span>fiore</span>
       </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#gestantes">Gestantes</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#florescer">Programa Florescer</a>
+        <a href="#metodo">Metodologia</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn" target="_blank" rel="noopener">Agendar avaliação</a>
+      </div>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#services" aria-label="Leva você para a página inicial">
-              Serviços
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutus">
-              Sobre nós
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#numbers">
-              Números
-            </a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#gallery">
-              Galeria
-            </a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="#workwithus">
-              Trabalhe conosco
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimonials">
-              Testemunhos
-            </a>
-          </li>
-
-        </ul>
-        <a href="https://app.fiorepilates.com.br" data-splitbee-event="Click to go to the Fiori App"
-          aria-label="Click to go to the Fiori App" class="link-dark pb-1 link-fancy me-2">
-          Ir para Fiore App
-          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download ms-1"
-            viewBox="0 0 16 16">
-            <path
-              d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
-            <path
-              d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
-          </svg> -->
-        </a>
-
-      </div>
     </div>
-  </nav>
+  </header>
 
-  <main>
-    <div class="w-100 overflow-hidden bg-gray-100" id="top">
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu>
+    <a href="#gestantes">Gestantes</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#florescer">Programa Florescer</a>
+    <a href="#metodo">Metodologia</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+    <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--block" target="_blank" rel="noopener">Agendar avaliação no WhatsApp</a>
+  </div>
 
-      <div class="container position-relative">
-        <div class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left"
-          style="background-image: url(assets/images/IMG_3355\ \(1\).jpg);">
+  <main id="conteudo">
 
-        </div>
-        <div class="row">
-
-          <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
-            <h1 class="display-1 fw-bold mt-5">Floresça com leveza e bem-estar</h1>
-            <p class="lead">Cuidamos e fortalecemos mulheres em todas as fases da gestação com Pilates especializado,
-              promovendo bem-estar, conexão e segurança.</p>
-            <a href="https://api.whatsapp.com/send/?phone=5514996598955&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Fiore+Pilates"
-              class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5" target="_blank">Agende sua avaliação inicial</a>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow reveal">Estúdio de Pilates em Bauru</span>
+          <h1 class="display reveal d1">Floresça com leveza<br>e <span class="serif-accent">bem-estar</span></h1>
+          <p class="lead reveal d2">Cuidamos e fortalecemos mulheres em todas as fases da vida — com um cuidado especial e
+            individualizado para <strong>gestantes</strong>. Um espaço acolhedor, seguro e feito para você.</p>
+          <div class="btn-row reveal d3">
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
+            <a href="#gestantes" class="btn btn--ghost btn--lg">Sou gestante</a>
           </div>
-
-
-
+        </div>
+        <div class="hero-media reveal d2">
+          <img src="./assets/images/hero-espaco.jpg" alt="Espaço acolhedor do Fiore Pilates com luz natural e plantas" width="618" height="1100" fetchpriority="high">
+          <div class="hero-badge">
+            <span class="leaf-mark" aria-hidden="true">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 20A7 7 0 0 1 4 13c0-5 3-8 7-9 0 0-1 4 0 7s4 4 4 7a5 5 0 0 1-4 2Z"/><path d="M11 20c0-4 1-7 3-9"/></svg>
+            </span>
+            <div>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <strong>+300</strong>
+              <small>alunas cuidadas com carinho</small>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
-    </div>
+    <!-- ===================== PROVA SOCIAL ===================== -->
+    <section class="proof section--tight">
+      <div class="container proof-grid">
+        <div class="proof-item reveal">
+          <div class="num">+<span>300</span></div>
+          <p>alunas atendidas ao longo da nossa história</p>
+        </div>
+        <div class="proof-item reveal d1">
+          <div class="num">+30<span>%</span></div>
+          <p>são gestantes acompanhadas de perto</p>
+        </div>
+        <div class="proof-item reveal d2">
+          <div class="num">5<span>★</span></div>
+          <p>avaliações reais de alunas no Google</p>
+        </div>
+        <div class="proof-item reveal d3">
+          <div class="num">100<span>%</span></div>
+          <p>aulas individualizadas, feitas para você</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="py-vh-5 w-100 overflow-hidden" id="services">
+    <!-- ===================== GESTANTES (DESTAQUE) ===================== -->
+    <section class="section bg-sand" id="gestantes">
+      <div class="container split">
+        <div class="split-media tall reveal">
+          <img src="./assets/images/hero-espaco.jpg" alt="Ambiente preparado para o cuidado de gestantes no Fiore Pilates" width="618" height="1100" loading="lazy">
+        </div>
+        <div class="split-copy">
+          <span class="eyebrow reveal">Nosso cuidado com gestantes</span>
+          <h2 class="reveal d1">Um Pilates que acolhe você e o seu bebê</h2>
+          <p class="reveal d2">A gestação é uma jornada única — e merece um cuidado à altura. Na Fiore, cada aula é
+            pensada para a sua fase, respeitando o seu corpo e o seu tempo. Com acompanhamento adequado, o Pilates
+            <strong>pode ajudar</strong> no alívio de desconfortos, na consciência corporal e na preparação para o
+            parto.</p>
+          <ul class="checklist reveal d2">
+            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Avaliação individual e plano adaptado a cada trimestre</li>
+            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Profissionais especializadas em cuidado pré e pós-natal</li>
+            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Ambiente seguro, sereno e preparado para você</li>
+          </ul>
+          <div class="btn-row reveal d3">
+            <a href="gestantes.html" class="btn btn--lg">Conhecer o Pilates para gestantes</a>
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20conhecer%20a%20Fiore." class="btn btn--ghost btn--lg" target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+          <p class="note reveal d3" style="margin-top:1.25rem">As aulas não substituem orientação médica. Inicie com a liberação do seu obstetra.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BENEFÍCIOS ===================== -->
+    <section class="section" id="beneficios">
       <div class="container">
-        <div class="row d-flex justify-content-end">
-          <div class="col-lg-8" data-aos="fade-down">
-            <h2 class="display-6">Temos três motivos especiais para você conhecer melhor o Fiore. Três pode parecer
-              pouco, mas é o número certo para coisas que realmente fazem bem.</h2>
-          </div>
+        <div class="section-head center reveal">
+          <span class="eyebrow center">Por que Pilates</span>
+          <h2 class="text-balance">Benefícios que você sente no corpo e na rotina</h2>
+          <p class="lead">Mais do que exercício, um cuidado que se reflete em cada movimento do seu dia.</p>
         </div>
-        <div class="row d-flex align-items-center">
-          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <span class="h5 fw-lighter">01.</span>
-            <h3 class="py-5 border-top border-dark">Acolhimento.</h3>
-            <p>Aqui, cuidamos de duas vidas. Cada gesto é pensado para seu conforto, segurança e promovemos um ambiente
-              de paz e leveza para fortalecer corpo e mente em harmonia.</p>
-            <!-- <a href="#" class="link-fancy">Ler mais -->
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4 py-vh-4 pb-0" data-aos="fade-up" data-aos-delay="400">
-            <span class="h5 fw-lighter">02.</span>
-            <h3 class="py-5 border-top border-dark">Técnica Especializada.</h3>
-            <p>Nossa equipe é altamente qualificada no Pilates para gestantes, garantindo os melhores resultados.</p>
-            <!-- <a href="#" class="link-fancy">Ler mais -->
-            </a>
-          </div>
-
-          <div class="col-md-6 col-lg-4 py-vh-6 pb-0" data-aos="fade-up" data-aos-delay="600">
-            <span class="h5 fw-lighter">03.</span>
-            <h3 class="py-5 border-top border-dark">Segurança.</h3>
-            <p>Seguimos protocolos rigorosos para que sua única preocupação seja conectar-se com seu corpo.</p>
-            <!-- <a href="#" class="link-fancy">Ler mais -->
-            </a>
-          </div>
+        <div class="cards cols-3">
+          <article class="card reveal">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.5-9.5-9C1 9 2.5 5 6 5c2 0 3 1.5 6 4 3-2.5 4-4 6-4 3.5 0 5 4 3.5 7C19 16.5 12 21 12 21Z"/></svg></div>
+            <h3>Alívio de dores</h3>
+            <p>Exercícios que contribuem para o alívio de dores lombares, pélvicas e tensões do dia a dia.</p>
+          </article>
+          <article class="card reveal d1">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v18"/><path d="M5 8c4 0 7 2 7 5"/><path d="M19 8c-4 0-7 2-7 5"/></svg></div>
+            <h3>Postura e mobilidade</h3>
+            <p>Mais consciência corporal, equilíbrio e liberdade de movimento em todas as fases da vida.</p>
+          </article>
+          <article class="card reveal d2">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12a8 8 0 0 1 16 0"/><path d="M12 12v8"/><circle cx="12" cy="8" r="2"/></svg></div>
+            <h3>Força e equilíbrio</h3>
+            <p>Fortalecimento profundo e seguro, do core ao assoalho pélvico, com técnica e progressão.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3a4 4 0 0 0-4 4c0 3 4 6 4 6s4-3 4-6a4 4 0 0 0-4-4Z"/><path d="M6 21c1.5-3 4-4 6-4s4.5 1 6 4"/></svg></div>
+            <h3>Bem-estar e leveza</h3>
+            <p>Um respiro na rotina: respiração, relaxamento e conexão entre corpo e mente.</p>
+          </article>
+          <article class="card reveal d1">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <h3>Mais energia no dia</h3>
+            <p>Disposição e qualidade de vida que acompanham você muito além das aulas.</p>
+          </article>
+          <article class="card reveal d2">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 7 9 18l-5-5"/></svg></div>
+            <h3>Recuperação segura</h3>
+            <p>Reabilitação e pós-parto com acompanhamento atento, respeitando o seu tempo de retorno.</p>
+          </article>
         </div>
-
       </div>
-    </div>
+    </section>
 
-    <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+    <!-- ===================== SERVIÇOS ===================== -->
+    <section class="section bg-tint" id="servicos">
       <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Para quem cuidamos</span>
+          <h2 class="text-balance">Um cuidado para cada fase, com a mesma excelência</h2>
+          <p class="lead">Nosso diferencial são as gestantes — mas a Fiore acolhe mulheres, idosos e quem busca mais
+            saúde e qualidade de vida.</p>
+        </div>
+        <div class="cards cols-4">
+          <article class="card reveal">
+            <span class="num-tag">01</span>
+            <h3>Pilates para gestantes</h3>
+            <p>Pré-natal individualizado, da descoberta ao pós-parto, respeitando cada fase.</p>
+          </article>
+          <article class="card reveal d1">
+            <span class="num-tag">02</span>
+            <h3>Saúde da mulher</h3>
+            <p>Fortalecimento, consciência corporal e bem-estar em todos os momentos da vida.</p>
+          </article>
+          <article class="card reveal d2">
+            <span class="num-tag">03</span>
+            <h3>Dores e postura</h3>
+            <p>Alívio de dores crônicas, correção postural e mais mobilidade no dia a dia.</p>
+          </article>
+          <article class="card reveal d3">
+            <span class="num-tag">04</span>
+            <h3>Idosos e reabilitação</h3>
+            <p>Condicionamento seguro, equilíbrio e recuperação com acompanhamento próximo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <div class="row d-flex justify-content-between align-items-center">
-          <div class="col-lg-6">
-            <div class="row gx-5 d-flex">
-              <div class="col-md-11">
-                <div
-                  class="shadow ratio ratio-16x9 rounded align-self-end d-flex justify-content-center align-items-center"
-                  data-aos="fade-right" style="--bs-aspect-ratio: 50%;">
-                  <img src="assets/images/fiore-pilates.svg" alt="Logo Fiore" class="img-fluid p-3"
-                    style="max-height: 200px; object-fit: contain;">
-                </div>
-              </div>
-              <div class="col-md-5 offset-md-1">
-                <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up"
-                  style="background-image: url(assets/images/CONCEITO_04\ \(2\).png);">
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left"
-                  style="background-image: url(assets/images/CONCEITO_03\ \(2\).png);--bs-aspect-ratio: 150%;">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <h3 class="py-5 border-top border-dark" data-aos="fade-left">O Fiore Pilates nasceu de um sonho cheio de
-              cuidado e carinho.</h3>
-            <p data-aos="fade-left" data-aos-delay="200">Um sonho da fisioterapeuta Raquel Cardoso, que queria criar um
-              espaço onde cada pessoa se sentisse bem cuidada. O nome "Fiore", que significa flor em italiano, foi
-              inspirado na avó de Raquel, que cultivava um jardim cheio de vida e beleza, lembranças que até hoje
-              inspiram cada detalhe do nosso espaço.
-            </p>
-            <!-- <p>
-              <a href="#" class="link-fancy link-dark" data-aos="fade-left" data-aos-delay="400">Ler mais
-              </a>
-            </p> -->
+    <!-- ===================== SOBRE ===================== -->
+    <section class="section" id="sobre">
+      <div class="container split reverse">
+        <div class="split-media reveal">
+          <img src="./assets/images/conceito-marca.png" alt="Construção da marca Fiore — logo e símbolo" width="820" height="1024" loading="lazy">
+        </div>
+        <div class="split-copy">
+          <span class="eyebrow reveal">Nossa história</span>
+          <h2 class="reveal d1">A Fiore nasceu de um sonho cheio de cuidado</h2>
+          <p class="reveal d2">Um sonho da fisioterapeuta <strong>Raquel Cardoso</strong>, que queria criar um espaço
+            onde cada pessoa se sentisse verdadeiramente bem cuidada. O nome <em>“Fiore”</em> — flor, em italiano — foi
+            inspirado na avó de Raquel, que cultivava um jardim cheio de vida e beleza. Lembranças que até hoje inspiram
+            cada detalhe do nosso espaço.</p>
+          <p class="reveal d2">Mais do que um estúdio, a Fiore é um <strong>ecossistema de cuidado e excelência</strong>:
+            pessoas, técnica e acolhimento trabalhando juntos para transformar a experiência da maternidade e da saúde
+            da mulher.</p>
+          <div class="btn-row reveal d3">
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20espa%C3%A7o%20da%20Fiore." class="btn btn--ghost" target="_blank" rel="noopener">Conhecer nosso espaço</a>
           </div>
         </div>
-
       </div>
-    </div>
+    </section>
 
-    <div class="py-vh-5 w-100 overflow-hidden" id="numbers">
+    <!-- ===================== PROGRAMA FLORESCER ===================== -->
+    <section class="section bg-forest" id="florescer">
       <div class="container">
-        <div class="row d-flex justify-content-between align-items-center">
-          <div class="col-lg-5">
-            <h3 class="py-5 border-top border-dark" data-aos="fade-right">Nossos números mágicos</h3>
-          </div>
-          <div class="col-lg-6">
-            <div class="row">
-              <div class="col-12">
-                <h2 class="display-6 mb-5" data-aos="fade-down">
-                  Alguns números que nos enchem de orgulho:</h2>
-              </div>
-              <div class="col-lg-6" data-aos="fade-up">
-                <div class="display-1 fw-bold py-4">+300</div>
-                <p class="text-black-50">Alunos atendidos ao longo de toda a nossa história, cada um com atenção e
-                  carinho.</p>
-              </div>
-              <div class="col-lg-6" data-aos="fade-up">
-                <div class="display-1 fw-bold py-4">+30%</div>
-                <p class="text-black-50">Alunas gestantes, acompanhadas com todo cuidado que merecem em cada momento.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="section-head center reveal">
+          <span class="eyebrow center">Programa Florescer</span>
+          <h2 class="text-balance">Um cuidado 360° para a sua jornada</h2>
+          <p class="lead">Nossa resposta à necessidade real das gestantes: um cuidado físico e emocional, com base em
+            ciência, experiência e empatia.</p>
         </div>
-
-      </div>
-    </div>
-
-    <!-- <div class="position-relative overflow-hidden w-100 bg-light" id="gallery">
-      <div class="container-fluid">
-        <div class="row overflow-scroll">
-          <div class="col-12">
-            <div class="row vw-100 px-0 py-vh-5 d-flex align-items-center scrollx">
-              <div class="col-md-2" data-aos="fade-up">
-                <img src="img/webp/interior37.webp" class="rounded shadow img-fluid" alt="nice gallery image"
-                  width="512" height="341">
-              </div>
-
-              <div class="col-md-2" data-aos="fade-up" data-aos-delay="200">
-                <img src="img/webp/people1.webp" class="img-fluid rounded shadow" alt="nice gallery image" width="1164"
-                  height="776">
-              </div>
-
-              <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
-                <img src="img/webp/people2.webp" class="img-fluid rounded shadow" alt="nice gallery image" width="844"
-                  height="1054">
-              </div>
-
-              <div class="col-md-3" data-aos="fade-up" data-aos-delay="600">
-                <img src="img/webp/interior29.webp" class="img-fluid rounded shadow" alt="nice gallery image"
-                  width="844" height="562">
-              </div>
-
-              <div class="col-md-2" data-aos="fade-up" data-aos-delay="800">
-                <img src="img/webp/people23.webp" class="rounded shadow img-fluid" alt="nice gallery image" width="512"
-                  height="341">
-              </div>
-            </div>
-          </div>
+        <div class="pillars">
+          <article class="pillar reveal">
+            <span class="step">01</span>
+            <h4>Cuidado integrativo</h4>
+            <p>Pilates, fisioterapia pélvica e terapias manuais trabalhando em conjunto pelo seu bem-estar.</p>
+          </article>
+          <article class="pillar reveal d1">
+            <span class="step">02</span>
+            <h4>Profissionais de excelência</h4>
+            <p>Cada gestante é acompanhada por um time preparado, atento e especializado.</p>
+          </article>
+          <article class="pillar reveal d2">
+            <span class="step">03</span>
+            <h4>Evolução contínua</h4>
+            <p>Um programa em constante aprimoramento, que acompanha de perto a sua evolução.</p>
+          </article>
+          <article class="pillar reveal d3">
+            <span class="step">04</span>
+            <h4>Propósito claro</h4>
+            <p>Ser referência em saúde da mulher e gestação em Bauru, com cuidado de verdade.</p>
+          </article>
+        </div>
+        <div class="center reveal d2" style="margin-top:2.5rem">
+          <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Programa%20Florescer%20da%20Fiore." class="btn btn--gold btn--lg" target="_blank" rel="noopener">Quero fazer parte do Florescer</a>
         </div>
       </div>
+    </section>
 
-    </div> -->
-
-    <div class="container py-vh-4 w-100 overflow-hidden">
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-lg-5">
-          <h3 class="py-5 border-top border-dark" data-aos="fade-right">O que nossos clientes dizem</h3>
+    <!-- ===================== TECNOLOGIA & CUIDADO ===================== -->
+    <section class="section" id="tecnologia">
+      <div class="container split">
+        <div class="split-media reveal">
+          <img src="./assets/images/conceito-paleta.png" alt="Paleta e identidade visual da Fiore" width="819" height="1024" loading="lazy">
         </div>
-        <div class="col-md-7" data-aos="fade-left">
-          <blockquote>
-            <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">“Eu comecei com a Raquel quando tinha 12 semanas de
-              gestação e fomos até as 39. Fiz acompanhamento com ela e ela sempre foi adaptando os exercícios para a
-              gravidez. Conforme eu fui ganhando a barriga e perdendo mobilidade, ela foi me ajudando bastante. Foi ela
-              quem me ajudou a realizar o parto que eu queria: o parto normal.
-              Ela sempre trabalhou muito a minha mobilidade e eu pretendo voltar para o espaço novo, que está super
-              bonito. Agora estou aqui com a Maria, que participou das nossas aulas dentro da barriga e agora vai
-              participar de fora."</div>
-            <!-- <img src="img/webp/person11.webp" width="64" height="64" class="img-fluid rounded-circle me-3" alt=""
-              data-aos="fade"> -->
-            <span><span class="fw-bold">Juliana</span></span>
-          </blockquote>
-          <blockquote>
-            <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">“Mudou a minha vida de verdade. Sofria com dores por
-              todo o corpo, todos os dias e há tanto tempo que me acostumei e acreditava ser normal. Mas com
-              @pilatesfiore descobri uma nova vida… sem dores. Obrigada @raquelcardoso.fisio"</div>
-            <!-- <img src="img/webp/person11.webp" width="64" height="64" class="img-fluid rounded-circle me-3" alt=""
-              data-aos="fade"> -->
-            <span><span class="fw-bold">Cassia</span></span>
-          </blockquote>
+        <div class="split-copy">
+          <span class="eyebrow reveal">Tecnologia acolhedora</span>
+          <h2 class="reveal d1">Cuidado humano, apoiado por tecnologia</h2>
+          <p class="reveal d2">Acreditamos em um cuidado moderno e organizado — sem nunca perder o calor humano. Por isso,
+            usamos tecnologia para deixar a sua jornada mais clara, próxima e personalizada.</p>
+          <ul class="checklist reveal d2">
+            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Acompanhamento personalizado da sua evolução</li>
+            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Jornada organizada, do primeiro contato ao pós-parto</li>
+            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Protocolos internos atualizados e baseados em evidência</li>
+          </ul>
         </div>
-
       </div>
-    </div>
+    </section>
 
-    <div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+    <!-- ===================== METODOLOGIA ===================== -->
+    <section class="section bg-sand" id="metodo">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="eyebrow reveal">Nossa metodologia</span>
+          <h2 class="reveal d1">Um método estruturado, feito para você evoluir</h2>
+          <p class="reveal d2">Cada aluna é única — e o seu plano também. Veja como cuidamos da sua jornada do começo ao
+            fim.</p>
+          <div class="btn-row reveal d3">
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20entender%20como%20funcionam%20as%20aulas%20da%20Fiore." class="btn" target="_blank" rel="noopener">Entender como funciona</a>
+          </div>
+        </div>
+        <div class="steps reveal d1">
+          <div class="step-row">
+            <div class="dot">1</div>
+            <div><h4>Avaliação inicial individualizada</h4><p>Entendemos seu histórico, objetivos e necessidades em um encontro acolhedor.</p></div>
+          </div>
+          <div class="step-row">
+            <div class="dot">2</div>
+            <div><h4>Plano de aula personalizado</h4><p>Montamos um plano sob medida, respeitando o seu corpo e o seu momento.</p></div>
+          </div>
+          <div class="step-row">
+            <div class="dot">3</div>
+            <div><h4>Registro contínuo de evolução</h4><p>Acompanhamos cada conquista para que você sinta o seu progresso.</p></div>
+          </div>
+          <div class="step-row">
+            <div class="dot">4</div>
+            <div><h4>Reavaliações periódicas</h4><p>Ajustamos o plano com você, sempre buscando os melhores resultados.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DEPOIMENTOS ===================== -->
+    <section class="section" id="depoimentos">
       <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8 text-center" data-aos="fade">
-              <p class="text-secondary lead">Junte-se ao nosso time!</p>
-              <h2 class="display-6 mb-5">No Fiore Pilates, buscamos pessoas apaixonadas por bem-estar, cuidado e
-                desenvolvimento. Se você quer crescer, aprender e fazer a diferença na vida dos nossos alunos, queremos
-                conhecer você!</h2>
-            </div>
-            <div class="col-12">
-              <a href="https://api.whatsapp.com/send/?phone=5514996598955&text=Ol%C3%A1%2C+gostaria+de+fazer+parte+do+Fiore+Pilates"
-                class="btn btn-warning btn-xl shadow me-3 mt-4" target="_blank" data-aos="fade-down">Quero fazer
-                parte</a>
-            </div>
+        <div class="reviews-head">
+          <div class="reveal">
+            <span class="eyebrow">Quem vive a Fiore</span>
+            <h2 class="text-balance" style="margin-top:0.8rem">Amado por quem valoriza<br>o bem-estar</h2>
           </div>
+          <a class="grating reveal d1" href="https://share.google/ljNUIfplyfd3QRWD0" target="_blank" rel="noopener" aria-label="Ver avaliações no Google">
+            <svg class="gicon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.2a5.3 5.3 0 0 1-2.3 3.5v2.9h3.7C21.7 18.9 23 15.9 23 12.3Z"/><path fill="#34A853" d="M12 24c3.1 0 5.7-1 7.6-2.8l-3.7-2.9c-1 .7-2.3 1.1-3.9 1.1-3 0-5.5-2-6.4-4.7H1.8v3A12 12 0 0 0 12 24Z"/><path fill="#FBBC05" d="M5.6 14.7a7.2 7.2 0 0 1 0-4.6v-3H1.8a12 12 0 0 0 0 10.6l3.8-3Z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.2.6 4.4 1.7l3.3-3.3A12 12 0 0 0 1.8 7.1l3.8 3C6.5 7.3 9 4.8 12 4.8Z"/></svg>
+            <div>
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <small>Avaliações reais no Google</small>
+            </div>
+          </a>
+        </div>
+        <div class="reviews">
+          <figure class="review reveal">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <blockquote><p>“Comecei com a Raquel com 12 semanas de gestação e fomos até as 39. Ela sempre adaptou os exercícios para a gravidez e me ajudou a realizar o parto que eu queria: o parto normal.”</p></blockquote>
+            <figcaption class="who"><span class="avatar">J</span><span><strong>Juliana</strong><small>Aluna gestante</small></span></figcaption>
+          </figure>
+          <figure class="review reveal d1">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <blockquote><p>“Mudou a minha vida de verdade. Sofria com dores pelo corpo todos os dias. Com a Fiore descobri uma nova vida… sem dores.”</p></blockquote>
+            <figcaption class="who"><span class="avatar">C</span><span><strong>Cássia</strong><small>Aluna</small></span></figcaption>
+          </figure>
+          <figure class="review reveal d2">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <blockquote><p>“Sempre fui sedentária e decidi fazer Pilates por causa da gestação. Nunca pensei que fosse gostar tanto! A Raquel é super atenciosa e o espaço é aconchegante. Recomendo para gestantes e não gestantes.”</p></blockquote>
+            <figcaption class="who"><span class="avatar">A</span><span><strong>Ana</strong><small>Aluna gestante</small></span></figcaption>
+          </figure>
+          <figure class="review reveal">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <blockquote><p>“Têm me ajudado muito durante a gestação. Recomendo demais! Atenciosa e entende os limites dos alunos.”</p></blockquote>
+            <figcaption class="who"><span class="avatar">E</span><span><strong>Eliane</strong><small>Aluna gestante</small></span></figcaption>
+          </figure>
+          <figure class="review reveal d1">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <blockquote><p>“Local super aconchegante, excelente atendimento, ambiente familiar e organização impecável. Faz toda a diferença. Parabéns!”</p></blockquote>
+            <figcaption class="who"><span class="avatar">C</span><span><strong>Cristiane</strong><small>Aluna</small></span></figcaption>
+          </figure>
+          <figure class="review reveal d2">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <blockquote><p>“Profissional especializada e diferenciada! Essa é a minha indicação.”</p></blockquote>
+            <figcaption class="who"><span class="avatar">R</span><span><strong>Rafaela</strong><small>Aluna</small></span></figcaption>
+          </figure>
+        </div>
+        <p class="note center reveal" style="margin-top:1.5rem">Trechos de avaliações públicas de alunas. Veja todas no nosso perfil do Google.</p>
+      </div>
+    </section>
 
+    <!-- ===================== EVENTOS / PRESENÇA LOCAL ===================== -->
+    <section class="section bg-tint" id="eventos">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="eyebrow reveal">Presença em Bauru</span>
+          <h2 class="reveal d1">Perto de você e da nossa comunidade</h2>
+          <p class="reveal d2">A Fiore acredita no cuidado que vai além do estúdio. Estamos presentes na vida das
+            famílias de Bauru, apoiando futuras mamães e levando informação de qualidade sobre saúde da mulher e
+            maternidade.</p>
+          <p class="reveal d2">Quer saber das próximas novidades, encontros e conteúdos para gestantes? Acompanhe a gente
+            de perto.</p>
+          <div class="btn-row reveal d3">
+            <a href="https://www.instagram.com/pilatesfiore/" class="btn btn--ghost" target="_blank" rel="noopener">Seguir no Instagram</a>
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20saber%20das%20pr%C3%B3ximas%20novidades%20e%20encontros%20da%20Fiore." class="btn btn--ghost" target="_blank" rel="noopener">Receber novidades</a>
+          </div>
+          <!-- TODO Fiore: ao confirmar participação em eventos (ex.: Curso para Gestantes da Unimed Bauru), detalhar aqui com fotos reais. -->
+        </div>
+        <div class="cards reveal d1" style="align-content:start">
+          <article class="card card--soft">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3a4 4 0 0 0-4 4c0 3 4 6 4 6s4-3 4-6a4 4 0 0 0-4-4Z"/><path d="M6 21c1.5-3 4-4 6-4s4.5 1 6 4"/></svg></div>
+            <h3>Conteúdo para gestantes</h3>
+            <p>Mitos e verdades, dicas e bastidores reais — todos os dias nas nossas redes.</p>
+          </article>
+          <article class="card card--soft">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg></div>
+            <h3>Cuidado local em Bauru</h3>
+            <p>Um espaço de referência em saúde da mulher e maternidade no Jardim Planalto.</p>
+          </article>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="bg-light w-100 overflow-hidden" id="testimonials">
-      <div class="container py-vh-6">
-        <div class="row d-flex justify-content-center">
-          <div class="col-12 col-lg-10 col-xl-8 text-center">
-            <h2 class="display-6">Amado por quem valoriza o bem-estar</h2>
-            <p class="lead">Nossos espaços foram pensados para o seu conforto e cuidado. Cada cantinho do Fiore Pilates
-              é acolhedor, elegante e preparado para transformar sua experiência. Veja como nossos alunos se sentem em
-              casa e confiam no nosso trabalho!</p>
-          </div>
-          <div class="col-12 mt-4">
-            <div class="row row-cols-1 row-cols-md-2 g-5 d-flex align-items-center">
+    <!-- ===================== FAQ ===================== -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow center">Perguntas frequentes</span>
+          <h2 class="text-balance">Tudo o que você precisa saber</h2>
+        </div>
+        <div class="faq" data-faq>
+          <details class="faq-item reveal">
+            <summary class="faq-q">Pilates é seguro durante a gestação? <span class="pm" aria-hidden="true"></span></summary>
+            <div class="faq-a"><p>Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo. Inicie sempre com a liberação do seu obstetra.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary class="faq-q">Preciso ter experiência prévia para começar? <span class="pm" aria-hidden="true"></span></summary>
+            <div class="faq-a"><p>Não. Recebemos alunas iniciantes e experientes. Tudo começa por uma avaliação inicial individualizada, que define um plano de aula feito sob medida para você.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary class="faq-q">A partir de quando uma gestante pode iniciar? <span class="pm" aria-hidden="true"></span></summary>
+            <div class="faq-a"><p>O momento ideal varia para cada mulher. O recomendado é iniciar com a liberação do seu médico e com acompanhamento de profissionais especializados, como a nossa equipe.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary class="faq-q">Como funciona a avaliação inicial? <span class="pm" aria-hidden="true"></span></summary>
+            <div class="faq-a"><p>É um encontro individual em que entendemos seu histórico, objetivos e necessidades. A partir dele montamos um plano personalizado e acompanhamos a sua evolução ao longo das aulas.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary class="faq-q">Onde fica o estúdio Fiore Pilates? <span class="pm" aria-hidden="true"></span></summary>
+            <div class="faq-a"><p>Estamos na R. Baltazar Rodrigues, 4-82 — Jardim Planalto, Bauru/SP, em um espaço pensado para o seu conforto e bem-estar. Veja o mapa logo abaixo.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
 
-              <div class="col-12 col-lg-6 col-xl-4" data-aos="fade-right">
-                <div class="card p-4 mt-3 border-0">
-                  <div class="card-body">
-                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                    </div>
-                    <blockquote class="blockquote">
-                      <p>"Têm me ajudado muito durante a gestação.. Recomendo demais!! Atenciosa e entende os limites
-                        dos alunos."</p>
-                    </blockquote>
-                    <div class="d-flex justify-content-between border-top pt-3">
-                      <div>
-                        <span class="h6 fw-5">Eliane</span><br>
-                        <!-- <small class="text-muted">COO, The Boo Corp.</small> -->
-                      </div>
-                      <!-- <img src="img/webp/person9.webp" width="48" height="48" class="rounded-circle" alt=""
-                        data-aos="fade"> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-lg-6 col-xl-4">
-                <div class="card p-4 shadow mt-3 border-0" data-aos="fade-down">
-                  <div class="card-body">
-                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                    </div>
-                    <blockquote class="blockquote">
-                      <p>"Sempre fui sedentária e decidi fazer pilates por causa da gestação. Nunca pensei que fosse
-                        gostar tanto! A Raquel é super atenciosa e explica com muita calma e dedicação cada movimento.
-                        Além do espaço da Fiore ser super aconchegante e tranquilo. Recomendo pras gestantes e não
-                        gestantes, vale muito a pena."</p>
-                    </blockquote>
-                    <div class="d-flex justify-content-between border-top pt-3">
-                      <p class="card-text">
-                        <span class="h6 fw-5">Ana</span><br>
-                        <!-- <small class="text-muted">Daughter of Col. John Matrix, Commando.</small> -->
-                      </p>
-                      <!-- <img src="img/webp/person3.webp" width="48" height="48" class="rounded-circle" alt=""
-                        data-aos="fade"> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-lg-6 col-xl-4">
-                <div class="card p-4 mt-3 border-0" data-aos="fade-left">
-                  <div class="card-body">
-                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                    </div>
-                    <blockquote class="blockquote">
-                      <p>"Local super aconchegante, excelente atendimento, ambiente familiar, organização impecável..faz
-                        toda a diferença ...Parabéns."</p>
-                    </blockquote>
-                    <div class="d-flex justify-content-between border-top pt-3">
-                      <p class="card-text">
-                        <span class="h6 fw-5">Cristiane</span><br>
-                        <!-- <small class="text-muted">Detective, Somewhere in the swamps</small> -->
-                      </p>
-                      <!-- <img src="img/webp/person8.webp" width="48" height="48" class="rounded-circle" alt=""
-                        data-aos="fade"> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-lg-6 col-xl-4">
-                <div class="card p-4 mt-3 border-0" data-aos="fade-right">
-                  <div class="card-body">
-                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                    </div>
-                    <blockquote class="blockquote">
-                      <p>"Profissional maravilhosa,o espaço e ótimo estou me sentindo muito bem com meu tratamento."</p>
-                    </blockquote>
-                    <div class="d-flex justify-content-between border-top pt-3">
-                      <p class="card-text">
-                        <span class="h6 fw-5">Alexssandra</span><br>
-                        <!-- <small class="text-muted">News Reporter, KFLW-TV</small> -->
-                      </p>
-                      <!-- <img src="img/webp/person14.webp" width="48" height="48" class="rounded-circle" alt=""
-                        data-aos="fade"> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-lg-6 col-xl-4">
-                <div class="card p-4 mt-3 border-0" data-aos="fade-up">
-                  <div class="card-body">
-                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                    </div>
-                    <blockquote class="blockquote">
-                      <p>"Ótima profissional. Ambiente acolhedor ! Adorei! indico!"</p>
-                    </blockquote>
-                    <div class="d-flex justify-content-between border-top pt-3">
-                      <p class="card-text">
-                        <span class="h6 fw-5">Lucilene</span><br>
-                        <!-- <small class="text-muted">Gangster, In Bruges</small> -->
-                      </p>
-                      <!-- <img src="img/webp/person13.webp" width="48" height="48" class="rounded-circle" alt=""
-                        data-aos="fade"> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-lg-6 col-xl-4">
-                <div class="card p-4 shadow mt-3 border-0" data-aos="fade-left">
-                  <div class="card-body">
-                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-
-                    </div>
-                    <blockquote class="blockquote">
-                      <p>"Profissional especializada e diferenciada!
-                        Essa é minha indicação."</p>
-                    </blockquote>
-                    <div class="d-flex justify-content-between border-top pt-3">
-                      <p class="card-text">
-                        <span class="h6 fw-5">Rafaela</span><br>
-                        <!-- <small class="text-muted">Head of Security, Brummagem Boys</small> -->
-                      </p>
-                      <!-- <img src="img/webp/person18.webp" width="48" height="48" class="rounded-circle" alt=""
-                        data-aos="fade">
-                    </div> -->
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
+    <!-- ===================== MAPA / CONTATO ===================== -->
+    <section class="section bg-sand" id="contato">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Onde estamos</span>
+          <h2 class="text-balance">Venha nos visitar em Bauru</h2>
+        </div>
+        <div class="map-wrap">
+          <ul class="info-list reveal">
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <div><h4>Endereço</h4><p>R. Baltazar Rodrigues, 4-82<br>Jardim Planalto — Bauru/SP</p></div>
+            </li>
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></span>
+              <div><h4>WhatsApp</h4><p><a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Fiore." target="_blank" rel="noopener">(14) 99659-8955</a></p></div>
+            </li>
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <div><h4>Horário</h4><p>Seg a Sex: 7h às 21h<br>Sábado: 8h às 12h</p></div>
+            </li>
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
+              <div><h4>Redes sociais</h4><p><a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener">@pilatesfiore</a></p></div>
+            </li>
+          </ul>
+          <div class="map-frame reveal d1">
+            <iframe title="Mapa do Fiore Pilates em Bauru" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=R.%20Baltazar%20Rodrigues%2C%204-82%20-%20Jardim%20Planalto%2C%20Bauru%20-%20SP&output=embed"></iframe>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="small py-vh-3 w-100 overflow-hidden">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg-4 border-end" data-aos="fade-up">
-              <div class="d-flex">
-                <!-- <div class="col-md-3 flex-fill pt-3 pe-3 pe-md-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor"
-                    class="bi bi-box-seam" viewbox="0 0 16 16">
-                    <path
-                      d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
-                  </svg>
-                </div> -->
-                <div class="col-md-9 flex-fill">
-                  <h3 class="h5 my-2">Alívio de Dores</h3>
-                  <p>Exercícios específicos para aliviar dores lombares, pélvicas e outras desconfortos comuns na
-                    gestação.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 border-end" data-aos="fade-up" data-aos-delay="200">
-              <div class="d-flex">
-                <!-- <div class="col-md-3 flex-fill pt-3 pt-3 pe-3 pe-md-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor"
-                    class="bi bi-card-checklist" viewbox="0 0 16 16">
-                    <path
-                      d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
-                    <path
-                      d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
-                  </svg>
-                </div> -->
-                <div class="col-md-9 flex-fill">
-                  <h3 class="h5 my-2">Preparação para o Parto</h3>
-                  <p>Fortalecimento da musculatura do assoalho pélvico e técnicas de respiração para facilitar o
-                    trabalho de parto.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
-              <div class="d-flex">
-                <!-- <div class="col-md-3 flex-fill pt-3 pt-3 pe-3 pe-md-0">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor"
-                    class="bi bi-window-sidebar" viewbox="0 0 16 16">
-                    <path
-                      d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
-                    <path
-                      d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12zM1 13V6h4v8H2a1 1 0 0 1-1-1zm5 1V6h9v7a1 1 0 0 1-1 1H6z" />
-                  </svg>
-                </div> -->
-                <div class="col-md-9 flex-fill">
-                  <h3 class="h5 my-2">Recuperação Pós-parto</h3>
-                  <p>Acompanhamento especializado para uma recuperação segura e eficiente após o nascimento do bebê.</p>
-                </div>
-              </div>
-            </div>
-
+    <!-- ===================== CTA FINAL ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <img class="leaf-bg" src="./assets/images/simbol.svg" alt="" aria-hidden="true">
+          <span class="eyebrow center" style="justify-content:center">Vamos começar?</span>
+          <h2 class="text-balance" style="margin-top:1rem">Aqui, você vai ser cuidada de verdade</h2>
+          <p>Dê o primeiro passo da sua jornada de bem-estar. Agende sua avaliação inicial e venha sentir o cuidado da
+            Fiore de perto.</p>
+          <div class="btn-row" style="justify-content:center">
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--on-dark btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20as%20aulas%20da%20Fiore." class="btn btn--on-dark btn--ghost btn--lg" target="_blank" rel="noopener">Tirar dúvidas</a>
           </div>
         </div>
       </div>
-
-      <div class="container py-vh-3 border-top" data-aos="fade" data-aos-delay="200">
-        <div class="row d-flex justify-content-center">
-          <div class="col-12 col-lg-8 text-center">
-            <h3 class="fs-2 fw-light">Fique por dentro das novidades com nossa newsletter <span class="fw-bold">
-                mensal e gratuita!</span>
-            </h3>
-          </div>
-          <div class="col-12 col-lg-8 text-center">
-            <div class="row">
-              <div class="grouped-inputs border bg-light p-2">
-                <div class="row">
-                  <div class="col">
-                    <form class="form-floating">
-                      <input type="email" class="form-control p-3" id="floatingInput" placeholder="name@example.com">
-                      <label for="floatingInput">Endereço de email</label>
-                    </form>
-                  </div>
-                  <div class="col-auto">
-                    <a href="#" class="btn btn-dark py-3 px-5">Inscrever-se</a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
+    </section>
 
   </main>
 
-  <footer>
-    <div class="container small border-top">
-      <div class="row py-5 d-flex justify-content-between">
-
-        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-layers-half"
-            viewbox="0 0 16 16">
-            <path
-              d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z" />
-          </svg> -->
-          <img src="assets/images/simbol.svg" width="32" height="32" fill="currentColor" class="bi bi-layers-half"
-            viewbox="0 0 16 16" alt="Fiore Pilates">
-          <address class="text-secondary mt-3">
-            <strong>Fiore.</strong><br>
-            R. Baltazar Rodrigues, 4-82 - Jardim Planalto<br>
-            Bauru, São Paulo<br>
-            <abbr title="Phone">T:</abbr>
-            (14) 99659-8955
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="/"><img src="./assets/images/simbol.svg" alt="" width="34" height="34"><span>fiore</span></a>
+          <address>
+            R. Baltazar Rodrigues, 4-82<br>
+            Jardim Planalto — Bauru/SP<br>
+            <a href="tel:+5514996598955">(14) 99659-8955</a>
           </address>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+            <a href="https://www.facebook.com/pilatesfiore" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3 1-3 3v2H8v3h3v7h3v-7h2.5l.5-3H14V9Z"/></svg></a>
+            <a href="https://wa.me/5514996598955" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></a>
+          </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-          <h3 class="h6 mb-3">Empresa</h3>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#aboutus">Sobre nós</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#numbers">Números</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#workwithus">Trabalhe conosco</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#testimonials">Testemunhos</a>
-            </li>
-          </ul>
+        <div class="footer-col">
+          <h4>Navegar</h4>
+          <a href="#gestantes">Gestantes</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#florescer">Programa Florescer</a>
+          <a href="#metodo">Metodologia</a>
+          <a href="#sobre">Sobre</a>
         </div>
-        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-          <h3 class="h6 mb-3">Produtos</h3>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#">Massagem relaxante</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#">Drenagem linfática</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Cappuccino</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="#">Roupas</a>
-            </li>
-          </ul>
+        <div class="footer-col">
+          <h4>Cuidados</h4>
+          <a href="gestantes.html">Pilates para gestantes</a>
+          <a href="#servicos">Saúde da mulher</a>
+          <a href="#servicos">Dores e postura</a>
+          <a href="#servicos">Idosos e reabilitação</a>
+          <a href="#contato">Como chegar</a>
         </div>
-        <div class="col-12 col-lg-6 col-xl-3 p-5">
-          <h3 class="h6 mb-3">Redes sociais</h3>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://www.instagram.com/pilatesfiore/"
-                target="_blank">Instagram</a>
-              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://www.facebook.com/pilatesfiore"
-                target="_blank">Facebook</a>
-              <a class="nav-link link-secondary ps-0" aria-current="page" href="#" target="_blank">TikTok</a>
-            </li>
-          </ul>
+        <div class="footer-col">
+          <h4>Fale com a Fiore</h4>
+          <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." target="_blank" rel="noopener">Agendar avaliação</a>
+          <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20conhecer%20a%20Fiore." target="_blank" rel="noopener">Sou gestante</a>
+          <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20as%20aulas%20da%20Fiore." target="_blank" rel="noopener">Tirar dúvidas</a>
+          <a href="https://share.google/ljNUIfplyfd3QRWD0" target="_blank" rel="noopener">Avaliações no Google</a>
         </div>
       </div>
-    </div>
-
-    <div class="container text-center py-3 small">Feito por <a href="#" class="link-fancy">Fiore</a>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Fiore Pilates · Bauru/SP</span>
+        <span>Floresça com leveza e bem-estar.</span>
+      </div>
     </div>
   </footer>
 
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 800, // values from 0 to 3000, with step 50ms
-    });
-  </script>
+  <!-- WhatsApp flutuante -->
+  <a class="wa-float" href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Fiore%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.5-1.2-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.8-1c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.6-.1 1.2Z"/></svg>
+    <span class="wa-label">Falar no WhatsApp</span>
+  </a>
 
-  <script>
-    let scrollpos = window.scrollY
-    const header = document.querySelector(".navbar")
-    const header_height = header.offsetHeight
+  <!-- Barra de ação fixa (mobile) -->
+  <div class="mobile-bar">
+    <a class="btn btn--whats" href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." target="_blank" rel="noopener">Agendar avaliação</a>
+    <a class="btn btn--ghost" href="tel:+5514996598955" aria-label="Ligar para a Fiore">Ligar</a>
+  </div>
 
-    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+  <script src="./assets/js/fiore.js" defer></script>
 
-    window.addEventListener('scroll', function () {
-      scrollpos = window.scrollY;
-
-      if (scrollpos >= header_height) { add_class_on_scroll() }
-      else { remove_class_on_scroll() }
-
-    })
-  </script>
-
-  <!-- Google tag (gtag.js) -->
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5Y9N9ZVVEM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-5Y9N9ZVVEM');
   </script>
-
 </body>
 
 </html>
