@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.fiorepilates.com.br/sitemap.xml
+Sitemap: https://fiorepilates.com.br/sitemap.xml
