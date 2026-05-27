@@ -25,9 +25,8 @@ Implementar SEO técnico completo:
   na imagem do hero (LCP), `loading="lazy"` nas demais, dimensões `width/height` para
   evitar CLS.
 
-> **AggregateRating não foi incluído** propositalmente — ver
-> [ADR 0005](0005-conteudo-etico-e-prova-social-real.md). Só será ativado com a nota
-> real do Google fornecida pelo cliente.
+> **AggregateRating ativado em 2026-05-27** com dados reais fornecidos pelo cliente:
+> ratingValue 5,0 · reviewCount 44. Ver [ADR 0005](0005-conteudo-etico-e-prova-social-real.md).
 
 ## Consequências
 

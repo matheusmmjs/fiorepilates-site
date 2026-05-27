@@ -37,17 +37,20 @@ Número: **(14) 99659-8955** → `https://wa.me/5514996598955?text=...` (texto U
 ## SEO técnico (implementado)
 
 - `title` + `meta description` premium por página, `canonical`, OG + Twitter Cards.
-- JSON-LD: `HealthAndBeautyBusiness`, `Service`, `FAQPage`, `BreadcrumbList`.
-- `robots.txt`, `sitemap.xml`, `site.webmanifest`, `vercel.json` (cache + headers).
+- JSON-LD: `HealthAndBeautyBusiness` + `FAQPage` (home); `Service` + `FAQPage` + `BreadcrumbList` (gestantes).
+- `AggregateRating` ativo: 5,0 · 44 avaliações (dados reais do cliente, 2026-05-27).
+- `robots.txt`, `sitemap.xml` (ambas as páginas + `lastmod`), `site.webmanifest`, `vercel.json` (cache + headers).
 - LCP: imagem do hero com `fetchpriority="high"`; fontes com `preload`.
 - Imagem social: `assets/images/og-image.jpg` (1200×630).
+- **Google Analytics 4:** `G-GN6B6NJNKL` — tag no `<head>` de ambas as páginas (posição obrigatória para verificação via Search Console).
+- **Google Search Console:** verificar via GA4. Após verificar, enviar sitemap: `https://fiorepilates.com.br/sitemap.xml`. Linkar propriedade GA ↔ Search Console no painel GA.
 
 ## Local SEO (ações fora do código — recomendadas ao cliente)
 
 - Manter **NAP idêntico** em site, Google Perfil da Empresa, Instagram e Facebook.
 - Pedir avaliações no Google e responder a todas.
 - Postar fotos reais do espaço no Perfil da Empresa.
-- Fornecer **nota média + nº de avaliações** para ativarmos `AggregateRating`.
+- ~~Fornecer **nota média + nº de avaliações** para ativarmos `AggregateRating`.~~ ✅ Ativo: 5,0 · 44 avaliações.
 - Conteúdo recorrente para gestantes (Instagram/TikTok) — reforça autoridade local.
   Oportunidade: público do "Curso para Gestantes da Unimed Bauru".
 
