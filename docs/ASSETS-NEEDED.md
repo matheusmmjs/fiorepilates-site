@@ -32,6 +32,17 @@ Atualizado em 2026-05-22 após o cliente enviar logo, tipografia, fotos e vídeo
 7. Destino do **"Fiore App"** (`app.fiorepilates.com.br`) — entra no menu?
 8. **Dourado:** o manual visual não usa dourado (usamos olive/verde). Confirmar se quer
    manter assim ou reintroduzir um dourado (fácil de ajustar).
+9. **Link do Perfil da Empresa no Google (GBP):** o link curto de avaliação
+   (`g.page/r/...`, em GBP → "Pedir avaliações") e a URL do perfil no Maps — para
+   trocar o link genérico de busca por link direto e incluir no `sameAs` do schema.
+10. **Credenciais da equipe:** CREFITO + especializações/formações de Raquel, Jamile,
+    Filipe e Andressa (e formação da Rosana) — para bios do time e E-E-A-T.
+11. **Foto da Andressa** (hoje está com placeholder de iniciais).
+12. **Foto horizontal (paisagem) para OG da página de gestantes** — todas as fotos
+    atuais são verticais (618×1100); a OG ideal é 1200×630.
+13. **Vídeos no YouTube:** subir os 3 vídeos (café da manhã, Florescer, massoterapia)
+    como "não listados" no YouTube e mandar os links — embedamos sem precisar
+    transcodificar nada (ver [ADR 0008](adr/0008-midia-videos-fotos.md)).
 
 ## Como entregar imagens/vídeos
 
