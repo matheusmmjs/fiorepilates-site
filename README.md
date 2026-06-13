@@ -3,7 +3,7 @@
 Site institucional do **Fiore Pilates** — estúdio de Pilates em Bauru/SP especializado
 em **gestantes** e saúde da mulher. *Floresça com leveza e bem-estar.*
 
-🌐 Produção: https://www.fiorepilates.com.br · Deploy: Vercel (estático, a partir do GitHub).
+🌐 Produção: https://fiorepilates.com.br (domínio canônico, sem www — ver [ADR 0009](docs/adr/0009-urls-canonicas-dominio-apex-clean-urls.md)) · Deploy: Vercel (estático, a partir do GitHub).
 
 ## Stack
 
@@ -18,15 +18,15 @@ em **gestantes** e saúde da mulher. *Floresça com leveza e bem-estar.*
 
 ## Rodar localmente
 
-É um site estático — qualquer servidor HTTP serve. Ex.:
+Use o `serve` (simula as *clean URLs* da Vercel — `/gestantes` sem `.html`):
 
 ```bash
-python3 -m http.server 8000
+npx serve -l 8000
 # abra http://localhost:8000
 ```
 
-> Use um servidor (não abra o arquivo via `file://`) para que caminhos e o mapa
-> funcionem corretamente.
+> Não use `python3 -m http.server` (não resolve `/gestantes`) nem abra via `file://`.
+> Ver [ADR 0009](docs/adr/0009-urls-canonicas-dominio-apex-clean-urls.md).
 
 ## Estrutura
 
@@ -37,7 +37,7 @@ robots.txt · sitemap.xml · site.webmanifest · vercel.json
 assets/
   css/fiore.css       # design system (tokens + componentes)
   js/fiore.js         # interações
-  fonts/              # Fraunces + Inter (woff2/woff)
+  fonts/              # Poppins (woff2, oficial da marca)
   images/             # logos, favicons, foto do espaço, og-image
 docs/                 # SPEC, BRAND, CONTENT-SEO, ASSETS-NEEDED, ADRs
 ```

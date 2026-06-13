@@ -15,6 +15,8 @@ alta conversão para WhatsApp. Sensação-alvo: *"aqui eu vou ser cuidada de ver
 
 - **HTML estático puro**, sem framework/build. Páginas: `index.html`, `gestantes.html`.
   Deploy estático na Vercel. Não introduzir build sem reabrir [ADR 0001](docs/adr/0001-stack-html-estatico.md).
+- **URLs:** domínio canônico apex (`fiorepilates.com.br`, sem www) + clean URLs —
+  links internos **sem** `.html` (ex.: `/gestantes`). Ver [ADR 0009](docs/adr/0009-urls-canonicas-dominio-apex-clean-urls.md).
 - Estilo: design system em `assets/css/fiore.css` (tokens no `:root` + componentes por classe).
   **Não** reintroduzir Bootstrap. JS só em `assets/js/fiore.js`.
 - **Header/footer/WhatsApp flutuante/barra mobile são duplicados** entre páginas —
@@ -39,5 +41,6 @@ pré-preenchidas (URL-encoded) por intenção — ver tabela em `docs/CONTENT-SE
 
 ## Verificação
 
-Servir estático (`python3 -m http.server`) e conferir: render das 2 páginas, links e
-CTAs do WhatsApp, layout mobile, mapa, JSON-LD válido. Não quebrar o deploy.
+Servir com `npx serve` (simula as clean URLs da Vercel — **não** usar
+`python3 -m http.server`, que não resolve `/gestantes`) e conferir: render das 2
+páginas, links e CTAs do WhatsApp, layout mobile, mapa, JSON-LD válido. Não quebrar o deploy.

@@ -21,7 +21,9 @@ Sem build/framework — ver [ADR 0001](adr/0001-stack-html-estatico.md).
 | Rota | Arquivo | Objetivo |
 |------|---------|----------|
 | `/` | `index.html` | Home premium, visão geral + conversão |
-| `/gestantes.html` | `gestantes.html` | SEO + conversão para gestantes (diferencial nº1) |
+| `/gestantes` | `gestantes.html` | SEO + conversão para gestantes (diferencial nº1) |
+
+URLs limpas (`cleanUrls` na Vercel) e domínio apex sem www — ver [ADR 0009](adr/0009-urls-canonicas-dominio-apex-clean-urls.md).
 
 ## Estrutura da Home
 

@@ -67,4 +67,40 @@
   // Ano dinâmico no rodapé
   var y = document.querySelector("[data-year]");
   if (y) y.textContent = new Date().getFullYear();
+
+  // Conversão (GA4): cliques em WhatsApp e telefone, com origem do CTA
+  var ctaSection = function (el) {
+    var tagged = el.closest("[data-cta-section]");
+    if (tagged && tagged.getAttribute("data-cta-section")) return tagged.getAttribute("data-cta-section");
+    var scope = el.closest(".wa-float, .mobile-bar, .mobile-menu, header, footer, section");
+    if (!scope) return "outro";
+    if (scope.classList.contains("wa-float")) return "whatsapp_flutuante";
+    if (scope.classList.contains("mobile-bar")) return "barra_mobile";
+    if (scope.classList.contains("mobile-menu")) return "menu_mobile";
+    if (scope.tagName === "HEADER") return "header";
+    if (scope.tagName === "FOOTER") return "footer";
+    return scope.id || (scope.classList.contains("hero") ? "hero" : "secao");
+  };
+  document.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+    if (!a || typeof window.gtag !== "function") return;
+    var href = a.getAttribute("href") || "";
+    if (href === "/bolao" || href.indexOf("/bolao") === 0) {
+      window.gtag("event", "bolao_click", {
+        cta_section: ctaSection(a),
+        page_path: window.location.pathname
+      });
+    } else if (href.indexOf("wa.me") !== -1) {
+      window.gtag("event", "whatsapp_click", {
+        cta_section: ctaSection(a),
+        cta_text: (a.textContent || "").trim().slice(0, 60),
+        page_path: window.location.pathname
+      });
+    } else if (href.indexOf("tel:") === 0) {
+      window.gtag("event", "phone_click", {
+        cta_section: ctaSection(a),
+        page_path: window.location.pathname
+      });
+    }
+  });
 })();

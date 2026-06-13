@@ -32,6 +32,28 @@ Atualizado em 2026-05-22 após o cliente enviar logo, tipografia, fotos e vídeo
 7. Destino do **"Fiore App"** (`app.fiorepilates.com.br`) — entra no menu?
 8. **Dourado:** o manual visual não usa dourado (usamos olive/verde). Confirmar se quer
    manter assim ou reintroduzir um dourado (fácil de ajustar).
+9. **Link do Perfil da Empresa no Google (GBP):** o link curto de avaliação
+   (`g.page/r/...`, em GBP → "Pedir avaliações") e a URL do perfil no Maps — para
+   trocar o link genérico de busca por link direto e incluir no `sameAs` do schema.
+10. **Credenciais da equipe:** CREFITO + especializações/formações de Raquel, Jamile,
+    Filipe e Andressa (e formação da Rosana) — para bios do time e E-E-A-T.
+11. **Foto da Andressa** (hoje está com placeholder de iniciais).
+12. **Foto horizontal (paisagem) para OG da página de gestantes** — todas as fotos
+    atuais são verticais (618×1100); a OG ideal é 1200×630.
+13. ~~**Vídeos no YouTube**~~ ✅ Resolvido de outro jeito (2026-06-12): com o disco
+    liberado, transcodificamos localmente para H.264 e os vídeos estão **no site**
+    (`assets/videos/`) — ver [ADR 0010](adr/0010-videos-autohospedados-h264.md).
+    Migração futura para YouTube registrada em issue no GitHub. Originais HEVC
+    permanecem em `~/Downloads` até lá.
+14. **Link de embed do Google Form do bolão** — criar o formulário conforme
+    [BOLAO.md](BOLAO.md) e mandar o iframe (Enviar → `<>`); hoje a página `/bolao`
+    usa fallback de WhatsApp para receber palpites.
+15. **Fotos dos eventos** (com autorização): Curso de Gestantes da Unimed (3 edições)
+    e cafés da manhã — para a página `/eventos` (hoje o card da Unimed usa foto do
+    espaço como placeholder). Ver [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md).
+16. **Arte da campanha da Copa** (a imagem "Vamos desafiar você!"): se quiser usá-la
+    literal no site/posts, enviar o **arquivo** (de preferência sem as linhas
+    tracejadas) — o banner atual da home é recriado em HTML/CSS na mesma vibe.
 
 ## Como entregar imagens/vídeos
 

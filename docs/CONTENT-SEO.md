@@ -36,14 +36,30 @@ Número: **(14) 99659-8955** → `https://wa.me/5514996598955?text=...` (texto U
 
 ## SEO técnico (implementado)
 
+- **URLs canônicas:** domínio apex sem www + clean URLs (`/gestantes`) — ver [ADR 0009](adr/0009-urls-canonicas-dominio-apex-clean-urls.md). Links internos **sem** `.html`.
 - `title` + `meta description` premium por página, `canonical`, OG + Twitter Cards.
 - JSON-LD: `HealthAndBeautyBusiness` + `FAQPage` (home); `Service` + `FAQPage` + `BreadcrumbList` (gestantes).
 - `AggregateRating` ativo: 5,0 · 44 avaliações (dados reais do cliente, 2026-05-27).
-- `robots.txt`, `sitemap.xml` (ambas as páginas + `lastmod`), `site.webmanifest`, `vercel.json` (cache + headers).
-- LCP: imagem do hero com `fetchpriority="high"`; fontes com `preload`.
+  *Nota: o Google ignora review markup "self-serving" para rich results desde 2019 —
+  não esperar estrelas na SERP; o ativo real são as avaliações no Perfil da Empresa.*
+- `robots.txt`, `sitemap.xml` (ambas as páginas + `lastmod`), `site.webmanifest`, `vercel.json` (cache + headers + cleanUrls).
+- LCP: hero em `<picture>` com **WebP + `srcset`** (480w/618w) e `fetchpriority="high"`; fontes com `preload`.
+- Favicon: `fiore-simbolo.svg` (primário) + `/favicon.ico` na raiz (16+32px, ~1,2 KB).
 - Imagem social: `assets/images/og-image.jpg` (1200×630).
 - **Google Analytics 4:** `G-GN6B6NJNKL` — tag no `<head>` de ambas as páginas (posição obrigatória para verificação via Search Console).
-- **Google Search Console:** verificar via GA4. Após verificar, enviar sitemap: `https://fiorepilates.com.br/sitemap.xml`. Linkar propriedade GA ↔ Search Console no painel GA.
+- **Google Search Console:** ✅ verificado (prefixo `https://fiorepilates.com.br/`), sitemap enviado e processado (2 páginas, 2026-05-27), propriedade GA ↔ Search Console vinculada.
+
+## Medição de conversão (GA4)
+
+`assets/js/fiore.js` dispara eventos em **todo clique** de CTA:
+
+| Evento | Quando | Parâmetros |
+|--------|--------|------------|
+| `whatsapp_click` | clique em qualquer link `wa.me` | `cta_section` (hero, gestantes, florescer, header, footer, whatsapp_flutuante, barra_mobile, menu_mobile…), `cta_text`, `page_path` |
+| `phone_click` | clique em link `tel:` | `cta_section`, `page_path` |
+
+**Ação no painel GA4 (uma vez):** Admin → Events → marcar `whatsapp_click` como
+**key event** (conversão). Depois, importar como conversão no Google Ads.
 
 ## Local SEO (ações fora do código — recomendadas ao cliente)
 

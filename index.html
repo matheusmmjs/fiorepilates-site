@@ -17,6 +17,7 @@
 
   <!-- Ícones -->
   <link rel="icon" href="./assets/images/fiore-simbolo.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
   <link rel="manifest" href="./site.webmanifest">
 
@@ -151,8 +152,22 @@
 
   <main id="conteudo">
 
+    <!-- ===================== BANNER COPA 2026 (temporário — remover após a final) ===================== -->
+    <section class="copa-banner" data-cta-section="banner_copa" aria-label="Campanha Copa do Mundo 2026">
+      <div class="container">
+        <span class="copa-tag reveal">⚽ Copa do Mundo 2026</span>
+        <h2 class="text-balance reveal d1">Em homenagem à Copa e ao <em>Brasil</em> — vamos desafiar <em>você</em>!</h2>
+        <p class="reveal d2">Entre no clima com a Fiore: palpite no <strong>Bolão</strong> e concorra a 1 mês de Pilates,
+          ou tope o <strong>Desafio Fiore</strong> aqui no estúdio. Saúde, movimento e diversão!</p>
+        <div class="btn-row reveal d3">
+          <a href="/bolao" class="btn btn--copa btn--lg">Participar do Bolão</a>
+          <a href="/desafios" class="btn btn--on-dark btn--ghost btn--lg">Conhecer o Desafio</a>
+        </div>
+      </div>
+    </section>
+
     <!-- ===================== HERO ===================== -->
-    <section class="hero">
+    <section class="hero hero--after-promo">
       <div class="container hero-grid">
         <div class="hero-copy">
           <span class="eyebrow reveal">Estúdio de Pilates em Bauru</span>
@@ -165,7 +180,10 @@
           </div>
         </div>
         <div class="hero-media reveal d2">
-          <img src="./assets/images/hero-espaco.jpg" alt="Espaço acolhedor do Fiore Pilates com luz natural e plantas" width="618" height="1100" fetchpriority="high">
+          <picture>
+            <source type="image/webp" srcset="./assets/images/hero-espaco-480.webp 480w, ./assets/images/hero-espaco.webp 618w" sizes="(min-width: 880px) 45vw, 92vw">
+            <img src="./assets/images/hero-espaco.jpg" srcset="./assets/images/hero-espaco-480.jpg 480w, ./assets/images/hero-espaco.jpg 618w" sizes="(min-width: 880px) 45vw, 92vw" alt="Espaço acolhedor do Fiore Pilates com luz natural e plantas" width="618" height="1100" fetchpriority="high">
+          </picture>
           <div class="hero-badge">
             <svg class="gicon" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;flex:none"><path fill="#4285F4" d="M23 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.2a5.3 5.3 0 0 1-2.3 3.5v2.9h3.7C21.7 18.9 23 15.9 23 12.3Z"/><path fill="#34A853" d="M12 24c3.1 0 5.7-1 7.6-2.8l-3.7-2.9c-1 .7-2.3 1.1-3.9 1.1-3 0-5.5-2-6.4-4.7H1.8v3A12 12 0 0 0 12 24Z"/><path fill="#FBBC05" d="M5.6 14.7a7.2 7.2 0 0 1 0-4.6v-3H1.8a12 12 0 0 0 0 10.6l3.8-3Z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.2.6 4.4 1.7l3.3-3.3A12 12 0 0 0 1.8 7.1l3.8 3C6.5 7.3 9 4.8 12 4.8Z"/></svg>
             <div>
@@ -204,7 +222,10 @@
     <section class="section bg-sand" id="gestantes">
       <div class="container split">
         <div class="split-media tall reveal">
-          <img src="./assets/images/hero-espaco.jpg" alt="Ambiente preparado para o cuidado de gestantes no Fiore Pilates" width="618" height="1100" loading="lazy">
+          <picture>
+            <source type="image/webp" srcset="./assets/images/hero-espaco-480.webp 480w, ./assets/images/hero-espaco.webp 618w" sizes="(min-width: 880px) 45vw, 92vw">
+            <img src="./assets/images/hero-espaco.jpg" srcset="./assets/images/hero-espaco-480.jpg 480w, ./assets/images/hero-espaco.jpg 618w" sizes="(min-width: 880px) 45vw, 92vw" alt="Ambiente preparado para o cuidado de gestantes no Fiore Pilates" width="618" height="1100" loading="lazy">
+          </picture>
         </div>
         <div class="split-copy">
           <span class="eyebrow reveal">Nosso cuidado com gestantes</span>
@@ -219,7 +240,7 @@
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Ambiente seguro, sereno e preparado para você</li>
           </ul>
           <div class="btn-row reveal d3">
-            <a href="gestantes.html" class="btn btn--lg">Conhecer o Pilates para gestantes</a>
+            <a href="/gestantes" class="btn btn--lg">Conhecer o Pilates para gestantes</a>
             <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20conhecer%20a%20Fiore." class="btn btn--ghost btn--lg" target="_blank" rel="noopener">Falar no WhatsApp</a>
           </div>
           <p class="note reveal d3" style="margin-top:1.25rem">As aulas não substituem orientação médica. Inicie com a liberação do seu obstetra.</p>
@@ -336,6 +357,12 @@
           <p class="lead">Nossa resposta à necessidade real das gestantes: um cuidado físico e emocional, com base em
             ciência, experiência e empatia.</p>
         </div>
+        <figure class="video-frame reveal" style="margin-bottom:2.5rem">
+          <video controls preload="none" playsinline poster="./assets/images/poster-florescer.jpg" width="720" height="1280" aria-label="Vídeo: conheça o Programa Florescer da Fiore">
+            <source src="./assets/videos/florescer.mp4" type="video/mp4">
+          </video>
+          <figcaption>Conheça o Florescer em 1 minuto</figcaption>
+        </figure>
         <div class="pillars">
           <article class="pillar reveal">
             <span class="step">01</span>
@@ -393,6 +420,29 @@
           <div class="member reveal d4">
             <div class="ph"><img src="./assets/images/team-rosana.jpg" alt="Rosana, massoterapia Fiore Toque" loading="lazy"></div>
             <h4>Rosana</h4><p>Fiore Toque · Massoterapia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FIORE TOQUE ===================== -->
+    <section class="section bg-tint" id="toque">
+      <div class="container split reverse">
+        <div class="split-media reveal">
+          <figure class="video-frame">
+            <video controls preload="none" playsinline poster="./assets/images/poster-massoterapia.jpg" width="720" height="1280" aria-label="Vídeo: massoterapia no Fiore Toque">
+              <source src="./assets/videos/massoterapia.mp4" type="video/mp4">
+            </video>
+          </figure>
+        </div>
+        <div class="split-copy">
+          <span class="eyebrow reveal">Fiore Toque</span>
+          <h2 class="reveal d1">O cuidado que passa pelas mãos</h2>
+          <p class="reveal d2">O <strong>Fiore Toque</strong> é o nosso espaço de terapias manuais e massoterapia, com a
+            Rosana. Na gestação e no pós-parto, o toque terapêutico <strong>pode ajudar</strong> a aliviar tensões,
+            relaxar e completar o seu cuidado — sempre respeitando cada fase.</p>
+          <div class="btn-row reveal d3">
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Fiore%20Toque." class="btn" target="_blank" rel="noopener">Saber mais sobre o Fiore Toque</a>
           </div>
         </div>
       </div>
@@ -535,12 +585,17 @@
           <p class="reveal d2">Quer saber das próximas novidades, encontros e conteúdos para gestantes? Acompanhe a gente
             de perto.</p>
           <div class="btn-row reveal d3">
+            <a href="/eventos" class="btn">Ver nossos eventos</a>
             <a href="https://www.instagram.com/pilatesfiore/" class="btn btn--ghost" target="_blank" rel="noopener">Seguir no Instagram</a>
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20saber%20das%20pr%C3%B3ximas%20novidades%20e%20encontros%20da%20Fiore." class="btn btn--ghost" target="_blank" rel="noopener">Receber novidades</a>
           </div>
-          <!-- TODO Fiore: ao confirmar participação em eventos (ex.: Curso para Gestantes da Unimed Bauru), detalhar aqui com fotos reais. -->
         </div>
         <div class="cards reveal d1" style="align-content:start">
+          <figure class="video-frame">
+            <video controls preload="none" playsinline poster="./assets/images/poster-cafe-gestantes.jpg" width="720" height="1280" aria-label="Vídeo: café da manhã com gestantes na Fiore">
+              <source src="./assets/videos/cafe-gestantes.mp4" type="video/mp4">
+            </video>
+            <figcaption>Café da manhã com as gestantes da Fiore</figcaption>
+          </figure>
           <article class="card card--soft">
             <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3a4 4 0 0 0-4 4c0 3 4 6 4 6s4-3 4-6a4 4 0 0 0-4-4Z"/><path d="M6 21c1.5-3 4-4 6-4s4.5 1 6 4"/></svg></div>
             <h3>Conteúdo para gestantes</h3>
@@ -662,12 +717,14 @@
           <a href="#gestantes">Gestantes</a>
           <a href="#servicos">Serviços</a>
           <a href="#florescer">Programa Florescer</a>
-          <a href="#metodo">Metodologia</a>
+          <a href="/eventos">Eventos</a>
+          <a href="/desafios">Desafios</a>
+          <a href="/bolao">Bolão da Copa ⚽</a>
           <a href="#sobre">Sobre</a>
         </div>
         <div class="footer-col">
           <h4>Cuidados</h4>
-          <a href="gestantes.html">Pilates para gestantes</a>
+          <a href="/gestantes">Pilates para gestantes</a>
           <a href="#servicos">Saúde da mulher</a>
           <a href="#servicos">Dores e postura</a>
           <a href="#servicos">Idosos e reabilitação</a>
