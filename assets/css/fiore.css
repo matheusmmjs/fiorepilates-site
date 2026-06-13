@@ -431,7 +431,7 @@ details > summary { list-style: none; cursor: pointer; }
 
 /* ---------- Bolão (form embed) ---------- */
 .form-embed { background: var(--cream); border: 1px solid var(--line-soft); border-radius: var(--radius-lg); box-shadow: var(--shadow-soft); overflow: hidden; }
-.form-embed iframe { width: 100%; min-height: 1100px; border: 0; display: block; }
+.form-embed iframe { width: 100%; min-height: 1505px; border: 0; display: block; }
 .match-card { text-align: center; }
 .match-card .vs { font-family: var(--font-serif); font-size: clamp(1.4rem, 2.6vw, 1.9rem); color: var(--forest); margin-block: 0.4rem; }
 .match-card .when { font-size: 0.88rem; color: var(--txt-mute); }
