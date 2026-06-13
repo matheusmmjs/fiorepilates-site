@@ -46,7 +46,7 @@
 | # | Item | Quem | Status |
 |---|------|------|--------|
 | B.1 | Página `/bolao` + banner grande na home + links de footer + evento GA4 `bolao_click` | C | ✅ 2026-06-12 |
-| B.1b | Seção **Desafio Fiore** (roupa do Brasil + envelope por nível + foto + post marcando @pilatesfiore #FioreNoPilates) | C | ✅ 2026-06-12 |
+| B.1b | **Desafios Fiore** virou programa permanente: página `/desafios` (desafio da vez: Copa 2026) + runbook [DESAFIOS.md](DESAFIOS.md) | C | ✅ 2026-06-12 |
 | B.1c | Pontuação simplificada: placar cravado = 1 pt (desempate: campeão → data de envio) | C | ✅ 2026-06-12 |
 | B.1d | Estúdio: montar os 3 envelopes (iniciante/intermediário/avançado) com exercícios seguros e fotogênicos | M | ⬜ |
 | B.2 | Criar Google Form (estrutura no BOLAO.md) e mandar o iframe de embed | M | ⬜ **urgente — Brasil estreia 13/06** |

@@ -5,15 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Eventos e Comunidade | Fiore Pilates — Bauru</title>
+  <title>Desafios Fiore | Pilates com diversão em Bauru</title>
   <meta name="description"
-    content="A Fiore além do estúdio: eventos para gestantes, parcerias como o Curso de Gestantes da Unimed Bauru, café da manhã com alunas e presença na comunidade de Bauru.">
-  <link rel="canonical" href="https://fiorepilates.com.br/eventos">
+    content="Os Desafios Fiore trazem movimento e diversão para as aulas de Pilates em Bauru. Desafio da vez: Copa 2026 — vista as cores do Brasil, escolha seu envelope e poste marcando @pilatesfiore.">
+  <link rel="canonical" href="https://fiorepilates.com.br/desafios">
   <meta name="author" content="Fiore Pilates">
-  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#24281D">
-  <meta name="geo.region" content="BR-SP">
-  <meta name="geo.placename" content="Bauru">
 
   <link rel="icon" href="./assets/images/fiore-simbolo.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -23,14 +21,14 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Fiore Pilates">
-  <meta property="og:title" content="Eventos e Comunidade | Fiore Pilates">
+  <meta property="og:title" content="Desafios Fiore — movimento que conecta 💪">
   <meta property="og:description"
-    content="Café da manhã com gestantes, Curso de Gestantes da Unimed Bauru e mais: a presença da Fiore na comunidade.">
-  <meta property="og:url" content="https://fiorepilates.com.br/eventos">
+    content="Pilates com diversão: participe do desafio da vez no estúdio e apareça nos stories da Fiore. Agora: Desafio Copa 2026!">
+  <meta property="og:url" content="https://fiorepilates.com.br/desafios">
   <meta property="og:image" content="https://fiorepilates.com.br/assets/images/og-image.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Eventos e Comunidade | Fiore Pilates">
-  <meta name="twitter:description" content="A Fiore além do estúdio: eventos, parcerias e comunidade em Bauru.">
+  <meta name="twitter:title" content="Desafios Fiore — movimento que conecta">
+  <meta name="twitter:description" content="O desafio da vez nas aulas da Fiore Pilates, em Bauru.">
   <meta name="twitter:image" content="https://fiorepilates.com.br/assets/images/og-image.jpg">
 
   <link rel="preload" href="./assets/fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -86,107 +84,113 @@
     <section class="hero">
       <div class="container">
         <div class="hero-copy" style="max-width:46rem">
-          <span class="eyebrow reveal"><a href="/" style="color:inherit">Início</a> · Eventos</span>
-          <h1 class="display reveal d1">A Fiore além<br>do <span class="serif-accent">estúdio</span></h1>
-          <p class="lead reveal d2">Acreditamos no cuidado que vai além das aulas. Por isso promovemos e participamos de
-            eventos que levam informação, acolhimento e bem-estar para as famílias de Bauru — especialmente para as
-            futuras mamães.</p>
+          <span class="eyebrow reveal"><a href="/" style="color:inherit">Início</a> · Desafios</span>
+          <h1 class="display reveal d1">Desafios <span class="serif-accent">Fiore</span> 💪</h1>
+          <p class="lead reveal d2">Movimento que conecta, energia que transforma. De tempos em tempos lançamos um
+            desafio novo nas aulas — uma forma leve e divertida de celebrar o seu progresso e a nossa comunidade.
+            Participe, poste e apareça nos stories da Fiore!</p>
+          <div class="btn-row reveal d3">
+            <a href="#desafio-da-vez" class="btn btn--lg">Ver o desafio da vez</a>
+            <a href="https://www.instagram.com/pilatesfiore/" class="btn btn--ghost btn--lg" target="_blank" rel="noopener">Seguir @pilatesfiore</a>
+          </div>
         </div>
       </div>
     </section>
 
     <!--
       ════════════════════════════════════════════════════════════════════
-      COMO ADICIONAR UM EVENTO (ver docs/COMO-PUBLICAR-EVENTO.md):
-      1. Copie o bloco TEMPLATE abaixo (de <section> até </section>).
-      2. Cole logo DEPOIS deste comentário (eventos mais recentes primeiro).
-      3. Preencha: data/tag, título, texto (2–4 frases) e a mídia
-         (foto em assets/images/eventos/ ou vídeo em assets/videos/).
-      4. Alterne a classe da section entre "section" e "section bg-sand"
-         para listrar o fundo, e alterne "split" / "split reverse".
-
-      TEMPLATE (foto):
-      <section class="section bg-sand">
-        <div class="container split">
-          <div class="split-media reveal">
-            <img src="./assets/images/eventos/NOME-DA-FOTO.jpg" alt="DESCREVA A FOTO" width="618" height="1100" loading="lazy">
-          </div>
-          <div class="split-copy">
-            <span class="eyebrow reveal">MÊS · ANO</span>
-            <h2 class="reveal d1">TÍTULO DO EVENTO</h2>
-            <p class="reveal d2">TEXTO DO EVENTO (2–4 frases).</p>
-          </div>
-        </div>
-      </section>
+      COMO TROCAR O DESAFIO DA VEZ (ver docs/DESAFIOS.md):
+      1. Mova a section atual de "DESAFIO DA VEZ" para a área
+         "DESAFIOS ANTERIORES" (mais abaixo), trocando bg-forest por bg-sand
+         e removendo o id="desafio-da-vez".
+      2. Crie a nova section com id="desafio-da-vez" no mesmo formato:
+         eyebrow (nome/tema) · h2 · lead · 4 passos (.pillars) · CTA.
+      3. Atualize o lastmod de /desafios no sitemap.xml.
       ════════════════════════════════════════════════════════════════════
     -->
 
-    <!-- EVENTO: Café da manhã com gestantes -->
-    <section class="section bg-sand">
-      <div class="container split">
-        <div class="split-media reveal">
-          <figure class="video-frame">
-            <video controls preload="none" playsinline poster="./assets/images/poster-cafe-gestantes.jpg" width="720" height="1280" aria-label="Vídeo: café da manhã com gestantes na Fiore">
-              <source src="./assets/videos/cafe-gestantes.mp4" type="video/mp4">
-            </video>
-          </figure>
+    <!-- DESAFIO DA VEZ: COPA 2026 -->
+    <section class="section bg-forest" id="desafio-da-vez" data-cta-section="desafio">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow center">Desafio da vez · Copa 2026</span>
+          <h2 class="text-balance">Vamos desafiar você!</h2>
+          <p class="lead">Durante a Copa, as aulas entram no clima do Brasil. Topa? É só seguir os 4 passos na sua
+            próxima aula — com a instrutora acompanhando você em tudo.</p>
         </div>
-        <div class="split-copy">
-          <span class="eyebrow reveal">Encontros na Fiore</span>
-          <h2 class="reveal d1">Café da manhã com as gestantes</h2>
-          <p class="reveal d2">Um momento só delas: nossas alunas gestantes se encontram no estúdio para um café da
-            manhã acolhedor, trocando experiências sobre a maternidade com quem está vivendo a mesma fase. Já estamos
-            na segunda edição — e vem mais por aí.</p>
-          <div class="btn-row reveal d3">
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20saber%20dos%20pr%C3%B3ximos%20encontros%20de%20gestantes%20da%20Fiore." class="btn btn--ghost" target="_blank" rel="noopener">Quero participar do próximo</a>
+        <div class="pillars">
+          <article class="pillar reveal">
+            <span class="step">01</span>
+            <h4>Vista as cores do Brasil</h4>
+            <p>Venha para a aula com uma peça verde, amarela ou azul.</p>
+          </article>
+          <article class="pillar reveal d1">
+            <span class="step">02</span>
+            <h4>Escolha seu envelope</h4>
+            <p>No estúdio: iniciante, intermediário ou avançado — dentro, um exercício surpresa.</p>
+          </article>
+          <article class="pillar reveal d2">
+            <span class="step">03</span>
+            <h4>Faça a pose e clique</h4>
+            <p>Execute o exercício com a instrutora ao lado e registre a foto do momento.</p>
+          </article>
+          <article class="pillar reveal d3">
+            <span class="step">04</span>
+            <h4>Poste e marque a gente</h4>
+            <p>Publique no Instagram marcando <strong>@pilatesfiore</strong> com <strong>#FioreNoPilates</strong> — repostamos nos stories!</p>
+          </article>
+        </div>
+        <div class="center reveal d2" style="margin-top:2.5rem">
+          <a href="https://www.instagram.com/pilatesfiore/" class="btn btn--on-dark btn--lg" target="_blank" rel="noopener">Seguir @pilatesfiore</a>
+        </div>
+        <p class="note center reveal" style="margin-top:1.5rem;color:rgba(231,234,217,0.6)">Desafio para alunas e alunos da Fiore, durante a Copa 2026. Movimento que conecta, energia que transforma.</p>
+      </div>
+    </section>
+
+    <!-- CROSS: BOLÃO (remover junto com a campanha da Copa) -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band reveal">
+          <img class="leaf-bg" src="./assets/images/fiore-simbolo.svg" alt="" aria-hidden="true">
+          <span class="eyebrow center" style="justify-content:center">⚽ E tem mais Copa</span>
+          <h2 class="text-balance" style="margin-top:1rem">Já deu seus palpites no Bolão?</h2>
+          <p>Palpite nos jogos do Brasil e concorra a 1 mês de Pilates na Fiore. Gratuito e aberto a todos.</p>
+          <div class="btn-row" style="justify-content:center">
+            <a href="/bolao" class="btn btn--on-dark btn--lg">Participar do Bolão</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- EVENTO: Curso de Gestantes da Unimed Bauru -->
-    <section class="section">
-      <div class="container split reverse">
-        <div class="split-media reveal">
-          <img src="./assets/images/espaco-recanto.jpg" alt="Espaço acolhedor da Fiore Pilates em Bauru" width="618" height="1100" loading="lazy">
-          <!-- TODO Fiore: substituir pela foto real do evento (assets/images/eventos/) -->
-        </div>
-        <div class="split-copy">
-          <span class="eyebrow reveal">Parceria · Unimed Bauru</span>
-          <h2 class="reveal d1">Curso de Gestantes da Unimed</h2>
-          <p class="reveal d2">Já participamos de <strong>3 edições</strong> do Curso de Gestantes da Unimed Bauru,
-            levando informação de qualidade sobre movimento e bem-estar na gestação — sempre com a linguagem ética e
-            acolhedora que é a nossa marca.</p>
-          <p class="reveal d2">É uma alegria contribuir com a preparação de tantas famílias da nossa cidade.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- O QUE DIZEM -->
-    <section class="section bg-tint">
+    <!-- DESAFIOS ANTERIORES -->
+    <section class="section bg-sand">
       <div class="container">
         <div class="section-head center reveal">
-          <span class="eyebrow center">Quem participou</span>
-          <h2 class="text-balance">Momentos que ficam</h2>
-          <p class="lead">Em breve: fotos e depoimentos de quem viveu esses encontros com a gente.</p>
+          <span class="eyebrow center">Galeria</span>
+          <h2 class="text-balance">Desafios anteriores</h2>
+          <p class="lead">Este é o nosso primeiro desafio — em breve, esta galeria vai contar a história de muitos
+            momentos divertidos no estúdio.</p>
         </div>
-        <!-- TODO Fiore: adicionar depoimentos reais dos eventos (usar o bloco .reviews da home como referência) -->
-        <div class="center reveal">
-          <a href="https://www.instagram.com/pilatesfiore/" class="btn btn--ghost" target="_blank" rel="noopener">Ver bastidores no Instagram</a>
-        </div>
+        <!-- TODO Fiore: ao encerrar um desafio, mover a section dele para cá (ver comentário no topo). -->
       </div>
     </section>
 
-    <!-- CTA -->
+    <!-- CTA CONHECER A FIORE -->
     <section class="section">
-      <div class="container">
-        <div class="cta-band reveal">
-          <img class="leaf-bg" src="./assets/images/fiore-simbolo.svg" alt="" aria-hidden="true">
-          <span class="eyebrow center" style="justify-content:center">Vamos juntas?</span>
-          <h2 class="text-balance" style="margin-top:1rem">Fique por dentro dos próximos encontros</h2>
-          <p>Deixe seu contato e avisamos você sobre os próximos eventos, encontros de gestantes e novidades da Fiore.</p>
-          <div class="btn-row" style="justify-content:center">
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20receber%20as%20novidades%20e%20pr%C3%B3ximos%20eventos%20da%20Fiore." class="btn btn--on-dark btn--lg" target="_blank" rel="noopener">Receber novidades no WhatsApp</a>
+      <div class="container split">
+        <div class="split-media reveal">
+          <picture>
+            <source type="image/webp" srcset="./assets/images/hero-espaco-480.webp 480w, ./assets/images/hero-espaco.webp 618w" sizes="(min-width: 880px) 45vw, 92vw">
+            <img src="./assets/images/hero-espaco.jpg" srcset="./assets/images/hero-espaco-480.jpg 480w, ./assets/images/hero-espaco.jpg 618w" sizes="(min-width: 880px) 45vw, 92vw" alt="Espaço acolhedor do Fiore Pilates em Bauru" width="618" height="1100" loading="lazy">
+          </picture>
+        </div>
+        <div class="split-copy">
+          <span class="eyebrow reveal">Ainda não é aluna?</span>
+          <h2 class="reveal d1">Venha viver isso com a gente</h2>
+          <p class="reveal d2">Os desafios são só um tempero — o que faz a diferença mesmo é o cuidado individualizado
+            de cada aula. Agende sua avaliação inicial e venha conhecer a Fiore.</p>
+          <div class="btn-row reveal d3">
+            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vi%20os%20Desafios%20Fiore%20e%20gostaria%20de%20conhecer%20o%20est%C3%BAdio." class="btn btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
           </div>
         </div>
       </div>
@@ -241,13 +245,13 @@
     </div>
   </footer>
 
-  <a class="wa-float" href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20de%20eventos%20da%20Fiore." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <a class="wa-float" href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20de%20desafios%20da%20Fiore." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.5-1.2-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.8-1c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.6-.1 1.2Z"/></svg>
     <span class="wa-label">Falar no WhatsApp</span>
   </a>
 
   <div class="mobile-bar">
-    <a class="btn btn--whats" href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." target="_blank" rel="noopener">Agendar avaliação</a>
+    <a class="btn btn--whats" href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vi%20os%20Desafios%20Fiore%20e%20gostaria%20de%20conhecer%20o%20est%C3%BAdio." target="_blank" rel="noopener">Agendar avaliação</a>
     <a class="btn btn--ghost" href="tel:+5514996598955" aria-label="Ligar para a Fiore">Ligar</a>
   </div>
 

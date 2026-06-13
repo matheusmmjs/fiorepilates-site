@@ -10,7 +10,8 @@ Documentação do site da Fiore: o que foi feito, **por que** e como manter.
 - **[CONTENT-SEO.md](CONTENT-SEO.md)** — estratégia de conteúdo, CTAs e SEO (keywords, dados estruturados).
 - **[ASSETS-NEEDED.md](ASSETS-NEEDED.md)** — mídias e dados que ainda precisamos do cliente.
 - **[ROADMAP.md](ROADMAP.md)** — plano de crescimento digital priorizado (fases, status, quem faz o quê).
-- **[BOLAO.md](BOLAO.md)** — runbook da campanha Copa 2026: bolão + Desafio Fiore (mecânica, form, apuração).
+- **[BOLAO.md](BOLAO.md)** — runbook da campanha Bolão da Copa 2026 (mecânica, form, apuração).
+- **[DESAFIOS.md](DESAFIOS.md)** — runbook do programa contínuo de Desafios Fiore (página `/desafios`).
 - **[COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md)** — fluxo para adicionar eventos na página `/eventos`.
 
 ## Decisões de arquitetura (ADRs)

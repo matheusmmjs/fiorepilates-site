@@ -35,20 +35,11 @@ respostas → planilha "Bolão Fiore 2026". Para embedar: **Enviar → ícone `<
 o iframe** e mandar aqui — entra no bloco `data-bolao-form` da página (e o fallback de
 WhatsApp `data-bolao-fallback` sai).
 
-## Desafio Fiore (no estúdio — UGC)
+## Desafio Fiore
 
-Segunda frente da campanha, para **alunas/alunos** durante a Copa (seção `#desafio`
-da página /bolao + banner da home):
-
-1. Vir à aula com peça **verde, amarela ou azul**;
-2. Escolher um **envelope** no estúdio (iniciante / intermediário / avançado) com um
-   exercício surpresa;
-3. Executar com a instrutora acompanhando e **tirar a foto**;
-4. **Postar no Instagram marcando @pilatesfiore + #FioreNoPilates** → Fiore reposta
-   nos stories.
-
-Operação no estúdio: montar os 3 envelopes por nível (instrutoras escolhem exercícios
-seguros e fotogênicos), avisar o time, repostar tudo. Métrica: nº de posts marcados.
+O desafio no estúdio virou **programa permanente** com página própria (`/desafios`) —
+ver [DESAFIOS.md](DESAFIOS.md). O banner da Copa na home aponta para os dois
+(bolão + desafio), e as páginas se cruzam mutuamente.
 
 ## Apuração (após cada jogo do Brasil)
 
