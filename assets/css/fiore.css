@@ -389,12 +389,38 @@ details > summary { list-style: none; cursor: pointer; }
 .reveal.d4 { transition-delay: 0.32s; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
 
-/* ---------- Promo band (campanhas temporárias — ex.: Bolão Copa 2026) ---------- */
-.promo-band { display: block; background: var(--forest); color: var(--cream); margin-top: 4.5rem; }
-.promo-band .container { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.6rem 1.25rem; padding-block: 0.9rem; text-align: center; }
-.promo-band p { color: rgba(231, 234, 217, 0.88); font-size: 0.98rem; margin: 0; }
-.promo-band strong { color: var(--cream); font-weight: 600; }
-.promo-band .btn { padding: 0.55rem 1.25rem; font-size: 0.9rem; --bg: var(--cream); --fg: var(--forest); --bd: var(--cream); }
+/* ---------- Banner de campanha Copa 2026 (temporário) ---------- */
+.copa-banner { position: relative; overflow: hidden; background: var(--forest); color: var(--cream); margin-top: 4.5rem; }
+.copa-banner::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background:
+    radial-gradient(ellipse 42% 60% at 108% -10%, rgba(0, 151, 57, 0.5), transparent 70%),
+    radial-gradient(ellipse 36% 55% at -8% 110%, rgba(254, 221, 0, 0.32), transparent 70%),
+    radial-gradient(ellipse 30% 45% at 104% 112%, rgba(0, 39, 118, 0.55), transparent 70%);
+}
+.copa-banner::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.85;
+  background-image:
+    radial-gradient(4px 8px at 12% 22%, #FEDD00 99%, transparent),
+    radial-gradient(4px 8px at 28% 78%, #009739 99%, transparent),
+    radial-gradient(4px 8px at 46% 14%, #FEDD00 99%, transparent),
+    radial-gradient(4px 8px at 62% 84%, #2a52be 99%, transparent),
+    radial-gradient(4px 8px at 78% 26%, #009739 99%, transparent),
+    radial-gradient(4px 8px at 92% 64%, #FEDD00 99%, transparent);
+}
+.copa-banner .container { position: relative; z-index: 1; padding-block: clamp(2.25rem, 5.5vw, 3.75rem); text-align: center; }
+.copa-tag {
+  display: inline-flex; align-items: center; gap: 0.5rem; background: #FEDD00; color: #1c2c14;
+  font-weight: 600; font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase;
+  padding: 0.45rem 1.1rem; border-radius: 100px; transform: rotate(-1.5deg); margin-bottom: 1.2rem;
+}
+.copa-banner h2 { color: var(--cream); font-size: clamp(1.9rem, 4.4vw, 3.2rem); margin-bottom: 0.9rem; }
+.copa-banner h2 em { font-style: italic; font-weight: 500; color: #FEDD00; }
+.copa-banner > .container > p { color: rgba(253, 255, 247, 0.88); max-width: 38rem; margin-inline: auto; margin-bottom: 1.8rem; }
+.copa-banner strong { color: #FEDD00; font-weight: 600; }
+.copa-banner .btn-row { justify-content: center; }
+.copa-banner .btn--copa { --bg: #FEDD00; --fg: #1c2c14; --bd: #FEDD00; font-weight: 600; }
+.copa-banner .btn--copa:hover { --bg: #ffe84d; }
 .hero--after-promo { padding-top: clamp(2.5rem, 6vh, 4rem); }
 
 /* ---------- Vídeo auto-hospedado (vertical 9:16) ---------- */

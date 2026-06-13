@@ -48,6 +48,12 @@ Atualizado em 2026-05-22 após o cliente enviar logo, tipografia, fotos e vídeo
 14. **Link de embed do Google Form do bolão** — criar o formulário conforme
     [BOLAO.md](BOLAO.md) e mandar o iframe (Enviar → `<>`); hoje a página `/bolao`
     usa fallback de WhatsApp para receber palpites.
+15. **Fotos dos eventos** (com autorização): Curso de Gestantes da Unimed (3 edições)
+    e cafés da manhã — para a página `/eventos` (hoje o card da Unimed usa foto do
+    espaço como placeholder). Ver [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md).
+16. **Arte da campanha da Copa** (a imagem "Vamos desafiar você!"): se quiser usá-la
+    literal no site/posts, enviar o **arquivo** (de preferência sem as linhas
+    tracejadas) — o banner atual da home é recriado em HTML/CSS na mesma vibe.
 
 ## Como entregar imagens/vídeos
 

@@ -70,6 +70,8 @@
 
   // Conversão (GA4): cliques em WhatsApp e telefone, com origem do CTA
   var ctaSection = function (el) {
+    var tagged = el.closest("[data-cta-section]");
+    if (tagged && tagged.getAttribute("data-cta-section")) return tagged.getAttribute("data-cta-section");
     var scope = el.closest(".wa-float, .mobile-bar, .mobile-menu, header, footer, section");
     if (!scope) return "outro";
     if (scope.classList.contains("wa-float")) return "whatsapp_flutuante";

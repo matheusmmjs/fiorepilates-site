@@ -38,12 +38,17 @@
 | 1.3 | Enviar: link curto de avaliação GBP + URL Maps, lat/long, CREFITO da equipe, foto da Andressa | M | ⬜ |
 | 1.4 | Aplicar no site: `geo` no schema, `sameAs` GBP/Maps, link direto de avaliações, bios com CREFITO | C | ⏳ 1.3 |
 | 1.5 | OG image própria para /gestantes (precisa foto paisagem — ver 2.4) | C | ⏳ 2.4 |
+| 1.6 | Página `/eventos` (comunidade): café da manhã + Unimed, com template e runbook [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md) | C | ✅ 2026-06-12 |
+| 1.7 | Enviar fotos reais dos eventos (Unimed, cafés) + depoimentos de participantes para enriquecer `/eventos` | M | ⬜ |
 
 ## Campanha — Bolão da Copa 2026 (junho–julho) · [BOLAO.md](BOLAO.md)
 
 | # | Item | Quem | Status |
 |---|------|------|--------|
-| B.1 | Página `/bolao` + banner na home + links de footer + evento GA4 `bolao_click` | C | ✅ 2026-06-12 |
+| B.1 | Página `/bolao` + banner grande na home + links de footer + evento GA4 `bolao_click` | C | ✅ 2026-06-12 |
+| B.1b | Seção **Desafio Fiore** (roupa do Brasil + envelope por nível + foto + post marcando @pilatesfiore #FioreNoPilates) | C | ✅ 2026-06-12 |
+| B.1c | Pontuação simplificada: placar cravado = 1 pt (desempate: campeão → data de envio) | C | ✅ 2026-06-12 |
+| B.1d | Estúdio: montar os 3 envelopes (iniciante/intermediário/avançado) com exercícios seguros e fotogênicos | M | ⬜ |
 | B.2 | Criar Google Form (estrutura no BOLAO.md) e mandar o iframe de embed | M | ⬜ **urgente — Brasil estreia 13/06** |
 | B.3 | Embedar o form na página (sai o fallback de WhatsApp) | C | ⏳ B.2 |
 | B.4 | Lançar: WhatsApp para alunas + stories/post no Instagram | M | ⬜ 13/06 de manhã |

@@ -9,8 +9,8 @@
 - **Palpites:** placar dos jogos do Brasil + cravar o campeão da Copa.
   - Fase de grupos (Grupo C): Marrocos (sáb 13/06, 19h) · Haiti (sex 19/06) · Escócia (qua 24/06).
   - Depois: mata-mata do Brasil + **semifinais e final** (novo form/seção por fase).
-- **Pontuação:** placar exato = 3 pts · vencedor/empate certo = 1 pt · campeão = 5 pts.
-  Desempate: data/hora de envio dos palpites.
+- **Pontuação (simplificada em 2026-06-12):** cravou o placar exato = **1 ponto**.
+  Desempate: 1º quem acertou o campeão da Copa; 2º data/hora de envio dos palpites.
 - **Prêmio (só 1º lugar):** 1 mês de Pilates na Fiore, 1x/semana (4 aulas), pessoal e
   intransferível, válido por 60 dias após a final.
 - **Participação:** gratuita, sem compra, 1 por pessoa, 18+. Aberta a alunas e não-alunas
@@ -34,6 +34,21 @@ Configurações: coletar e-mail **desativado** (atrito), 1 resposta por pessoa s
 respostas → planilha "Bolão Fiore 2026". Para embedar: **Enviar → ícone `<>` → copiar
 o iframe** e mandar aqui — entra no bloco `data-bolao-form` da página (e o fallback de
 WhatsApp `data-bolao-fallback` sai).
+
+## Desafio Fiore (no estúdio — UGC)
+
+Segunda frente da campanha, para **alunas/alunos** durante a Copa (seção `#desafio`
+da página /bolao + banner da home):
+
+1. Vir à aula com peça **verde, amarela ou azul**;
+2. Escolher um **envelope** no estúdio (iniciante / intermediário / avançado) com um
+   exercício surpresa;
+3. Executar com a instrutora acompanhando e **tirar a foto**;
+4. **Postar no Instagram marcando @pilatesfiore + #FioreNoPilates** → Fiore reposta
+   nos stories.
+
+Operação no estúdio: montar os 3 envelopes por nível (instrutoras escolhem exercícios
+seguros e fotogênicos), avisar o time, repostar tudo. Métrica: nº de posts marcados.
 
 ## Apuração (após cada jogo do Brasil)
 
