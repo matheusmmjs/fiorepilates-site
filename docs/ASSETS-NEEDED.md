@@ -40,12 +40,14 @@ Atualizado em 2026-05-22 após o cliente enviar logo, tipografia, fotos e vídeo
 11. **Foto da Andressa** (hoje está com placeholder de iniciais).
 12. **Foto horizontal (paisagem) para OG da página de gestantes** — todas as fotos
     atuais são verticais (618×1100); a OG ideal é 1200×630.
-13. **Vídeos no YouTube** 🔄 (Matheus subindo): os 3 arquivos estão em `~/Downloads` —
-    `segundo cafe da manha com as gestantes na fiore.MOV` (26 MB),
-    `florescer_9Pr63w30.mp4` (6 MB), `massoterapia-1_mkygZXH1.mp4` (8,5 MB).
-    Subir como "não listado" e mandar os links — embedamos sem transcodificar
-    (ver [ADR 0008](adr/0008-midia-videos-fotos.md)). **Não apagar os arquivos
-    locais antes de confirmar o upload** — são a única cópia nesta máquina.
+13. ~~**Vídeos no YouTube**~~ ✅ Resolvido de outro jeito (2026-06-12): com o disco
+    liberado, transcodificamos localmente para H.264 e os vídeos estão **no site**
+    (`assets/videos/`) — ver [ADR 0010](adr/0010-videos-autohospedados-h264.md).
+    Migração futura para YouTube registrada em issue no GitHub. Originais HEVC
+    permanecem em `~/Downloads` até lá.
+14. **Link de embed do Google Form do bolão** — criar o formulário conforme
+    [BOLAO.md](BOLAO.md) e mandar o iframe (Enviar → `<>`); hoje a página `/bolao`
+    usa fallback de WhatsApp para receber palpites.
 
 ## Como entregar imagens/vídeos
 

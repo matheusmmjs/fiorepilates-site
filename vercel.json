@@ -16,6 +16,12 @@
       ]
     },
     {
+      "source": "/assets/videos/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000" }
+      ]
+    },
+    {
       "source": "/assets/(css|js)/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400" }

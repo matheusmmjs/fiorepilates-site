@@ -83,7 +83,12 @@
     var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
     if (!a || typeof window.gtag !== "function") return;
     var href = a.getAttribute("href") || "";
-    if (href.indexOf("wa.me") !== -1) {
+    if (href === "/bolao" || href.indexOf("/bolao") === 0) {
+      window.gtag("event", "bolao_click", {
+        cta_section: ctaSection(a),
+        page_path: window.location.pathname
+      });
+    } else if (href.indexOf("wa.me") !== -1) {
       window.gtag("event", "whatsapp_click", {
         cta_section: ctaSection(a),
         cta_text: (a.textContent || "").trim().slice(0, 60),

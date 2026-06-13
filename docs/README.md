@@ -10,6 +10,7 @@ Documentação do site da Fiore: o que foi feito, **por que** e como manter.
 - **[CONTENT-SEO.md](CONTENT-SEO.md)** — estratégia de conteúdo, CTAs e SEO (keywords, dados estruturados).
 - **[ASSETS-NEEDED.md](ASSETS-NEEDED.md)** — mídias e dados que ainda precisamos do cliente.
 - **[ROADMAP.md](ROADMAP.md)** — plano de crescimento digital priorizado (fases, status, quem faz o quê).
+- **[BOLAO.md](BOLAO.md)** — runbook da campanha Bolão da Copa 2026 (mecânica, form, apuração).
 
 ## Decisões de arquitetura (ADRs)
 
@@ -24,6 +25,7 @@ Registros do **porquê** de cada decisão importante:
 - [0007 — Fidelidade ao manual: Poppins, logo oficial, sem dourado](adr/0007-fidelidade-manual-marca-poppins.md)
 - [0008 — Mídia: vídeos (HEVC) e fotos da equipe](adr/0008-midia-videos-fotos.md)
 - [0009 — URLs canônicas: domínio apex + clean URLs](adr/0009-urls-canonicas-dominio-apex-clean-urls.md)
+- [0010 — Vídeos auto-hospedados em H.264 (transitório)](adr/0010-videos-autohospedados-h264.md)
 
 ## Como adicionar um ADR
 

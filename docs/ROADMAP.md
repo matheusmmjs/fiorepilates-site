@@ -33,11 +33,23 @@
 
 | # | Item | Quem | Status |
 |---|------|------|--------|
-| 1.1 | Subir 3 vídeos no YouTube (não listado) e mandar links | M | 🔄 |
-| 1.2 | Embedar vídeos (Florescer, eventos, Fiore Toque) com facade leve | C | ⏳ 1.1 |
+| 1.1 | ~~Vídeos no YouTube~~ → transcodificados localmente (H.264) e auto-hospedados ([ADR 0010](adr/0010-videos-autohospedados-h264.md)); migração p/ YouTube vira issue | C | ✅ 2026-06-12 |
+| 1.2 | Vídeos no site: Florescer (#florescer), café da manhã (#eventos), massoterapia (nova seção #toque) | C | ✅ 2026-06-12 |
 | 1.3 | Enviar: link curto de avaliação GBP + URL Maps, lat/long, CREFITO da equipe, foto da Andressa | M | ⬜ |
 | 1.4 | Aplicar no site: `geo` no schema, `sameAs` GBP/Maps, link direto de avaliações, bios com CREFITO | C | ⏳ 1.3 |
 | 1.5 | OG image própria para /gestantes (precisa foto paisagem — ver 2.4) | C | ⏳ 2.4 |
+
+## Campanha — Bolão da Copa 2026 (junho–julho) · [BOLAO.md](BOLAO.md)
+
+| # | Item | Quem | Status |
+|---|------|------|--------|
+| B.1 | Página `/bolao` + banner na home + links de footer + evento GA4 `bolao_click` | C | ✅ 2026-06-12 |
+| B.2 | Criar Google Form (estrutura no BOLAO.md) e mandar o iframe de embed | M | ⬜ **urgente — Brasil estreia 13/06** |
+| B.3 | Embedar o form na página (sai o fallback de WhatsApp) | C | ⏳ B.2 |
+| B.4 | Lançar: WhatsApp para alunas + stories/post no Instagram | M | ⬜ 13/06 de manhã |
+| B.5 | Apurar ranking + divulgar após cada jogo do Brasil (13/06 · 19/06 · 24/06 · mata-mata) | M | ⬜ recorrente |
+| B.6 | Convidar leads (não-alunas com consentimento) para avaliação após a fase de grupos | M | ⬜ ~25/06 |
+| B.7 | Encerrar: anunciar vencedor(a), entregar prêmio, remover banner/página | M+C | ⬜ pós-final (19/07) |
 
 ## Fase 2 — Autoridade e superfície SEO (até 30 dias)
 
