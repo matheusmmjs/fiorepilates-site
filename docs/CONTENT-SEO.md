@@ -47,7 +47,7 @@ Número: **(14) 99659-8955** → `https://wa.me/5514996598955?text=...` (texto U
 - Favicon: `fiore-simbolo.svg` (primário) + `/favicon.ico` na raiz (16+32px, ~1,2 KB).
 - Imagem social: `assets/images/og-image.jpg` (1200×630).
 - **Google Analytics 4:** `G-GN6B6NJNKL` — tag no `<head>` de ambas as páginas (posição obrigatória para verificação via Search Console).
-- **Google Search Console:** verificar via GA4. Após verificar, enviar sitemap: `https://fiorepilates.com.br/sitemap.xml`. Linkar propriedade GA ↔ Search Console no painel GA.
+- **Google Search Console:** ✅ verificado (prefixo `https://fiorepilates.com.br/`), sitemap enviado e processado (2 páginas, 2026-05-27), propriedade GA ↔ Search Console vinculada.
 
 ## Medição de conversão (GA4)
 

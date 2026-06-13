@@ -9,6 +9,7 @@ Documentação do site da Fiore: o que foi feito, **por que** e como manter.
 - **[brand-manual.md](brand-manual.md)** — transcrição completa do manual oficial "BRAND & DESIGN" (para não perder nada).
 - **[CONTENT-SEO.md](CONTENT-SEO.md)** — estratégia de conteúdo, CTAs e SEO (keywords, dados estruturados).
 - **[ASSETS-NEEDED.md](ASSETS-NEEDED.md)** — mídias e dados que ainda precisamos do cliente.
+- **[ROADMAP.md](ROADMAP.md)** — plano de crescimento digital priorizado (fases, status, quem faz o quê).
 
 ## Decisões de arquitetura (ADRs)
 
