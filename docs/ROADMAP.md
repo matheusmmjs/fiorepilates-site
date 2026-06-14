@@ -35,11 +35,12 @@
 |---|------|------|--------|
 | 1.1 | ~~Vídeos no YouTube~~ → transcodificados localmente (H.264) e auto-hospedados ([ADR 0010](adr/0010-videos-autohospedados-h264.md)); migração p/ YouTube vira issue | C | ✅ 2026-06-12 |
 | 1.2 | Vídeos no site: Florescer (#florescer), café da manhã (#eventos), massoterapia (nova seção #toque) | C | ✅ 2026-06-12 |
-| 1.3 | Enviar: link curto de avaliação GBP + URL Maps, lat/long, CREFITO da equipe, foto da Andressa | M | ⬜ |
-| 1.4 | Aplicar no site: `geo` no schema, `sameAs` GBP/Maps, link direto de avaliações, bios com CREFITO | C | ⏳ 1.3 |
+| 1.3 | Enviar: link curto de avaliação GBP + URL Maps, lat/long, foto da Andressa (CREFITO dispensado pelo cliente) | M | ✅ 2026-06-14 (Andressa: arquivo pendente) |
+| 1.4 | Aplicar no site: `geo` no schema, `sameAs` GBP/Maps, link direto de avaliações, CNPJ/razão social, TikTok/Facebook, app Mirae | C | ✅ 2026-06-14 |
 | 1.5 | OG image própria para /gestantes (precisa foto paisagem — ver 2.4) | C | ⏳ 2.4 |
 | 1.6 | Página `/eventos` (comunidade): café da manhã + Unimed, com template e runbook [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md) | C | ✅ 2026-06-12 |
 | 1.7 | Enviar fotos reais dos eventos (Unimed, cafés) + depoimentos de participantes para enriquecer `/eventos` | M | ⬜ |
+| 1.8 | Navegação: `/eventos` e `/desafios` no header de todas as páginas (antes só no rodapé) + `/bolao` no menu mobile; fotos reais do estúdio; equipe (Jamile out, pasta `team/`); arte da Copa | C | ✅ 2026-06-14 |
 
 ## Campanha — Bolão da Copa 2026 (junho–julho) · [BOLAO.md](BOLAO.md)
 

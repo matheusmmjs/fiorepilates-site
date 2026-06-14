@@ -54,6 +54,8 @@
     "@id": "https://fiorepilates.com.br/#business",
     "name": "Fiore Pilates",
     "alternateName": "Fiore Pilates e Fisioterapia",
+    "legalName": "Fiore Pilates LTDA",
+    "taxID": "60.413.273/0001-90",
     "description": "Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher, com atendimento individualizado e acolhedor.",
     "url": "https://fiorepilates.com.br/",
     "logo": "https://fiorepilates.com.br/assets/images/fiore-logo.svg",
@@ -69,6 +71,8 @@
       "postalCode": "17012-090",
       "addressCountry": "BR"
     },
+    "geo": { "@type": "GeoCoordinates", "latitude": -22.3405673, "longitude": -49.0528841 },
+    "hasMap": "https://maps.app.goo.gl/bQtjxJiBTJSpTJJ29",
     "areaServed": { "@type": "City", "name": "Bauru" },
     "openingHoursSpecification": [
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "06:00", "closes": "20:00" },
@@ -78,7 +82,9 @@
     "founder": { "@type": "Person", "name": "Raquel Cardoso", "jobTitle": "Fisioterapeuta" },
     "sameAs": [
       "https://www.instagram.com/pilatesfiore/",
-      "https://www.facebook.com/pilatesfiore"
+      "https://www.facebook.com/profile.php?id=61577645214737",
+      "https://www.tiktok.com/@fiorepilates",
+      "https://maps.app.goo.gl/bQtjxJiBTJSpTJJ29"
     ],
     "makesOffer": [
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Gestantes", "description": "Pilates pré-natal individualizado, respeitando cada fase da gestação." } },
@@ -124,12 +130,12 @@
         <img src="./assets/images/fiore-logo.svg" alt="Fiore Pilates" width="105" height="36">
       </a>
       <nav class="nav-links" aria-label="Navegação principal">
-        <a href="#gestantes">Gestantes</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#florescer">Programa Florescer</a>
-        <a href="#metodo">Metodologia</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
+        <a href="/gestantes">Gestantes</a>
+        <a href="/#servicos">Serviços</a>
+        <a href="/#florescer">Florescer</a>
+        <a href="/eventos">Eventos</a>
+        <a href="/desafios">Desafios</a>
+        <a href="/#contato">Contato</a>
       </nav>
       <div class="nav-actions">
         <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn" target="_blank" rel="noopener">Agendar avaliação</a>
@@ -141,12 +147,13 @@
   </header>
 
   <div class="mobile-menu" id="mobile-menu" data-mobile-menu>
-    <a href="#gestantes">Gestantes</a>
-    <a href="#servicos">Serviços</a>
-    <a href="#florescer">Programa Florescer</a>
-    <a href="#metodo">Metodologia</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#contato">Contato</a>
+    <a href="/gestantes">Gestantes</a>
+    <a href="/#servicos">Serviços</a>
+    <a href="/#florescer">Programa Florescer</a>
+    <a href="/eventos">Eventos</a>
+    <a href="/desafios">Desafios</a>
+    <a href="/bolao">Bolão da Copa ⚽</a>
+    <a href="/#contato">Contato</a>
     <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--block" target="_blank" rel="noopener">Agendar avaliação no WhatsApp</a>
   </div>
 
@@ -402,23 +409,19 @@
         </div>
         <div class="team">
           <div class="member reveal">
+            <div class="ph"><img src="./assets/images/team/raquel.jpg" alt="Raquel Cardoso, fundadora e fisioterapeuta da Fiore" loading="lazy"></div>
+            <h4>Raquel Cardoso</h4><p>Fundadora · Fisioterapeuta</p>
+          </div>
+          <div class="member reveal d1">
             <div class="ph"><span>AS</span></div>
             <h4>Andressa</h4><p>Fisioterapeuta</p>
           </div>
-          <div class="member reveal d1">
-            <div class="ph"><img src="./assets/images/team-filipe.jpg" alt="Filipe, fisioterapeuta da Fiore" loading="lazy"></div>
+          <div class="member reveal d2">
+            <div class="ph"><img src="./assets/images/team/filipe.jpg" alt="Filipe, fisioterapeuta da Fiore" loading="lazy"></div>
             <h4>Filipe</h4><p>Fisioterapeuta</p>
           </div>
-          <div class="member reveal d2">
-            <div class="ph"><img src="./assets/images/team-jamile.jpg" alt="Jamile, fisioterapeuta da Fiore" loading="lazy"></div>
-            <h4>Jamile</h4><p>Fisioterapeuta</p>
-          </div>
           <div class="member reveal d3">
-            <div class="ph"><img src="./assets/images/team-raquel.jpg" alt="Raquel Cardoso, fundadora e fisioterapeuta da Fiore" loading="lazy"></div>
-            <h4>Raquel Cardoso</h4><p>Fundadora · Fisioterapeuta</p>
-          </div>
-          <div class="member reveal d4">
-            <div class="ph"><img src="./assets/images/team-rosana.jpg" alt="Rosana, massoterapia Fiore Toque" loading="lazy"></div>
+            <div class="ph"><img src="./assets/images/team/rosana.jpg" alt="Rosana, massoterapeuta do Fiore Toque" loading="lazy"></div>
             <h4>Rosana</h4><p>Fiore Toque · Massoterapia</p>
           </div>
         </div>
@@ -452,18 +455,22 @@
     <section class="section" id="tecnologia">
       <div class="container split">
         <div class="split-media reveal">
-          <img src="./assets/images/team-raquel.jpg" alt="Raquel Cardoso, fundadora da Fiore Pilates, no estúdio" width="618" height="1100" loading="lazy">
+          <img src="./assets/images/team/raquel.jpg" alt="Raquel Cardoso, fundadora da Fiore Pilates, no estúdio" width="618" height="1100" loading="lazy">
         </div>
         <div class="split-copy">
           <span class="eyebrow reveal">Tecnologia acolhedora</span>
           <h2 class="reveal d1">Cuidado humano, apoiado por tecnologia</h2>
           <p class="reveal d2">Acreditamos em um cuidado moderno e organizado — sem nunca perder o calor humano. Por isso,
-            usamos tecnologia para deixar a sua jornada mais clara, próxima e personalizada.</p>
+            criamos o <strong>Mirae</strong>, o aplicativo da Fiore que deixa a sua jornada mais clara, próxima e
+            personalizada — do primeiro contato ao acompanhamento de cada evolução.</p>
           <ul class="checklist reveal d2">
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Acompanhamento personalizado da sua evolução</li>
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Jornada organizada, do primeiro contato ao pós-parto</li>
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Protocolos internos atualizados e baseados em evidência</li>
           </ul>
+          <div class="btn-row reveal d3">
+            <a href="https://mirae.fiorepilates.com.br/" class="btn btn--ghost" target="_blank" rel="noopener">Acessar o Mirae</a>
+          </div>
         </div>
       </div>
     </section>
@@ -510,12 +517,14 @@
           <p class="lead">Elegante, sereno e acolhedor — cada detalhe foi preparado para você se sentir em casa.</p>
         </div>
         <div class="gallery reveal">
-          <img src="./assets/images/espaco-studio.jpg" alt="Sala de Pilates da Fiore com aparelhos e luz natural" width="618" height="1100" loading="lazy">
-          <img src="./assets/images/espaco-recanto.jpg" alt="Recanto acolhedor com plantas no estúdio Fiore" width="618" height="1100" loading="lazy">
-          <img src="./assets/images/pilates-aula.jpg" alt="Aula de Pilates em aparelho na Fiore" width="618" height="1100" loading="lazy">
-          <img src="./assets/images/espaco-reformer.jpg" alt="Aparelho Reformer no estúdio Fiore" width="618" height="1100" loading="lazy">
-          <img src="./assets/images/espaco-detalhe.jpg" alt="Detalhes e acessórios do estúdio Fiore" width="618" height="1100" loading="lazy">
-          <img src="./assets/images/espaco-fachada.jpg" alt="Fachada e entrada do estúdio Fiore em Bauru" width="618" height="1100" loading="lazy">
+          <img src="./assets/images/espaco-studio.jpg" alt="Sala de Pilates da Fiore com aparelhos e luz natural" width="787" height="1400" loading="lazy">
+          <img src="./assets/images/espaco-recanto.jpg" alt="Recanto acolhedor de espera no estúdio Fiore" width="787" height="1400" loading="lazy">
+          <img src="./assets/images/pilates-aula.jpg" alt="Aparelhos de Pilates prontos para a aula na Fiore" width="787" height="1400" loading="lazy">
+          <img src="./assets/images/espaco-reformer.jpg" alt="Aparelho Reformer no estúdio Fiore" width="787" height="1400" loading="lazy">
+          <img src="./assets/images/espaco-ceu.jpg" alt="Sala com teto pintado de céu azul no estúdio Fiore" width="787" height="1400" loading="lazy">
+          <img src="./assets/images/espaco-detalhe.jpg" alt="Detalhes e acessórios do estúdio Fiore" width="787" height="1400" loading="lazy">
+          <img src="./assets/images/espaco-entrada.jpg" alt="Entrada do estúdio Fiore com as portas vermelhas características" width="787" height="1400" loading="lazy">
+          <img src="./assets/images/espaco-fachada.jpg" alt="Fachada e parede com a marca Fiore em Bauru" width="787" height="1400" loading="lazy">
         </div>
       </div>
     </section>
@@ -665,7 +674,7 @@
             </li>
             <li>
               <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
-              <div><h4>Redes sociais</h4><p><a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener">@pilatesfiore</a></p></div>
+              <div><h4>Redes sociais</h4><p><a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener">@pilatesfiore</a> · <a href="https://www.tiktok.com/@fiorepilates" target="_blank" rel="noopener">TikTok</a> · <a href="https://www.facebook.com/profile.php?id=61577645214737" target="_blank" rel="noopener">Facebook</a></p></div>
             </li>
           </ul>
           <div class="map-frame reveal d1">
@@ -708,7 +717,8 @@
           </address>
           <div class="footer-social">
             <a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
-            <a href="https://www.facebook.com/pilatesfiore" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3 1-3 3v2H8v3h3v7h3v-7h2.5l.5-3H14V9Z"/></svg></a>
+            <a href="https://www.tiktok.com/@fiorepilates" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9v2.4c-1.3.1-2.5-.3-3.6-1v5.3c0 3.4-2.5 5.4-5.3 5.4A5.2 5.2 0 0 1 6 13.7c0-3 2.4-5.2 5.6-5v2.5c-.4-.1-.8-.2-1.2-.2-1.5 0-2.6 1.2-2.6 2.7 0 1.6 1.1 2.7 2.6 2.7 1.5 0 2.6-1.1 2.6-2.7V3h1.5Z"/></svg></a>
+            <a href="https://www.facebook.com/profile.php?id=61577645214737" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3 1-3 3v2H8v3h3v7h3v-7h2.5l.5-3H14V9Z"/></svg></a>
             <a href="https://wa.me/5514996598955" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></a>
           </div>
         </div>
@@ -735,11 +745,12 @@
           <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." target="_blank" rel="noopener">Agendar avaliação</a>
           <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20conhecer%20a%20Fiore." target="_blank" rel="noopener">Sou gestante</a>
           <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20as%20aulas%20da%20Fiore." target="_blank" rel="noopener">Tirar dúvidas</a>
-          <a href="https://www.google.com/search?q=Fiore+Pilates+Bauru+SP" target="_blank" rel="noopener">Avaliações no Google</a>
+          <a href="https://g.page/r/CS2fBMfwzWG6EAE/review" target="_blank" rel="noopener">Avaliar no Google</a>
+          <a href="https://mirae.fiorepilates.com.br/" target="_blank" rel="noopener">Acessar o app (Mirae)</a>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© <span data-year>2026</span> Fiore Pilates · Bauru/SP</span>
+        <span>© <span data-year>2026</span> Fiore Pilates LTDA · CNPJ 60.413.273/0001-90 · Bauru/SP</span>
         <span>Floresça com leveza e bem-estar.</span>
       </div>
     </div>
