@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /assets/lead-magnet/
-Disallow: /assets/brand/
 
 Sitemap: https://fiorepilates.com.br/sitemap.xml
