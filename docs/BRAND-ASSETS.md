@@ -28,7 +28,7 @@ W=1200; H=630; SVG=assets/brand/og-gestantes.svg; OUT=assets/images/og-gestantes
 printf '<!doctype html><meta charset="utf-8"><style>*{margin:0;padding:0}html,body{width:%spx;height:%spx;overflow:hidden}</style>' "$W" "$H" > /tmp/wrap.html
 cat "$SVG" >> /tmp/wrap.html
 "$CHROME" --headless --disable-gpu --hide-scrollbars --force-device-scale-factor=2 \
-  --window-size=$W,$H --screenshot=/tmp/shot.png "file://$(pwd)/tmp/wrap.html" 2>/dev/null
+  --window-size=$W,$H --screenshot=/tmp/shot.png "file:///tmp/wrap.html" 2>/dev/null
 sips -s format jpeg -s formatOptions 84 -Z $W /tmp/shot.png --out "$OUT"
 ```
 
