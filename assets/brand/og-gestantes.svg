@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#24281D"/>
+  <rect x="18" y="18" width="1164" height="594" rx="20" fill="none" stroke="#5E6440" stroke-width="2"/>
+
+  <g opacity="0.13" fill="#858E5E">
+    <path d="M1060 110 C 930 180 905 360 1060 520 C 1215 360 1190 180 1060 110 Z"/>
+  </g>
+  <g opacity="0.10" fill="#A7AE84">
+    <path d="M250 470 C 200 420 215 350 270 360 C 250 410 300 450 250 470 Z"/>
+  </g>
+
+  <g transform="translate(70 78)">
+    <path d="M16 0 C 4 9 2 33 16 50 C 30 33 28 9 16 0 Z" fill="none" stroke="#A7AE84" stroke-width="3"/>
+    <path d="M16 6 V46" stroke="#A7AE84" stroke-width="3"/>
+    <text x="44" y="38" font-family="Poppins,'Segoe UI',sans-serif" font-size="34" font-weight="600" letter-spacing="4" fill="#FDFFF7">fiore</text>
+  </g>
+
+  <text x="72" y="240" font-family="Poppins,'Segoe UI',sans-serif" font-size="23" font-weight="600" letter-spacing="3.5" fill="#A7AE84">PILATES PARA GESTANTES · BAURU</text>
+
+  <text x="70" y="320" font-family="Poppins,'Segoe UI',sans-serif" font-size="62" font-weight="600" fill="#FDFFF7">Um Pilates que acolhe</text>
+  <text x="70" y="394" font-family="Poppins,'Segoe UI',sans-serif" font-size="62" font-weight="600" fill="#FDFFF7">você e o <tspan font-style="italic" fill="#A7AE84">seu bebê</tspan></text>
+
+  <text x="72" y="452" font-family="Poppins,'Segoe UI',sans-serif" font-size="25" font-weight="300" fill="#E4E6DA">Cuidado individualizado e seguro em cada fase.</text>
+
+  <g transform="translate(72 510)">
+    <rect x="0" y="0" width="430" height="56" rx="28" fill="none" stroke="#5E6440" stroke-width="2"/>
+    <text x="26" y="37" font-family="Poppins,'Segoe UI',sans-serif" font-size="26" fill="#F2C94C">★★★★★</text>
+    <text x="180" y="37" font-family="Poppins,'Segoe UI',sans-serif" font-size="22" font-weight="500" fill="#FDFFF7">5,0 · 44 avaliações no Google</text>
+  </g>
+
+  <text x="1130" y="592" text-anchor="end" font-family="Poppins,'Segoe UI',sans-serif" font-size="22" font-weight="400" letter-spacing="0.5" fill="#A7AE84">fiorepilates.com.br/gestantes</text>
+</svg>

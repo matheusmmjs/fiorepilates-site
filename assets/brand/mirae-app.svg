@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1100" viewBox="0 0 720 1100">
+  <rect width="720" height="1100" fill="#F4F2E8"/>
+  <g opacity="0.12" fill="#858E5E">
+    <path d="M120 120 C 60 150 50 250 130 300 C 150 220 90 210 120 120 Z"/>
+    <path d="M610 880 C 670 850 680 950 600 1000 C 580 920 640 970 610 880 Z"/>
+  </g>
+
+  <!-- phone -->
+  <rect x="182" y="78" width="356" height="944" rx="48" fill="#24281D"/>
+  <rect x="182" y="78" width="356" height="944" rx="48" fill="none" stroke="#3a3f30" stroke-width="2"/>
+  <rect x="196" y="92" width="328" height="916" rx="36" fill="#FDFFF7"/>
+  <rect x="316" y="104" width="88" height="18" rx="9" fill="#24281D"/>
+
+  <!-- status bar -->
+  <text x="224" y="150" font-family="Poppins,'Segoe UI',sans-serif" font-size="17" font-weight="600" fill="#24281D">9:41</text>
+  <g fill="#5E6440"><rect x="452" y="140" width="20" height="11" rx="2"/><rect x="478" y="137" width="14" height="14" rx="3"/><rect x="496" y="140" width="6" height="11" rx="2"/></g>
+
+  <!-- header -->
+  <g transform="translate(224 182)">
+    <path d="M11 0 C 3 6 1 22 11 33 C 21 22 19 6 11 0 Z" fill="none" stroke="#5E6440" stroke-width="2.4"/>
+    <path d="M11 4 V30" stroke="#5E6440" stroke-width="2.4"/>
+    <text x="30" y="25" font-family="Poppins,'Segoe UI',sans-serif" font-size="23" font-weight="600" letter-spacing="1" fill="#24281D">Mirae</text>
+  </g>
+  <circle cx="488" cy="198" r="20" fill="#EEF0E4"/>
+  <text x="488" y="205" text-anchor="middle" font-family="Poppins,'Segoe UI',sans-serif" font-size="16" font-weight="600" fill="#5E6440">M</text>
+  <text x="224" y="252" font-family="Poppins,'Segoe UI',sans-serif" font-size="15" font-weight="300" fill="#5C5E52">Olá, Marina 🌿</text>
+
+  <!-- hero card -->
+  <rect x="224" y="272" width="272" height="158" rx="22" fill="#24281D"/>
+  <text x="248" y="312" font-family="Poppins,'Segoe UI',sans-serif" font-size="11" font-weight="600" letter-spacing="2" fill="#A7AE84">SUA JORNADA NA FIORE</text>
+  <text x="248" y="342" font-family="Poppins,'Segoe UI',sans-serif" font-size="22" font-weight="600" fill="#FDFFF7">Floresça no seu ritmo</text>
+  <rect x="248" y="364" width="224" height="9" rx="4.5" fill="#3f4534"/>
+  <rect x="248" y="364" width="158" height="9" rx="4.5" fill="#A7AE84"/>
+  <text x="248" y="404" font-family="Poppins,'Segoe UI',sans-serif" font-size="13" font-weight="400" fill="#D6D9C9">12 aulas concluídas este mês</text>
+
+  <!-- próxima aula -->
+  <rect x="224" y="448" width="272" height="86" rx="18" fill="#F4F2E8"/>
+  <circle cx="262" cy="491" r="20" fill="#FDFFF7"/>
+  <path d="M255 491 l5 5 l9 -10" fill="none" stroke="#5E6440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="296" y="484" font-family="Poppins,'Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="1" fill="#82847A">PRÓXIMA AULA</text>
+  <text x="296" y="508" font-family="Poppins,'Segoe UI',sans-serif" font-size="16" font-weight="500" fill="#24281D">Quinta, 18h · com a Raquel</text>
+
+  <!-- evolução card -->
+  <rect x="224" y="552" width="272" height="200" rx="18" fill="#FDFFF7" stroke="#E4E3D6" stroke-width="1.5"/>
+  <text x="248" y="590" font-family="Poppins,'Segoe UI',sans-serif" font-size="16" font-weight="600" fill="#24281D">Sua evolução</text>
+  <text x="248" y="612" font-family="Poppins,'Segoe UI',sans-serif" font-size="12" font-weight="300" fill="#82847A">Força e mobilidade nas últimas semanas</text>
+  <g>
+    <rect x="252" y="690" width="28" height="38" rx="5" fill="#C9CEB0"/>
+    <rect x="292" y="676" width="28" height="52" rx="5" fill="#A7AE84"/>
+    <rect x="332" y="662" width="28" height="66" rx="5" fill="#A7AE84"/>
+    <rect x="372" y="646" width="28" height="82" rx="5" fill="#5E6440"/>
+    <rect x="412" y="636" width="28" height="92" rx="5" fill="#5E6440"/>
+    <rect x="452" y="628" width="28" height="100" rx="5" fill="#24281D"/>
+  </g>
+
+  <!-- bem-estar -->
+  <rect x="224" y="770" width="272" height="74" rx="18" fill="#EEF0E4"/>
+  <text x="248" y="804" font-family="Poppins,'Segoe UI',sans-serif" font-size="15" font-weight="500" fill="#24281D">Sequência de cuidado</text>
+  <text x="248" y="826" font-family="Poppins,'Segoe UI',sans-serif" font-size="12" font-weight="300" fill="#5C5E52">6 semanas seguidas 🌿</text>
+
+  <!-- bottom nav -->
+  <line x1="224" y1="900" x2="496" y2="900" stroke="#EFEEE4" stroke-width="1.5"/>
+  <g fill="none" stroke="#24281D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 942 l16 -13 l16 13 v18 h-32 z"/>
+  </g>
+  <g fill="none" stroke="#9a9c90" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="312" y="930" width="30" height="28" rx="4"/><path d="M312 938 h30 M320 926 v8 M334 926 v8"/>
+    <path d="M380 958 v-20 M392 958 v-30 M404 958 v-12"/>
+    <circle cx="456" cy="934" r="8"/><path d="M442 958 c0 -10 28 -10 28 0"/>
+  </g>
+</svg>
