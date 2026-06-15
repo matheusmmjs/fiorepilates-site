@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family:'Poppins'; font-weight:300; src:url('../fonts/poppins-latin-300.woff2') format('woff2'); }
+  @font-face { font-family:'Poppins'; font-weight:400; src:url('../fonts/poppins-latin-400.woff2') format('woff2'); }
+  @font-face { font-family:'Poppins'; font-weight:500; src:url('../fonts/poppins-latin-500.woff2') format('woff2'); }
+  @font-face { font-family:'Poppins'; font-weight:600; src:url('../fonts/poppins-latin-600.woff2') format('woff2'); }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  @page { size:A4; margin:0; }
+  html { font-family:'Poppins',sans-serif; color:#2B2C26; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .page { width:210mm; height:297mm; padding:22mm 20mm; position:relative; overflow:hidden; page-break-after:always; }
+  .page:last-child { page-break-after:auto; }
+  .bg-forest { background:#24281D; color:#FDFFF7; }
+  .bg-sand { background:#F4F2E8; }
+  .bg-cream { background:#FDFFF7; }
+  h1 { font-weight:600; font-size:34pt; line-height:1.1; color:#FDFFF7; }
+  h2 { font-weight:600; font-size:19pt; color:#24281D; margin-bottom:7mm; }
+  h3 { font-weight:600; font-size:12.5pt; color:#5E6440; margin-bottom:2mm; }
+  p { font-weight:300; font-size:11pt; line-height:1.65; color:#3a3b34; margin-bottom:3.5mm; }
+  .eyebrow { font-weight:600; font-size:9pt; letter-spacing:3px; text-transform:uppercase; color:#A7AE84; margin-bottom:5mm; }
+  .lead { font-size:12.5pt; font-weight:300; color:#5C5E52; }
+  ul { list-style:none; margin:2mm 0 4mm; }
+  li { font-weight:300; font-size:11pt; line-height:1.55; color:#3a3b34; padding-left:9mm; position:relative; margin-bottom:3mm; }
+  li::before { content:''; position:absolute; left:0; top:3.5pt; width:5mm; height:5mm; border-radius:50%; background:#A7AE84; }
+  li b { font-weight:600; color:#24281D; }
+  .card { background:#FDFFF7; border:1px solid #E4E3D6; border-radius:5mm; padding:7mm 8mm; margin-bottom:6mm; }
+  .note { background:#EEF0E4; border-left:4px solid #5E6440; border-radius:0 3mm 3mm 0; padding:5mm 6mm; font-size:9.5pt; color:#4a4c40; line-height:1.5; }
+  .note b { color:#24281D; }
+  .leaf { position:absolute; opacity:.10; }
+  .footer { position:absolute; left:20mm; right:20mm; bottom:14mm; display:flex; justify-content:space-between; font-size:8.5pt; color:#A7AE84; font-weight:400; border-top:1px solid rgba(94,100,64,.2); padding-top:4mm; }
+  .tri { display:flex; gap:6mm; margin-bottom:5mm; align-items:flex-start; }
+  .tri .n { flex:none; width:13mm; height:13mm; border-radius:50%; background:#24281D; color:#FDFFF7; font-weight:600; font-size:13pt; display:flex; align-items:center; justify-content:center; }
+  .cta { background:#24281D; color:#FDFFF7; border-radius:6mm; padding:9mm 10mm; text-align:center; margin-top:4mm; }
+  .cta h2 { color:#FDFFF7; margin-bottom:4mm; }
+  .cta p { color:#E4E6DA; }
+  .pill { display:inline-block; background:#5E6440; color:#FDFFF7; font-weight:600; font-size:11pt; padding:3.5mm 8mm; border-radius:30px; margin-top:3mm; }
+  .leafmark { width:26mm; height:auto; }
+</style>
+</head>
+<body>
+
+<!-- CAPA -->
+<div class="page bg-forest">
+  <svg class="leaf" style="width:150mm;right:-30mm;top:-20mm" viewBox="0 0 100 100"><path d="M50 5C20 20 15 60 50 95C85 60 80 20 50 5Z" fill="#858E5E"/><path d="M50 12V90" stroke="#24281D" stroke-width="1.4"/></svg>
+  <svg class="leaf" style="width:90mm;left:-25mm;bottom:-25mm" viewBox="0 0 100 100"><path d="M50 5C20 20 15 60 50 95C85 60 80 20 50 5Z" fill="#A7AE84"/></svg>
+  <div style="position:relative;z-index:2;margin-top:40mm">
+    <svg class="leafmark" viewBox="0 0 100 100"><path d="M50 8C24 22 20 58 50 92C80 58 76 22 50 8Z" fill="none" stroke="#A7AE84" stroke-width="3"/><path d="M50 16V86" stroke="#A7AE84" stroke-width="3"/></svg>
+    <p class="eyebrow" style="margin-top:10mm">Fiore Pilates · Bauru/SP</p>
+    <h1>Guia da<br>Gestante Ativa<br>em Bauru</h1>
+    <p class="lead" style="color:#D6D9C9;margin-top:8mm;max-width:120mm">Movimento, respiração e bem-estar para viver a sua gestação com mais leveza e segurança — respeitando cada fase do seu corpo.</p>
+    <span class="pill" style="margin-top:14mm">Um presente da Fiore para você 🌿</span>
+  </div>
+  <div class="footer" style="color:#A7AE84;border-color:rgba(167,174,132,.3)"><span>fiorepilates.com.br</span><span>Floresça com leveza e bem-estar</span></div>
+</div>
+
+<!-- INTRO -->
+<div class="page bg-sand">
+  <p class="eyebrow">Antes de começar</p>
+  <h2>Por que se manter ativa na gestação?</h2>
+  <p>A gestação é uma jornada única — e o seu corpo está fazendo algo extraordinário. Manter-se ativa, <b>com acompanhamento adequado</b>, pode ser uma forma carinhosa de cuidar de você e do seu bebê nesse período.</p>
+  <p>Com a orientação de profissionais especializados, a prática regular de exercícios como o Pilates <b>pode contribuir</b> para o alívio de desconfortos, mais consciência corporal, melhor respiração e uma preparação mais tranquila para o parto — sempre respeitando o seu tempo e a sua fase.</p>
+  <div class="card">
+    <h3>O que você vai encontrar neste guia</h3>
+    <ul>
+      <li>Como o movimento <b>pode ajudar</b> em cada trimestre</li>
+      <li>Hábitos simples que acolhem o corpo no dia a dia</li>
+      <li>Sinais para ficar atenta e quando procurar o seu médico</li>
+      <li>Como escolher um espaço seguro para se exercitar em Bauru</li>
+    </ul>
+  </div>
+  <div class="note"><b>Importante:</b> este material é informativo e <b>não substitui orientação médica</b>. Cada gestação é única. Antes de iniciar qualquer atividade física, converse com o seu obstetra e busque acompanhamento de profissionais especializados.</div>
+  <div class="footer"><span>Guia da Gestante Ativa em Bauru</span><span>Fiore Pilates · 02</span></div>
+</div>
+
+<!-- TRIMESTRES -->
+<div class="page bg-cream">
+  <p class="eyebrow">Movimento com cuidado</p>
+  <h2>O seu corpo em cada trimestre</h2>
+  <p style="margin-bottom:7mm">Cada fase pede um cuidado diferente. Veja, de forma geral, como o movimento <b>pode acompanhar</b> você — sempre com liberação médica e orientação profissional.</p>
+  <div class="tri"><div class="n">1º</div><div><h3>Primeiro trimestre · acolher</h3><p style="margin-bottom:0">Fase de adaptação. O foco costuma ser a consciência da respiração, do assoalho pélvico e da postura, com exercícios suaves que respeitam o enjoo e o cansaço comuns desse início.</p></div></div>
+  <div class="tri"><div class="n">2º</div><div><h3>Segundo trimestre · fortalecer</h3><p style="margin-bottom:0">Costuma ser o período de mais disposição. É um bom momento para fortalecer o corpo de forma segura — core, pernas e costas — ajudando a sustentar as mudanças da barriga que cresce.</p></div></div>
+  <div class="tri"><div class="n">3º</div><div><h3>Terceiro trimestre · preparar</h3><p style="margin-bottom:0">O foco se volta ao conforto, à mobilidade do quadril, à respiração e ao relaxamento — um cuidado que <b>pode contribuir</b> para a preparação para o parto, respeitando o seu ritmo.</p></div></div>
+  <div class="note" style="margin-top:3mm"><b>Lembre-se:</b> estas são orientações gerais. O que é indicado para você depende da sua avaliação individual e da liberação do seu médico.</div>
+  <div class="footer"><span>Guia da Gestante Ativa em Bauru</span><span>Fiore Pilates · 03</span></div>
+</div>
+
+<!-- HABITOS + SINAIS -->
+<div class="page bg-sand">
+  <p class="eyebrow">No dia a dia</p>
+  <h2>Pequenos hábitos que acolhem</h2>
+  <ul>
+    <li><b>Respire com atenção.</b> Respirações lentas e profundas ajudam a relaxar e a se conectar com o corpo.</li>
+    <li><b>Cuide da postura.</b> Ao sentar, levantar e dormir, busque apoios que aliviem a lombar.</li>
+    <li><b>Movimente-se com regularidade.</b> Pausas para alongar e caminhar leve podem aliviar tensões.</li>
+    <li><b>Hidrate-se e descanse.</b> Água ao longo do dia e um sono de qualidade fazem diferença.</li>
+    <li><b>Escute o seu corpo.</b> Cansaço e limites fazem parte — respeite o seu tempo, sem cobrança.</li>
+  </ul>
+  <div class="card" style="margin-top:3mm">
+    <h3 style="color:#9a4b3b">Quando procurar o seu médico</h3>
+    <p style="margin-bottom:0">Sangramentos, dor intensa, contrações, tontura, falta de ar fora do normal ou redução dos movimentos do bebê merecem atenção imediata. Na dúvida, procure sempre o seu obstetra — segurança em primeiro lugar.</p>
+  </div>
+  <div class="footer"><span>Guia da Gestante Ativa em Bauru</span><span>Fiore Pilates · 04</span></div>
+</div>
+
+<!-- COMO ESCOLHER + CTA -->
+<div class="page bg-cream">
+  <p class="eyebrow">Para escolher bem</p>
+  <h2>Um espaço seguro para se cuidar</h2>
+  <p>Na hora de escolher onde se exercitar na gestação, procure por:</p>
+  <ul>
+    <li>Profissionais <b>especializados</b> em cuidado pré e pós-natal</li>
+    <li><b>Avaliação individual</b> e um plano adaptado a cada trimestre</li>
+    <li>Ambiente acolhedor, seguro e preparado para você</li>
+    <li>Diálogo aberto com o seu acompanhamento médico</li>
+  </ul>
+  <div class="cta">
+    <h2>Na Fiore, você é cuidada de verdade 🌿</h2>
+    <p>Somos um estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher. Cada aula é individualizada, pensada para a sua fase, com acolhimento e técnica.</p>
+    <p style="margin-bottom:0">Quer dar o primeiro passo? Agende a sua <b style="color:#fff">avaliação inicial</b>:</p>
+    <span class="pill" style="background:#A7AE84;color:#24281D;margin-top:5mm">WhatsApp (14) 99659-8955</span>
+  </div>
+  <p style="text-align:center;margin-top:8mm;font-size:9.5pt;color:#82847A">R. Baltazar Rodrigues, 4-82 · Jardim Planalto · Bauru/SP<br>fiorepilates.com.br · @pilatesfiore</p>
+  <div class="footer"><span>Guia da Gestante Ativa em Bauru</span><span>Fiore Pilates · 05</span></div>
+</div>
+
+</body>
+</html>
