@@ -35,9 +35,10 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
 2. **Prints do app Mirae** — para a seção Tecnologia (item 2.3 do roadmap; hoje só
    há a menção textual + link).
 3. **ID do Pixel da Meta** — para instalar o pixel + eventos (item 2.7 do roadmap).
-4. **Foto horizontal (paisagem)** para a OG da página de gestantes — as fotos atuais
-   são todas verticais (9:16); a OG ideal é 1200×630.
-5. **E-mail de contato** (opcional) para rodapé/dados estruturados.
+4. **E-mail de contato** (opcional) para rodapé/dados estruturados.
+5. **Foto horizontal (paisagem)** real (opcional): a OG de `/gestantes` hoje usa um
+   card desenhado da marca (`og-gestantes.jpg`, 1200×630); uma foto real pode substituir
+   depois, se quiser.
 
 ## Como entregar imagens/vídeos
 

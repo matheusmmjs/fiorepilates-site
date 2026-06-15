@@ -22,6 +22,11 @@ Para gestantes, **linguagem ética** (ver [ADR 0005](adr/0005-conteudo-etico-e-p
 usar "pode ajudar", "contribui", "com acompanhamento adequado", "respeitando cada fase";
 sempre o aviso de não substituir orientação médica.
 
+**Sem travessão (—) nem meia-risca (–)** como pontuação de frase — soa a texto de IA.
+Usar vírgula, ponto, "e"/"que" ou "|" em títulos. Hífen de palavra composta (pós-parto,
+bem-estar) é normal. Ver [ADR 0011](adr/0011-voz-humana-sem-travessoes.md). Conferir antes
+de publicar: `grep -n "—\|–" *.html`.
+
 ## Estratégia de CTA
 
 | Intenção | Texto | Mensagem WhatsApp (pré-preenchida) |
