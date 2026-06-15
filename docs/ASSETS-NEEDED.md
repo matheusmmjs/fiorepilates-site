@@ -29,15 +29,15 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
 
 ## ⏳ Pendente
 
-1. **Foto real da Andressa** em arquivo. Hoje está com placeholder de iniciais "AS"
-   (a foto enviada veio colada no chat, não como arquivo). Arraste o arquivo (ou
-   salve em `~/Downloads`) que a gente troca — destino: `assets/images/team/andressa.jpg`.
-2. **Fotos dos eventos** (com autorização): Curso de Gestantes da Unimed (3 edições)
+1. **Fotos dos eventos** (com autorização): Curso de Gestantes da Unimed (3 edições)
    e cafés da manhã — para enriquecer `/eventos` (hoje o card da Unimed usa foto do
    espaço como placeholder). Ver [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md).
-3. **Foto horizontal (paisagem)** para a OG da página de gestantes — as fotos atuais
+2. **Prints do app Mirae** — para a seção Tecnologia (item 2.3 do roadmap; hoje só
+   há a menção textual + link).
+3. **ID do Pixel da Meta** — para instalar o pixel + eventos (item 2.7 do roadmap).
+4. **Foto horizontal (paisagem)** para a OG da página de gestantes — as fotos atuais
    são todas verticais (9:16); a OG ideal é 1200×630.
-4. **E-mail de contato** (opcional) para rodapé/dados estruturados.
+5. **E-mail de contato** (opcional) para rodapé/dados estruturados.
 
 ## Como entregar imagens/vídeos
 
