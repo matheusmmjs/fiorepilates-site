@@ -35,11 +35,12 @@
 |---|------|------|--------|
 | 1.1 | ~~Vídeos no YouTube~~ → transcodificados localmente (H.264) e auto-hospedados ([ADR 0010](adr/0010-videos-autohospedados-h264.md)); migração p/ YouTube vira issue | C | ✅ 2026-06-12 |
 | 1.2 | Vídeos no site: Florescer (#florescer), café da manhã (#eventos), massoterapia (nova seção #toque) | C | ✅ 2026-06-12 |
-| 1.3 | Enviar: link curto de avaliação GBP + URL Maps, lat/long, CREFITO da equipe, foto da Andressa | M | ⬜ |
-| 1.4 | Aplicar no site: `geo` no schema, `sameAs` GBP/Maps, link direto de avaliações, bios com CREFITO | C | ⏳ 1.3 |
-| 1.5 | OG image própria para /gestantes (precisa foto paisagem — ver 2.4) | C | ⏳ 2.4 |
+| 1.3 | Enviar: link curto de avaliação GBP + URL Maps, lat/long, foto da Andressa (CREFITO dispensado pelo cliente) | M | ✅ 2026-06-14 |
+| 1.4 | Aplicar no site: `geo` no schema, `sameAs` GBP/Maps, link direto de avaliações, CNPJ/razão social, TikTok/Facebook, app Mirae | C | ✅ 2026-06-14 |
+| 1.5 | OG image própria para /gestantes | C | ✅ 2026-06-14 (card 1200×630 da marca, `og-gestantes.jpg`; foto-paisagem real fica opcional p/ depois) |
 | 1.6 | Página `/eventos` (comunidade): café da manhã + Unimed, com template e runbook [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md) | C | ✅ 2026-06-12 |
 | 1.7 | Enviar fotos reais dos eventos (Unimed, cafés) + depoimentos de participantes para enriquecer `/eventos` | M | ⬜ |
+| 1.8 | Navegação: `/eventos` e `/desafios` no header de todas as páginas (antes só no rodapé) + `/bolao` no menu mobile; fotos reais do estúdio; equipe (Jamile out, pasta `team/`); arte da Copa | C | ✅ 2026-06-14 |
 
 ## Campanha — Bolão da Copa 2026 (junho–julho) · [BOLAO.md](BOLAO.md)
 
@@ -60,14 +61,14 @@
 
 | # | Item | Quem | Status |
 |---|------|------|--------|
-| 2.1 | 4 páginas de serviço: `/pilates-pos-parto`, `/fisioterapia-pelvica`, `/pilates-idosos-reabilitacao`, `/saude-da-mulher` | C | ⬜ |
-| 2.2 | Página `/florescer` dedicada (destino de anúncios e bio do Instagram) | C | ⬜ |
-| 2.3 | Seção Tecnologia reescrita com prints do Mirae (sem vender o produto) | C+M | ⬜ |
+| 2.1 | 4 páginas de serviço: `/pilates-pos-parto`, `/fisioterapia-pelvica`, `/pilates-idosos-reabilitacao`, `/saude-da-mulher` (Service + BreadcrumbList + FAQ schema, linguagem ética) | C | ✅ 2026-06-14 |
+| 2.2 | Página `/florescer` dedicada (destino de anúncios e bio do Instagram) | C | ✅ 2026-06-14 |
+| 2.3 | Seção Tecnologia reescrita com o Mirae (sem vender o produto) | C+M | ✅ 2026-06-14 — mockup da marca do app (`assets/brand/mirae-app.svg`, sem dado real) + menção e link; print real do app fica opcional |
 | 2.4 | Sessão de fotos profissional: gestantes reais em aula (autorização!), equipe, aparelhos, 2–3 fotos paisagem | M | ⬜ |
 | 2.5 | GBP completo: serviços cadastrados, categorias, Q&A semeado, 1 post + 3 fotos/semana | M | ⬜ |
 | 2.6 | Motor de avaliações: NPS do Mirae → link de avaliação Google (meta: 8–10/mês) | M | ⏳ 1.3 |
 | 2.7 | Pixel Meta + públicos (visitantes /gestantes, engajadores IG) | C+M | ⬜ |
-| 2.8 | Lead magnet "Guia da Gestante Ativa em Bauru" (PDF via WhatsApp) | C+M | ⬜ |
+| 2.8 | Lead magnet "Guia da Gestante Ativa em Bauru" (PDF via WhatsApp) — PDF + página `/guia-gestante` + captação por WhatsApp + promo em `/gestantes` ([LEAD-MAGNET.md](LEAD-MAGNET.md)) | C+M | ✅ (C) 2026-06-14 — falta o cliente revisar o conteúdo e divulgar |
 
 ## Fase 3 — Aquisição e escala (até 90 dias)
 

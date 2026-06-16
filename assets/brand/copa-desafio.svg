@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="t d">
+  <title id="t">Bolão da Copa 2026 — Fiore Pilates</title>
+  <desc id="d">Arte da campanha: vamos desafiar você. Bolão da Fiore para a Copa do Mundo 2026.</desc>
+  <defs>
+    <clipPath id="ball"><circle cx="540" cy="855" r="140"/></clipPath>
+  </defs>
+
+  <rect width="1080" height="1350" fill="#24281D"/>
+  <rect x="44" y="44" width="992" height="1262" rx="28" fill="none" stroke="#5E6440" stroke-width="2"/>
+
+  <g fill="#858E5E" opacity="0.16">
+    <path d="M150 150 C 250 120 300 230 200 280 C 180 200 110 210 150 150 Z"/>
+    <path d="M930 1190 C 830 1220 780 1110 880 1060 C 900 1140 970 1130 930 1190 Z"/>
+    <path d="M120 1070 C 90 990 180 950 220 1020 C 150 1030 160 1100 120 1070 Z"/>
+    <path d="M960 230 C 990 310 900 350 860 280 C 930 270 920 200 960 230 Z"/>
+  </g>
+
+  <g transform="translate(540 200)">
+    <rect x="-220" y="-34" width="440" height="68" rx="34" fill="none" stroke="#A7AE84" stroke-width="2"/>
+    <circle cx="-165" cy="0" r="14" fill="#FDFFF7"/>
+    <path d="M-165 -14 L-156 -7 L-160 4 L-170 4 L-174 -7 Z" fill="#24281D"/>
+    <text x="25" y="9" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="26" font-weight="600" letter-spacing="1.5" fill="#FDFFF7">COPA DO MUNDO 2026</text>
+  </g>
+
+  <text x="540" y="350" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="58" font-weight="400" fill="#F4F2E8">Em homenagem à Copa</text>
+  <text x="540" y="420" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="58" font-weight="400" fill="#F4F2E8">e ao <tspan font-weight="600" fill="#A7AE84">Brasil</tspan></text>
+
+  <text x="540" y="545" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="96" font-weight="700" fill="#FDFFF7">vamos desafiar</text>
+  <text x="540" y="650" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="96" font-weight="700" font-style="italic" fill="#A7AE84">você!</text>
+
+  <circle cx="540" cy="855" r="140" fill="#FDFFF7"/>
+  <g clip-path="url(#ball)" fill="#24281D">
+    <path d="M540 775 L588 810 L570 866 L510 866 L492 810 Z"/>
+    <path d="M540 720 L500 745 L492 810 L540 775 L588 810 L580 745 Z"/>
+    <path d="M425 832 L492 810 L510 866 L474 905 L420 872 Z"/>
+    <path d="M655 832 L588 810 L570 866 L606 905 L660 872 Z"/>
+    <path d="M510 866 L570 866 L588 925 L540 962 L492 925 Z"/>
+  </g>
+  <circle cx="540" cy="855" r="140" fill="none" stroke="#24281D" stroke-width="3"/>
+
+  <text x="540" y="1078" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="50" font-weight="600" fill="#FDFFF7">Entre no Bolão da Fiore</text>
+  <text x="540" y="1134" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="33" font-weight="400" fill="#F4F2E8">Palpite nos jogos e concorra a</text>
+  <text x="540" y="1178" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="33" font-weight="600" fill="#A7AE84">1 mês de Pilates</text>
+
+  <g transform="translate(540 1248)">
+    <text x="0" y="0" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="42" font-weight="600" letter-spacing="6" fill="#FDFFF7">fiore</text>
+    <text x="0" y="44" text-anchor="middle" font-family="Poppins, 'Segoe UI', sans-serif" font-size="24" font-weight="400" letter-spacing="1" fill="#A7AE84">fiorepilates.com.br/bolao</text>
+  </g>
+</svg>

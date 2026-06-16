@@ -26,6 +26,11 @@ alta conversão para WhatsApp. Sensação-alvo: *"aqui eu vou ser cuidada de ver
 
 ## Conteúdo (cuidado)
 
+- **Voz humana, sem travessão.** Nunca usar travessão (—) nem meia-risca (–) como
+  pontuação de frase (texto visível, `<title>`, metas, OG, JSON-LD, `alt`, PDFs); soa
+  a IA. Usar vírgula, ponto, "e"/"que" ou "|" em títulos. Hífen de palavra composta
+  (pós-parto, bem-estar, 4-82) é normal. Ver [ADR 0011](docs/adr/0011-voz-humana-sem-travessoes.md).
+  Conferir: `grep -n "—\|–" *.html`.
 - **Gestantes:** linguagem ética, sem promessa médica ("pode ajudar", "contribui",
   "com acompanhamento adequado", "respeitando cada fase") + aviso de não substituir
   orientação médica. Ver [ADR 0005](docs/adr/0005-conteudo-etico-e-prova-social-real.md).

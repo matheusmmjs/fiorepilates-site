@@ -1,6 +1,7 @@
 # O que precisamos de você (mídias e dados)
 
-Atualizado em 2026-05-22 após o cliente enviar logo, tipografia, fotos e vídeos.
+Atualizado em 2026-06-14 — fechamos a maior parte das pendências de mídia e dados
+neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no fim.
 
 ## ✅ Já resolvido
 
@@ -8,52 +9,36 @@ Atualizado em 2026-05-22 após o cliente enviar logo, tipografia, fotos e vídeo
 - **Avaliações Google:** 5,0 com 44 avaliações — exibido no site + `AggregateRating` ativo.
 - **Horário:** Seg–Sex 6h–20h · Sáb 7h–12h.
 - **Nome do programa:** "Florescer" (oficial).
+- **Vídeos** (Florescer, café da manhã, massoterapia): transcodificados p/ H.264 e
+  auto-hospedados em `assets/videos/`. Ver [ADR 0010](adr/0010-videos-autohospedados-h264.md).
+- **Fotos reais do espaço:** 8 fotos novas do estúdio (aparelhos, recepção, fachada,
+  sala do céu, entrada) na seção "Nosso espaço". Originais em `~/Downloads/FIORE 2`.
+- **Equipe:** Jamile saiu (removida do site). Time Florescer = **Raquel** (fundadora),
+  **Andressa** e **Filipe** (fisioterapeutas) + **Rosana** (massoterapeuta, Fiore Toque).
+  Fotos organizadas em `assets/images/team/`. Sem CREFITO no site (decisão do cliente).
+- **Coordenadas (geo):** -22.3405673, -49.0528841 no schema + `hasMap`.
+- **Razão social / CNPJ:** Fiore Pilates LTDA · 60.413.273/0001-90 (rodapé + `legalName`/`taxID`).
+- **Redes:** TikTok `@fiorepilates` e Facebook (perfil real) no rodapé + `sameAs`.
+- **App Mirae** (`https://mirae.fiorepilates.com.br/`): citado na seção Tecnologia +
+  link no rodapé.
+- **Link de avaliação GBP:** `g.page/r/CS2fBMfwzWG6EAE/review` (rodapé) + URL do Maps no `sameAs`.
+- **Form do bolão:** embed do Google Form ativo em `/bolao` (saiu o fallback de WhatsApp).
+- **Dourado:** mantido o padrão da marca (olive/verde, sem dourado) — confirmado pelo cliente.
+- **Arte da campanha da Copa:** criada em `assets/images/copa-desafio.svg` (+ `.png` 1080×1350)
+  para posts/stories, na identidade da marca.
 
-## ⏳ Pendente — Mídia (bloqueado)
+## ⏳ Pendente
 
-1. **Vídeos enviados estão em HEVC (H.265)** — não tocam na maioria dos navegadores.
-   Para usar, precisamos de **um** destes:
-   - liberar espaço em disco para transcodificar aqui (a máquina está ~cheia: ~0,6 GB
-     livres de 228 GB — não coube instalar o `ffmpeg`), **ou**
-   - você enviar os vídeos já em **MP4 (H.264)**, **ou**
-   - hospedar no **YouTube/Vimeo** e a gente embeda (recomendado: mais leve e rápido).
-   Vídeos: café da manhã com gestantes (evento), Florescer (explicativo), massoterapia (Fiore Toque).
-2. **Fotos da equipe:** vieram **dentro da conversa** (imagens), sem os **arquivos**.
-   Envie os arquivos (ou uma pasta) em alta: Raquel, Jamile, Filipe, Rosana (Fiore Toque)
-   — para montarmos a seção **"Time Florescer"**. Confirme nome + função de cada um.
-3. **Mais fotos reais** do espaço/aulas/aparelhos (Reformer, Cadillac, Chair) — hoje o site
-   reaproveita uma única foto real do espaço.
-
-## ⏳ Pendente — Dados
-
-4. **Coordenadas (lat/long)** exatas do estúdio — para `geo` no schema e pin preciso.
-5. **Razão social / CNPJ** e e-mail de contato (rodapé / dados estruturados).
-6. **TikTok** (URL) e se mantém Facebook ativo.
-7. Destino do **"Fiore App"** (`app.fiorepilates.com.br`) — entra no menu?
-8. **Dourado:** o manual visual não usa dourado (usamos olive/verde). Confirmar se quer
-   manter assim ou reintroduzir um dourado (fácil de ajustar).
-9. **Link do Perfil da Empresa no Google (GBP):** o link curto de avaliação
-   (`g.page/r/...`, em GBP → "Pedir avaliações") e a URL do perfil no Maps — para
-   trocar o link genérico de busca por link direto e incluir no `sameAs` do schema.
-10. **Credenciais da equipe:** CREFITO + especializações/formações de Raquel, Jamile,
-    Filipe e Andressa (e formação da Rosana) — para bios do time e E-E-A-T.
-11. **Foto da Andressa** (hoje está com placeholder de iniciais).
-12. **Foto horizontal (paisagem) para OG da página de gestantes** — todas as fotos
-    atuais são verticais (618×1100); a OG ideal é 1200×630.
-13. ~~**Vídeos no YouTube**~~ ✅ Resolvido de outro jeito (2026-06-12): com o disco
-    liberado, transcodificamos localmente para H.264 e os vídeos estão **no site**
-    (`assets/videos/`) — ver [ADR 0010](adr/0010-videos-autohospedados-h264.md).
-    Migração futura para YouTube registrada em issue no GitHub. Originais HEVC
-    permanecem em `~/Downloads` até lá.
-14. **Link de embed do Google Form do bolão** — criar o formulário conforme
-    [BOLAO.md](BOLAO.md) e mandar o iframe (Enviar → `<>`); hoje a página `/bolao`
-    usa fallback de WhatsApp para receber palpites.
-15. **Fotos dos eventos** (com autorização): Curso de Gestantes da Unimed (3 edições)
-    e cafés da manhã — para a página `/eventos` (hoje o card da Unimed usa foto do
-    espaço como placeholder). Ver [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md).
-16. **Arte da campanha da Copa** (a imagem "Vamos desafiar você!"): se quiser usá-la
-    literal no site/posts, enviar o **arquivo** (de preferência sem as linhas
-    tracejadas) — o banner atual da home é recriado em HTML/CSS na mesma vibe.
+1. **Fotos dos eventos** (com autorização): Curso de Gestantes da Unimed (3 edições)
+   e cafés da manhã — para enriquecer `/eventos` (hoje o card da Unimed usa foto do
+   espaço como placeholder). Ver [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md).
+2. **Prints do app Mirae** — para a seção Tecnologia (item 2.3 do roadmap; hoje só
+   há a menção textual + link).
+3. **ID do Pixel da Meta** — para instalar o pixel + eventos (item 2.7 do roadmap).
+4. **E-mail de contato** (opcional) para rodapé/dados estruturados.
+5. **Foto horizontal (paisagem)** real (opcional): a OG de `/gestantes` hoje usa um
+   card desenhado da marca (`og-gestantes.jpg`, 1200×630); uma foto real pode substituir
+   depois, se quiser.
 
 ## Como entregar imagens/vídeos
 
