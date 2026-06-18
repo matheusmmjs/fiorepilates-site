@@ -33,8 +33,15 @@ Editar `assets/lead-magnet/guia-gestante-ativa-bauru.html` e rodar (precisa do C
   "file://$(pwd)/assets/lead-magnet/guia-gestante-ativa-bauru.html"
 ```
 
+## Status editorial
+
+- Conteúdo inicial revisado com ajustes do cliente em 2026-06-18.
+- Fonte editável versionada em HTML e PDF final gerado a partir dessa fonte.
+- Qualquer evolução futura deve editar primeiro o HTML e regenerar o PDF, para manter
+  histórico e consistência visual.
+
 ## Pendente (cliente)
 
-- Revisar/aprovar o **conteúdo** do guia (texto e dicas).
 - Divulgar: bio do Instagram apontando para `/guia-gestante`, stories, e (depois) anúncios.
+- Opcional: revisão complementar por obstetra/equipe de saúde antes de campanhas pagas.
 - Opcional: automatizar o envio do PDF pelo WhatsApp (resposta rápida / ferramenta de atendimento).
