@@ -68,6 +68,88 @@
   var y = document.querySelector("[data-year]");
   if (y) y.textContent = new Date().getFullYear();
 
+  // Carrossel da página de aniversário no tablet
+  document.querySelectorAll("[data-anniversary-carousel]").forEach(function (carousel) {
+    var slides = Array.prototype.slice.call(carousel.querySelectorAll("[data-anniversary-slide]"));
+    var dots = Array.prototype.slice.call(carousel.querySelectorAll("[data-anniversary-dot]"));
+    var prev = carousel.querySelector("[data-anniversary-prev]");
+    var next = carousel.querySelector("[data-anniversary-next]");
+    var progress = carousel.querySelector("[data-anniversary-progress]");
+    var delay = Number(carousel.getAttribute("data-anniversary-delay")) || 7000;
+    var current = slides.findIndex(function (slide) { return slide.classList.contains("is-active"); });
+    var timer = null;
+    var paused = false;
+    carousel.classList.add("is-enhanced");
+    if (current < 0) current = 0;
+    if (progress) progress.style.setProperty("--anniversary-delay", delay + "ms");
+
+    var restartProgress = function () {
+      if (!progress) return;
+      progress.classList.remove("is-running");
+      progress.offsetHeight;
+      progress.classList.add("is-running");
+    };
+
+    var goTo = function (index) {
+      if (!slides.length) return;
+      current = (index + slides.length) % slides.length;
+      slides.forEach(function (slide, i) {
+        var active = i === current;
+        slide.classList.toggle("is-active", active);
+        slide.setAttribute("aria-hidden", active ? "false" : "true");
+      });
+      dots.forEach(function (dot, i) {
+        var active = i === current;
+        dot.classList.toggle("is-active", active);
+        if (active) dot.setAttribute("aria-current", "step");
+        else dot.removeAttribute("aria-current");
+      });
+      restartProgress();
+    };
+
+    var stop = function () {
+      if (timer) window.clearInterval(timer);
+      timer = null;
+      if (progress) progress.classList.remove("is-running");
+    };
+
+    var start = function () {
+      stop();
+      if (slides.length < 2 || paused) return;
+      restartProgress();
+      timer = window.setInterval(function () { goTo(current + 1); }, delay);
+    };
+
+    var settleAfterControl = function (control) {
+      if (control && typeof control.blur === "function") control.blur();
+      if (window.innerWidth <= 900) {
+        window.setTimeout(function () { window.scrollTo(0, 0); }, 0);
+      }
+    };
+
+    dots.forEach(function (dot, i) {
+      dot.addEventListener("click", function () {
+        goTo(i);
+        settleAfterControl(dot);
+        start();
+      });
+    });
+    if (prev) prev.addEventListener("click", function () { goTo(current - 1); settleAfterControl(prev); start(); });
+    if (next) next.addEventListener("click", function () { goTo(current + 1); settleAfterControl(next); start(); });
+
+    carousel.addEventListener("mouseenter", function () { paused = true; stop(); });
+    carousel.addEventListener("mouseleave", function () { paused = false; start(); });
+    carousel.addEventListener("focusin", function () { paused = true; stop(); });
+    carousel.addEventListener("focusout", function () { paused = false; start(); });
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) stop();
+      else start();
+    });
+
+    goTo(current);
+    start();
+  });
+
   // Conversão (GA4): cliques em WhatsApp e telefone, com origem do CTA
   var ctaSection = function (el) {
     var tagged = el.closest("[data-cta-section]");
