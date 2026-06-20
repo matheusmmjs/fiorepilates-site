@@ -79,6 +79,7 @@
     var current = slides.findIndex(function (slide) { return slide.classList.contains("is-active"); });
     var timer = null;
     var paused = false;
+    carousel.classList.add("is-enhanced");
     if (current < 0) current = 0;
     if (progress) progress.style.setProperty("--anniversary-delay", delay + "ms");
 
@@ -100,7 +101,8 @@
       dots.forEach(function (dot, i) {
         var active = i === current;
         dot.classList.toggle("is-active", active);
-        dot.setAttribute("aria-selected", active ? "true" : "false");
+        if (active) dot.setAttribute("aria-current", "step");
+        else dot.removeAttribute("aria-current");
       });
       restartProgress();
     };

@@ -33,6 +33,8 @@ tablet:
    WhatsApp Web da própria Fiore. O tablet orienta, o celular da pessoa executa.
 7. Remover informações operacionais do topo, como datas da campanha, para deixar a tela
    mais emocional e menos parecida com regulamento.
+8. Manter fallback sem JavaScript: os três blocos aparecem empilhados e escaneáveis; o
+   JS apenas transforma a experiência em carrossel.
 
 ## Consequências
 
