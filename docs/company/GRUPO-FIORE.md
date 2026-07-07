@@ -3,7 +3,7 @@
 > Hub de estratégia do **Grupo Fiore** dentro deste repositório (`fiorepilates-site`).
 > Resume a arquitetura de marca, as unidades, os mundos de cliente e a fronteira entre
 > repositórios. O detalhe de produto do Mirae vive no repositório `mirae-local`
-> (ver [Taxonomia da família Mirae](#taxonomia-da-família-mirae-resumo)).
+> (ver [Taxonomia da família Mirae](#taxonomia-da-família-mirae-pointer)).
 
 ## Arquitetura de marca: branded house
 
@@ -47,31 +47,17 @@ Decisão registrada no
 
 Nunca duplicar conteúdo do ADR-040 aqui: sempre resumir e linkar.
 
-## Taxonomia da família Mirae (resumo)
+## Taxonomia da família Mirae (pointer)
 
-> **Fonte da verdade: ADR-040** (Taxonomia e Arquitetura de Marca da Família Mirae,
-> 2026-07-07) no repositório `mirae-local`, em
-> [docs/adr/](https://github.com/matheusmmjs/mirae-local/tree/main/docs/adr).
-> Observação: o ADR-040 é recente e pode ainda não estar no `main` (os ADRs de lá
-> seguem o padrão `ADR-0NN-titulo.md`); quando entrar, será `docs/adr/ADR-040-...md`.
-> Este resumo existe só para orientação rápida; em caso de divergência, vale o ADR-040.
-
-| Codinome | Descritor PT-BR | Status |
-|---|---|---|
-| **Mirae** | Sistema operacional do seu negócio (marca-mãe, núcleo) | Marca guarda-chuva do produto |
-| **Atlas** | A memória da empresa (fundação: tudo lê daqui) | Em desenvolvimento |
-| **Flow** | Operação do dia a dia: agenda, alunos, prontuário, financeiro | **Produtivo** (SaaS no ar) |
-| **Pulse** | Relacionamento: CRM, WhatsApp, campanhas, jornada, retenção | Em desenvolvimento |
-| **Mi** | A inteligência que lê o Atlas e age no Flow e no Pulse | Parcial, em homologação |
-
-Pontos que costumam confundir:
-
-- **Não existe** módulo "Agents" nem "Connect". A Mi absorve os agentes (a Mi autônoma
-  é um tier comercial) e "Connect" foi renomeado para **Pulse**.
-- O padrão de escrita do nome composto (codinome seguido do descritor PT-BR) está
-  definido no ADR-040; a UI lidera pelo descritor em PT-BR.
-- Os nomes são horizontais de propósito (a ambição vai além de Pilates), mas a **venda
-  permanece vertical** (clínicas e estúdios), que é a cunha de tração.
+O Mirae é composto por módulos com nome e papel próprios (núcleo, fundação de
+conhecimento, app de operação, app de relacionamento, camada de inteligência). Essa
+taxonomia muda conforme o produto evolui, então **não a replicamos aqui**: para não
+duplicar e desatualizar, ver **ADR-040** (Taxonomia e Arquitetura de Marca da Família
+Mirae, 2026-07-07) no repositório `mirae-local`, em
+[docs/adr/](https://github.com/matheusmmjs/mirae-local/tree/main/docs/adr).
+Observação: o ADR-040 é recente e pode ainda não estar no `main` (os ADRs de lá seguem
+o padrão `ADR-0NN-titulo.md`); quando entrar, será `docs/adr/ADR-040-...md`. Em caso de
+dúvida sobre nomes de módulo, vale sempre o ADR-040, nunca uma memória deste repo.
 
 ## Domínio do Mirae (dívida consciente)
 

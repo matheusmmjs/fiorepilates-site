@@ -14,6 +14,14 @@ Documentação do site da Fiore: o que foi feito, **por que** e como manter.
 - **[DESAFIOS.md](DESAFIOS.md)** — runbook do programa contínuo de Desafios Fiore (página `/desafios`).
 - **[COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md)** — fluxo para adicionar eventos na página `/eventos`.
 
+## Grupo Fiore e unidade Tech
+
+Hub de estratégia do grupo e da camada comercial da unidade Tech, além do site da clínica:
+
+- **[company/GRUPO-FIORE.md](company/GRUPO-FIORE.md)**: arquitetura de marca, as 3 unidades, os 2 mundos de cliente e a fronteira de repositórios.
+- **[tech/OFERTA.md](tech/OFERTA.md)**: oferta comercial da unidade Tech (SKUs, ICP, posicionamento "Mirae by Fiore").
+- **[tech/ROADMAP-TECH.md](tech/ROADMAP-TECH.md)**: roadmap comercial da unidade Tech (consultoria, primeiros casos, escala do SaaS).
+
 ## Decisões de arquitetura (ADRs)
 
 Registros do **porquê** de cada decisão importante:
