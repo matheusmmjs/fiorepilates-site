@@ -26,6 +26,9 @@ experiência da maternidade**.
 
 - **Fiore Pilates** — Pilates especializado (foco gestantes + saúde da mulher, dores, idosos, reabilitação).
 - **Fiore Toque** — cuidado na gestação e pós através do toque (terapias manuais/massagem).
+- **Fiore Tech (Mirae)**: unidade B2B de tecnologia (consultoria + Mirae SaaS). Ver
+  [GRUPO-FIORE.md](company/GRUPO-FIORE.md); a taxonomia detalhada do produto vive no
+  repositório `mirae-local` (ADR-040).
 
 ## Valores
 
