@@ -11,6 +11,24 @@ alta conversão para WhatsApp. Sensação-alvo: *"aqui eu vou ser cuidada de ver
 - `docs/CONTENT-SEO.md` — conteúdo, CTAs, SEO.
 - `docs/adr/` — **o porquê** das decisões. Ao decidir algo relevante, adicione um ADR.
 
+## Grupo Fiore (estratégia e unidade Tech)
+
+Este repo também é o **hub de estratégia do Grupo Fiore** e da camada comercial da
+unidade **Fiore Tech (Mirae)**. Fronteira de repositórios (ver
+[ADR 0014](docs/adr/0014-fronteira-repos-fiorepilates-site-e-mirae-local.md)):
+
+- **`mirae-local`** = produto Mirae (app + landing) + governança da unidade
+  (taxonomia, roadmap de produto, ADRs de produto). Dono do ADR-040; nunca duplicar
+  o conteúdo dele aqui, só resumir e linkar.
+- **`fiorepilates-site`** (este) = clínica + estratégia do grupo + comercial de
+  consultoria/serviços Tech.
+
+Docs: [docs/company/GRUPO-FIORE.md](docs/company/GRUPO-FIORE.md) (arquitetura de
+marca, 3 unidades, resumo da taxonomia Mirae) ·
+[docs/tech/OFERTA.md](docs/tech/OFERTA.md) (SKUs, ICP, "Mirae by Fiore") ·
+[docs/tech/ROADMAP-TECH.md](docs/tech/ROADMAP-TECH.md) (roadmap comercial da Tech).
+O Mirae **não é vendido no site da clínica**; a venda B2B é pela landing do Mirae.
+
 ## Stack e regras
 
 - **HTML estático puro**, sem framework/build. Páginas: `index.html`, `gestantes.html`.

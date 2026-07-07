@@ -94,6 +94,10 @@
 
 1. **Linguagem ética com gestantes** — sem promessa médica ([ADR 0005](adr/0005-conteudo-etico-e-prova-social-real.md)).
 2. **Prova social só real** — nunca inventar avaliações ou números.
-3. **Mirae fortalece a marca, não é vendido no site da Fiore.**
+3. **Mirae fortalece a marca, não é vendido no site da clínica (B2C).** A venda B2B
+   acontece na landing do Mirae (oferta em [tech/OFERTA.md](tech/OFERTA.md)). Nota: o
+   Mirae fica em `mirae.fiorepilates.com.br` enquanto a Fiore for o único tenant; o
+   gatilho para domínio próprio é o 2º tenant pagante
+   ([ADR 0015](adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)).
 4. **NAP idêntico** em site, GBP e redes.
 5. **Nada de Ads sem conversão instrumentada** (por isso 0.9 vem antes de 3.1/3.2).
