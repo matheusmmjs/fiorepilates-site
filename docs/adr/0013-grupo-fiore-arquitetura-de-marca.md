@@ -32,7 +32,7 @@ da clínica? Onde vive a estratégia do grupo?
    [docs/company/GRUPO-FIORE.md](../company/GRUPO-FIORE.md), incluindo um resumo da
    taxonomia da família Mirae. A fonte da verdade da taxonomia e da arquitetura de
    marca do produto é o **ADR-040** no repositório `mirae-local`
-   ([github.com/matheusmmjs/mirae-local](https://github.com/matheusmmjs/mirae-local));
+   ([mirae-local/docs/adr](https://github.com/matheusmmjs/mirae-local/tree/main/docs/adr));
    aqui só se resume e linka, nunca se duplica.
 
 ## Consequências

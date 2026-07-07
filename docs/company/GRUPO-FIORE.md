@@ -50,11 +50,11 @@ Nunca duplicar conteúdo do ADR-040 aqui: sempre resumir e linkar.
 ## Taxonomia da família Mirae (resumo)
 
 > **Fonte da verdade: ADR-040** (Taxonomia e Arquitetura de Marca da Família Mirae,
-> 2026-07-07) no repositório `mirae-local`
-> ([github.com/matheusmmjs/mirae-local](https://github.com/matheusmmjs/mirae-local)).
-> Observação: confirmar o caminho exato do arquivo dentro daquele repo (procurar por
-> "ADR-040"). Este resumo existe só para orientação rápida; em caso de divergência,
-> vale o ADR-040.
+> 2026-07-07) no repositório `mirae-local`, em
+> [docs/adr/](https://github.com/matheusmmjs/mirae-local/tree/main/docs/adr).
+> Observação: o ADR-040 é recente e pode ainda não estar no `main` (os ADRs de lá
+> seguem o padrão `ADR-0NN-titulo.md`); quando entrar, será `docs/adr/ADR-040-...md`.
+> Este resumo existe só para orientação rápida; em caso de divergência, vale o ADR-040.
 
 | Codinome | Descritor PT-BR | Status |
 |---|---|---|

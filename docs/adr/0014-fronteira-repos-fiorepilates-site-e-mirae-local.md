@@ -29,7 +29,7 @@ consultoria/serviços **fora** do escopo daquele repo. Faltava dizer onde ela vi
 3. **Referenciar, nunca duplicar.** Conteúdo do ADR-040 (taxonomia, nomes de módulo,
    arquitetura de marca do produto) só entra aqui como resumo curto com aviso de fonte
    e link textual, no formato "ver ADR-040 no repositório `mirae-local`"
-   ([github.com/matheusmmjs/mirae-local](https://github.com/matheusmmjs/mirae-local)).
+   ([mirae-local/docs/adr](https://github.com/matheusmmjs/mirae-local/tree/main/docs/adr)).
    Não usar caminho relativo entre repos, que não resolve. Em caso de divergência
    entre um resumo daqui e o ADR-040, vale o ADR-040.
 4. **A recíproca vale:** decisões comerciais da unidade Tech e de estratégia do grupo
