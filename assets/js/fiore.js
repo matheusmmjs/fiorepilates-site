@@ -13,6 +13,20 @@
     window.addEventListener("scroll", onScroll, { passive: true });
   }
 
+  // Voltar ao topo
+  var backToTop = document.querySelector("[data-back-to-top]");
+  if (backToTop) {
+    var toggleBackToTop = function () {
+      backToTop.classList.toggle("is-visible", window.scrollY > 800);
+    };
+    toggleBackToTop();
+    window.addEventListener("scroll", toggleBackToTop, { passive: true });
+    backToTop.addEventListener("click", function () {
+      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+    });
+  }
+
   // Menu mobile
   var toggle = document.querySelector("[data-nav-toggle]");
   var menu = document.querySelector("[data-mobile-menu]");
@@ -167,12 +181,7 @@
     var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
     if (!a || typeof window.gtag !== "function") return;
     var href = a.getAttribute("href") || "";
-    if (href === "/bolao" || href.indexOf("/bolao") === 0) {
-      window.gtag("event", "bolao_click", {
-        cta_section: ctaSection(a),
-        page_path: window.location.pathname
-      });
-    } else if (href.indexOf("wa.me") !== -1) {
+    if (href.indexOf("wa.me") !== -1) {
       window.gtag("event", "whatsapp_click", {
         cta_section: ctaSection(a),
         cta_text: (a.textContent || "").trim().slice(0, 60),

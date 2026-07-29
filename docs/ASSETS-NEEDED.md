@@ -22,7 +22,6 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
 - **App Mirae** (`https://mirae.fiorepilates.com.br/`): citado na seção Tecnologia +
   link no rodapé.
 - **Link de avaliação GBP:** `g.page/r/CS2fBMfwzWG6EAE/review` (rodapé) + URL do Maps no `sameAs`.
-- **Form do bolão:** embed do Google Form ativo em `/bolao` (saiu o fallback de WhatsApp).
 - **Dourado:** mantido o padrão da marca (olive/verde, sem dourado) — confirmado pelo cliente.
 - **Arte da campanha da Copa:** criada em `assets/images/copa-desafio.svg` (+ `.png` 1080×1350)
   para posts/stories, na identidade da marca.

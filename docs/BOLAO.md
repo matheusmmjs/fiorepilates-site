@@ -1,5 +1,10 @@
 # Bolão Fiore — Copa 2026 (runbook da campanha)
 
+> **Encerrada em 2026-07-27.** Página `/bolao`, banner da home, links de menu/footer,
+> evento GA4 `bolao_click` e CSS da campanha foram removidos (redirect 308 de `/bolao`
+> para `/` no `vercel.json`, para não quebrar links já divulgados). Falta anunciar
+> a vencedora e registrar os aprendizados na seção de encerramento abaixo.
+>
 > Campanha de engajamento + captação de leads. Página: `/bolao` (banner na home +
 > link nos footers). Decidido em 2026-06-12: escopo **Brasil + finais**, coleta via
 > **Google Forms embedado**, **aberto a todos**, prêmio único.
@@ -65,6 +70,8 @@ ver [DESAFIOS.md](DESAFIOS.md). O banner da Copa na home aponta para os dois
 
 ## Encerramento (após a final — 19/07/2026)
 
-- Anunciar vencedor(a) (foto/story com autorização) e entregar o prêmio.
-- Remover banner da home, links de footer e a página (ou trocar por "bolão encerrado").
+- Anunciar vencedor(a) (foto/story com autorização) e entregar o prêmio. **(M, pendente)**
+- ~~Remover banner da home, links de footer e a página~~ — feito em 2026-07-27 (site
+  redireciona `/bolao` para `/`).
 - Registrar aprendizados aqui (participantes, leads, conversões) para a próxima campanha.
+  **(M, pendente — preencher com os números reais da planilha antes de arquivar este doc.)**

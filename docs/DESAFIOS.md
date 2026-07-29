@@ -1,7 +1,8 @@
 # Desafios Fiore (runbook do programa contínuo)
 
 > Decisão de 2026-06-12: os desafios são um **programa permanente** da Fiore
-> (página `/desafios`), separado do bolão (campanha pontual da Copa — [BOLAO.md](BOLAO.md)).
+> (página `/desafios`), separado do bolão (campanha pontual da Copa, encerrada em
+> 2026-07-27 — [BOLAO.md](BOLAO.md)).
 > Sempre existe **um desafio da vez**; os encerrados vão para a galeria de anteriores.
 
 ## O conceito
