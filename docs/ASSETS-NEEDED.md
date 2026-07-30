@@ -23,8 +23,6 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
   link no rodapé.
 - **Link de avaliação GBP:** `g.page/r/CS2fBMfwzWG6EAE/review` (rodapé) + URL do Maps no `sameAs`.
 - **Dourado:** mantido o padrão da marca (olive/verde, sem dourado) — confirmado pelo cliente.
-- **Arte da campanha da Copa:** criada em `assets/images/copa-desafio.svg` (+ `.png` 1080×1350)
-  para posts/stories, na identidade da marca.
 
 ## ⏳ Pendente
 

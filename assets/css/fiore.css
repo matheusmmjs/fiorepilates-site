@@ -377,10 +377,10 @@ details > summary { list-style: none; cursor: pointer; }
   position: fixed; left: clamp(1rem, 3vw, 1.75rem); bottom: clamp(1rem, 3vw, 1.75rem); z-index: 70;
   width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; padding: 0;
   background: var(--cream); color: var(--forest); border: 1px solid var(--line); box-shadow: var(--shadow-soft);
-  cursor: pointer; opacity: 0; pointer-events: none; transform: translateY(8px);
-  transition: opacity 0.3s var(--ease), transform 0.3s var(--ease), background 0.3s var(--ease), color 0.3s var(--ease);
+  cursor: pointer; opacity: 0; visibility: hidden; pointer-events: none; transform: translateY(8px);
+  transition: opacity 0.3s var(--ease), transform 0.3s var(--ease), background 0.3s var(--ease), color 0.3s var(--ease), visibility 0s linear 0.3s;
 }
-.back-to-top.is-visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.back-to-top.is-visible { opacity: 1; visibility: visible; pointer-events: auto; transform: translateY(0); transition: opacity 0.3s var(--ease), transform 0.3s var(--ease), background 0.3s var(--ease), color 0.3s var(--ease); }
 .back-to-top:hover { background: var(--forest); color: var(--cream); border-color: var(--forest); }
 .back-to-top svg { width: 20px; height: 20px; }
 @media (max-width: 939px) { .back-to-top { bottom: 5rem; } }
