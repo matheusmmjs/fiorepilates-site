@@ -12,7 +12,6 @@ estrela `#F2C94C`. Fonte **Poppins** (com fallback de sistema na renderização)
 
 | Asset | Fonte (SVG editável) | Exportação usada | Onde aparece |
 |---|---|---|---|
-| Arte da Copa ("vamos desafiar você") | `assets/brand/copa-desafio.svg` (= `assets/images/copa-desafio.svg`) | `assets/images/copa-desafio.png` (1080×1350) | posts/stories; o banner da home é recriado em HTML/CSS |
 | Card OG de /gestantes | `assets/brand/og-gestantes.svg` | `assets/images/og-gestantes.jpg` (1200×630) | `og:image`/`twitter:image` de `gestantes.html` |
 | Mockup do app Mirae | `assets/brand/mirae-app.svg` | `assets/images/mirae-app.jpg` (523×800) | seção "Tecnologia" da home |
 | PDF "Guia da Gestante Ativa" | `assets/lead-magnet/guia-gestante-ativa-bauru.html` | `assets/guia-gestante-ativa-bauru.pdf` | lead magnet (ver [LEAD-MAGNET.md](LEAD-MAGNET.md)) |

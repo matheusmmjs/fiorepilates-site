@@ -42,7 +42,7 @@
 | 1.7 | Enviar fotos reais dos eventos (Unimed, cafés) + depoimentos de participantes para enriquecer `/eventos` | M | ⬜ |
 | 1.8 | Navegação: `/eventos` e `/desafios` no header de todas as páginas (antes só no rodapé) + `/bolao` no menu mobile; fotos reais do estúdio; equipe (Jamile out, pasta `team/`); arte da Copa | C | ✅ 2026-06-14 |
 
-## Campanha — Bolão da Copa 2026 (junho–julho) · [BOLAO.md](BOLAO.md)
+## Campanha — Bolão da Copa 2026 (junho–julho, encerrada em 2026-07-27) · [BOLAO.md](BOLAO.md)
 
 | # | Item | Quem | Status |
 |---|------|------|--------|
@@ -55,7 +55,7 @@
 | B.4 | Lançar: WhatsApp para alunas + stories/post no Instagram | M | ⬜ 13/06 de manhã |
 | B.5 | Apurar ranking + divulgar após cada jogo do Brasil (13/06 · 19/06 · 24/06 · mata-mata) | M | ⬜ recorrente |
 | B.6 | Convidar leads (não-alunas com consentimento) para avaliação após a fase de grupos | M | ⬜ ~25/06 |
-| B.7 | Encerrar: anunciar vencedor(a), entregar prêmio, remover banner/página | M+C | ⬜ pós-final (19/07) |
+| B.7 | Encerrar: anunciar vencedor(a), entregar prêmio, remover banner/página | M+C | ✅ (C) 2026-07-27 — banner, links de footer/menu, página `/bolao`, tracking e CSS removidos; falta M anunciar vencedor(a) e registrar aprendizados no BOLAO.md |
 
 ## Fase 2 — Autoridade e superfície SEO (até 30 dias)
 

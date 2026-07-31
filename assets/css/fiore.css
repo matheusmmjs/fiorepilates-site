@@ -34,7 +34,7 @@
 
   --txt: #2B2C26;
   --txt-soft: #5C5E52;
-  --txt-mute: #82847A;
+  --txt-mute: #63655A;
 
   --maxw: 1180px;
   --gutter: clamp(1.25rem, 5vw, 3.5rem);
@@ -237,7 +237,6 @@ em { font-style: italic; }
 .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-soft); border-color: transparent; }
 .card .ic { width: 46px; height: 46px; display: grid; place-items: center; border-radius: 12px; background: var(--sage-tint); color: var(--sage); margin-bottom: 1.1rem; }
 .card .ic svg { width: 22px; height: 22px; }
-.card .num-tag { font-family: var(--font-serif); font-size: 1.1rem; color: var(--gold); display: block; margin-bottom: 0.5rem; }
 .card h3 { font-size: 1.3rem; margin-bottom: 0.6rem; }
 .card p { font-size: 0.97rem; }
 .card--soft { background: var(--sand); border-color: transparent; }
@@ -268,7 +267,7 @@ em { font-style: italic; }
 .pillars { display: grid; gap: 1.25rem; counter-reset: pillar; }
 @media (min-width: 720px) { .pillars { grid-template-columns: repeat(2, 1fr); } }
 .pillar { position: relative; padding: 1.6rem 1.6rem 1.6rem 1.6rem; border-radius: var(--radius); background: rgba(253,255,247,0.04); border: 1px solid rgba(253,255,247,0.12); }
-.pillar h4 { color: var(--cream); margin-bottom: 0.5rem; font-family: var(--font-sans); font-weight: 600; font-size: 1.1rem; }
+.pillar h3 { color: var(--cream); margin-bottom: 0.5rem; font-family: var(--font-sans); font-weight: 600; font-size: 1.1rem; }
 .pillar p { font-size: 0.95rem; }
 .pillar .step { font-family: var(--font-serif); font-size: 0.95rem; color: var(--gold-soft); display: block; margin-bottom: 0.7rem; letter-spacing: 0.05em; }
 
@@ -277,7 +276,7 @@ em { font-style: italic; }
 .step-row { display: grid; grid-template-columns: auto 1fr; gap: 1.25rem; padding-bottom: 2rem; position: relative; }
 .step-row:not(:last-child)::before { content: ""; position: absolute; left: 17px; top: 38px; bottom: 0; width: 1px; background: var(--line); }
 .step-row .dot { width: 36px; height: 36px; border-radius: 50%; background: var(--cream); border: 1px solid var(--line); color: var(--gold); display: grid; place-items: center; font-family: var(--font-serif); font-size: 1rem; z-index: 1; }
-.step-row h4 { margin-bottom: 0.3rem; font-family: var(--font-sans); font-weight: 600; font-size: 1.08rem; color: var(--forest); }
+.step-row h3 { margin-bottom: 0.3rem; font-family: var(--font-sans); font-weight: 600; font-size: 1.08rem; color: var(--forest); }
 .step-row p { font-size: 0.97rem; }
 
 /* ---------- Testimonials ---------- */
@@ -324,7 +323,7 @@ details > summary { list-style: none; cursor: pointer; }
 .info-list li { display: flex; gap: 1rem; align-items: flex-start; }
 .info-list .ic { flex: none; width: 42px; height: 42px; border-radius: 12px; background: var(--sage-tint); color: var(--sage); display: grid; place-items: center; }
 .info-list .ic svg { width: 20px; height: 20px; }
-.info-list h4 { font-family: var(--font-sans); font-weight: 600; font-size: 1.02rem; color: var(--forest); margin-bottom: 0.2rem; }
+.info-list h3 { font-family: var(--font-sans); font-weight: 600; font-size: 1.02rem; color: var(--forest); margin-bottom: 0.2rem; }
 .info-list p, .info-list a { font-size: 0.97rem; color: var(--txt-soft); }
 .info-list a:hover { color: var(--gold); }
 
@@ -341,7 +340,7 @@ details > summary { list-style: none; cursor: pointer; }
 @media (min-width: 980px) { .footer-grid { grid-template-columns: 1.6fr 1fr 1fr 1.2fr; } }
 .site-footer .brand span { color: var(--cream); }
 .site-footer address { font-style: normal; line-height: 1.8; font-size: 0.95rem; margin-top: 1.1rem; }
-.footer-col h4 { color: var(--cream); font-family: var(--font-sans); font-weight: 600; font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1.1rem; }
+.footer-col h3 { color: var(--cream); font-family: var(--font-sans); font-weight: 600; font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1.1rem; }
 .footer-col a { display: block; padding-block: 0.35rem; font-size: 0.95rem; transition: color 0.3s, padding-left 0.3s; }
 .footer-col a:hover { color: var(--cream); padding-left: 4px; }
 .footer-social { display: flex; gap: 0.7rem; margin-top: 0.5rem; }
@@ -371,7 +370,21 @@ details > summary { list-style: none; cursor: pointer; }
 }
 .mobile-bar .btn { flex: 1; padding-block: 0.85rem; }
 @media (min-width: 940px) { .mobile-bar { display: none; } }
-@media (max-width: 939px) { body { padding-bottom: 4.5rem; } .wa-float { bottom: 5rem; } }
+@media (max-width: 939px) { body { padding-bottom: 4.5rem; } .wa-float { display: none; } }
+
+/* ---------- Voltar ao topo ---------- */
+.back-to-top {
+  position: fixed; left: clamp(1rem, 3vw, 1.75rem); bottom: clamp(1rem, 3vw, 1.75rem); z-index: 70;
+  width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; padding: 0;
+  background: var(--cream); color: var(--forest); border: 1px solid var(--line); box-shadow: var(--shadow-soft);
+  cursor: pointer; opacity: 0; visibility: hidden; pointer-events: none; transform: translateY(8px);
+  transition: opacity 0.3s var(--ease), transform 0.3s var(--ease), background 0.3s var(--ease), color 0.3s var(--ease), visibility 0s linear 0.3s;
+}
+.back-to-top.is-visible { opacity: 1; visibility: visible; pointer-events: auto; transform: translateY(0); transition: opacity 0.3s var(--ease), transform 0.3s var(--ease), background 0.3s var(--ease), color 0.3s var(--ease); }
+.back-to-top:hover { background: var(--forest); color: var(--cream); border-color: var(--forest); }
+.back-to-top svg { width: 20px; height: 20px; }
+@media (max-width: 939px) { .back-to-top { bottom: 5rem; } }
+@media (prefers-reduced-motion: reduce) { .back-to-top { transition: opacity 0.01s, transform 0.01s; } }
 
 /* ---------- Galeria do espaço ---------- */
 .gallery { columns: 2; column-gap: 1rem; }
@@ -387,7 +400,7 @@ details > summary { list-style: none; cursor: pointer; }
 .member .ph { aspect-ratio: 4/5; border-radius: var(--radius); overflow: hidden; background: var(--sage-tint); display: grid; place-items: center; margin-bottom: 1rem; }
 .member .ph img { width: 100%; height: 100%; object-fit: cover; }
 .member .ph span { font-weight: 300; font-size: 2.6rem; color: var(--sage); letter-spacing: 0.04em; }
-.member h4 { font-family: var(--font-sans); font-weight: 600; font-size: 1.05rem; color: var(--forest); margin-bottom: 0.15rem; }
+.member h3 { font-family: var(--font-sans); font-weight: 600; font-size: 1.05rem; color: var(--forest); margin-bottom: 0.15rem; }
 .member p { font-size: 0.85rem; color: var(--txt-mute); }
 
 /* ---------- Reveal animation ---------- */
@@ -399,52 +412,18 @@ details > summary { list-style: none; cursor: pointer; }
 .reveal.d4 { transition-delay: 0.32s; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
 
-/* ---------- Banner de campanha Copa 2026 (temporário) ---------- */
-.copa-banner { position: relative; overflow: hidden; background: var(--forest); color: var(--cream); margin-top: 4.5rem; }
-.copa-banner::before {
-  content: ""; position: absolute; inset: 0; pointer-events: none;
-  background:
-    radial-gradient(ellipse 42% 60% at 108% -10%, rgba(0, 151, 57, 0.5), transparent 70%),
-    radial-gradient(ellipse 36% 55% at -8% 110%, rgba(254, 221, 0, 0.32), transparent 70%),
-    radial-gradient(ellipse 30% 45% at 104% 112%, rgba(0, 39, 118, 0.55), transparent 70%);
-}
-.copa-banner::after {
-  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.85;
-  background-image:
-    radial-gradient(4px 8px at 12% 22%, #FEDD00 99%, transparent),
-    radial-gradient(4px 8px at 28% 78%, #009739 99%, transparent),
-    radial-gradient(4px 8px at 46% 14%, #FEDD00 99%, transparent),
-    radial-gradient(4px 8px at 62% 84%, #2a52be 99%, transparent),
-    radial-gradient(4px 8px at 78% 26%, #009739 99%, transparent),
-    radial-gradient(4px 8px at 92% 64%, #FEDD00 99%, transparent);
-}
-.copa-banner .container { position: relative; z-index: 1; padding-block: clamp(2.25rem, 5.5vw, 3.75rem); text-align: center; }
-.copa-tag {
-  display: inline-flex; align-items: center; gap: 0.5rem; background: #FEDD00; color: #1c2c14;
-  font-weight: 600; font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase;
-  padding: 0.45rem 1.1rem; border-radius: 100px; transform: rotate(-1.5deg); margin-bottom: 1.2rem;
-}
-.copa-banner h2 { color: var(--cream); font-size: clamp(1.9rem, 4.4vw, 3.2rem); margin-bottom: 0.9rem; }
-.copa-banner h2 em { font-style: italic; font-weight: 500; color: #FEDD00; }
-.copa-banner > .container > p { color: rgba(253, 255, 247, 0.88); max-width: 38rem; margin-inline: auto; margin-bottom: 1.8rem; }
-.copa-banner strong { color: #FEDD00; font-weight: 600; }
-.copa-banner .btn-row { justify-content: center; }
-.copa-banner .btn--copa { --bg: #FEDD00; --fg: #1c2c14; --bd: #FEDD00; font-weight: 600; }
-.copa-banner .btn--copa:hover { --bg: #ffe84d; }
 .hero--after-promo { padding-top: clamp(2.5rem, 6vh, 4rem); }
+
+/* ---------- Empty state (galeria "em breve") ---------- */
+.empty-state { max-width: 26rem; margin-inline: auto; padding: clamp(1.8rem, 5vw, 2.75rem); border: 1px dashed var(--line); border-radius: var(--radius-lg); text-align: center; }
+.empty-state-icon { width: 2.25rem; height: 2.25rem; opacity: 0.45; margin-bottom: 1rem; }
+.empty-state p { color: var(--txt-mute); margin: 0; }
 
 /* ---------- Vídeo auto-hospedado (vertical 9:16) ---------- */
 .video-frame { max-width: 400px; margin-inline: auto; }
 .video-frame video { width: 100%; border-radius: var(--radius-lg); box-shadow: var(--shadow); background: var(--forest); }
 .video-frame figcaption { font-size: 0.84rem; color: var(--txt-mute); text-align: center; margin-top: 0.8rem; }
 .bg-forest .video-frame figcaption { color: rgba(231, 234, 217, 0.7); }
-
-/* ---------- Bolão (form embed) ---------- */
-.form-embed { background: var(--cream); border: 1px solid var(--line-soft); border-radius: var(--radius-lg); box-shadow: var(--shadow-soft); overflow: hidden; }
-.form-embed iframe { width: 100%; min-height: 1505px; border: 0; display: block; }
-.match-card { text-align: center; }
-.match-card .vs { font-family: var(--font-serif); font-size: clamp(1.4rem, 2.6vw, 1.9rem); color: var(--forest); margin-block: 0.4rem; }
-.match-card .when { font-size: 0.88rem; color: var(--txt-mute); }
 
 /* ---------- Aniversário Fiore (tablet de recepção) ---------- */
 body.anniversary-page {
