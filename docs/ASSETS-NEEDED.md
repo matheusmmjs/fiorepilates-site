@@ -39,8 +39,8 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
    `~/Library/Mobile Documents/com~apple~CloudDocs/Familia Moreira/Fiore/Eventos/Unimed`.
    Ver [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md).
 2. **ID do Pixel da Meta** — para instalar o pixel + eventos (item 2.7 do roadmap).
-4. **E-mail de contato** (opcional) para rodapé/dados estruturados.
-5. **Foto horizontal (paisagem)** real (opcional): a OG de `/gestantes` hoje usa um
+3. **E-mail de contato** (opcional) para rodapé/dados estruturados.
+4. **Foto horizontal (paisagem)** real (opcional): a OG de `/gestantes` hoje usa um
    card desenhado da marca (`og-gestantes.jpg`, 1200×630); uma foto real pode substituir
    depois, se quiser.
 
