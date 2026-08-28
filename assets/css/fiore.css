@@ -230,15 +230,17 @@ em { font-style: italic; }
 @media (min-width: 1020px) { .cards.cols-4 { grid-template-columns: repeat(4, 1fr); } }
 
 .card {
-  background: var(--cream); border: 1px solid var(--line-soft); border-radius: var(--radius);
+  display: block; background: var(--cream); border: 1px solid var(--line-soft); border-radius: var(--radius);
   padding: clamp(1.5rem, 3vw, 2rem); transition: transform 0.45s var(--ease), box-shadow 0.45s var(--ease), border-color 0.3s;
-  height: 100%;
+  height: 100%; text-decoration: none; color: inherit;
 }
 .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-soft); border-color: transparent; }
 .card .ic { width: 46px; height: 46px; display: grid; place-items: center; border-radius: 12px; background: var(--sage-tint); color: var(--sage); margin-bottom: 1.1rem; }
 .card .ic svg { width: 22px; height: 22px; }
 .card h3 { font-size: 1.3rem; margin-bottom: 0.6rem; }
 .card p { font-size: 0.97rem; }
+.card-arrow { display: inline-flex; align-items: center; gap: 0.35rem; margin-top: 1rem; font-size: 0.9rem; font-weight: 600; color: var(--sage); }
+.card:hover .card-arrow { gap: 0.55rem; }
 .card--soft { background: var(--sand); border-color: transparent; }
 .card--forest { background: var(--forest); border-color: transparent; }
 .card--forest h3 { color: var(--cream); }
@@ -412,7 +414,7 @@ details > summary { list-style: none; cursor: pointer; }
 .reveal.d4 { transition-delay: 0.32s; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
 
-.hero--after-promo { padding-top: clamp(2.5rem, 6vh, 4rem); }
+.hero--after-promo { padding-top: clamp(7rem, 14vh, 10rem); }
 
 /* ---------- Empty state (galeria "em breve") ---------- */
 .empty-state { max-width: 26rem; margin-inline: auto; padding: clamp(1.8rem, 5vw, 2.75rem); border: 1px dashed var(--line); border-radius: var(--radius-lg); text-align: center; }
@@ -973,3 +975,5 @@ body.anniversary-page {
 .muted { color: var(--txt-mute); }
 .center { text-align: center; }
 .note { font-size: 0.84rem; color: var(--txt-mute); }
+.note--safety { display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.9rem; font-weight: 500; color: var(--txt); }
+.note--safety svg { flex: none; width: 18px; height: 18px; margin-top: 0.15rem; color: var(--sage); }
