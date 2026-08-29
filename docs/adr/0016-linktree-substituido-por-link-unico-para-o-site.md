@@ -40,7 +40,9 @@ entre a bio e a ação.
   posicionamento (Patricia Valeriano, autoridade em Pilates para gestantes, 30 mil
   seguidores) roda a página de links no domínio próprio, fugindo do Linktree.
   Agregador de link só aparece em franquia nacional (Pure Pilates, +480 unidades) e
-  em quem vende muitos infoprodutos.
+  em quem vende muitos infoprodutos. O levantamento canônico e recorrente de
+  concorrentes fica em [BENCHMARKING.md](../BENCHMARKING.md); os perfis acima são o
+  recorte de bios feito para esta decisão.
 
 ## Decisão
 

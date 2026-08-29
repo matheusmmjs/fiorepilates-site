@@ -3,7 +3,9 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/bolao", "destination": "/", "permanent": true }
+    { "source": "/bolao", "destination": "/", "permanent": true },
+    { "source": "/desafios", "destination": "/", "permanent": true },
+    { "source": "/aniversario", "destination": "/", "permanent": true }
   ],
   "headers": [
     {

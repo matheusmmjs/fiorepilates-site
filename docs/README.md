@@ -9,9 +9,8 @@ Documentação do site da Fiore: o que foi feito, **por que** e como manter.
 - **[brand-manual.md](brand-manual.md)** — transcrição completa do manual oficial "BRAND & DESIGN" (para não perder nada).
 - **[CONTENT-SEO.md](CONTENT-SEO.md)** — estratégia de conteúdo, CTAs e SEO (keywords, dados estruturados).
 - **[ASSETS-NEEDED.md](ASSETS-NEEDED.md)** — mídias e dados que ainda precisamos do cliente.
-- **[ROADMAP.md](ROADMAP.md)** — plano de crescimento digital priorizado (fases, status, quem faz o quê).
-- **[BOLAO.md](BOLAO.md)** — runbook da campanha Bolão da Copa 2026 (encerrada em 2026-07-27; mantido como histórico).
-- **[DESAFIOS.md](DESAFIOS.md)** — runbook do programa contínuo de Desafios Fiore (página `/desafios`).
+- **[ROADMAP.md](ROADMAP.md)** — plano de crescimento digital priorizado (fases, status, quem faz o quê); histórico do Bolão da Copa 2026 fica registrado lá.
+- **[BENCHMARKING.md](BENCHMARKING.md)** — comparação com concorrentes de Bauru e referência dos EUA (dados reais via Apify/Firecrawl), atualizar a cada poucos meses.
 - **[COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md)** — fluxo para adicionar eventos na página `/eventos`.
 
 ## Grupo Fiore e unidade Tech
@@ -37,7 +36,7 @@ Registros do **porquê** de cada decisão importante:
 - [0009 · URLs canônicas: domínio apex + clean URLs](adr/0009-urls-canonicas-dominio-apex-clean-urls.md)
 - [0010 · Vídeos auto-hospedados em H.264 (transitório)](adr/0010-videos-autohospedados-h264.md)
 - [0011 · Voz humana, sem travessões](adr/0011-voz-humana-sem-travessoes.md)
-- [0012 · Página temporária de aniversário para tablet na recepção](adr/0012-pagina-temporaria-aniversario-tablet.md)
+- [0012 · Página temporária de aniversário para tablet na recepção](adr/0012-pagina-temporaria-aniversario-tablet.md) *(encerrada, página removida em 2026-08-25)*
 - [0013 · Grupo Fiore como branded house com 3 unidades](adr/0013-grupo-fiore-arquitetura-de-marca.md)
 - [0014 · Fronteira de repositórios: fiorepilates-site e mirae-local](adr/0014-fronteira-repos-fiorepilates-site-e-mirae-local.md)
 - [0015 · Unidade Tech: oferta comercial e regra de domínio](adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
