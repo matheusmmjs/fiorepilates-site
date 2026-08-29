@@ -8,7 +8,8 @@ A bio do Instagram (@pilatesfiore) apontava para `linktr.ee/fiorepilates`. Audit
 do Linktree (conteúdo real puxado via Apify) encontrou 5 links:
 
 1. "Bolão Copa do Mundo 2026" → `fiorepilates.com.br/` (campanha encerrada em
-   2026-07-27, ver [BOLAO.md](../BOLAO.md); rótulo desatualizado, destino já era a home).
+   2026-07-27, histórico na seção "Campanha" do [ROADMAP.md](../ROADMAP.md); rótulo
+   desatualizado, destino já era a home).
 2. "Fiore Pilates | Estúdio de Pilates Especializado" → `fiorepilates.com.br/`
    (duplicata do item 1, mesma URL).
 3. "Programa Florescer" → `wa.me/5514996598955` com mensagem pré-preenchida (não
@@ -92,10 +93,11 @@ O link do Mirae sai da bio da clínica e permanece só onde já está: rodapé d
 
 ## Consequências
 
-- **Ação manual dos donos (fora deste repo):** trocar o link da bio do Instagram para
-  a URL acima e desativar/arquivar o Linktree `linktr.ee/fiorepilates`. Os ícones de
-  rede social do perfil (Instagram, WhatsApp, TikTok, Facebook) não dependem do
-  Linktree e continuam como estão.
+- **Ação manual dos donos (fora deste repo).** Feito em 2026-08-29: o link da bio do
+  Instagram foi trocado para a URL acima. O Linktree `linktr.ee/fiorepilates` **não
+  foi despublicado**, por decisão do dono; fica no ar como página órfã (nada mais
+  aponta para ela). Os ícones de rede social do perfil (Instagram, WhatsApp, TikTok,
+  Facebook) não dependem do Linktree e continuam como estão.
 - O produto "Pilates em casa" (Eduzz) deixa de ser divulgado. Se for reativado no
   futuro, precisa de destino próprio (seção ou página no site) e de um ADR novo.
 - Acompanhar no GA4, nas primeiras semanas, o tráfego `instagram / bio` e a taxa de
@@ -109,3 +111,5 @@ O link do Mirae sai da bio da clínica e permanece só onde já está: rodapé d
   story, destaque), nunca vira mais um item de um agregador.
 - Não reintroduzir Linktree nem similar sem reabrir este ADR.
 - Manter os `utm_*` no link da bio para o GA4 continuar separando esse tráfego.
+- Se o Linktree órfão vier a incomodar (link antigo circulando, alguém caindo numa
+  página velha), despublicar em `linktr.ee` sem precisar de novo ADR.

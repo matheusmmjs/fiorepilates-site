@@ -71,6 +71,7 @@
 | 2.8 | Lead magnet "Guia da Gestante Ativa em Bauru" (PDF via WhatsApp) — PDF + página `/guia-gestante` + captação por WhatsApp + promo em `/gestantes` ([LEAD-MAGNET.md](LEAD-MAGNET.md)) | C+M | ✅ (C) 2026-06-18 — conteúdo inicial revisado, falta divulgar |
 | 2.9 | Selo de convênios (Wellhub, TotalPass, Namu Pass) no rodapé das 9 páginas, linkando pras páginas reais de parceria (confirmadas por busca) em vez de menção solta em texto | C | ✅ 2026-08-29 |
 | 2.10 | Migrar Linktree → link único da bio para a home com `utm_source=instagram&utm_medium=bio` ([ADR 0016](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)) | M (C: ADR + auditoria) | ✅ (M) 2026-08-29 bio trocada; Linktree mantido no ar como órfão, decisão do dono |
+| 2.11 | Página `/privacidade` cobrindo GA4 e Microsoft Clarity (o que é coletado, gravação de sessão, base legal, contato), link no rodapé das páginas. Público sensível (gestantes) e hoje o site não tem política nem aviso de cookies | C | ⬜ (levantado na review do PR #11) |
 
 ## Fase 3 — Aquisição e escala (até 90 dias)
 
