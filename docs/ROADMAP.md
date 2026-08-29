@@ -63,12 +63,13 @@
 |---|------|------|--------|
 | 2.1 | 4 páginas de serviço: `/pilates-pos-parto`, `/fisioterapia-pelvica`, `/pilates-idosos-reabilitacao`, `/saude-da-mulher` (Service + BreadcrumbList + FAQ schema, linguagem ética) | C | ✅ 2026-06-14 |
 | 2.2 | Página `/florescer` dedicada (destino de anúncios e bio do Instagram) | C | ✅ 2026-06-14 |
-| 2.3 | Seção Tecnologia reescrita com o Mirae (sem vender o produto) | C+M | ✅ 2026-06-14 — mockup da marca do app (`assets/brand/mirae-app.svg`, sem dado real) + menção e link; print real do app fica opcional |
+| 2.3 | Seção Tecnologia reescrita com o Mirae (sem vender o produto) | C+M | ✅ 2026-06-14 — mockup da marca do app (`assets/brand/mirae-app.svg`, sem dado real) + menção e link; print real do app fica opcional. Atualizado em 2026-08-28: mockup trocado por vídeo real (`assets/videos/mirae-tour.mp4`) e depoimento real da equipe sobre o alerta proativo de aluna sumida |
 | 2.4 | Sessão de fotos profissional: gestantes reais em aula (autorização!), equipe, aparelhos, 2–3 fotos paisagem | M | ⬜ |
 | 2.5 | GBP completo: serviços cadastrados, categorias, Q&A semeado, 1 post + 3 fotos/semana | M | ⬜ |
 | 2.6 | Motor de avaliações: NPS do Mirae → link de avaliação Google (meta: 8–10/mês) | M | ⏳ 1.3 |
 | 2.7 | Pixel Meta + públicos (visitantes /gestantes, engajadores IG) | C+M | ⬜ |
 | 2.8 | Lead magnet "Guia da Gestante Ativa em Bauru" (PDF via WhatsApp) — PDF + página `/guia-gestante` + captação por WhatsApp + promo em `/gestantes` ([LEAD-MAGNET.md](LEAD-MAGNET.md)) | C+M | ✅ (C) 2026-06-18 — conteúdo inicial revisado, falta divulgar |
+| 2.9 | Selo de convênios (Wellhub, TotalPass, Namu Pass) no rodapé das 9 páginas, linkando pras páginas reais de parceria (confirmadas por busca) em vez de menção solta em texto | C | ✅ 2026-08-29 |
 
 ## Fase 3 — Aquisição e escala (até 90 dias)
 
@@ -78,7 +79,7 @@
 | 3.2 | Google Ads: pesquisa gestantes/pilates/marca, raio 8–10 km, extensão de local | M (C: estrutura) | ⏳ 0.9 + ~15 conversões/mês |
 | 3.3 | Blog estático (reabrir [ADR 0001](adr/0001-stack-html-estatico.md) → Astro) — 2 artigos/mês long-tail | C | ⬜ |
 | 3.4 | Parcerias: 10 obstetras/doulas de Bauru + Curso de Gestantes Unimed | M | ⬜ |
-| 3.5 | PR local: pauta no Social Bauru (história da marca + tecnologia própria) | M | ⬜ |
+| 3.5 | PR local: pauta no Social Bauru (história da marca + tecnologia própria) | M | 🔄 2026-08-28 — saiu na TV TEM (não Social Bauru), cobertura publicada em `/eventos` + selo "Como visto na TV TEM" na home; ainda sem cobertura em veículo escrito local (JCNet e afins verificados em 2026-08-29, nada publicado, recheck em alguns dias) |
 | 3.6 | Café da manhã com gestantes como funil mensal (inscrição rastreada) | M | ⬜ |
 | 3.7 | Programa de indicação operado pelo Mirae | M | ⬜ |
 | 3.8 | Microsoft Clarity (heatmaps) para decidir v2 da home | C | ⬜ |

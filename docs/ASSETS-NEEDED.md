@@ -6,7 +6,7 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
 ## ✅ Já resolvido
 
 - **Logo + tipografia oficiais** integrados (Poppins, SVGs da marca). Ver [ADR 0007](adr/0007-fidelidade-manual-marca-poppins.md).
-- **Avaliações Google:** 5,0 com 44 avaliações — exibido no site + `AggregateRating` ativo.
+- **Avaliações Google:** 5,0 com 45 avaliações — exibido no site + `AggregateRating` ativo.
 - **Horário:** Seg–Sex 6h–20h · Sáb 7h–12h.
 - **Nome do programa:** "Florescer" (oficial).
 - **Vídeos** (Florescer, café da manhã, massoterapia): transcodificados p/ H.264 e
