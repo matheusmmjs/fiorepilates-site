@@ -82,7 +82,7 @@
 | 3.5 | PR local: pauta no Social Bauru (história da marca + tecnologia própria) | M | ⬜ |
 | 3.6 | Café da manhã com gestantes como funil mensal (inscrição rastreada) | M | ⬜ |
 | 3.7 | Programa de indicação operado pelo Mirae | M | ⬜ |
-| 3.8 | Microsoft Clarity (heatmaps) para decidir v2 da home | C | ⬜ |
+| 3.8 | Microsoft Clarity (heatmaps + gravação de sessão) para decidir v2 da home | C | ✅ 2026-08-29 — snippet do projeto `y9u625nnoh` no `<head>` das 11 páginas, ao lado do GA4 |
 
 ## Cadências contínuas (não têm "fim")
 
