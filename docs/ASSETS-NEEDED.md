@@ -6,7 +6,7 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
 ## ✅ Já resolvido
 
 - **Logo + tipografia oficiais** integrados (Poppins, SVGs da marca). Ver [ADR 0007](adr/0007-fidelidade-manual-marca-poppins.md).
-- **Avaliações Google:** 5,0 com 44 avaliações — exibido no site + `AggregateRating` ativo.
+- **Avaliações Google:** 5,0 com 45 avaliações — exibido no site + `AggregateRating` ativo.
 - **Horário:** Seg–Sex 6h–20h · Sáb 7h–12h.
 - **Nome do programa:** "Florescer" (oficial).
 - **Vídeos** (Florescer, café da manhã, massoterapia): transcodificados p/ H.264 e
@@ -23,17 +23,24 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
   link no rodapé.
 - **Link de avaliação GBP:** `g.page/r/CS2fBMfwzWG6EAE/review` (rodapé) + URL do Maps no `sameAs`.
 - **Dourado:** mantido o padrão da marca (olive/verde, sem dourado) — confirmado pelo cliente.
+- **Vídeo real do Mirae** na seção Tecnologia (2026-08-26): reaproveitado o vídeo
+  oficial de tour do próprio repo do Mirae (`mirae-tour.mp4`, H.264, já pronto),
+  substituindo o mockup estático. Depoimento real da Fiore (já público no site do
+  Mirae) também citado na seção.
+- **Fotos de 2 eventos** (2026-08-26): encontro sobre diástase/pós-parto (22/08) e
+  Café com Gestantes 2ª edição (02/02), baixadas do Instagram e publicadas em
+  `/eventos`.
 
 ## ⏳ Pendente
 
-1. **Fotos dos eventos** (com autorização): Curso de Gestantes da Unimed (3 edições)
-   e cafés da manhã — para enriquecer `/eventos` (hoje o card da Unimed usa foto do
-   espaço como placeholder). Ver [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md).
-2. **Prints do app Mirae** — para a seção Tecnologia (item 2.3 do roadmap; hoje só
-   há a menção textual + link).
-3. **ID do Pixel da Meta** — para instalar o pixel + eventos (item 2.7 do roadmap).
-4. **E-mail de contato** (opcional) para rodapé/dados estruturados.
-5. **Foto horizontal (paisagem)** real (opcional): a OG de `/gestantes` hoje usa um
+1. **Fotos do Curso de Gestantes da Unimed** (3 edições, com autorização): a 1ª
+   edição não está no histórico do Instagram, precisa vir de arquivo próprio.
+   Matheus/Raquel vão colocar em
+   `~/Library/Mobile Documents/com~apple~CloudDocs/Familia Moreira/Fiore/Eventos/Unimed`.
+   Ver [COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md).
+2. **ID do Pixel da Meta** — para instalar o pixel + eventos (item 2.7 do roadmap).
+3. **E-mail de contato** (opcional) para rodapé/dados estruturados.
+4. **Foto horizontal (paisagem)** real (opcional): a OG de `/gestantes` hoje usa um
    card desenhado da marca (`og-gestantes.jpg`, 1200×630); uma foto real pode substituir
    depois, se quiser.
 

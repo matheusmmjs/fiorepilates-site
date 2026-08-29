@@ -1,6 +1,9 @@
 # ADR 0012: Página temporária de aniversário para tablet na recepção
 
-Data: 2026-06-20 · Status: aceito
+Data: 2026-06-20 · Status: encerrado
+
+> Campanha e página `aniversario.html`/`/aniversario` removidas em 2026-08-25, após
+> o fim do período operacional (a página nunca esteve no sitemap nem indexada).
 
 ## Contexto
 
