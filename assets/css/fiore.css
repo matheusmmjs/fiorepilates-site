@@ -436,3 +436,4 @@ details > summary { list-style: none; cursor: pointer; }
 .note { font-size: 0.84rem; color: var(--txt-mute); }
 .note--safety { display: flex; align-items: flex-start; gap: 0.5rem; font-size: 0.9rem; font-weight: 500; color: var(--txt); }
 .note--safety svg { flex: none; width: 18px; height: 18px; margin-top: 0.15rem; color: var(--sage); }
+.press-badge { display: inline-flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; font-size: 0.95rem; font-weight: 600; color: var(--txt); }
