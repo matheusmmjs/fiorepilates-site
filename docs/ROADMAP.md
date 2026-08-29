@@ -62,13 +62,14 @@
 | # | Item | Quem | Status |
 |---|------|------|--------|
 | 2.1 | 4 páginas de serviço: `/pilates-pos-parto`, `/fisioterapia-pelvica`, `/pilates-idosos-reabilitacao`, `/saude-da-mulher` (Service + BreadcrumbList + FAQ schema, linguagem ética) | C | ✅ 2026-06-14 |
-| 2.2 | Página `/florescer` dedicada (destino de anúncios e bio do Instagram) | C | ✅ 2026-06-14 |
+| 2.2 | Página `/florescer` dedicada (destino de anúncios e stories; o link fixo da bio aponta para a home, [ADR 0016](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)) | C | ✅ 2026-06-14 |
 | 2.3 | Seção Tecnologia reescrita com o Mirae (sem vender o produto) | C+M | ✅ 2026-06-14 — mockup da marca do app (`assets/brand/mirae-app.svg`, sem dado real) + menção e link; print real do app fica opcional |
 | 2.4 | Sessão de fotos profissional: gestantes reais em aula (autorização!), equipe, aparelhos, 2–3 fotos paisagem | M | ⬜ |
 | 2.5 | GBP completo: serviços cadastrados, categorias, Q&A semeado, 1 post + 3 fotos/semana | M | ⬜ |
 | 2.6 | Motor de avaliações: NPS do Mirae → link de avaliação Google (meta: 8–10/mês) | M | ⏳ 1.3 |
 | 2.7 | Pixel Meta + públicos (visitantes /gestantes, engajadores IG) | C+M | ⬜ |
 | 2.8 | Lead magnet "Guia da Gestante Ativa em Bauru" (PDF via WhatsApp) — PDF + página `/guia-gestante` + captação por WhatsApp + promo em `/gestantes` ([LEAD-MAGNET.md](LEAD-MAGNET.md)) | C+M | ✅ (C) 2026-06-18 — conteúdo inicial revisado, falta divulgar |
+| 2.9 | Migrar Linktree → link único da bio para a home com `utm_source=instagram&utm_medium=bio`; desativar `linktr.ee/fiorepilates` ([ADR 0016](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)) | M (C: ADR + auditoria) | ⏳ M trocar link da bio e arquivar o Linktree |
 
 ## Fase 3 — Aquisição e escala (até 90 dias)
 

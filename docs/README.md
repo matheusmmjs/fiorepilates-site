@@ -41,6 +41,7 @@ Registros do **porquê** de cada decisão importante:
 - [0013 · Grupo Fiore como branded house com 3 unidades](adr/0013-grupo-fiore-arquitetura-de-marca.md)
 - [0014 · Fronteira de repositórios: fiorepilates-site e mirae-local](adr/0014-fronteira-repos-fiorepilates-site-e-mirae-local.md)
 - [0015 · Unidade Tech: oferta comercial e regra de domínio](adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
+- [0016 · Linktree substituído por link único da bio para o site](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)
 
 ## Como adicionar um ADR
 

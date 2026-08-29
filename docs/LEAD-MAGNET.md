@@ -8,7 +8,8 @@ Isca digital gratuita para captar leads de gestantes (Fase 2, item 2.8 do
 - **PDF:** `assets/guia-gestante-ativa-bauru.pdf` (5 páginas, A4, na identidade da marca,
   fontes Poppins embutidas, linguagem ética — ver [ADR 0005](adr/0005-conteudo-etico-e-prova-social-real.md)).
 - **Fonte do PDF:** `assets/lead-magnet/guia-gestante-ativa-bauru.html` (HTML com print CSS).
-- **Landing:** `/guia-gestante` — destino de anúncios e bio do Instagram.
+- **Landing:** `/guia-gestante` — destino de anúncios e stories. (O link **fixo** da
+  bio do Instagram aponta para a home; ver [ADR 0016](adr/0016-linktree-substituido-por-link-unico-para-o-site.md).)
 - **Promo:** banner na página `/gestantes` (entre depoimentos e FAQ).
 
 ## Como funciona o fluxo
@@ -42,6 +43,7 @@ Editar `assets/lead-magnet/guia-gestante-ativa-bauru.html` e rodar (precisa do C
 
 ## Pendente (cliente)
 
-- Divulgar: bio do Instagram apontando para `/guia-gestante`, stories, e (depois) anúncios.
+- Divulgar: stories e destaques apontando para `/guia-gestante`, e (depois) anúncios.
+  O link fixo da bio fica na home (ver [ADR 0016](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)).
 - Opcional: revisão complementar por obstetra/equipe de saúde antes de campanhas pagas.
 - Opcional: automatizar o envio do PDF pelo WhatsApp (resposta rápida / ferramenta de atendimento).
