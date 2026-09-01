@@ -36,10 +36,12 @@ Registros do **porquê** de cada decisão importante:
 - [0010 · Vídeos auto-hospedados em H.264 (transitório)](adr/0010-videos-autohospedados-h264.md)
 - [0011 · Voz humana, sem travessões](adr/0011-voz-humana-sem-travessoes.md)
 - [0012 · Página temporária de aniversário para tablet na recepção](adr/0012-pagina-temporaria-aniversario-tablet.md) *(encerrada, página removida em 2026-08-25)*
-- [0013 · Grupo Fiore como branded house com 3 unidades](adr/0013-grupo-fiore-arquitetura-de-marca.md)
+- [0013 · Grupo Fiore como branded house com 3 unidades](adr/0013-grupo-fiore-arquitetura-de-marca.md) *(substituído pelo 0020)*
 - [0014 · Fronteira de repositórios: fiorepilates-site e mirae-local](adr/0014-fronteira-repos-fiorepilates-site-e-mirae-local.md)
-- [0015 · Unidade Tech: oferta comercial e regra de domínio](adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
+- [0015 · Oferta comercial da Fiore Labs e regra de domínio](adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
 - [0016 · Linktree substituído por link único da bio para o site](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)
+- [0017 · Florescer Empresas: linha B2B2C de Pilates na gestação](adr/0017-florescer-empresas-modelo-b2b2c.md)
+- [0020 · Ecossistema Fiore: Fiore Pilates e Fiore Labs](adr/0020-ecossistema-fiore-e-fiore-labs.md) *(substitui o 0013; 0018 e 0019 em outro branch)*
 
 ## Como adicionar um ADR
 

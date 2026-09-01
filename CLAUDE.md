@@ -29,7 +29,8 @@ Docs: [docs/company/GRUPO-FIORE.md](docs/company/GRUPO-FIORE.md) (arquitetura de
 marca, Fiore Pilates + Fiore Labs, resumo da taxonomia Mirae) ·
 [docs/tech/OFERTA.md](docs/tech/OFERTA.md) (SKUs, ICP, "Mirae by Fiore") ·
 [docs/ROADMAP.md](docs/ROADMAP.md) (roadmap único: Parte 1 clínica, Parte 2 Fiore Labs).
-O Mirae **não é vendido no site da clínica**; a venda B2B é pela landing do Mirae.
+O Mirae **não é vendido no site da clínica**; a venda B2B é pelas superfícies da Fiore
+Labs (landing de cada produto e `fiorelabs.com.br`).
 
 ## Stack e regras
 

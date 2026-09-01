@@ -133,7 +133,7 @@ A Fiore Labs tem 4 frentes de produto rodando ao mesmo tempo, gente demais pra
 (até ~nov/2026), decidido em sessão de planejamento com Claude:
 
 - **Mirae (Rock #1).** Já maduro (produção interna desde mai/2026), nunca vendido pra
-  fora. Foco: converter em piloto externo pago (gatilho da Fase 2, abaixo).
+  fora. Foco: converter em piloto externo pago (gatilho da Fase L2, abaixo).
 - **Baru** (white-label Nextcloud, repo `nextcloud-demo`, sem domínio próprio ainda) e
   **Firme** (SaaS de gestão, repo `firme`, piloto pago Paulo/marcenaria, R$490
   implantação + R$39,90/mês, provisório) seguem em movimento próprio, não competem
@@ -146,7 +146,7 @@ A Fiore Labs tem 4 frentes de produto rodando ao mesmo tempo, gente demais pra
   O ciclo de venda de SaaS é mais longo, por isso ele é aposta estruturada, não a
   fonte de caixa imediata.
 
-## Fase 1: consultoria como cunha (caixa agora)
+## Fase L1: consultoria como cunha (caixa agora)
 
 | # | Item | Status |
 |---|------|--------|
@@ -157,7 +157,7 @@ A Fiore Labs tem 4 frentes de produto rodando ao mesmo tempo, gente demais pra
 Objetivo da fase: gerar caixa com projeto fechado e aprender o processo de
 implantação com clientes reais, usando a Fiore como operação de referência.
 
-## Fase 2: primeiros casos do SaaS
+## Fase L2: primeiros casos do SaaS
 
 | # | Item | Status |
 |---|------|--------|
@@ -169,7 +169,7 @@ implantação com clientes reais, usando a Fiore como operação de referência.
 Objetivo da fase: provar que o Mirae vende para fora da Fiore e transformar a
 clínica em case.
 
-## Fase 3: escala do SaaS
+## Fase L3: escala do SaaS
 
 | # | Item | Status |
 |---|------|--------|

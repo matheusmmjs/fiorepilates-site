@@ -49,5 +49,5 @@ consultoria/serviços **fora** do escopo daquele repo. Faltava dizer onde ela vi
 ## Relacionados
 
 - [ADR 0013: Grupo Fiore como branded house](0013-grupo-fiore-arquitetura-de-marca.md)
-- [ADR 0015: oferta comercial da unidade Tech e regra de domínio](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
+- [ADR 0015: oferta comercial da Fiore Labs e regra de domínio](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
 - ADR-040 no repositório `mirae-local` (taxonomia e arquitetura de marca da família Mirae)

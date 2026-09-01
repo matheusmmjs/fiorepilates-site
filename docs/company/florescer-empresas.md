@@ -347,7 +347,7 @@ Valem integralmente os do
 ## Relacionados
 
 - [ADR 0017: Florescer Empresas, linha B2B2C](../adr/0017-florescer-empresas-modelo-b2b2c.md)
-- [ADR 0013: Grupo Fiore como branded house](../adr/0013-grupo-fiore-arquitetura-de-marca.md)
+- [ADR 0020: Ecossistema Fiore, com Fiore Pilates e Fiore Labs](../adr/0020-ecossistema-fiore-e-fiore-labs.md)
 - [ADR 0005: conteúdo ético e prova social real](../adr/0005-conteudo-etico-e-prova-social-real.md)
 - [GRUPO-FIORE.md](GRUPO-FIORE.md)
 - [florescer-empresas-proposta-modelo.md](florescer-empresas-proposta-modelo.md)
