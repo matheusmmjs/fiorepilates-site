@@ -5,8 +5,7 @@ Documentação do site da Fiore: o que foi feito, **por que** e como manter.
 ## Índice
 
 - **[SPEC.md](SPEC.md)** — especificação do site (objetivo, stack, estrutura, requisitos).
-- **[BRAND.md](BRAND.md)** — identidade da marca aplicada no site: propósito, paleta, voz.
-- **[brand-manual.md](brand-manual.md)** — transcrição completa do manual oficial "BRAND & DESIGN" (para não perder nada).
+- **[BRAND.md](BRAND.md)** — identidade da marca: propósito, posicionamento, paleta, tipografia, voz. Consolida os dois materiais oficiais (apresentação de estratégia + manual "BRAND & DESIGN").
 - **[CONTENT-SEO.md](CONTENT-SEO.md)** — estratégia de conteúdo, CTAs e SEO (keywords, dados estruturados).
 - **[ASSETS-NEEDED.md](ASSETS-NEEDED.md)** — mídias e dados que ainda precisamos do cliente.
 - **[ROADMAP.md](ROADMAP.md)** — plano de crescimento digital priorizado (fases, status, quem faz o quê); histórico do Bolão da Copa 2026 fica registrado lá.

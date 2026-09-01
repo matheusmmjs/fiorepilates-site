@@ -7,7 +7,7 @@ alta conversão para WhatsApp. Sensação-alvo: *"aqui eu vou ser cuidada de ver
 ## Antes de mexer, leia
 
 - `docs/SPEC.md` — o que o site é e exige.
-- `docs/BRAND.md` — marca, paleta, voz (base do PDF interno).
+- `docs/BRAND.md` — marca, paleta, voz (consolidado dos manuais internos).
 - `docs/CONTENT-SEO.md` — conteúdo, CTAs, SEO.
 - `docs/adr/` — **o porquê** das decisões. Ao decidir algo relevante, adicione um ADR.
 
