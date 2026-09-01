@@ -178,7 +178,7 @@ em { font-style: italic; }
 }
 .mobile-menu.is-open { transform: translateY(0); opacity: 1; visibility: visible; }
 .mobile-menu a:not(.btn) { font-family: var(--font-serif); font-size: 1.9rem; color: var(--forest); padding-block: 0.5rem; border-bottom: 1px solid var(--line-soft); }
-.mobile-menu .btn { margin-top: 1.5rem; font-family: var(--font-sans); font-size: 1rem; color: var(--fg); border-bottom: 1px solid var(--bd); }
+.mobile-menu .btn { margin-top: 1.5rem; font-family: var(--font-sans); font-size: 1rem; }
 
 @media (min-width: 940px) {
   .nav-links, .nav-actions { display: flex; }

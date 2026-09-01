@@ -64,7 +64,7 @@ Não feito de propósito:
   [AEO-GEO.md](../AEO-GEO.md).
 - Auditoria do GBP feita em 2026-09-01 (via Chrome MCP), achados e punch-list em
   [AEO-GEO.md](../AEO-GEO.md#auditoria-do-perfil-da-empresa-2026-09-01-feita-via-chrome-mcp).
-  CEP do site alinhado ao GBP/Instagram (17012-621); falta confirmar no Correios.
+  CEP do site alinhado ao GBP/Instagram (17012-621), confirmado pelo dono em 2026-09-01.
   Principais achados do GBP: nome com palavra-chave, categoria principal errada
   ("Clínica de Fisioterapia" em vez de "Estúdio de pilates"), card do Maps aparecendo
   como "Casa", descrição de 1 linha, serviços genéricos, 0 posts no ar, 0 Q&A.

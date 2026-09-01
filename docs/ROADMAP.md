@@ -109,7 +109,7 @@ encerramento, não são pendências abertas.
 | 4.3 | `/llms.txt` mínimo + `robots.txt` liberando robôs de IA | C | ✅ 2026-09-01 |
 | 4.4 | **Bing Webmaster Tools:** criar conta (importa do Search Console), enviar sitemap. Destrava ChatGPT Search e Copilot | M | ⬜ |
 | 4.5 | **GBP completo:** categorias, serviços com descrição, Q&A semeado (8–10), 15–20 fotos, descrição de 750 caracteres, atributos. Ver checklist no AEO-GEO.md | M | ⬜ (encosta no 2.5) |
-| 4.6 | Auditoria do GBP (Chrome MCP, 2026-09-01): achados e punch-list em [AEO-GEO.md](AEO-GEO.md). Site alinhou o CEP a 17012-621; falta [M] confirmar no Correios + aplicar o punch-list do GBP (nome, categoria principal, "Casa" no Maps, descrição, serviços, posts, Q&A, fotos) | C (auditoria) + M (GBP) | 🔄 2026-09-01 |
+| 4.6 | Auditoria do GBP (Chrome MCP, 2026-09-01): achados e punch-list em [AEO-GEO.md](AEO-GEO.md). CEP 17012-621 alinhado em site, GBP e Instagram (confirmado pelo dono). Falta [M] aplicar o punch-list do GBP (nome, categoria principal, "Casa" no Maps, descrição, serviços, posts, Q&A, fotos) | C (auditoria) + M (GBP) | 🔄 2026-09-01 |
 | 4.7 | Cadastro em diretórios/portais: Doctoralia (perfil da Raquel), guia de Bauru, portal de saúde da mulher; garantir URL pública da matéria da TV TEM | M | ⬜ |
 | 4.8 | Medição mensal: perguntar a ChatGPT/Gemini/Perplexity pelas 3 consultas-alvo e anotar se a Fiore aparece | M | ⬜ recorrente |
 

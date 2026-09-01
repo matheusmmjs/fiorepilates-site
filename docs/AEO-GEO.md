@@ -60,9 +60,9 @@
 7. **Perguntas e respostas:** a própria Fiore publica de 8 a 10 perguntas (as mesmas do
    FAQ do site) e responde. Isso semeia o Q&A antes que terceiros perguntem.
 8. **Posts:** 1 post por semana (evento, dica, bastidor, novidade).
-9. **NAP idêntico ao site:** "R. Baltazar Rodrigues, 4-82, Jardim Planalto, Bauru/SP" e
-   "(14) 99659-8955". Conferir também o CEP (o site usa 17012-090; a bio do Instagram
-   mostra 17012-621 — padronizar os três num valor só).
+9. **NAP idêntico ao site:** "R. Baltazar Rodrigues, 4-82, Jardim Planalto, Bauru/SP",
+   "(14) 99659-8955", CEP 17012-621 (confirmado pelo dono em 2026-09-01; GBP, Instagram
+   e o schema do site já usam esse valor).
 
 ### 2. Bing Webmaster Tools (destrava ChatGPT Search e Copilot)
 1. bing.com/webmasters → entrar com a mesma conta Google (importa direto do Search Console).
@@ -119,9 +119,8 @@ Conta: gerenciada pela Fiore. 279 interações com clientes. 1.027 visualizaçõ
 ### O que está bom
 - **Nota 5,0 · 45 avaliações** (bate com o schema do site).
 - **NAP:** telefone (14) 99659-8955, endereço R. Baltazar Rodrigues 4-82, Jardim Planalto,
-  Bauru/SP — consistentes. **CEP no GBP e no Instagram: 17012-621** (o site estava com
-  17012-090; **corrigido no schema em 2026-09-01**; falta só confirmar no Correios que
-  621 é o correto).
+  Bauru/SP — consistentes. **CEP 17012-621** no GBP, no Instagram e, desde 2026-09-01, no
+  schema do site (antes estava 17012-090; corrigido e confirmado pelo dono).
 - **Horário:** seg a sex 06:00–20:00, sáb 07:00–12:00, dom fechado — idêntico ao site.
 - **Redes sociais** cadastradas: Instagram, Facebook, TikTok (batem com o `sameAs`).
 - **Atributos:** acessibilidade completa (banheiro, entrada, estacionamento, assento),
