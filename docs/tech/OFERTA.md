@@ -1,7 +1,7 @@
-# Fiore Tech: oferta comercial
+# Fiore Labs: oferta comercial
 
-> Superfície comercial da unidade **Fiore Tech (Mirae)**. O produto em si (app,
-> landing, taxonomia, roadmap de produto) vive no repositório `mirae-local`; a fonte
+> Superfície comercial da **Fiore Labs**, começando pelo **Mirae**. O produto em si
+> (app, landing, taxonomia, roadmap de produto) vive no repositório `mirae-local`; a fonte
 > da verdade da arquitetura de marca do produto é o **ADR-040** daquele repo (ver
 > resumo e link em [GRUPO-FIORE.md](../company/GRUPO-FIORE.md)). Aqui fica só **o que
 > se vende e como**. Decisão registrada no
@@ -47,4 +47,4 @@ sejam horizontais de propósito (ver taxonomia no
 
 - Módulos, funcionalidades e roadmap de produto: repositório `mirae-local`.
 - Números de preço: landing do Mirae.
-- Sequência comercial no tempo: [ROADMAP-TECH.md](ROADMAP-TECH.md).
+- Sequência comercial no tempo: Parte 2 do [ROADMAP.md](../ROADMAP.md).

@@ -4,13 +4,14 @@ Data: 2026-07-07 · Status: aceito
 
 ## Contexto
 
-A unidade **Fiore Tech** ([ADR 0013](0013-grupo-fiore-arquitetura-de-marca.md)) precisa
-de uma oferta comercial clara para não misturar dois movimentos diferentes: gerar
-caixa agora (serviço) e construir receita recorrente (SaaS). Também havia uma dúvida
-recorrente sobre o domínio do Mirae: manter sob a marca Fiore ou migrar já para um
-domínio próprio, com custo de rebrand antes de existir demanda externa.
+A frente de tecnologia (hoje **Fiore Labs**, [ADR 0020](0020-ecossistema-fiore-e-fiore-labs.md);
+quando este ADR foi escrito, "Fiore Tech") precisa de uma oferta comercial clara para
+não misturar dois movimentos diferentes: gerar caixa agora (serviço) e construir
+receita recorrente (SaaS). Também havia uma dúvida recorrente sobre o domínio do
+Mirae: manter sob a marca Fiore ou migrar já para um domínio próprio, com custo de
+rebrand antes de existir demanda externa.
 
-Este repo é a casa da camada comercial da unidade Tech
+Este repo é a casa da camada comercial da Fiore Labs
 ([ADR 0014](0014-fronteira-repos-fiorepilates-site-e-mirae-local.md)); o produto em si
 é governado pelo ADR-040 no repositório `mirae-local`.
 
@@ -34,7 +35,7 @@ Este repo é a casa da camada comercial da unidade Tech
    não se reabre.
 
 Detalhes da oferta em [docs/tech/OFERTA.md](../tech/OFERTA.md) e sequência comercial
-em [docs/tech/ROADMAP-TECH.md](../tech/ROADMAP-TECH.md).
+na Parte 2 do [docs/ROADMAP.md](../ROADMAP.md).
 
 ## Consequências
 
@@ -47,6 +48,6 @@ em [docs/tech/ROADMAP-TECH.md](../tech/ROADMAP-TECH.md).
 
 ## Relacionados
 
-- [ADR 0013: Grupo Fiore como branded house](0013-grupo-fiore-arquitetura-de-marca.md)
+- [ADR 0020: Ecossistema Fiore, com Fiore Pilates e Fiore Labs](0020-ecossistema-fiore-e-fiore-labs.md)
 - [ADR 0014: fronteira entre `fiorepilates-site` e `mirae-local`](0014-fronteira-repos-fiorepilates-site-e-mirae-local.md)
-- [OFERTA.md](../tech/OFERTA.md) · [ROADMAP-TECH.md](../tech/ROADMAP-TECH.md) · [GRUPO-FIORE.md](../company/GRUPO-FIORE.md)
+- [OFERTA.md](../tech/OFERTA.md) · Parte 2 do [ROADMAP.md](../ROADMAP.md) · [GRUPO-FIORE.md](../company/GRUPO-FIORE.md)

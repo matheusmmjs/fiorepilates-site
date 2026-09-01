@@ -9,7 +9,7 @@ alta conversão para WhatsApp. Sensação-alvo: *"aqui eu vou ser cuidada de ver
 - `PRODUCT.md` — verdade de produto (usuárias, propósito, posicionamento, restrições). Formato impeccable.
 - `DESIGN.md` — design system normativo (tokens + como aplicar). Fonte de verdade no código: `assets/css/fiore.css`.
 - `docs/SPEC.md` — o que o site é e exige.
-- `docs/BRAND.md` — marca, paleta, voz (base do PDF interno).
+- `docs/BRAND.md` — marca, paleta, voz (consolidado dos manuais internos).
 - `docs/CONTENT-SEO.md` — conteúdo, CTAs, SEO. `docs/AEO-GEO.md` — busca via IA + auditoria do GBP.
 - `docs/adr/` — **o porquê** das decisões. Ao decidir algo relevante, adicione um ADR.
 
@@ -17,23 +17,26 @@ Skill de design instalada: `impeccable` (em `.agents/skills/impeccable/`). Coman
 `critique`, `audit`, `polish`, `distill`, `clarify`, `layout` etc. Rodar
 `node .agents/skills/impeccable/scripts/context.mjs --target <arquivo>` uma vez por sessão.
 
-## Grupo Fiore (estratégia e unidade Tech)
+## Ecossistema Fiore (estratégia e Fiore Labs)
 
-Este repo também é o **hub de estratégia do Grupo Fiore** e da camada comercial da
-unidade **Fiore Tech (Mirae)**. Fronteira de repositórios (ver
+Este repo também é o **hub de estratégia do Ecossistema Fiore** e da camada comercial
+da **Fiore Labs** (software, consultoria e experimentos), que fica lado a lado com a
+Fiore Pilates (ver [ADR 0020](docs/adr/0020-ecossistema-fiore-e-fiore-labs.md)).
+Fronteira de repositórios (ver
 [ADR 0014](docs/adr/0014-fronteira-repos-fiorepilates-site-e-mirae-local.md)):
 
-- **`mirae-local`** = produto Mirae (app + landing) + governança da unidade
+- **`mirae-local`** = produto Mirae (app + landing) + governança do produto
   (taxonomia, roadmap de produto, ADRs de produto). Dono do ADR-040; nunca duplicar
   o conteúdo dele aqui, só resumir e linkar.
-- **`fiorepilates-site`** (este) = clínica + estratégia do grupo + comercial de
-  consultoria/serviços Tech.
+- **`fiorepilates-site`** (este) = clínica + estratégia do ecossistema + camada
+  comercial da Fiore Labs (consultoria/serviços).
 
 Docs: [docs/company/GRUPO-FIORE.md](docs/company/GRUPO-FIORE.md) (arquitetura de
-marca, 3 unidades, resumo da taxonomia Mirae) ·
+marca, Fiore Pilates + Fiore Labs, resumo da taxonomia Mirae) ·
 [docs/tech/OFERTA.md](docs/tech/OFERTA.md) (SKUs, ICP, "Mirae by Fiore") ·
-[docs/tech/ROADMAP-TECH.md](docs/tech/ROADMAP-TECH.md) (roadmap comercial da Tech).
-O Mirae **não é vendido no site da clínica**; a venda B2B é pela landing do Mirae.
+[docs/ROADMAP.md](docs/ROADMAP.md) (roadmap único: Parte 1 clínica, Parte 2 Fiore Labs).
+O Mirae **não é vendido no site da clínica**; a venda B2B é pelas superfícies da Fiore
+Labs (landing de cada produto e `fiorelabs.com.br`).
 
 ## Stack e regras
 

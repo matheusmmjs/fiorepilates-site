@@ -116,7 +116,16 @@ Remetente: Matheus Santos, sócio (matheus@fiorepilates.com.br).
 
 | Empresa | Data do envio | Canal | Contato | Status |
 |---|---|---|---|---|
-| Rede Confiança | 2026-08-31 | e-mail (com PDF anexo) | evieira@confianca.com.br; guilherme.fernandes@confianca.com.br | enviada, aguardando retorno |
+| Rede Confiança | 2026-08-31 | e-mail (com PDF anexo) | evieira@confianca.com.br; guilherme.fernandes@confianca.com.br | enviada, aguardando retorno. Conferir entrega: o domínio confianca.com.br difere do site clienteconfianca.com.br, checar se não voltou bounce |
 | Tilibra | 2026-08-31 | formulário "Registro de Solicitações" (tipo: Parceria) | via formulário, retorno para matheus@fiorepilates.com.br | registrada, aguardando retorno |
+| Sincomércio Bauru e Região | 2026-09-01 (previsto) | e-mail (com PDF anexo) | katiana@sincomerciobauru.com.br | envio programado; contato veio do WhatsApp institucional, que indicou este e-mail |
 
 Follow-up sugerido: se não houver retorno em 3 a 5 dias úteis, um contato curto no mesmo canal.
+
+## Registro de contatos por telefone
+
+Abordagens que não são proposta por e-mail, para não misturar com a tabela acima.
+
+| Alvo | Data | Situação |
+|---|---|---|
+| Hospital de Base de Bauru | 2026-08-31 a 2026-09-01 | abordagem pelo WhatsApp do Hemocentro (14) 3231-4771; resposta orientou ligar no RH pelo (14) 3231-4770 e pedir o RH. Ligação prevista para 2026-09-01 |

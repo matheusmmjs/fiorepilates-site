@@ -23,7 +23,8 @@ unidade Tech? como não conflitar com o site B2C da clínica?
    digital** (produto digital, B2C e add-on dos contratos de empresa).
 3. **Escopo da v1:** só Bauru, 1 a 2 empresas âncora, entrega no estúdio pelo fluxo
    normal de agendamento (6h às 20h) com a empresa da gestante registrada no cadastro,
-   sem CRM ou ferramenta nova (pipeline em planilha).
+   sem CRM ou ferramenta nova (pipeline em tabela no próprio doc da linha, seção 7 de
+   `florescer-empresas.md`).
 4. **Precificação:** pós-pago mensal por sessão realizada, uma nota por empresa no fim
    do mês, contrato de 12 meses, revisão no mês 3. **Taxa corporativa de R$ 55 por
    sessão** no contrato de 12 meses (R$ 60 em contratos de 3 a 6 meses). Sem bloco
@@ -37,7 +38,7 @@ unidade Tech? como não conflitar com o site B2C da clínica?
 6. **Canal:** testar em paralelo a Salutem como clube de parcerias (volume) e como
    porta de entrada para contratos diretos com empresas âncora (controle de preço e
    experiência). Comparar no mês 3.
-7. **Fronteira:** isto é comercial da **clínica**, não da unidade Tech
+7. **Fronteira:** isto é comercial da **clínica**, não da Fiore Labs
    ([ADR 0015](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)). O Mirae não
    entra. O site B2C não vende isto (princípio 3 do [ROADMAP.md](../ROADMAP.md)): a
    venda é outbound e via RH ou parceiro de benefícios.
@@ -71,7 +72,7 @@ Detalhamento (planos, argumento financeiro e fiscal, ICP, canal, roteiro de RH) 
 ## Relacionados
 
 - [docs/company/florescer-empresas.md](../company/florescer-empresas.md)
-- [ADR 0013: Grupo Fiore como branded house](0013-grupo-fiore-arquitetura-de-marca.md)
+- [ADR 0020: Ecossistema Fiore, com Fiore Pilates e Fiore Labs](0020-ecossistema-fiore-e-fiore-labs.md) (substitui o 0013)
 - [ADR 0005: conteúdo ético e prova social real](0005-conteudo-etico-e-prova-social-real.md)
-- [ADR 0015: oferta comercial da unidade Tech e regra de domínio](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
+- [ADR 0015: oferta comercial e regra de domínio](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
 - [GRUPO-FIORE.md](../company/GRUPO-FIORE.md)

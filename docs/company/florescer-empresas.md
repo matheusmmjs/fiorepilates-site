@@ -39,7 +39,7 @@ sair do papel, que é a primeira empresa âncora.
   os horários de menor procura e manter o pico para o balcão.
 - **Programa Florescer:** Pilates especializado para gestantes, em turmas pequenas,
   com avaliação inicial e liberação médica obrigatória por gestante.
-- Sem CRM nem ferramenta nova. Pipeline em planilha (ver seção 7).
+- Sem CRM nem ferramenta nova. Pipeline na tabela da seção 7 deste documento.
 
 ## 3. Modelo de precificação
 
@@ -186,10 +186,52 @@ conduzido por fisioterapeuta, não academia.
 
 ## 7. ICP e score de prospecção (só Bauru)
 
-Planilha de trabalho: `florescer-empresas-pipeline.csv` neste diretório (importar no
-Google Sheets). Fonte de dados: Firecrawl e Apify para raspar listas GPTW e rankings
-regionais, LinkedIn (porte, setor, sede), avaliações Glassdoor e Google, e
-enriquecimento de CNPJ (porte, CNAE, regime) por API pública.
+Fonte de dados: LinkedIn (porte, setor, sede), listas GPTW e rankings regionais,
+avaliações Glassdoor e Google, e consulta de CNPJ (porte, CNAE, regime). CNPJ, regime
+e distância de cada alvo ainda estão por confirmar; enquanto o volume for pequeno, a
+lista vive aqui mesmo, sem planilha nem ferramenta.
+
+### 7.1 Situação da prospecção
+
+Ordenada por score. Status e próximo passo atualizados à mão. Os dados que sustentam
+cada score estão em 7.2.
+
+| Empresa | Score | Status | Próximo passo e notas |
+|---|---|---|---|
+| Unimed Bauru | 90 | a prospectar | Mapear contato do RH. Argumento de sinistralidade é o mais forte; cerca de 1500 mulheres no quadro |
+| Rede Confiança Supermercados | 87 | proposta enviada em 2026-08-31 | E-mail com PDF para evieira@confianca.com.br e guilherme.fernandes@confianca.com.br, aguardando retorno. Conferir se chegou: o domínio do e-mail (confianca.com.br) difere do site institucional (clienteconfianca.com.br), checar bounce. Muita mulher em caixa e no administrativo |
+| Tilibra (ACCO Brands) | 83 | proposta registrada em 2026-08-31 | Enviada pelo formulário de parceria, retorno para matheus@fiorepilates.com.br. Multinacional, pico sazonal na volta às aulas |
+| OdontoCompany | 83 | a prospectar | Falar com o RH da sede, não das franquias. Considerar só o quadro da franqueadora em Bauru |
+| Concilig | 82 | a prospectar | Contato RH ou área de bem-estar. Maior empregador BPO local, jornada de 6h; Glassdoor aponta salário baixo |
+| AeC (unidade Bauru) | 77 | a prospectar | RH da unidade de Bauru. Decisão pode ser regional (HQ em BH); Glassdoor negativo sobre jornada |
+| Sicredi Centro Oeste Paulista | 77 | a prospectar | RH regional. Cultura forte de bem-estar (GPTW recorrente), porte menor mas alta chance de aceitar |
+| UNISAGRADO | 75 | a prospectar | RH. Apelo fiscal fraco por ser imune; usar retenção e absenteísmo. Já tem parceria com empresas |
+| Hospital de Base de Bauru | 74 | contato iniciado (Matheus) | Ligar no RH pelo (14) 3231-4770 e pedir o RH (ação 2026-09-01). Abordagem foi pelo WhatsApp do Hemocentro (14) 3231-4771, que orientou isso. Apelo fiscal fraco, foco em afastamento e escala |
+| eSapiens Tecnologia | 63 | a prospectar | Contato direto com a liderança. Abaixo do porte ideal mas cultura e abertura altíssimas, bom para piloto rápido |
+| Sincomércio Bauru e Região | canal | contato iniciado (Matheus) | Enviar proposta por e-mail para katiana@sincomerciobauru.com.br (ação 2026-09-01). Canal multiplicador para o varejo de Bauru pelas associadas. Ver seção 8.2 |
+
+### 7.2 Dados da pesquisa (o que alimenta o score)
+
+Snapshot da pesquisa por empresa. O score foi calculado uma vez a partir destes
+campos e da rubrica abaixo; não é recalculado sozinho. Se um score for contestado,
+refazer a conta pela rubrica com os dados da linha.
+
+| Empresa | Setor | Porte | % mulheres | Gestantes/ano (est.) | Reputação empregador | Regime | Fontes |
+|---|---|---|---|---|---|---|---|
+| Unimed Bauru | Saúde / operadora de plano e hospital | ~2000 | 75% | 35 a 45 | Boa | Cooperativa | unimedbauru.com.br; LinkedIn |
+| Rede Confiança Supermercados | Varejo supermercadista | ~4500 | ~50% | 60 a 90 | Média | Lucro Real | clienteconfianca.com.br; abras.com.br; LinkedIn |
+| Tilibra (ACCO Brands) | Indústria de papelaria e material escolar | 1000 a 2000 | ~45% | 25 a 40 | Média a boa | Lucro Real | tilibra.com.br; accobrands.com |
+| OdontoCompany | Franqueadora de odontologia (sede) | 500 a 1000 | ~75% | 20 a 35 | Média | Lucro Real | odontocompany.com; Instagram |
+| Concilig | BPO de cobrança e telemarketing | ~5000 | ~65% | 80 a 120 | Fraca a média | Lucro Real | concilig.gupy.io; clientesa.com.br; Glassdoor |
+| AeC (unidade Bauru) | Contact center / BPO | 1000 a 2000 na unidade | ~65% | 50 a 90 | Fraca | Lucro Real | aec.com.br; Glassdoor; portalcustomer.com.br |
+| Sicredi Centro Oeste Paulista | Cooperativa de crédito | 300 a 500 | ~55% | 12 a 20 | Excelente (GPTW recorrente) | Cooperativa | sicredi.com.br |
+| UNISAGRADO | Ensino superior privado | 500 a 900 | ~60% | 20 a 35 | Boa | Imune (entidade educacional) | unisagrado.edu.br; LinkedIn |
+| Hospital de Base de Bauru | Saúde hospitalar | ~1200 | ~70% | 25 a 40 | Média | Filantrópico / associação | famesp.org.br; Instagram Hospital de Base |
+| eSapiens Tecnologia | Tecnologia / venture builder | ~108 | ~40% | 4 a 8 | Excelente (2º melhor GPTW Bauru e região) | Lucro Real ou Presumido | rocketreach.co; socialbauru.com.br; esapiens.com.br |
+| Sincomércio Bauru e Região | Canal: sindicato patronal do comércio varejista | quadro próprio pequeno mais lojas associadas | n/a (canal) | n/a | n/a | a confirmar | WhatsApp institucional |
+
+Plano de saúde empresarial: sim em todas (menos o Sincomércio, canal). Distância até
+o estúdio: a medir para todas.
 
 **Rubrica de score (0 a 100):**
 
@@ -209,7 +251,12 @@ enriquecimento de CNPJ (porte, CNAE, regime) por API pública.
 varejo, bancos e cooperativas, BPO e call center, indústria de alimentos e calçadista,
 serviços.
 
-## 8. Canal: Salutem e administradoras de benefícios
+## 8. Canais de intermediação (Salutem, sindicatos patronais)
+
+Canais que colocam o Fiore na frente de várias empresas de uma vez, em vez de
+prospecção uma a uma.
+
+### 8.1 Salutem e administradoras de benefícios
 
 **Salutem corporativo.** R. Gustavo Maciel, 11-47, Centro, Bauru. Seg a sex, 8h às
 17h30. Administra benefícios, parcerias e saúde ocupacional para empresas de Bauru.
@@ -227,6 +274,18 @@ no clube de parcerias (hipótese 1) e, ao mesmo tempo, pedir apresentação a 1 
 empresas-alvo para contrato direto (hipótese 2). A hipótese 2 é a que dá contrato
 âncora com controle de preço e experiência; a hipótese 1 é a que dá volume. Comparar o
 resultado das duas no mês 3.
+
+### 8.2 Sindicatos patronais e associações comerciais
+
+Sindicatos e associações do comércio funcionam como canal multiplicador: uma conversa
+chega a dezenas de lojas associadas de uma vez. O interesse deles é oferecer benefício
+às associadas sem custo próprio, então o modelo é o da hipótese 2 da Salutem (porta de
+entrada), com contrato Fiore direto com cada empresa.
+
+- **Sincomércio Bauru e Região** (sindicato patronal do comércio varejista). Contato
+  iniciado em 2026-08-31 pelo WhatsApp institucional; em 2026-09-01 pediram a proposta
+  por e-mail para katiana@sincomerciobauru.com.br. Próximo passo: enviar a proposta e
+  entender se eles topam divulgar às associadas.
 
 ## 9. Roteiro de abordagem do RH
 
@@ -265,7 +324,7 @@ Valem integralmente os do
 - Como o sistema da clínica marca a empresa de cada gestante no cadastro e fecha o
   total por empresa no mês.
 - Regime tributário de cada empresa-alvo. Sai da pesquisa de prospecção (coluna
-  `regime_tributario` da planilha). Define qual parte da seção 5.2 usar.
+  Regime da tabela da seção 7). Define qual parte da seção 5.2 usar.
 - Reunião com a Salutem para destravar as duas hipóteses de canal da seção 8.
 - Contato e e-mail que virão pela indicação.
 
@@ -282,13 +341,13 @@ Valem integralmente os do
   paralelo**.
 - As aulas são **100% conduzidas por fisioterapeutas** (posicionamento de Pilates
   clínico e dedução de IRPF disponível).
-- Escopo v1: **só Bauru**, 1 a 2 empresas âncora, entrega no estúdio, pipeline em
-  planilha, sem ferramenta nova.
+- Escopo v1: **só Bauru**, 1 a 2 empresas âncora, entrega no estúdio, pipeline na
+  tabela da seção 7, sem ferramenta nova.
 
 ## Relacionados
 
 - [ADR 0017: Florescer Empresas, linha B2B2C](../adr/0017-florescer-empresas-modelo-b2b2c.md)
-- [ADR 0013: Grupo Fiore como branded house](../adr/0013-grupo-fiore-arquitetura-de-marca.md)
+- [ADR 0020: Ecossistema Fiore, com Fiore Pilates e Fiore Labs](../adr/0020-ecossistema-fiore-e-fiore-labs.md)
 - [ADR 0005: conteúdo ético e prova social real](../adr/0005-conteudo-etico-e-prova-social-real.md)
 - [GRUPO-FIORE.md](GRUPO-FIORE.md)
-- [florescer-empresas-pipeline.csv](florescer-empresas-pipeline.csv)
+- [florescer-empresas-proposta-modelo.md](florescer-empresas-proposta-modelo.md)
