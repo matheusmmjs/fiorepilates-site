@@ -39,7 +39,7 @@ sair do papel, que é a primeira empresa âncora.
   os horários de menor procura e manter o pico para o balcão.
 - **Programa Florescer:** Pilates especializado para gestantes, em turmas pequenas,
   com avaliação inicial e liberação médica obrigatória por gestante.
-- Sem CRM nem ferramenta nova. Pipeline em planilha (ver seção 7).
+- Sem CRM nem ferramenta nova. Pipeline na tabela da seção 7 deste documento.
 
 ## 3. Modelo de precificação
 
@@ -186,10 +186,28 @@ conduzido por fisioterapeuta, não academia.
 
 ## 7. ICP e score de prospecção (só Bauru)
 
-Planilha de trabalho: `florescer-empresas-pipeline.csv` neste diretório (importar no
-Google Sheets). Fonte de dados: Firecrawl e Apify para raspar listas GPTW e rankings
-regionais, LinkedIn (porte, setor, sede), avaliações Glassdoor e Google, e
-enriquecimento de CNPJ (porte, CNAE, regime) por API pública.
+Fonte de dados: LinkedIn (porte, setor, sede), listas GPTW e rankings regionais,
+avaliações Glassdoor e Google, e consulta de CNPJ (porte, CNAE, regime). CNPJ, regime
+e distância de cada alvo ainda estão por confirmar; enquanto o volume for pequeno, a
+lista vive aqui mesmo, sem planilha nem ferramenta.
+
+### 7.1 Lista de prospecção
+
+Ordenada por score. Status e próximo passo atualizados à mão.
+
+| Empresa | Setor | Porte | Regime | Score | Status | Próximo passo e notas |
+|---|---|---|---|---|---|---|
+| Unimed Bauru | Saúde / operadora de plano e hospital | ~2000 | Cooperativa | 90 | a prospectar | Mapear contato do RH. Argumento de sinistralidade é o mais forte; cerca de 1500 mulheres no quadro |
+| Rede Confiança Supermercados | Varejo supermercadista | ~4500 | Lucro Real | 87 | proposta enviada em 2026-08-31 | E-mail com PDF para evieira@confianca.com.br e guilherme.fernandes@confianca.com.br, aguardando retorno. Muita mulher em caixa e no administrativo |
+| Tilibra (ACCO Brands) | Indústria de papelaria e material escolar | 1000 a 2000 | Lucro Real | 83 | proposta registrada em 2026-08-31 | Enviada pelo formulário de parceria, retorno para matheus@fiorepilates.com.br. Multinacional, pico sazonal na volta às aulas |
+| OdontoCompany | Franqueadora de odontologia (sede) | 500 a 1000 | Lucro Real | 83 | a prospectar | Falar com o RH da sede, não das franquias. Considerar só o quadro da franqueadora em Bauru |
+| Concilig | BPO de cobrança e telemarketing | ~5000 | Lucro Real | 82 | a prospectar | Contato RH ou área de bem-estar. Maior empregador BPO local, jornada de 6h; Glassdoor aponta salário baixo |
+| AeC (unidade Bauru) | Contact center / BPO | 1000 a 2000 na unidade | Lucro Real | 77 | a prospectar | RH da unidade de Bauru. Decisão pode ser regional (HQ em BH); Glassdoor negativo sobre jornada |
+| Sicredi Centro Oeste Paulista | Cooperativa de crédito | 300 a 500 | Cooperativa | 77 | a prospectar | RH regional. Cultura forte de bem-estar (GPTW recorrente), porte menor mas alta chance de aceitar |
+| UNISAGRADO | Ensino superior privado | 500 a 900 | Imune (entidade educacional) | 75 | a prospectar | RH. Apelo fiscal fraco por ser imune; usar retenção e absenteísmo. Já tem parceria com empresas |
+| Hospital de Base de Bauru | Saúde hospitalar | ~1200 | Filantrópico / associação | 74 | contato iniciado (Matheus) | Ligar no RH pelo (14) 3231-4770 e pedir o RH (ação 2026-09-01). Abordagem foi pelo WhatsApp do Hemocentro (14) 3231-4771, que orientou isso. Apelo fiscal fraco, foco em afastamento e escala |
+| eSapiens Tecnologia | Tecnologia / venture builder | ~108 | Lucro Real ou Presumido | 63 | a prospectar | Contato direto com a liderança. Abaixo do porte ideal mas cultura e abertura altíssimas, bom para piloto rápido |
+| Sincomércio Bauru e Região | Canal: sindicato patronal do comércio varejista | quadro próprio pequeno mais lojas associadas | n/a | canal | contato iniciado (Matheus) | Enviar proposta por e-mail para katiana@sincomerciobauru.com.br (ação 2026-09-01). Canal multiplicador para o varejo de Bauru pelas associadas. Ver seção 8 |
 
 **Rubrica de score (0 a 100):**
 
@@ -265,7 +283,7 @@ Valem integralmente os do
 - Como o sistema da clínica marca a empresa de cada gestante no cadastro e fecha o
   total por empresa no mês.
 - Regime tributário de cada empresa-alvo. Sai da pesquisa de prospecção (coluna
-  `regime_tributario` da planilha). Define qual parte da seção 5.2 usar.
+  Regime da tabela da seção 7). Define qual parte da seção 5.2 usar.
 - Reunião com a Salutem para destravar as duas hipóteses de canal da seção 8.
 - Contato e e-mail que virão pela indicação.
 
@@ -282,8 +300,8 @@ Valem integralmente os do
   paralelo**.
 - As aulas são **100% conduzidas por fisioterapeutas** (posicionamento de Pilates
   clínico e dedução de IRPF disponível).
-- Escopo v1: **só Bauru**, 1 a 2 empresas âncora, entrega no estúdio, pipeline em
-  planilha, sem ferramenta nova.
+- Escopo v1: **só Bauru**, 1 a 2 empresas âncora, entrega no estúdio, pipeline na
+  tabela da seção 7, sem ferramenta nova.
 
 ## Relacionados
 
@@ -291,4 +309,4 @@ Valem integralmente os do
 - [ADR 0013: Grupo Fiore como branded house](../adr/0013-grupo-fiore-arquitetura-de-marca.md)
 - [ADR 0005: conteúdo ético e prova social real](../adr/0005-conteudo-etico-e-prova-social-real.md)
 - [GRUPO-FIORE.md](GRUPO-FIORE.md)
-- [florescer-empresas-pipeline.csv](florescer-empresas-pipeline.csv)
+- [florescer-empresas-proposta-modelo.md](florescer-empresas-proposta-modelo.md)
