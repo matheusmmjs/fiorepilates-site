@@ -11,9 +11,11 @@ parecer que atende apenas gestantes.
 **Primárias:** Pilates em Bauru · Pilates para gestantes Bauru · Pilates gestante / pré-natal Bauru ·
 estúdio de Pilates Bauru · clínica de Pilates em Bauru.
 **Secundárias:** Pilates para dores · Pilates para postura · Pilates para idosos ·
-fisioterapia pélvica Bauru · Pilates pós-parto.
+fisioterapia pélvica Bauru · Pilates pós-parto · saúde da mulher Bauru.
 
-Mapeamento: termos de gestante → `gestantes.html`; termos amplos → `index.html`.
+Mapeamento: termos de gestante → `gestantes.html`; termos amplos → `index.html`;
+fisioterapia pélvica **e** saúde da mulher → `fisioterapia-pelvica.html` (páginas
+unificadas, [ADR 0018](adr/0018-unificacao-fisioterapia-pelvica-e-saude-da-mulher.md)).
 
 ## Tom de voz
 
@@ -43,13 +45,16 @@ Número: **(14) 99659-8955** → `https://wa.me/5514996598955?text=...` (texto U
 
 - **URLs canônicas:** domínio apex sem www + clean URLs (`/gestantes`) — ver [ADR 0009](adr/0009-urls-canonicas-dominio-apex-clean-urls.md). Links internos **sem** `.html`.
 - `title` + `meta description` premium por página, `canonical`, OG + Twitter Cards.
-- JSON-LD: `HealthAndBeautyBusiness` + `FAQPage` (home); `Service` + `FAQPage` + `BreadcrumbList` (gestantes).
-- `AggregateRating` ativo: 5,0 · 44 avaliações (dados reais do cliente, 2026-05-27).
+- JSON-LD: `HealthAndBeautyBusiness` + `Physiotherapy` (com `@id`, `knowsAbout`, `sameAs`,
+  `makesOffer`) + `FAQPage` na home; `Service` + `FAQPage` + `BreadcrumbList` nas demais,
+  com `provider` referenciando o `@id` do negócio.
+- `AggregateRating` ativo: 5,0 · 45 avaliações (dados reais do cliente).
   *Nota: o Google ignora review markup "self-serving" para rich results desde 2019 —
   não esperar estrelas na SERP; o ativo real são as avaliações no Perfil da Empresa.*
-- `robots.txt`, `sitemap.xml` (ambas as páginas + `lastmod`), `site.webmanifest`, `vercel.json` (cache + headers + cleanUrls).
+- `robots.txt` (libera robôs de IA + aponta `/llms.txt`), `sitemap.xml`, `site.webmanifest`, `vercel.json` (cache + headers + cleanUrls + 301 de `/saude-da-mulher`).
 - LCP: hero em `<picture>` com **WebP + `srcset`** (480w/618w) e `fetchpriority="high"`; fontes com `preload`.
-- Favicon: `fiore-simbolo.svg` (primário) + `/favicon.ico` na raiz (16+32px, ~1,2 KB).
+- Favicon: `favicon.svg` quadrado (primário) + `/favicon.ico` na raiz (16/32/48/64 px) + PNG 192/512.
+- **AEO/GEO** (aparecer em respostas de ChatGPT, Gemini, Perplexity): ver [AEO-GEO.md](AEO-GEO.md) e [ADR 0019](adr/0019-aeo-geo-otimizacao-para-busca-generativa.md). `/llms.txt` mínimo publicado.
 - Imagem social: `assets/images/og-image.jpg` (1200×630).
 - **Google Analytics 4:** `G-GN6B6NJNKL` — tag no `<head>` de ambas as páginas (posição obrigatória para verificação via Search Console).
 - **Google Search Console:** ✅ verificado (prefixo `https://fiorepilates.com.br/`), sitemap enviado e processado (2 páginas, 2026-05-27), propriedade GA ↔ Search Console vinculada.

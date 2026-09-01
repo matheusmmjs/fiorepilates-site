@@ -1,0 +1,30 @@
+# Fiore Pilates
+
+> Estúdio de Pilates em Bauru/SP especializado em gestantes e saúde da mulher, com
+> atendimento individualizado. Também oferece fisioterapia pélvica, Pilates pós-parto
+> e Pilates para idosos e reabilitação. Fundado pela fisioterapeuta Raquel Cardoso.
+> Nota 5,0 no Google (45 avaliações). Endereço: R. Baltazar Rodrigues, 4-82, Jardim
+> Planalto, Bauru/SP. WhatsApp: (14) 99659-8955. Horário: seg a sex 6h às 20h,
+> sábado 7h às 12h. A prática deve começar com liberação médica.
+
+## Páginas
+
+- [Início](https://fiorepilates.com.br/): visão geral, serviços, prova social, FAQ, mapa e contato.
+- [Pilates para gestantes](https://fiorepilates.com.br/gestantes): Pilates pré-natal individualizado, adaptado a cada trimestre. Avaliação inicial da gestante R$ 150, abatida no plano.
+- [Fisioterapia pélvica e saúde da mulher](https://fiorepilates.com.br/fisioterapia-pelvica): cuidado com o assoalho pélvico na gestação e no pós-parto, e Pilates para a mulher em todas as fases.
+- [Pilates pós-parto](https://fiorepilates.com.br/pilates-pos-parto): retorno seguro ao movimento, com foco em core e recuperação, respeitando o tipo de parto.
+- [Pilates para idosos e reabilitação](https://fiorepilates.com.br/pilates-idosos-reabilitacao): aulas seguras para equilíbrio, força, mobilidade e retorno ao movimento.
+- [Programa Florescer](https://fiorepilates.com.br/florescer): programa integrado de Pilates, fisioterapia pélvica e terapias manuais.
+- [Eventos e comunidade](https://fiorepilates.com.br/eventos): cafés com gestantes, parcerias e cobertura na imprensa (TV TEM).
+- [Guia da Gestante Ativa em Bauru](https://fiorepilates.com.br/guia-gestante): material gratuito enviado por WhatsApp.
+
+## Conteúdo completo
+
+- [Texto integral de todas as páginas](https://fiorepilates.com.br/llms-full.txt)
+
+## Observações
+
+- Não há aula experimental. A experiência começa pela avaliação inicial, um encontro individual.
+- O cuidado é sempre individualizado, nunca em turma.
+- Prova social: todas as avaliações citadas são reais e públicas (Google).
+- Contato e agendamento acontecem pelo WhatsApp (14) 99659-8955.

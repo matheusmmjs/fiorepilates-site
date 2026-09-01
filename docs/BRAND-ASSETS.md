@@ -14,17 +14,14 @@ estrela `#F2C94C`. Fonte **Poppins** (com fallback de sistema na renderização)
 |---|---|---|---|
 | Card OG de /gestantes | `assets/brand/og-gestantes.svg` | `assets/images/og-gestantes.jpg` (1200×630) | `og:image`/`twitter:image` de `gestantes.html` |
 | PDF "Guia da Gestante Ativa" | `assets/lead-magnet/guia-gestante-ativa-bauru.html` | `assets/guia-gestante-ativa-bauru.pdf` | lead magnet (ver [LEAD-MAGNET.md](LEAD-MAGNET.md)) |
-| Foto editorial de gestante no Pilates | gerada por IA, não representa aluna real | `assets/images/gestante-pilates-fiore.jpg` + WebP e 480w | páginas e blocos voltados a gestantes |
+## Foto de gestante (removida)
 
-## Foto editorial de gestante
-
-Asset gerado para reduzir repetição de fotos do espaço enquanto a sessão de fotos com
-gestantes reais segue pendente no roadmap. Não deve ser usado como prova social ou como
-registro de atendimento real.
-
-Prompt-base: foto editorial realista de uma gestante adulta fazendo Pilates pré-natal
-suave em estúdio boutique, luz natural, tons creme e sálvia, rosto não identificável,
-sem logo, sem texto, sem equipamento hospitalar e sem pose arriscada.
+A foto editorial gerada por IA (`gestante-pilates-fiore.*`) foi **removida do repo** em
+2026-09-01: soava artificial e um revisor externo apontou. As páginas e blocos voltados
+a gestantes voltaram a usar fotos reais do espaço (`pilates-aula.*`, `espaco-recanto.*`).
+A foto de gestante real em aula continua pendente (sessão de fotos, ROADMAP 2.4); quando
+existir, entra nos heróis de `index.html` (bloco #gestantes), `gestantes.html` e
+`guia-gestante.html`.
 
 ## Como regerar um raster a partir do SVG
 

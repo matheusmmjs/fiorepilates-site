@@ -5,7 +5,9 @@
   "redirects": [
     { "source": "/bolao", "destination": "/", "permanent": true },
     { "source": "/desafios", "destination": "/", "permanent": true },
-    { "source": "/aniversario", "destination": "/", "permanent": true }
+    { "source": "/aniversario", "destination": "/", "permanent": true },
+    { "source": "/saude-da-mulher", "destination": "/fisioterapia-pelvica", "permanent": true },
+    { "source": "/saude-da-mulher.html", "destination": "/fisioterapia-pelvica", "permanent": true }
   ],
   "headers": [
     {
