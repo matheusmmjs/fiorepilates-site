@@ -34,6 +34,16 @@ Decisão registrada no [ADR 0013](../adr/0013-grupo-fiore-arquitetura-de-marca.m
 Regra prática: o Mirae **não é vendido no site da clínica**. Ele aparece lá apenas
 como prova de tecnologia e cuidado (ver princípio 3 do [ROADMAP.md](../ROADMAP.md)).
 
+## Linha B2B2C da clínica: Florescer Empresas
+
+Dentro do mundo da clínica há uma frente de receita além do B2C local: o **Florescer
+Empresas**. O RH de uma empresa paga o Pilates na gestação como benefício e a
+colaboradora gestante usa (B2B2C). É go-to-market da clínica, não marca nova nem
+unidade nova, e o Mirae não entra. Escopo da v1: só Bauru, entrega no estúdio, venda
+outbound e via administradoras de benefícios. Detalhe em
+[ADR 0017](../adr/0017-florescer-empresas-modelo-b2b2c.md) e
+[docs/company/florescer-empresas.md](florescer-empresas.md).
+
 ## Fronteira de repositórios
 
 Decisão registrada no
@@ -72,5 +82,6 @@ Não é uma decisão de migração agora; é dívida registrada no
 - [ADR 0013: Grupo Fiore como branded house](../adr/0013-grupo-fiore-arquitetura-de-marca.md)
 - [ADR 0014: fronteira entre `fiorepilates-site` e `mirae-local`](../adr/0014-fronteira-repos-fiorepilates-site-e-mirae-local.md)
 - [ADR 0015: oferta comercial da unidade Tech e regra de domínio](../adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
+- [ADR 0017: Florescer Empresas, linha B2B2C](../adr/0017-florescer-empresas-modelo-b2b2c.md) e [docs/company/florescer-empresas.md](florescer-empresas.md)
 - [docs/tech/OFERTA.md](../tech/OFERTA.md) e [docs/tech/ROADMAP-TECH.md](../tech/ROADMAP-TECH.md)
 - [BRAND.md](../BRAND.md) (identidade da marca-mãe)
