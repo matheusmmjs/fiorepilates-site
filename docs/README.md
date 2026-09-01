@@ -8,17 +8,17 @@ Documentação do site da Fiore: o que foi feito, **por que** e como manter.
 - **[BRAND.md](BRAND.md)** — identidade da marca: propósito, posicionamento, paleta, tipografia, voz. Consolida os dois materiais oficiais (apresentação de estratégia + manual "BRAND & DESIGN").
 - **[CONTENT-SEO.md](CONTENT-SEO.md)** — estratégia de conteúdo, CTAs e SEO (keywords, dados estruturados).
 - **[ASSETS-NEEDED.md](ASSETS-NEEDED.md)** — mídias e dados que ainda precisamos do cliente.
-- **[ROADMAP.md](ROADMAP.md)** — plano de crescimento digital priorizado (fases, status, quem faz o quê); histórico do Bolão da Copa 2026 fica registrado lá.
+- **[ROADMAP.md](ROADMAP.md)** — roadmap único do ecossistema: Parte 1 crescimento digital da clínica (fases, status, Bolão da Copa 2026), Parte 2 frente comercial da Fiore Labs.
 - **[BENCHMARKING.md](BENCHMARKING.md)** — comparação com concorrentes de Bauru e referência dos EUA (dados reais via Apify/Firecrawl), atualizar a cada poucos meses.
 - **[COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md)** — fluxo para adicionar eventos na página `/eventos`.
 
-## Grupo Fiore e unidade Tech
+## Ecossistema Fiore e Fiore Labs
 
-Hub de estratégia do grupo e da camada comercial da unidade Tech, além do site da clínica:
+Hub de estratégia do ecossistema e da camada comercial da Fiore Labs, além do site da clínica:
 
-- **[company/GRUPO-FIORE.md](company/GRUPO-FIORE.md)**: arquitetura de marca, as 3 unidades, os 2 mundos de cliente e a fronteira de repositórios.
-- **[tech/OFERTA.md](tech/OFERTA.md)**: oferta comercial da unidade Tech (SKUs, ICP, posicionamento "Mirae by Fiore").
-- **[tech/ROADMAP-TECH.md](tech/ROADMAP-TECH.md)**: roadmap comercial da unidade Tech (consultoria, primeiros casos, escala do SaaS).
+- **[company/GRUPO-FIORE.md](company/GRUPO-FIORE.md)**: arquitetura de marca (Fiore Pilates + Fiore Labs), os 2 mundos de cliente e a fronteira de repositórios.
+- **[tech/OFERTA.md](tech/OFERTA.md)**: oferta comercial da Fiore Labs (SKUs, ICP, posicionamento "Mirae by Fiore").
+- Roadmap comercial da Fiore Labs: Parte 2 do [ROADMAP.md](ROADMAP.md).
 
 ## Decisões de arquitetura (ADRs)
 

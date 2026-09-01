@@ -49,13 +49,18 @@ maternidade**.
 **Elegante · Paz · Acolhedora.** No espectro: **Elegante** (não extrovertida),
 **Acolhedora** (não formal), **Humana** (não complexa).
 
-## Unidades / sub-marcas
+## Negócios do ecossistema
 
-- **Fiore Pilates**: Pilates especializado (foco gestantes + saúde da mulher, dores, idosos, reabilitação).
-- **Fiore Toque**: cuidado na gestação e pós através do toque (terapias manuais/massagem).
-- **Fiore Tech (Mirae)**: unidade B2B de tecnologia (consultoria + Mirae SaaS). Ver
-  [GRUPO-FIORE.md](company/GRUPO-FIORE.md); a taxonomia detalhada do produto vive no
-  repositório `mirae-local` (ADR-040).
+No topo, o **Ecossistema Fiore**. Dentro dele, lado a lado (ver
+[ADR 0020](adr/0020-ecossistema-fiore-e-fiore-labs.md)):
+
+- **Fiore Pilates**: clínica B2C local. Pilates especializado (gestantes + saúde da
+  mulher, dores, idosos, reabilitação). Inclui o **Fiore Toque** (terapias manuais)
+  como seção do site.
+- **Fiore Labs**: o que a família constrói. Software (**Mirae**, Baru, Firme),
+  consultoria e implantação, experimentos. Site `fiorelabs.com.br`. Taxonomia do
+  Mirae no repositório `mirae-local` (ADR-040). Ver
+  [GRUPO-FIORE.md](company/GRUPO-FIORE.md).
 
 ## Valores
 
