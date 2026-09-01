@@ -13,7 +13,6 @@ estrela `#F2C94C`. Fonte **Poppins** (com fallback de sistema na renderização)
 | Asset | Fonte (SVG editável) | Exportação usada | Onde aparece |
 |---|---|---|---|
 | Card OG de /gestantes | `assets/brand/og-gestantes.svg` | `assets/images/og-gestantes.jpg` (1200×630) | `og:image`/`twitter:image` de `gestantes.html` |
-| Mockup do app Mirae | `assets/brand/mirae-app.svg` | `assets/images/mirae-app.jpg` (523×800) | seção "Tecnologia" da home |
 | PDF "Guia da Gestante Ativa" | `assets/lead-magnet/guia-gestante-ativa-bauru.html` | `assets/guia-gestante-ativa-bauru.pdf` | lead magnet (ver [LEAD-MAGNET.md](LEAD-MAGNET.md)) |
 | Foto editorial de gestante no Pilates | gerada por IA, não representa aluna real | `assets/images/gestante-pilates-fiore.jpg` + WebP e 480w | páginas e blocos voltados a gestantes |
 
