@@ -112,6 +112,11 @@ Obrigado pela atenção.
 
 ## Registro de envios
 
+Remetente: Matheus Santos, sócio (matheus@fiorepilates.com.br).
+
 | Empresa | Data do envio | Canal | Contato | Status |
 |---|---|---|---|---|
-| Rede Confiança | | e-mail | evieira@confianca.com.br; guilherme.fernandes@confianca.com.br | texto pronto, aguarda dados do remetente para enviar |
+| Rede Confiança | 2026-08-31 | e-mail (com PDF anexo) | evieira@confianca.com.br; guilherme.fernandes@confianca.com.br | enviada, aguardando retorno |
+| Tilibra | 2026-08-31 | formulário "Registro de Solicitações" (tipo: Parceria) | via formulário, retorno para matheus@fiorepilates.com.br | registrada, aguardando retorno |
+
+Follow-up sugerido: se não houver retorno em 3 a 5 dias úteis, um contato curto no mesmo canal.
