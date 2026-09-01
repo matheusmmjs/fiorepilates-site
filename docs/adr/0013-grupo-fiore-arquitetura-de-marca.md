@@ -1,6 +1,12 @@
 # ADR 0013: Grupo Fiore como branded house com 3 unidades
 
-Data: 2026-07-07 · Status: aceito
+- **Status:** Substituído pelo [ADR 0020](0020-ecossistema-fiore-e-fiore-labs.md) (2026-09-01)
+- **Data:** 2026-07-07
+
+> A frente de tecnologia cresceu além de "unidade Mirae" e virou **Fiore Labs**, com
+> domínio próprio e vários produtos. O modelo passou a ser **Ecossistema Fiore** com
+> **Fiore Pilates** e **Fiore Labs** lado a lado (Fiore Toque vira seção do Pilates).
+> Mantido aqui como registro histórico. Ver [ADR 0020](0020-ecossistema-fiore-e-fiore-labs.md).
 
 ## Contexto
 

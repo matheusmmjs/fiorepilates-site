@@ -38,7 +38,7 @@ unidade Tech? como não conflitar com o site B2C da clínica?
 6. **Canal:** testar em paralelo a Salutem como clube de parcerias (volume) e como
    porta de entrada para contratos diretos com empresas âncora (controle de preço e
    experiência). Comparar no mês 3.
-7. **Fronteira:** isto é comercial da **clínica**, não da unidade Tech
+7. **Fronteira:** isto é comercial da **clínica**, não da Fiore Labs
    ([ADR 0015](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)). O Mirae não
    entra. O site B2C não vende isto (princípio 3 do [ROADMAP.md](../ROADMAP.md)): a
    venda é outbound e via RH ou parceiro de benefícios.
@@ -72,7 +72,7 @@ Detalhamento (planos, argumento financeiro e fiscal, ICP, canal, roteiro de RH) 
 ## Relacionados
 
 - [docs/company/florescer-empresas.md](../company/florescer-empresas.md)
-- [ADR 0013: Grupo Fiore como branded house](0013-grupo-fiore-arquitetura-de-marca.md)
+- [ADR 0020: Ecossistema Fiore, com Fiore Pilates e Fiore Labs](0020-ecossistema-fiore-e-fiore-labs.md) (substitui o 0013)
 - [ADR 0005: conteúdo ético e prova social real](0005-conteudo-etico-e-prova-social-real.md)
-- [ADR 0015: oferta comercial da unidade Tech e regra de domínio](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
+- [ADR 0015: oferta comercial e regra de domínio](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
 - [GRUPO-FIORE.md](../company/GRUPO-FIORE.md)

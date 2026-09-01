@@ -20,20 +20,21 @@ consultoria/serviços **fora** do escopo daquele repo. Faltava dizer onde ela vi
 
 1. **`mirae-local` = produto Mirae.** App, landing e governança da unidade como
    produto: taxonomia, roadmap de produto e ADRs de produto. É o **dono do ADR-040**.
-2. **`fiorepilates-site` = clínica + grupo + comercial da Tech.** Este repo guarda o
-   site da clínica, a estratégia do Grupo Fiore
+2. **`fiorepilates-site` = clínica + ecossistema + comercial da Fiore Labs.** Este
+   repo guarda o site da clínica, a estratégia do Ecossistema Fiore
    ([docs/company/GRUPO-FIORE.md](../company/GRUPO-FIORE.md)) e a camada comercial da
-   unidade Tech: consultoria/implantação e posicionamento de revenda do Mirae SaaS
-   ([docs/tech/OFERTA.md](../tech/OFERTA.md) e
-   [docs/tech/ROADMAP-TECH.md](../tech/ROADMAP-TECH.md)).
+   Fiore Labs: consultoria/implantação e posicionamento de revenda do Mirae SaaS
+   ([docs/tech/OFERTA.md](../tech/OFERTA.md) e a Parte 2 do
+   [docs/ROADMAP.md](../ROADMAP.md)). Nome atualizado de "Fiore Tech" para "Fiore
+   Labs" no [ADR 0020](0020-ecossistema-fiore-e-fiore-labs.md).
 3. **Referenciar, nunca duplicar.** Conteúdo do ADR-040 (taxonomia, nomes de módulo,
    arquitetura de marca do produto) só entra aqui como resumo curto com aviso de fonte
    e link textual, no formato "ver ADR-040 no repositório `mirae-local`"
    ([mirae-local/docs/adr](https://github.com/matheusmmjs/mirae-local/tree/main/docs/adr)).
    Não usar caminho relativo entre repos, que não resolve. Em caso de divergência
    entre um resumo daqui e o ADR-040, vale o ADR-040.
-4. **A recíproca vale:** decisões comerciais da unidade Tech e de estratégia do grupo
-   se registram aqui e o `mirae-local` deve linkar para cá, não copiar.
+4. **A recíproca vale:** decisões comerciais da Fiore Labs e de estratégia do
+   ecossistema se registram aqui e o `mirae-local` deve linkar para cá, não copiar.
 
 ## Consequências
 
@@ -48,5 +49,5 @@ consultoria/serviços **fora** do escopo daquele repo. Faltava dizer onde ela vi
 ## Relacionados
 
 - [ADR 0013: Grupo Fiore como branded house](0013-grupo-fiore-arquitetura-de-marca.md)
-- [ADR 0015: oferta comercial da unidade Tech e regra de domínio](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
+- [ADR 0015: oferta comercial da Fiore Labs e regra de domínio](0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
 - ADR-040 no repositório `mirae-local` (taxonomia e arquitetura de marca da família Mirae)

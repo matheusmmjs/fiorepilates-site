@@ -1,19 +1,26 @@
-# ROADMAP — Crescimento digital da Fiore
+# ROADMAP — Ecossistema Fiore
 
-> Plano vivo, priorizado por **impacto × esforço**, baseado na auditoria de 2026-06-11
-> (SEO local, CRO, marca, mídia paga). Atualizar o status aqui a cada entrega.
-> Quem faz: **[M]** = Matheus/Raquel · **[C]** = Claude (agente).
+> Roadmap único do ecossistema. **Parte 1** é o crescimento digital da **Fiore
+> Pilates** (clínica); **Parte 2** é a frente comercial da **Fiore Labs** (software,
+> consultoria, experimentos). Ver [ADR 0020](adr/0020-ecossistema-fiore-e-fiore-labs.md).
+>
+> Plano vivo. Atualizar o status a cada entrega. Quem faz: **[M]** = Matheus/Raquel ·
+> **[C]** = Claude (agente).
 >
 > **Fluxo de trabalho:** cada bloco vira branch + PR → verificação no preview →
 > merge → check aqui. Decisões relevantes viram ADR (`docs/adr/`). Dados/mídias
-> pendentes ficam em [ASSETS-NEEDED.md](ASSETS-NEEDED.md). Tasks detalhadas na
-> task list da sessão do Claude.
+> pendentes da clínica ficam em [ASSETS-NEEDED.md](ASSETS-NEEDED.md).
 
 ## Legenda
 
 ✅ feito · 🔄 em andamento · ⏳ aguardando dependência · ⬜ não iniciado
 
 ---
+
+# Parte 1 — Fiore Pilates (clínica)
+
+> Priorizado por **impacto × esforço**, baseado na auditoria de 2026-06-11 (SEO local,
+> CRO, marca, mídia paga).
 
 ## Fase 0 — Fundação técnica (concluída em 2026-06-12)
 
@@ -99,14 +106,84 @@ encerramento, não são pendências abertas.
 - **Métricas (mensal):** conversões `whatsapp_click` por seção (GA4), posição no Local Pack para "pilates gestantes bauru" e "pilates bauru", páginas indexadas (Search Console).
 - **Benchmarking:** revisitar [BENCHMARKING.md](BENCHMARKING.md) a cada poucos meses pra medir se a distância de concorrentes locais/EUA aumentou ou diminuiu.
 
-## Princípios (não negociar)
+## Princípios da clínica (não negociar)
 
 1. **Linguagem ética com gestantes** — sem promessa médica ([ADR 0005](adr/0005-conteudo-etico-e-prova-social-real.md)).
 2. **Prova social só real** — nunca inventar avaliações ou números.
 3. **Mirae fortalece a marca, não é vendido no site da clínica (B2C).** A venda B2B
-   acontece na landing do Mirae (oferta em [tech/OFERTA.md](tech/OFERTA.md)). Nota: o
-   Mirae fica em `mirae.fiorepilates.com.br` enquanto a Fiore for o único tenant; o
-   gatilho para domínio próprio é o 2º tenant pagante
+   acontece nas superfícies da Fiore Labs (oferta em [tech/OFERTA.md](tech/OFERTA.md)).
+   Nota: o Mirae fica em `mirae.fiorepilates.com.br` enquanto a Fiore for o único
+   tenant; o gatilho para domínio próprio é o 2º tenant pagante
    ([ADR 0015](adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)).
 4. **NAP idêntico** em site, GBP e redes.
 5. **Nada de Ads sem conversão instrumentada** (por isso 0.9 vem antes de 3.1/3.2).
+
+---
+
+# Parte 2 — Fiore Labs (software, consultoria, experimentos)
+
+> Frente comercial da Fiore Labs: consultoria, primeiros casos e escala do SaaS.
+> **Não** é roadmap de produto do Mirae; esse vive no repositório `mirae-local`.
+> Criado em 2026-07-07. Oferta detalhada em [tech/OFERTA.md](tech/OFERTA.md).
+
+## Rock atual (definido 2026-08-19)
+
+A Fiore Labs tem 4 frentes de produto rodando ao mesmo tempo, gente demais pra
+1 pessoa (Matheus) e agentes de IA sustentarem em paralelo sem travar. Rock de 90 dias
+(até ~nov/2026), decidido em sessão de planejamento com Claude:
+
+- **Mirae (Rock #1).** Já maduro (produção interna desde mai/2026), nunca vendido pra
+  fora. Foco: converter em piloto externo pago (gatilho da Fase L2, abaixo).
+- **Baru** (white-label Nextcloud, repo `nextcloud-demo`, sem domínio próprio ainda) e
+  **Firme** (SaaS de gestão, repo `firme`, piloto pago Paulo/marcenaria, R$490
+  implantação + R$39,90/mês, provisório) seguem em movimento próprio, não competem
+  pelo Rock e só pedem resposta quando o cliente pede algo.
+- **Pastelaria** (repo `pastelari`, "fornadas" a R$2.900/unidade, provisório) e o site
+  institucional `fiorelabs.com.br` (portfólio GitHub + WhatsApp + Stripe Payment Link
+  pra Baru/Firme/mentoria) ficam **depois** do Rock, sem prazo fechado.
+- Motivo declarado: pressão de caixa agora. Caixa de curto prazo vem de Baru (demo
+  19/08, apresentada pelo Joab) e Firme (resposta do Paulo até 21/08), não do Mirae.
+  O ciclo de venda de SaaS é mais longo, por isso ele é aposta estruturada, não a
+  fonte de caixa imediata.
+
+## Fase L1: consultoria como cunha (caixa agora)
+
+| # | Item | Status |
+|---|------|--------|
+| L1.1 | Formalizar a oferta de consultoria/implantação (escopo padrão, proposta modelo) | ⬜ |
+| L1.2 | Fechar os primeiros projetos de consultoria com clínicas/estúdios de Pilates | ⬜ |
+| L1.3 | Documentar o processo de implantação a partir dos primeiros projetos | ⬜ |
+
+Objetivo da fase: gerar caixa com projeto fechado e aprender o processo de
+implantação com clientes reais, usando a Fiore como operação de referência.
+
+## Fase L2: primeiros casos do SaaS
+
+| # | Item | Status |
+|---|------|--------|
+| L2.1 | Converter projetos de consultoria em tenants do Mirae SaaS | ⬜ |
+| L2.2 | Primeiro tenant pagante além da Fiore | ⬜ |
+| L2.3 | Empacotar o case "Mirae by Fiore" (a clínica como cliente-zero) | ⬜ |
+| L2.4 | **Gatilho de domínio:** com o 2º tenant pagante, reabrir a decisão de domínio próprio do Mirae ([ADR 0015](adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)) | ⏳ L2.2 |
+
+Objetivo da fase: provar que o Mirae vende para fora da Fiore e transformar a
+clínica em case.
+
+## Fase L3: escala do SaaS
+
+| # | Item | Status |
+|---|------|--------|
+| L3.1 | Receita recorrente como centro da unidade; consultoria vira acelerador de onboarding | ⬜ |
+| L3.2 | Canais de aquisição B2B recorrentes (indicação entre clínicas, conteúdo, parcerias) | ⬜ |
+
+## Princípios da Fiore Labs (não negociar)
+
+1. **Venda vertical:** clínicas e estúdios de Pilates são a cunha de tração, mesmo com
+   nomes de módulo horizontais (ver [GRUPO-FIORE.md](company/GRUPO-FIORE.md)).
+2. **O Mirae não é vendido no site da clínica:** a venda B2B acontece nas superfícies
+   da Fiore Labs (princípio 3 da Parte 1).
+3. **Preço canônico do Mirae SaaS fica na landing:** nenhum doc deste repo replica os
+   números publicados de assinatura do Mirae (mensal, anual, trial), que mudam e são
+   voltados ao cliente. Não impede anotar termos de negócio interno (piloto, projeto
+   fechado) de produtos sem landing canônica, marcados como provisórios.
+4. **Produto se decide no `mirae-local`:** aqui só entra o que é comercial.
