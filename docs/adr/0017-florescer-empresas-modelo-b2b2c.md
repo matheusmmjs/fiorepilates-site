@@ -23,7 +23,8 @@ unidade Tech? como não conflitar com o site B2C da clínica?
    digital** (produto digital, B2C e add-on dos contratos de empresa).
 3. **Escopo da v1:** só Bauru, 1 a 2 empresas âncora, entrega no estúdio pelo fluxo
    normal de agendamento (6h às 20h) com a empresa da gestante registrada no cadastro,
-   sem CRM ou ferramenta nova (pipeline em planilha).
+   sem CRM ou ferramenta nova (pipeline em tabela no próprio doc da linha, seção 7 de
+   `florescer-empresas.md`).
 4. **Precificação:** pós-pago mensal por sessão realizada, uma nota por empresa no fim
    do mês, contrato de 12 meses, revisão no mês 3. **Taxa corporativa de R$ 55 por
    sessão** no contrato de 12 meses (R$ 60 em contratos de 3 a 6 meses). Sem bloco
