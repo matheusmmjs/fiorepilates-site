@@ -61,7 +61,7 @@
 
 | # | Item | Quem | Status |
 |---|------|------|--------|
-| 2.1 | 4 páginas de serviço: `/pilates-pos-parto`, `/fisioterapia-pelvica`, `/pilates-idosos-reabilitacao`, `/saude-da-mulher` (Service + BreadcrumbList + FAQ schema, linguagem ética) | C | ✅ 2026-06-14 |
+| 2.1 | 4 páginas de serviço: `/pilates-pos-parto`, `/fisioterapia-pelvica`, `/pilates-idosos-reabilitacao`, `/saude-da-mulher` (Service + BreadcrumbList + FAQ schema, linguagem ética) | C | ✅ 2026-06-14 · **Atualizado 2026-09-01:** `/saude-da-mulher` fundida em `/fisioterapia-pelvica` com 301 ([ADR 0018](adr/0018-unificacao-fisioterapia-pelvica-e-saude-da-mulher.md)) |
 | 2.2 | Página `/florescer` dedicada (destino de anúncios e stories; o link fixo da bio aponta para a home, [ADR 0016](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)) | C | ✅ 2026-06-14 |
 | 2.3 | Seção Tecnologia reescrita com o Mirae (sem vender o produto) | C+M | ✅ 2026-06-14 — mockup da marca do app (`assets/brand/mirae-app.svg`, sem dado real) + menção e link; print real do app fica opcional. Atualizado em 2026-08-28: mockup trocado por vídeo real (`assets/videos/mirae-tour.mp4`) e depoimento real da equipe sobre o alerta proativo de aluna sumida |
 | 2.4 | Sessão de fotos profissional: gestantes reais em aula (autorização!), equipe, aparelhos, 2–3 fotos paisagem | M | ⬜ |
@@ -86,9 +86,25 @@
 | 3.7 | Programa de indicação operado pelo Mirae | M | ⬜ |
 | 3.8 | Microsoft Clarity (heatmaps + gravação de sessão) para decidir v2 da home | C | 🔄 2026-08-29 — snippet do projeto `y9u625nnoh` no `<head>` de todas as páginas, ao lado do GA4 (no PR, falta merge). Depois de coletar: integrar ao GA4 pra filtrar gravações por origem de tráfego |
 
+## Fase 4 — AEO/GEO: aparecer nas respostas de IA (ChatGPT, Gemini, Perplexity)
+
+> Playbook completo e passo a passo em [AEO-GEO.md](AEO-GEO.md) · porquê em [ADR 0019](adr/0019-aeo-geo-otimizacao-para-busca-generativa.md).
+
+| # | Item | Quem | Status |
+|---|------|------|--------|
+| 4.1 | Schema do negócio enriquecido: `@type` + `Physiotherapy`, `@id` único, `knowsAbout`, `image[]`, `slogan`, `makesOffer` com URL; `provider` das páginas de serviço via `@id` | C | ✅ 2026-09-01 |
+| 4.2 | FAQ expandido com perguntas de intenção real (preço, 1º trimestre, liberação médica, individual vs grupo, "só gestantes?", "dói?"), resposta direta na 1ª frase | C | ✅ 2026-09-01 |
+| 4.3 | `/llms.txt` mínimo + `robots.txt` liberando robôs de IA | C | ✅ 2026-09-01 |
+| 4.4 | **Bing Webmaster Tools:** criar conta (importa do Search Console), enviar sitemap. Destrava ChatGPT Search e Copilot | M | ⬜ |
+| 4.5 | **GBP completo:** categorias, serviços com descrição, Q&A semeado (8–10), 15–20 fotos, descrição de 750 caracteres, atributos. Ver checklist no AEO-GEO.md | M | ⬜ (encosta no 2.5) |
+| 4.6 | Auditoria do GBP (Chrome MCP, 2026-09-01): achados e punch-list em [AEO-GEO.md](AEO-GEO.md). Site alinhou o CEP a 17012-621; falta [M] confirmar no Correios + aplicar o punch-list do GBP (nome, categoria principal, "Casa" no Maps, descrição, serviços, posts, Q&A, fotos) | C (auditoria) + M (GBP) | 🔄 2026-09-01 |
+| 4.7 | Cadastro em diretórios/portais: Doctoralia (perfil da Raquel), guia de Bauru, portal de saúde da mulher; garantir URL pública da matéria da TV TEM | M | ⬜ |
+| 4.8 | Medição mensal: perguntar a ChatGPT/Gemini/Perplexity pelas 3 consultas-alvo e anotar se a Fiore aparece | M | ⬜ recorrente |
+
 ## Cadências contínuas (não têm "fim")
 
 - **GBP:** 1 post + 3 fotos/semana; responder 100% das avaliações citando o serviço.
+- **AEO/GEO:** toda página nova segue o checklist de schema do [AEO-GEO.md](AEO-GEO.md); teste mensal das 3 consultas-alvo nas IAs.
 - **Instagram:** meta de 4–5 posts/semana (2 Reels educativos, 1 prova social, 1 bastidor, 1 CTA) segue valendo, mas o real em 2026-08-26 é ~0,7 posts/semana (56 posts nos últimos ~18 meses) — bem abaixo de concorrentes de Bauru como Espaço Bambu (223 posts) e Instituto Renove (1.461 posts). Ver [BENCHMARKING.md](BENCHMARKING.md).
 - **Avaliações:** acompanhar fluxo NPS→Google no Mirae; pedir review pós-sessão sistematicamente (Fiore tem 45 reviews com nota 5.0, Quality Pilates tem 132 com a mesma nota — é volume, não qualidade, que falta. Ver [BENCHMARKING.md](BENCHMARKING.md)).
 - **Métricas (mensal):** conversões `whatsapp_click` por seção (GA4), posição no Local Pack para "pilates gestantes bauru" e "pilates bauru", páginas indexadas (Search Console).

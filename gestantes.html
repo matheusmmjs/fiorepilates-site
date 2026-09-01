@@ -15,8 +15,10 @@
   <meta name="geo.region" content="BR-SP">
   <meta name="geo.placename" content="Bauru">
 
-  <link rel="icon" href="./assets/images/fiore-simbolo.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/android-chrome-512x512.png">
   <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
   <link rel="manifest" href="./site.webmanifest">
 
@@ -60,6 +62,7 @@
     "areaServed": { "@type": "City", "name": "Bauru" },
     "provider": {
       "@type": "HealthAndBeautyBusiness",
+      "@id": "https://fiorepilates.com.br/#business",
       "name": "Fiore Pilates",
       "url": "https://fiorepilates.com.br/",
       "telephone": "+5514996598955",
@@ -78,10 +81,14 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Pilates para gestantes é seguro?", "acceptedAnswer": { "@type": "Answer", "text": "Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase. Inicie sempre com a liberação do seu obstetra." } },
+      { "@type": "Question", "name": "Pilates para gestantes é seguro?", "acceptedAnswer": { "@type": "Answer", "text": "Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase. Inicie sempre com a liberação do seu médico." } },
       { "@type": "Question", "name": "Em qual fase da gravidez posso começar?", "acceptedAnswer": { "@type": "Answer", "text": "O momento ideal varia para cada mulher. Atendemos do início da gestação ao pós-parto, sempre com liberação médica e acompanhamento especializado." } },
       { "@type": "Question", "name": "Como o Pilates pode ajudar na gestação?", "acceptedAnswer": { "@type": "Answer", "text": "Com acompanhamento adequado, o Pilates pode contribuir para o alívio de desconfortos, consciência corporal, respiração e preparação para o parto, respeitando cada fase." } },
-      { "@type": "Question", "name": "Preciso ter feito Pilates antes?", "acceptedAnswer": { "@type": "Answer", "text": "Não. Recebemos alunas iniciantes e experientes. Tudo começa pela avaliação inicial individualizada, que define um plano de aula feito para você." } }
+      { "@type": "Question", "name": "Preciso ter feito Pilates antes?", "acceptedAnswer": { "@type": "Answer", "text": "Não precisa. Muitas alunas começam sem nunca ter feito Pilates. Tudo parte da avaliação inicial, que monta um plano no seu ritmo." } },
+      { "@type": "Question", "name": "Vocês têm aula experimental?", "acceptedAnswer": { "@type": "Answer", "text": "Não trabalhamos com aula experimental. A sua experiência começa na avaliação inicial, um encontro individual para te conhecer e desenhar o seu plano." } },
+      { "@type": "Question", "name": "Posso fazer Pilates no primeiro trimestre?", "acceptedAnswer": { "@type": "Answer", "text": "Pode, com a liberação do seu médico. Adaptamos os exercícios a cada trimestre, respeitando o seu momento." } },
+      { "@type": "Question", "name": "Preciso de liberação do obstetra para começar?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Pedimos a liberação do seu médico antes de começar e trabalhamos sempre em diálogo com ele." } },
+      { "@type": "Question", "name": "Quanto custa o Pilates para gestante em Bauru?", "acceptedAnswer": { "@type": "Answer", "text": "A avaliação inicial da gestante custa R$ 150, com o valor abatido no plano. Os planos são definidos na avaliação, de acordo com a sua fase e a sua rotina." } }
     ]
   }
   </script>
@@ -152,8 +159,8 @@
             <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Fiore." class="btn btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
             <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas." class="btn btn--ghost btn--lg" target="_blank" rel="noopener">Tirar dúvidas</a>
           </div>
-          <p class="note note--safety reveal d3" style="margin-top:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg> As aulas não substituem orientação médica. Inicie com a liberação do seu obstetra.</p>
-          <p class="note reveal d3" style="margin-top:0.5rem">Avaliação inicial: R$ 150 · presencial, com testes e anamnese (cerca de 50 minutos). Você recebe a análise em PDF pelo WhatsApp depois. Valor abatido no plano, se você fechar.</p>
+          <p class="note note--safety reveal d3" style="margin-top:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg> Inicie sempre com a liberação do seu médico.</p>
+          <p class="note reveal d3" style="margin-top:0.5rem">Avaliação inicial da gestante: R$ 150, presencial e completa, com anamnese e testes. Você recebe a análise em PDF e o valor é abatido no plano.</p>
         </div>
         <div class="hero-media reveal d2">
           <picture>
@@ -207,11 +214,11 @@
             cada fase e os limites do seu corpo.</p>
           <ul class="checklist reveal d2">
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Alívio de desconfortos lombares e pélvicos</li>
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Fortalecimento do assoalho pélvico</li>
+            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Cuidado com a região pélvica e o períneo</li>
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Consciência corporal e técnicas de respiração</li>
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Preparação para o parto e recuperação no pós-parto</li>
           </ul>
-          <p class="note note--safety reveal d3" style="margin-top:1.25rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg> As aulas não substituem orientação médica. Inicie com a liberação do seu obstetra.</p>
+          <p class="note note--safety reveal d3" style="margin-top:1.25rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg> Inicie sempre com a liberação do seu médico.</p>
         </div>
       </div>
     </section>
@@ -319,10 +326,14 @@
           <h2 class="text-balance">Perguntas frequentes</h2>
         </div>
         <div class="faq" data-faq>
-          <details class="faq-item reveal"><summary class="faq-q">Pilates para gestantes é seguro? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Cada aula é individualizada e adaptada à sua fase. Inicie sempre com a liberação do seu obstetra.</p></div></details>
+          <details class="faq-item reveal"><summary class="faq-q">Pilates para gestantes é seguro? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Cada aula é individualizada e adaptada à sua fase. Inicie sempre com a liberação do seu médico.</p></div></details>
           <details class="faq-item reveal"><summary class="faq-q">Em qual fase da gravidez posso começar? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>O momento ideal varia para cada mulher. Atendemos do início da gestação ao pós-parto, sempre com liberação médica e acompanhamento especializado.</p></div></details>
           <details class="faq-item reveal"><summary class="faq-q">Como o Pilates pode ajudar na gestação? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>Com acompanhamento adequado, pode contribuir para o alívio de desconfortos, consciência corporal, respiração e preparação para o parto, respeitando cada fase.</p></div></details>
-          <details class="faq-item reveal"><summary class="faq-q">Preciso ter feito Pilates antes? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>Não. Recebemos alunas iniciantes e experientes. Tudo começa pela avaliação inicial, que define um plano feito para você.</p></div></details>
+          <details class="faq-item reveal"><summary class="faq-q">Preciso ter feito Pilates antes? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>Não precisa. Muitas alunas começam sem nunca ter feito Pilates. Tudo parte da avaliação inicial, que monta um plano no seu ritmo.</p></div></details>
+          <details class="faq-item reveal"><summary class="faq-q">Vocês têm aula experimental? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>Não trabalhamos com aula experimental. A sua experiência começa na avaliação inicial, um encontro individual para te conhecer e desenhar o seu plano.</p></div></details>
+          <details class="faq-item reveal"><summary class="faq-q">Posso fazer Pilates no primeiro trimestre? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>Pode, com a liberação do seu médico. Adaptamos os exercícios a cada trimestre, respeitando o seu momento.</p></div></details>
+          <details class="faq-item reveal"><summary class="faq-q">Preciso de liberação do obstetra para começar? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>Sim. Pedimos a liberação do seu médico antes de começar e trabalhamos sempre em diálogo com ele.</p></div></details>
+          <details class="faq-item reveal"><summary class="faq-q">Quanto custa o Pilates para gestante em Bauru? <span class="pm" aria-hidden="true"></span></summary><div class="faq-a"><p>A avaliação inicial da gestante custa R$ 150, com o valor abatido no plano. Os planos são definidos na avaliação, de acordo com a sua fase e a sua rotina.</p></div></details>
         </div>
       </div>
     </section>
@@ -395,8 +406,7 @@
           <h3>Cuidados</h3>
           <a href="/gestantes">Pilates para gestantes</a>
           <a href="/pilates-pos-parto">Pilates pós-parto</a>
-          <a href="/fisioterapia-pelvica">Fisioterapia pélvica</a>
-          <a href="/saude-da-mulher">Saúde da mulher</a>
+          <a href="/fisioterapia-pelvica">Fisioterapia pélvica e saúde da mulher</a>
           <a href="/pilates-idosos-reabilitacao">Idosos e reabilitação</a>
         </div>
         <div class="footer-col">

@@ -1,7 +1,7 @@
 /* =========================================================
-   Fiore Pilates — Design System
-   Paleta: verde sálvia, verde profundo, creme, dourado
-   Tipografia: Fraunces (display) + Inter (texto)
+   Fiore Pilates, Design System
+   Paleta: verde salvia, verde profundo, creme, olive discreto (sem dourado)
+   Tipografia: Poppins (unica familia). Ver DESIGN.md e ADR 0007.
    ========================================================= */
 
 /* ---------- Fonts: Poppins (tipografia oficial da marca) ---------- */
@@ -79,6 +79,7 @@ ul { list-style: none; padding: 0; }
 /* ---------- Typography ---------- */
 h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 400; line-height: 1.08; color: var(--forest); letter-spacing: -0.01em; }
 .display { font-size: clamp(2.6rem, 6.4vw, 5rem); font-weight: 300; line-height: 1.02; }
+.display--sub { font-size: clamp(2.1rem, 5vw, 3.2rem); } /* herói de página interna, mais quieto que a home */
 h1 { font-size: clamp(2.3rem, 5.4vw, 4rem); }
 h2 { font-size: clamp(1.9rem, 4vw, 3rem); }
 h3 { font-size: clamp(1.35rem, 2.4vw, 1.85rem); }
@@ -176,8 +177,8 @@ em { font-style: italic; }
   transition: transform 0.5s var(--ease), opacity 0.4s var(--ease), visibility 0.4s;
 }
 .mobile-menu.is-open { transform: translateY(0); opacity: 1; visibility: visible; }
-.mobile-menu a { font-family: var(--font-serif); font-size: 1.9rem; color: var(--forest); padding-block: 0.5rem; border-bottom: 1px solid var(--line-soft); }
-.mobile-menu .btn { margin-top: 1.5rem; font-family: var(--font-sans); font-size: 1rem; }
+.mobile-menu a:not(.btn) { font-family: var(--font-serif); font-size: 1.9rem; color: var(--forest); padding-block: 0.5rem; border-bottom: 1px solid var(--line-soft); }
+.mobile-menu .btn { margin-top: 1.5rem; font-family: var(--font-sans); font-size: 1rem; color: var(--fg); border-bottom: 1px solid var(--bd); }
 
 @media (min-width: 940px) {
   .nav-links, .nav-actions { display: flex; }
@@ -193,15 +194,6 @@ em { font-style: italic; }
 .hero-media { position: relative; }
 .hero-media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow); }
 .hero-media .leaf-deco { position: absolute; width: 38%; opacity: 0.9; }
-.media-disclosure {
-  position: absolute; right: 1rem; bottom: 1rem; z-index: 2;
-  display: inline-flex; align-items: center; justify-content: center;
-  padding: 0.35rem 0.7rem; border-radius: 100px;
-  background: rgba(253, 255, 247, 0.88); color: var(--forest);
-  border: 1px solid rgba(36, 40, 29, 0.12);
-  box-shadow: 0 10px 24px -18px rgba(36, 40, 29, 0.45);
-  font-size: 0.72rem; font-weight: 500; line-height: 1.2;
-}
 .hero-badge {
   position: absolute; left: -0.5rem; bottom: 1.5rem; background: var(--cream);
   border-radius: 16px; padding: 0.9rem 1.15rem; box-shadow: var(--shadow-soft);

@@ -1,3 +1,5 @@
+# Todos os robôs liberados, inclusive os de IA (GPTBot, ClaudeBot, PerplexityBot,
+# Google-Extended). Resumo do site para modelos: /llms.txt
 User-agent: *
 Allow: /
 

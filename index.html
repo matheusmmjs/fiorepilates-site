@@ -16,8 +16,10 @@
   <meta name="geo.placename" content="Bauru">
 
   <!-- Ícones -->
-  <link rel="icon" href="./assets/images/fiore-simbolo.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/android-chrome-512x512.png">
   <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
   <link rel="manifest" href="./site.webmanifest">
 
@@ -50,16 +52,22 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HealthAndBeautyBusiness",
+    "@type": ["HealthAndBeautyBusiness", "Physiotherapy"],
     "@id": "https://fiorepilates.com.br/#business",
     "name": "Fiore Pilates",
     "alternateName": "Fiore Pilates e Fisioterapia",
     "legalName": "Fiore Pilates LTDA",
     "taxID": "60.413.273/0001-90",
-    "description": "Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher, com atendimento individualizado e acolhedor.",
+    "slogan": "Floresça com leveza e bem-estar.",
+    "description": "Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher, com atendimento individualizado e acolhedor. Também oferece fisioterapia pélvica, Pilates pós-parto e Pilates para idosos e reabilitação.",
     "url": "https://fiorepilates.com.br/",
     "logo": "https://fiorepilates.com.br/assets/images/fiore-logo.svg",
-    "image": "https://fiorepilates.com.br/assets/images/og-image.jpg",
+    "image": [
+      "https://fiorepilates.com.br/assets/images/og-image.jpg",
+      "https://fiorepilates.com.br/assets/images/hero-espaco.jpg",
+      "https://fiorepilates.com.br/assets/images/pilates-aula.jpg",
+      "https://fiorepilates.com.br/assets/images/espaco-studio.jpg"
+    ],
     "telephone": "+5514996598955",
     "priceRange": "$$",
     "currenciesAccepted": "BRL",
@@ -68,7 +76,7 @@
       "streetAddress": "R. Baltazar Rodrigues, 4-82, Jardim Planalto",
       "addressLocality": "Bauru",
       "addressRegion": "SP",
-      "postalCode": "17012-090",
+      "postalCode": "17012-621",
       "addressCountry": "BR"
     },
     "geo": { "@type": "GeoCoordinates", "latitude": -22.3405673, "longitude": -49.0528841 },
@@ -80,6 +88,17 @@
     ],
     "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "45", "bestRating": "5", "worstRating": "1" },
     "founder": { "@type": "Person", "name": "Raquel Cardoso", "jobTitle": "Fisioterapeuta" },
+    "knowsAbout": [
+      "Pilates para gestantes",
+      "Pilates pré-natal",
+      "Fisioterapia pélvica",
+      "Saúde da mulher",
+      "Pilates pós-parto",
+      "Preparação para o parto",
+      "Assoalho pélvico",
+      "Pilates para idosos",
+      "Reabilitação"
+    ],
     "sameAs": [
       "https://www.instagram.com/pilatesfiore/",
       "https://www.facebook.com/profile.php?id=61577645214737",
@@ -87,11 +106,11 @@
       "https://maps.app.goo.gl/bQtjxJiBTJSpTJJ29"
     ],
     "makesOffer": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Gestantes", "description": "Pilates pré-natal individualizado, respeitando cada fase da gestação." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Saúde da Mulher" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Dores e Postura" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para Idosos" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reabilitação e Pós-parto" } }
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para gestantes", "url": "https://fiorepilates.com.br/gestantes", "description": "Pilates pré-natal individualizado, respeitando cada fase da gestação." } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fisioterapia pélvica e saúde da mulher", "url": "https://fiorepilates.com.br/fisioterapia-pelvica" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates pós-parto", "url": "https://fiorepilates.com.br/pilates-pos-parto" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para idosos e reabilitação", "url": "https://fiorepilates.com.br/pilates-idosos-reabilitacao" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Programa Florescer", "url": "https://fiorepilates.com.br/florescer" } }
     ]
   }
   </script>
@@ -102,9 +121,12 @@
     "@type": "FAQPage",
     "mainEntity": [
       { "@type": "Question", "name": "Pilates é seguro durante a gestação?", "acceptedAnswer": { "@type": "Answer", "text": "Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo." } },
-      { "@type": "Question", "name": "Preciso ter experiência prévia para começar?", "acceptedAnswer": { "@type": "Answer", "text": "Não. Recebemos alunas iniciantes e experientes. Tudo começa por uma avaliação inicial individualizada, que define um plano de aula feito para você." } },
+      { "@type": "Question", "name": "Preciso ter experiência prévia para começar?", "acceptedAnswer": { "@type": "Answer", "text": "Não precisa. Muitas alunas começam sem nunca ter feito Pilates. Tudo parte da avaliação inicial, que monta um plano no seu ritmo." } },
+      { "@type": "Question", "name": "Vocês têm aula experimental?", "acceptedAnswer": { "@type": "Answer", "text": "Não trabalhamos com aula experimental. A sua experiência começa na avaliação inicial, um encontro individual para te conhecer e desenhar o seu plano." } },
       { "@type": "Question", "name": "A partir de quando uma gestante pode iniciar o Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "O momento ideal varia para cada mulher. O recomendado é iniciar com liberação do seu médico e com acompanhamento de profissionais especializados, como na Fiore." } },
       { "@type": "Question", "name": "Como funciona a avaliação inicial?", "acceptedAnswer": { "@type": "Answer", "text": "É um encontro individual em que entendemos seu histórico, objetivos e necessidades. A partir dele montamos um plano personalizado e acompanhamos sua evolução ao longo das aulas." } },
+      { "@type": "Question", "name": "A Fiore atende só gestantes?", "acceptedAnswer": { "@type": "Answer", "text": "Não. Gestantes são o nosso cuidado mais especial, mas atendemos mulheres em todas as fases, no pós-parto, na saúde da mulher, e também idosos e reabilitação." } },
+      { "@type": "Question", "name": "As aulas são individuais ou em grupo?", "acceptedAnswer": { "@type": "Answer", "text": "O cuidado é sempre individualizado. Cada aula segue o plano feito para você na avaliação inicial." } },
       { "@type": "Question", "name": "Onde fica o estúdio Fiore Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "Estamos na R. Baltazar Rodrigues, 4-82, Jardim Planalto, Bauru/SP, em um espaço pensado para o seu conforto e bem-estar." } }
     ]
   }
@@ -200,7 +222,7 @@
       <div class="container proof-grid">
         <div class="proof-item reveal">
           <div class="num">+<span>300</span></div>
-          <p>alunas atendidas ao longo da nossa história</p>
+          <p>alunos atendidos ao longo da nossa história</p>
         </div>
         <div class="proof-item reveal d1">
           <div class="num">+30<span>%</span></div>
@@ -222,10 +244,9 @@
       <div class="container split">
         <div class="split-media tall reveal">
           <picture>
-            <source type="image/webp" srcset="./assets/images/gestante-pilates-fiore-480.webp 480w, ./assets/images/gestante-pilates-fiore.webp 787w" sizes="(min-width: 880px) 45vw, 92vw">
-            <img src="./assets/images/gestante-pilates-fiore.jpg" srcset="./assets/images/gestante-pilates-fiore-480.jpg 480w, ./assets/images/gestante-pilates-fiore.jpg 787w" sizes="(min-width: 880px) 45vw, 92vw" alt="Imagem ilustrativa de gestante em prática suave de Pilates em ambiente acolhedor" width="787" height="1400" loading="lazy">
+            <source type="image/webp" srcset="./assets/images/pilates-aula-480.webp 480w, ./assets/images/pilates-aula.webp 787w" sizes="(min-width: 880px) 45vw, 92vw">
+            <img src="./assets/images/pilates-aula.jpg" srcset="./assets/images/pilates-aula-480.jpg 480w, ./assets/images/pilates-aula.jpg 787w" sizes="(min-width: 880px) 45vw, 92vw" alt="Sala de Pilates da Fiore em Bauru, com Reformer e aparelhos, em ambiente claro e acolhedor" width="787" height="1400" loading="lazy">
           </picture>
-          <span class="media-disclosure">Imagem ilustrativa</span>
         </div>
         <div class="split-copy">
           <span class="eyebrow reveal">Nosso cuidado com gestantes</span>
@@ -236,15 +257,15 @@
             parto.</p>
           <ul class="checklist reveal d2">
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Avaliação individual e plano adaptado a cada trimestre</li>
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Profissionais especializadas em cuidado pré e pós-natal</li>
+            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Profissionais especializadas em cuidado pré-natal e pós-parto</li>
             <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Ambiente seguro, sereno e preparado para você</li>
           </ul>
           <div class="btn-row reveal d3">
             <a href="/gestantes" class="btn btn--lg">Conhecer o Pilates para gestantes</a>
             <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20conhecer%20a%20Fiore." class="btn btn--ghost btn--lg" target="_blank" rel="noopener">Falar no WhatsApp</a>
           </div>
-          <p class="note note--safety reveal d3" style="margin-top:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg> As aulas não substituem orientação médica. Inicie com a liberação do seu obstetra.</p>
-          <p class="note reveal d3" style="margin-top:0.75rem">Avaliação inicial: R$ 150 · presencial, com testes e anamnese (cerca de 50 minutos). Você recebe a análise em PDF pelo WhatsApp depois. Valor abatido no plano, se você fechar.</p>
+          <p class="note note--safety reveal d3" style="margin-top:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg> Inicie sempre com a liberação do seu médico.</p>
+          <p class="note reveal d3" style="margin-top:0.75rem">Avaliação inicial da gestante: R$ 150, presencial e completa, com anamnese e testes. Você recebe a análise em PDF e o valor é abatido no plano.</p>
         </div>
       </div>
     </section>
@@ -271,7 +292,7 @@
           <article class="card reveal d2">
             <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="2" y="14.5" width="20" height="2.5" rx="1.2"/><rect x="6" y="8.5" width="12" height="5" rx="1.5"/></svg></div>
             <h3>Força e equilíbrio</h3>
-            <p>Fortalecimento profundo e seguro, do core ao assoalho pélvico, com técnica e progressão.</p>
+            <p>Fortalecimento profundo e seguro, do core à postura, com técnica e progressão.</p>
           </article>
           <article class="card reveal">
             <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12c2-3 4-3 6 0s4 3 6 0s4-3 6 0"/><path d="M4 17c2-3 4-3 6 0s4 3 6 0s4-3 6 0" opacity="0.5"/></svg></div>
@@ -367,13 +388,8 @@
             <span class="card-arrow">Saiba mais →</span>
           </a>
           <a href="/fisioterapia-pelvica" class="card reveal d2">
-            <h3>Fisioterapia pélvica</h3>
-            <p>Cuidado especializado para a saúde do assoalho pélvico, na gestação, no pós-parto e na saúde da mulher.</p>
-            <span class="card-arrow">Saiba mais →</span>
-          </a>
-          <a href="/saude-da-mulher" class="card reveal d3">
-            <h3>Saúde da mulher</h3>
-            <p>Fortalecimento, consciência corporal e bem-estar em todos os momentos da vida.</p>
+            <h3>Fisioterapia pélvica e saúde da mulher</h3>
+            <p>Cuidado especializado com o assoalho pélvico e com a saúde da mulher, na gestação, no pós-parto e em todas as fases da vida.</p>
             <span class="card-arrow">Saiba mais →</span>
           </a>
           <a href="/pilates-idosos-reabilitacao" class="card reveal d3">
@@ -579,11 +595,15 @@
         <div class="faq" data-faq>
           <details class="faq-item reveal">
             <summary class="faq-q">Pilates é seguro durante a gestação? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo. Inicie sempre com a liberação do seu obstetra.</p></div>
+            <div class="faq-a"><p>Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo. Inicie sempre com a liberação do seu médico.</p></div>
           </details>
           <details class="faq-item reveal">
             <summary class="faq-q">Preciso ter experiência prévia para começar? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>Não. Recebemos alunas iniciantes e experientes. Tudo começa por uma avaliação inicial individualizada, que define um plano de aula feito sob medida para você.</p></div>
+            <div class="faq-a"><p>Não precisa. Muitas alunas começam sem nunca ter feito Pilates. Tudo parte da avaliação inicial, que monta um plano no seu ritmo.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary class="faq-q">Vocês têm aula experimental? <span class="pm" aria-hidden="true"></span></summary>
+            <div class="faq-a"><p>Não trabalhamos com aula experimental. A sua experiência começa na avaliação inicial, um encontro individual para te conhecer e desenhar o seu plano.</p></div>
           </details>
           <details class="faq-item reveal">
             <summary class="faq-q">A partir de quando uma gestante pode iniciar? <span class="pm" aria-hidden="true"></span></summary>
@@ -592,6 +612,14 @@
           <details class="faq-item reveal">
             <summary class="faq-q">Como funciona a avaliação inicial? <span class="pm" aria-hidden="true"></span></summary>
             <div class="faq-a"><p>É um encontro individual em que entendemos seu histórico, objetivos e necessidades. A partir dele montamos um plano personalizado e acompanhamos a sua evolução ao longo das aulas.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary class="faq-q">A Fiore atende só gestantes? <span class="pm" aria-hidden="true"></span></summary>
+            <div class="faq-a"><p>Não. Gestantes são o nosso cuidado mais especial, mas atendemos mulheres em todas as fases, no pós-parto, na saúde da mulher, e também idosos e reabilitação.</p></div>
+          </details>
+          <details class="faq-item reveal">
+            <summary class="faq-q">As aulas são individuais ou em grupo? <span class="pm" aria-hidden="true"></span></summary>
+            <div class="faq-a"><p>O cuidado é sempre individualizado. Cada aula segue o plano feito para você na avaliação inicial.</p></div>
           </details>
           <details class="faq-item reveal">
             <summary class="faq-q">Onde fica o estúdio Fiore Pilates? <span class="pm" aria-hidden="true"></span></summary>
@@ -692,8 +720,7 @@
           <h3>Cuidados</h3>
           <a href="/gestantes">Pilates para gestantes</a>
           <a href="/pilates-pos-parto">Pilates pós-parto</a>
-          <a href="/fisioterapia-pelvica">Fisioterapia pélvica</a>
-          <a href="/saude-da-mulher">Saúde da mulher</a>
+          <a href="/fisioterapia-pelvica">Fisioterapia pélvica e saúde da mulher</a>
           <a href="/pilates-idosos-reabilitacao">Idosos e reabilitação</a>
         </div>
         <div class="footer-col">

@@ -6,10 +6,16 @@ alta conversão para WhatsApp. Sensação-alvo: *"aqui eu vou ser cuidada de ver
 
 ## Antes de mexer, leia
 
+- `PRODUCT.md` — verdade de produto (usuárias, propósito, posicionamento, restrições). Formato impeccable.
+- `DESIGN.md` — design system normativo (tokens + como aplicar). Fonte de verdade no código: `assets/css/fiore.css`.
 - `docs/SPEC.md` — o que o site é e exige.
 - `docs/BRAND.md` — marca, paleta, voz (base do PDF interno).
-- `docs/CONTENT-SEO.md` — conteúdo, CTAs, SEO.
+- `docs/CONTENT-SEO.md` — conteúdo, CTAs, SEO. `docs/AEO-GEO.md` — busca via IA + auditoria do GBP.
 - `docs/adr/` — **o porquê** das decisões. Ao decidir algo relevante, adicione um ADR.
+
+Skill de design instalada: `impeccable` (em `.agents/skills/impeccable/`). Comandos:
+`critique`, `audit`, `polish`, `distill`, `clarify`, `layout` etc. Rodar
+`node .agents/skills/impeccable/scripts/context.mjs --target <arquivo>` uma vez por sessão.
 
 ## Grupo Fiore (estratégia e unidade Tech)
 
