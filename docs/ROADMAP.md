@@ -44,6 +44,11 @@
 
 ## Campanha — Bolão da Copa 2026 (junho–julho, encerrada em 2026-07-27)
 
+Registro histórico. A campanha e a infra no site (página `/bolao`, banner, links,
+tracking, CSS) foram removidas em 2026-07-27; a página `/desafios` (item B.1b) saiu
+depois, em 2026-08-25. As linhas ⬜ abaixo ficaram congeladas como estavam no
+encerramento, não são pendências abertas.
+
 | # | Item | Quem | Status |
 |---|------|------|--------|
 | B.1 | Página `/bolao` + banner grande na home + links de footer + evento GA4 `bolao_click` | C | ✅ 2026-06-12 |
@@ -55,7 +60,7 @@
 | B.4 | Lançar: WhatsApp para alunas + stories/post no Instagram | M | ⬜ 13/06 de manhã |
 | B.5 | Apurar ranking + divulgar após cada jogo do Brasil (13/06 · 19/06 · 24/06 · mata-mata) | M | ⬜ recorrente |
 | B.6 | Convidar leads (não-alunas com consentimento) para avaliação após a fase de grupos | M | ⬜ ~25/06 |
-| B.7 | Encerrar: anunciar vencedor(a), entregar prêmio, remover banner/página | M+C | ✅ (C) 2026-07-27 — banner, links de footer/menu, página `/bolao`, tracking e CSS removidos; falta M anunciar vencedor(a) |
+| B.7 | Encerrar: anunciar vencedor(a), entregar prêmio, remover banner/página | M+C | ✅ (C) 2026-07-27 — infra do site (banner, links de footer/menu, página `/bolao`, tracking, CSS) removida. Anúncio do vencedor e entrega do prêmio: tarefa offline do M, fora do escopo do site |
 
 ## Fase 2 — Autoridade e superfície SEO (até 30 dias)
 
@@ -63,7 +68,7 @@
 |---|------|------|--------|
 | 2.1 | 4 páginas de serviço: `/pilates-pos-parto`, `/fisioterapia-pelvica`, `/pilates-idosos-reabilitacao`, `/saude-da-mulher` (Service + BreadcrumbList + FAQ schema, linguagem ética) | C | ✅ 2026-06-14 |
 | 2.2 | Página `/florescer` dedicada (destino de anúncios e stories; o link fixo da bio aponta para a home, [ADR 0016](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)) | C | ✅ 2026-06-14 |
-| 2.3 | Seção Tecnologia reescrita com o Mirae (sem vender o produto) | C+M | ✅ 2026-06-14 — mockup da marca do app (`assets/brand/mirae-app.svg`, sem dado real) + menção e link; print real do app fica opcional. Atualizado em 2026-08-28: mockup trocado por vídeo real (`assets/videos/mirae-tour.mp4`) e depoimento real da equipe sobre o alerta proativo de aluna sumida |
+| 2.3 | Seção Tecnologia reescrita com o Mirae (sem vender o produto) | C+M | ✅ 2026-06-14 — mockup da marca do app (SVG sem dado real) + menção e link; print real do app fica opcional. Atualizado em 2026-08-28: mockup trocado por vídeo real (`assets/videos/mirae-tour.mp4`) e depoimento real da equipe sobre o alerta proativo de aluna sumida; o SVG do mockup foi removido do repo |
 | 2.4 | Sessão de fotos profissional: gestantes reais em aula (autorização!), equipe, aparelhos, 2–3 fotos paisagem | M | ⬜ |
 | 2.5 | GBP completo: serviços cadastrados, categorias, Q&A semeado, 1 post + 3 fotos/semana | M | ⬜ |
 | 2.6 | Motor de avaliações: NPS do Mirae → link de avaliação Google (meta: 8–10/mês) | M | ⏳ 1.3 |
@@ -84,7 +89,7 @@
 | 3.5 | PR local: pauta no Social Bauru (história da marca + tecnologia própria) | M | 🔄 2026-08-28 — saiu na TV TEM (não Social Bauru), cobertura publicada em `/eventos` + selo "Como visto na TV TEM" na home; ainda sem cobertura em veículo escrito local (JCNet e afins verificados em 2026-08-29, nada publicado, recheck em alguns dias) |
 | 3.6 | Café da manhã com gestantes como funil mensal (inscrição rastreada) | M | ⬜ |
 | 3.7 | Programa de indicação operado pelo Mirae | M | ⬜ |
-| 3.8 | Microsoft Clarity (heatmaps + gravação de sessão) para decidir v2 da home | C | 🔄 2026-08-29 — snippet do projeto `y9u625nnoh` no `<head>` de todas as páginas, ao lado do GA4 (no PR, falta merge). Depois de coletar: integrar ao GA4 pra filtrar gravações por origem de tráfego |
+| 3.8 | Microsoft Clarity (heatmaps + gravação de sessão) para decidir v2 da home | C | 🔄 2026-08-29 — snippet do projeto `y9u625nnoh` no `<head>` de todas as páginas, ao lado do GA4, mergeado no PR #11 e no ar. Falta: coletar dados e integrar ao GA4 pra filtrar gravações por origem de tráfego |
 
 ## Cadências contínuas (não têm "fim")
 
