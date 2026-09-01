@@ -1,4 +1,4 @@
-# Fiore — Identidade da Marca
+# Fiore | Identidade da Marca
 
 > Documento único de marca. Consolida os dois materiais oficiais:
 > "Apresentação fiore.pdf" (39 páginas, estratégia) e "BRAND & DESIGN - FIORE.pdf"
@@ -6,8 +6,9 @@
 > oficiais. Objetivo: guiar copy, design e decisões, e preservar a identidade no
 > repositório sem depender dos PDFs.
 >
-> Para aplicar a marca em interface (site, telas, materiais), o time usa a skill
-> **`/impeccable`** como fluxo oficial de design.
+> Para aplicar a marca em interface (site, telas, materiais), o time trabalha com a
+> skill `/impeccable` (em `.agents/skills/`, não versionada no repo). Ela apoia a
+> aplicação da marca, não substitui o design system em `assets/css/fiore.css`.
 
 ## Essência
 
@@ -50,9 +51,9 @@ maternidade**.
 
 ## Unidades / sub-marcas
 
-- **Fiore Pilates** — Pilates especializado (foco gestantes + saúde da mulher, dores, idosos, reabilitação).
-- **Fiore Toque** — cuidado na gestação e pós através do toque (terapias manuais/massagem).
-- **Fiore Tech (Mirae)** — unidade B2B de tecnologia (consultoria + Mirae SaaS). Ver
+- **Fiore Pilates**: Pilates especializado (foco gestantes + saúde da mulher, dores, idosos, reabilitação).
+- **Fiore Toque**: cuidado na gestação e pós através do toque (terapias manuais/massagem).
+- **Fiore Tech (Mirae)**: unidade B2B de tecnologia (consultoria + Mirae SaaS). Ver
   [GRUPO-FIORE.md](company/GRUPO-FIORE.md); a taxonomia detalhada do produto vive no
   repositório `mirae-local` (ADR-040).
 
@@ -150,6 +151,6 @@ Marca registrada **®**. Arquivos oficiais:
 
 ## Relacionados
 
-- [SPEC.md](SPEC.md) e [CONTENT-SEO.md](CONTENT-SEO.md) — onde a marca vira site.
-- [BRAND-ASSETS.md](BRAND-ASSETS.md) — catálogo dos assets visuais já gerados.
-- [ADRs](README.md) — o porquê de cada decisão de tipografia, cor e voz.
+- [SPEC.md](SPEC.md) e [CONTENT-SEO.md](CONTENT-SEO.md): onde a marca vira site.
+- [BRAND-ASSETS.md](BRAND-ASSETS.md): catálogo dos assets visuais já gerados.
+- [ADRs](README.md): o porquê de cada decisão de tipografia, cor e voz.
