@@ -34,7 +34,7 @@
 | 0.6 | Search Console verificado + sitemap enviado/processado (2 páginas) | M | ✅ 2026-05-27 |
 | 0.7 | GA4 ↔ Search Console vinculados | M | ✅ |
 | 0.8 | **Mergear PR #2** | M | 🔄 aberto, pronto |
-| 0.9 | GA4: `whatsapp_click` como **evento principal** (Admin → Exibição de dados → Eventos principais → Novo evento principal) | M | ⬜ |
+| 0.9 | GA4: `whatsapp_click` como **evento principal** (Admin → Exibição de dados → Eventos principais → Novo evento principal) | M | ✅ verificado 2026-09-02 (evento firando e marcado como principal) |
 
 ## Fase 1 — Quick wins de conteúdo (semanas 1–2)
 
@@ -107,11 +107,12 @@ encerramento, não são pendências abertas.
 | 4.1 | Schema do negócio enriquecido: `@type` + `Physiotherapy`, `@id` único, `knowsAbout`, `image[]`, `slogan`, `makesOffer` com URL; `provider` das páginas de serviço via `@id` | C | ✅ 2026-09-01 |
 | 4.2 | FAQ expandido com perguntas de intenção real (preço, 1º trimestre, liberação médica, individual vs grupo, "só gestantes?", "dói?"), resposta direta na 1ª frase | C | ✅ 2026-09-01 |
 | 4.3 | `/llms.txt` mínimo + `robots.txt` liberando robôs de IA | C | ✅ 2026-09-01 |
-| 4.4 | **Bing Webmaster Tools:** criar conta (importa do Search Console), enviar sitemap. Destrava ChatGPT Search e Copilot | M | ⬜ |
-| 4.5 | **GBP completo:** categorias, serviços com descrição, Q&A semeado (8–10), 15–20 fotos, descrição de 750 caracteres, atributos. Ver checklist no AEO-GEO.md | M | ⬜ (encosta no 2.5) |
-| 4.6 | Auditoria do GBP (Chrome MCP, 2026-09-01): achados e punch-list em [AEO-GEO.md](AEO-GEO.md). CEP 17012-621 alinhado em site, GBP e Instagram (confirmado pelo dono). Falta [M] aplicar o punch-list do GBP (nome, categoria principal, "Casa" no Maps, descrição, serviços, posts, Q&A, fotos) | C (auditoria) + M (GBP) | 🔄 2026-09-01 |
+| 4.4 | **Bing Webmaster Tools** (destrava ChatGPT Search e Copilot): importado do Search Console via Chrome MCP; `fiorepilates.com.br` + `mirae.fiorepilates.com.br` cadastrados, sitemap importado (processando) | C+M | ✅ 2026-09-02 |
+| 4.5 | **GBP completo:** categorias, serviços com descrição, 15–20 fotos, descrição de 750 caracteres, atributos. Q&A saiu (descontinuado pelo Google). Ver checklist no AEO-GEO.md | M | ✅ 2026-09-02 — nome/categoria/marcador/CEP/descrição/serviços/fotos feitos. Fora do escopo do item, por decisão do dono (2026-09-02): manter o atributo "aulas on-line" e a autoavaliação 5★ da própria conta. Recomendação continua sendo excluir a autoavaliação (risco de rebaixar a ficha) |
+| 4.6 | Auditoria do GBP (Chrome MCP): achados e punch-list em [AEO-GEO.md](AEO-GEO.md). CEP 17012-621 alinhado (confirmado pelo dono). Reverificação 2026-09-02: punch-list aplicado | C (auditoria) + M (GBP) | ✅ 2026-09-02 |
 | 4.7 | Cadastro em diretórios/portais: Doctoralia (perfil da Raquel), guia de Bauru, portal de saúde da mulher; garantir URL pública da matéria da TV TEM | M | ⬜ |
 | 4.8 | Medição mensal: perguntar a ChatGPT/Gemini/Perplexity pelas 3 consultas-alvo e anotar se a Fiore aparece | M | ⬜ recorrente |
+| 4.9 | Revisão GSC + GA4 (2026-09-02): tudo saudável (sem ação manual/segurança, sitemap processado, structured data ok, GA4 coletando, `whatsapp_click` = conversão). Detalhes em [AEO-GEO.md](AEO-GEO.md). `fiorepilatesbr@gmail.com` adicionado ao GSC (Total) e ao GA4 (Administrador) | C | ✅ 2026-09-02 |
 
 ## Cadências contínuas (não têm "fim")
 

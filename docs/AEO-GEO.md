@@ -64,11 +64,14 @@
    "(14) 99659-8955", CEP 17012-621 (confirmado pelo dono em 2026-09-01; GBP, Instagram
    e o schema do site já usam esse valor).
 
-### 2. Bing Webmaster Tools (destrava ChatGPT Search e Copilot)
-1. bing.com/webmasters → entrar com a mesma conta Google (importa direto do Search Console).
-2. Adicionar `https://fiorepilates.com.br/`.
-3. Enviar `https://fiorepilates.com.br/sitemap.xml`.
-4. Conferir "Site Explorer" depois de alguns dias para ver o que foi indexado.
+### 2. Bing Webmaster Tools (destrava ChatGPT Search e Copilot) — ✅ feito 2026-09-02
+Feito via Chrome MCP: login no bing.com/webmasters com Google, importação direta do
+Search Console (sem verificação manual). Ficaram cadastrados `https://fiorepilates.com.br/`
+**e** `https://mirae.fiorepilates.com.br/`. O `sitemap.xml` foi importado junto (status
+"Processing", 0 erro / 0 aviso). Dados e relatórios levam até 48h para popular.
+- Acompanhar depois em **Site Explorer** e **Search Performance** o que foi indexado.
+- Após cada mudança grande no sitemap, o Bing recrawleia sozinho; se quiser forçar,
+  Sitemaps → "Resubmit".
 
 ### 3. Motor de avaliações (volume + recência)
 - Meta: 8 a 10 avaliações novas por mês no Google (hoje ~0). Concorrente Quality
@@ -83,7 +86,10 @@
 - Garantir que a matéria da **TV TEM** esteja linkável (URL pública) e citada no site
   (já está em `/eventos`).
 - Cadastro em diretórios locais confiáveis: guia de Bauru, Apontador, portais de saúde
-  da mulher, Doctoralia (perfil da Raquel como fisioterapeuta).
+  da mulher, **Doctoralia** (perfil da Raquel como fisioterapeuta). Verificado em
+  2026-09-02: **não existe perfil** da Raquel Cardoso nem da Fiore no Doctoralia. É
+  criação nova em `doctoralia.com.br` → "Você atua na área da saúde?", com o CREFITO
+  dela. Ação [M] (criação de conta profissional).
 - Parcerias com obstetras e doulas de Bauru que linkem ou citem a Fiore.
 - Pauta em veículo escrito local (JCNet, Social Bauru) — item 3.5 do ROADMAP.
 
@@ -160,3 +166,66 @@ Conta: gerenciada pela Fiore. 279 interações com clientes. 1.027 visualizaçõ
    do site) e respondê-las.
 8. **Fotos:** última foto há ~28 dias. Subir um lote agora (15 a 20) e manter 3/semana.
 9. **1 avaliação sem resposta** (Jade Garcia). Responder citando o serviço.
+
+### Progresso do punch-list (verificado via Chrome MCP em 2026-09-02)
+
+Feito pelo dono: **nome** → "Fiore Pilates e Fisioterapia" (o pino do Maps ainda mostra
+o nome antigo, é cache); **categoria principal** → "Estúdio de pilates"; **marcador do
+mapa** "Casa" → "Comercial"; **CEP** 17012-621; descrição, serviços, fotos e a resposta
+à avaliação da Jade Garcia. **Perguntas e respostas:** o Google descontinuou o recurso,
+não existe mais no painel nem na ficha; o FAQ do site cobre esse papel para IA e busca.
+
+Dois achados desta verificação que o dono decidiu **manter como estão** (2026-09-02):
+- **Atributo "Oferece aulas on-line" ligado.** Registrado; se um dia deixar de fazer
+  sentido, desligar em Editar perfil → Serviços/Atributos.
+- **Avaliação 5★ da própria conta da empresa** no negócio ("Sua avaliação", há ~1 ano).
+  O risco real não é perder essa avaliação: avaliação de proprietário é violação de
+  política e o Google pode **filtrar ou rebaixar a ficha inteira**, o que enfraquece
+  boa parte do resto deste playbook de GBP. **Recomendação: excluir** (Maps → ficha →
+  "Sua avaliação" → ⋮ → Excluir; custo zero). O dono optou por **manter** em 2026-09-02.
+
+## Revisão do Search Console e do GA4 (2026-09-02, via Chrome MCP)
+
+Feita na conta **`matheusmmjs@gmail.com`** (é ela que tem GSC e GA4; a conta que
+gerencia o GBP, `fiorepilatesbr@gmail.com`, não tem acesso a nenhum dos dois).
+
+### Google Search Console — tudo saudável
+- **Ações manuais:** nenhum problema. **Segurança:** nenhum problema.
+- **Sitemap** `/sitemap.xml`: status "Processado", última leitura 1/set/2026, sem erro.
+  "Páginas encontradas: 9" = as **8 do sitemap atual + `/saude-da-mulher`**, que o
+  Google ainda tinha no índice (o dado é anterior ao PR #18). Reprocessa para 8 depois
+  do deploy deste PR.
+- **Structured data:** review snippet 1 válido / 0 erro; breadcrumbs 7 válidos / 0 erro.
+  (Dados de 30/ago, ainda não pegaram o schema novo do PR #18.)
+- **Indexação:** 9 indexadas, 3 não indexadas (12 URLs conhecidas no total). As 9
+  indexadas = as **8 páginas atuais + `/saude-da-mulher`** (virou redirect na #18, o
+  Google ainda não reprocessou). As 3 não indexadas são benignas e nunca estiveram no
+  sitemap: `/gestantes.html` e `/bolao` são redirecionamentos (clean URL e campanha
+  antiga) e 1 "rastreada, não indexada".
+- **Desempenho (3 meses):** o site recebe impressão para os termos certos ("pilates
+  bauru" 369, "pilates em bauru" 172, "fisioterapia pelvica bauru" 30, "pilates
+  gestante", "pilates perto de mim") mas quase **zero clique** (rankeando na página 2 a
+  3). Não é bug: é falta de autoridade local, exatamente o que o GBP + avaliações +
+  citações deste playbook atacam.
+
+### GA4 (`G-GN6B6NJNKL`) — coletando normal
+- Tempo real funcionando (1 usuário ativo no momento da checagem). 7 dias: 29 usuários,
+  276 eventos.
+- Eventos padrão firando (`page_view`, `scroll`, `session_start`, `user_engagement`,
+  `first_visit`, `click`).
+- **`whatsapp_click` está firando e marcado como evento principal (conversão).** Item
+  0.9 do ROADMAP, na prática, feito. `phone_click` não apareceu nos últimos 28 dias
+  (ninguém clicou em `tel:`; WhatsApp é o CTA primário).
+- "Vinculações do Search Console" foi mexida há ~3 dias (GA4 ↔ GSC provavelmente ok).
+
+### Acesso da conta da clínica — ✅ feito 2026-09-02
+`fiorepilatesbr@gmail.com` adicionado via Chrome MCP:
+- **Google Search Console:** permissão **Total**.
+- **GA4** (propriedade Fiore, `a396020296p539240141`): função **Administrador**.
+Agora a conta que gerencia o GBP também vê e mexe no GSC e no GA4.
+
+### Ações [M] que sobram
+- Depois do deploy do PR do `lastmod`: GSC → Sitemaps → abrir o sitemap para forçar
+  releitura (ou só aguardar, o Google relê sozinho).
+- Bing: **nada a fazer depois do deploy.** O sitemap já foi importado; o Bing relê
+  sozinho. Opcional: Bing Webmaster → Sitemaps → "Resubmit" para acelerar.
