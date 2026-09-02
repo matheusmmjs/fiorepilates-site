@@ -206,7 +206,7 @@ cada score estão em 7.2.
 | AeC (unidade Bauru) | 77 | a prospectar | RH da unidade de Bauru. Decisão pode ser regional (HQ em BH); Glassdoor negativo sobre jornada |
 | Sicredi Centro Oeste Paulista | 77 | a prospectar | RH regional. Cultura forte de bem-estar (GPTW recorrente), porte menor mas alta chance de aceitar |
 | UNISAGRADO | 75 | a prospectar | RH. Apelo fiscal fraco por ser imune; usar retenção e absenteísmo. Já tem parceria com empresas |
-| Hospital de Base de Bauru | 74 | contato iniciado (Matheus) | Ligar no RH pelo (14) 3231-4770 e pedir o RH (ação 2026-09-01). Abordagem foi pelo WhatsApp do Hemocentro (14) 3231-4771, que orientou isso. Apelo fiscal fraco, foco em afastamento e escala |
+| Hospital de Base de Bauru | 74 | proposta enviada em 2026-09-02 | E-mail com PDF para rh2.hb@famesp.org.br, aguardando retorno. Contato veio de ligação ao RH (14) 3231-4770, que passou esse e-mail. Abordagem inicial foi pelo WhatsApp do Hemocentro (14) 3231-4771. Apelo fiscal fraco, foco em afastamento e escala |
 | eSapiens Tecnologia | 63 | a prospectar | Contato direto com a liderança. Abaixo do porte ideal mas cultura e abertura altíssimas, bom para piloto rápido |
 | Sincomércio Bauru e Região | canal | contato iniciado (Matheus) | Enviar proposta por e-mail para katiana@sincomerciobauru.com.br (ação 2026-09-01). Canal multiplicador para o varejo de Bauru pelas associadas. Ver seção 8.2 |
 
