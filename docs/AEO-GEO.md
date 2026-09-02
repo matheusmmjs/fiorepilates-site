@@ -172,13 +172,13 @@ mapa** "Casa" → "Comercial"; **CEP** 17012-621; descrição, serviços, fotos 
 à avaliação da Jade Garcia. **Perguntas e respostas:** o Google descontinuou o recurso,
 não existe mais no painel nem na ficha; o FAQ do site cobre esse papel para IA e busca.
 
-Ainda pendente (dois achados novos desta verificação):
-- **Atributo "Oferece aulas on-line" está ligado.** A Fiore é presencial e individual.
-  Se não há aula on-line de verdade, desligar (Editar perfil → Serviços/Atributos):
-  atributo errado confunde e dilui relevância local.
-- **A conta da empresa deixou uma avaliação 5★ no próprio negócio** ("Sua avaliação",
-  há ~1 ano). Viola a política do Google (avaliação de proprietário) e pode ser removida
-  ou penalizar. Apagar em Maps → ficha → "Sua avaliação" → ⋮ → Excluir.
+Dois achados desta verificação que o dono decidiu **manter como estão** (2026-09-02):
+- **Atributo "Oferece aulas on-line" ligado.** Registrado; se um dia deixar de fazer
+  sentido, desligar em Editar perfil → Serviços/Atributos.
+- **Avaliação 5★ da própria conta da empresa** no negócio ("Sua avaliação", há ~1 ano).
+  Fica o registro do risco: o Google considera avaliação de proprietário fora de
+  política e pode removê-la ou penalizar a ficha. Se quiser reverter: Maps → ficha →
+  "Sua avaliação" → ⋮ → Excluir.
 
 ### Acesso ao Google Search Console e ao GA4 (achado 2026-09-02)
 
