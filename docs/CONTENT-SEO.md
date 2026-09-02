@@ -57,7 +57,7 @@ Número: **(14) 99659-8955** → `https://wa.me/5514996598955?text=...` (texto U
 - **AEO/GEO** (aparecer em respostas de ChatGPT, Gemini, Perplexity): ver [AEO-GEO.md](AEO-GEO.md) e [ADR 0019](adr/0019-aeo-geo-otimizacao-para-busca-generativa.md). `/llms.txt` mínimo publicado.
 - Imagem social: `assets/images/og-image.jpg` (1200×630).
 - **Google Analytics 4:** `G-GN6B6NJNKL` — tag no `<head>` de ambas as páginas (posição obrigatória para verificação via Search Console).
-- **Google Search Console:** ✅ verificado (prefixo `https://fiorepilates.com.br/`), sitemap enviado, propriedade GA ↔ Search Console vinculada. `sitemap.xml` tem 8 URLs (sem `/saude-da-mulher`, unificada; ver [ADR 0018](adr/0018-unificacao-fisioterapia-pelvica-e-saude-da-mulher.md)); `lastmod` atualizado em 2026-09-01. **Atenção:** o GSC não está na conta que gerencia o GBP (ver [AEO-GEO.md](AEO-GEO.md)).
+- **Google Search Console:** ✅ verificado (prefixo `https://fiorepilates.com.br/`), sitemap enviado, propriedade GA ↔ Search Console vinculada. **No arquivo**, `sitemap.xml` tem 8 URLs (sem `/saude-da-mulher`, unificada; ver [ADR 0018](adr/0018-unificacao-fisioterapia-pelvica-e-saude-da-mulher.md)), com `lastmod` em 2026-09-01. O GSC ainda reflete o estado pré-deploy e reprocessa para 8 depois que o `sitemap.xml` novo subir. GSC e GA4 rodam na conta `matheusmmjs@gmail.com`; `fiorepilatesbr@gmail.com` (conta do GBP) foi adicionada aos dois em 2026-09-02.
 - **Bing Webmaster Tools:** ✅ 2026-09-02, importado do Search Console. Destrava ChatGPT Search e Copilot.
 
 ## Medição de conversão (GA4)

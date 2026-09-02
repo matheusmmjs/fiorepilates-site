@@ -179,9 +179,10 @@ Dois achados desta verificação que o dono decidiu **manter como estão** (2026
 - **Atributo "Oferece aulas on-line" ligado.** Registrado; se um dia deixar de fazer
   sentido, desligar em Editar perfil → Serviços/Atributos.
 - **Avaliação 5★ da própria conta da empresa** no negócio ("Sua avaliação", há ~1 ano).
-  Fica o registro do risco: o Google considera avaliação de proprietário fora de
-  política e pode removê-la ou penalizar a ficha. Se quiser reverter: Maps → ficha →
-  "Sua avaliação" → ⋮ → Excluir.
+  O risco real não é perder essa avaliação: avaliação de proprietário é violação de
+  política e o Google pode **filtrar ou rebaixar a ficha inteira**, o que enfraquece
+  boa parte do resto deste playbook de GBP. **Recomendação: excluir** (Maps → ficha →
+  "Sua avaliação" → ⋮ → Excluir; custo zero). O dono optou por **manter** em 2026-09-02.
 
 ## Revisão do Search Console e do GA4 (2026-09-02, via Chrome MCP)
 
@@ -191,14 +192,16 @@ gerencia o GBP, `fiorepilatesbr@gmail.com`, não tem acesso a nenhum dos dois).
 ### Google Search Console — tudo saudável
 - **Ações manuais:** nenhum problema. **Segurança:** nenhum problema.
 - **Sitemap** `/sitemap.xml`: status "Processado", última leitura 1/set/2026, sem erro.
-  Mostrava 9 páginas (dado anterior ao PR #18); vai reprocessar para 8 após o deploy do
-  PR do `lastmod`.
+  "Páginas encontradas: 9" = as **8 do sitemap atual + `/saude-da-mulher`**, que o
+  Google ainda tinha no índice (o dado é anterior ao PR #18). Reprocessa para 8 depois
+  do deploy deste PR.
 - **Structured data:** review snippet 1 válido / 0 erro; breadcrumbs 7 válidos / 0 erro.
   (Dados de 30/ago, ainda não pegaram o schema novo do PR #18.)
-- **Indexação:** 9 indexadas, 3 não indexadas, todas benignas: `/gestantes.html` e
-  `/bolao` são só redirecionamentos (clean URL e campanha antiga) e 1 "rastreada, não
-  indexada". `/saude-da-mulher` ainda não aparece como redirect porque o dado é de
-  27/ago, anterior ao PR #18.
+- **Indexação:** 9 indexadas, 3 não indexadas (12 URLs conhecidas no total). As 9
+  indexadas = as **8 páginas atuais + `/saude-da-mulher`** (virou redirect na #18, o
+  Google ainda não reprocessou). As 3 não indexadas são benignas e nunca estiveram no
+  sitemap: `/gestantes.html` e `/bolao` são redirecionamentos (clean URL e campanha
+  antiga) e 1 "rastreada, não indexada".
 - **Desempenho (3 meses):** o site recebe impressão para os termos certos ("pilates
   bauru" 369, "pilates em bauru" 172, "fisioterapia pelvica bauru" 30, "pilates
   gestante", "pilates perto de mim") mas quase **zero clique** (rankeando na página 2 a
