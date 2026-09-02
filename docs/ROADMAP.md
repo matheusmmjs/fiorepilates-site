@@ -34,7 +34,7 @@
 | 0.6 | Search Console verificado + sitemap enviado/processado (2 páginas) | M | ✅ 2026-05-27 |
 | 0.7 | GA4 ↔ Search Console vinculados | M | ✅ |
 | 0.8 | **Mergear PR #2** | M | 🔄 aberto, pronto |
-| 0.9 | GA4: `whatsapp_click` como **evento principal** (Admin → Exibição de dados → Eventos principais → Novo evento principal) | M | ⬜ |
+| 0.9 | GA4: `whatsapp_click` como **evento principal** (Admin → Exibição de dados → Eventos principais → Novo evento principal) | M | ✅ verificado 2026-09-02 (evento firando e marcado como principal) |
 
 ## Fase 1 — Quick wins de conteúdo (semanas 1–2)
 
@@ -112,7 +112,7 @@ encerramento, não são pendências abertas.
 | 4.6 | Auditoria do GBP (Chrome MCP): achados e punch-list em [AEO-GEO.md](AEO-GEO.md). CEP 17012-621 alinhado (confirmado pelo dono). Reverificação 2026-09-02: punch-list aplicado | C (auditoria) + M (GBP) | ✅ 2026-09-02 |
 | 4.7 | Cadastro em diretórios/portais: Doctoralia (perfil da Raquel), guia de Bauru, portal de saúde da mulher; garantir URL pública da matéria da TV TEM | M | ⬜ |
 | 4.8 | Medição mensal: perguntar a ChatGPT/Gemini/Perplexity pelas 3 consultas-alvo e anotar se a Fiore aparece | M | ⬜ recorrente |
-| 4.9 | Acesso: a conta que gerencia o GBP não tem Search Console nem GA4. Entrar na conta dona (provável `miraeappbr@gmail.com`), adicionar `fiorepilatesbr@gmail.com` como usuário nos dois, e conferir GA4 (dados em tempo real + `whatsapp_click` como evento principal, item 0.9) | M | ⬜ 2026-09-02 |
+| 4.9 | Revisão GSC + GA4 (2026-09-02): tudo saudável (sem ação manual/segurança, sitemap processado, structured data ok, GA4 coletando, `whatsapp_click` = conversão). Detalhes em [AEO-GEO.md](AEO-GEO.md). GSC e GA4 estão na conta `matheusmmjs@gmail.com`. Falta [M] adicionar `fiorepilatesbr@gmail.com` como usuário nos dois | C (revisão) + M (acesso) | 🔄 2026-09-02 |
 
 ## Cadências contínuas (não têm "fim")
 

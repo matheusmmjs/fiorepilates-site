@@ -86,7 +86,10 @@ Search Console (sem verificação manual). Ficaram cadastrados `https://fiorepil
 - Garantir que a matéria da **TV TEM** esteja linkável (URL pública) e citada no site
   (já está em `/eventos`).
 - Cadastro em diretórios locais confiáveis: guia de Bauru, Apontador, portais de saúde
-  da mulher, Doctoralia (perfil da Raquel como fisioterapeuta).
+  da mulher, **Doctoralia** (perfil da Raquel como fisioterapeuta). Verificado em
+  2026-09-02: **não existe perfil** da Raquel Cardoso nem da Fiore no Doctoralia. É
+  criação nova em `doctoralia.com.br` → "Você atua na área da saúde?", com o CREFITO
+  dela. Ação [M] (criação de conta profissional).
 - Parcerias com obstetras e doulas de Bauru que linkem ou citem a Fiore.
 - Pauta em veículo escrito local (JCNet, Social Bauru) — item 3.5 do ROADMAP.
 
@@ -180,16 +183,41 @@ Dois achados desta verificação que o dono decidiu **manter como estão** (2026
   política e pode removê-la ou penalizar a ficha. Se quiser reverter: Maps → ficha →
   "Sua avaliação" → ⋮ → Excluir.
 
-### Acesso ao Google Search Console e ao GA4 (achado 2026-09-02)
+## Revisão do Search Console e do GA4 (2026-09-02, via Chrome MCP)
 
-A conta que gerencia o Perfil da Empresa (`fiorepilatesbr@gmail.com`) **não tem acesso
-ao Search Console** do site, e `matheusmmjs@gmail.com` também aparece sem propriedades.
-O GSC deve estar sob outra conta (provavelmente `miraeappbr@gmail.com`). O GA4
-(`G-GN6B6NJNKL`) pediu re-login e não foi possível revisar.
-- **Ação [M]:** entrar na conta que é dona do GSC e do GA4 e **adicionar
-  `fiorepilatesbr@gmail.com` como usuário** nos dois, para a conta da clínica ter
-  visibilidade.
-- Depois do deploy do sitemap novo (datas de `lastmod` atualizadas): GSC → Sitemaps →
-  reenviar `sitemap.xml`.
-- GA4 a conferir: dados em tempo real chegando, e `whatsapp_click` marcado como
-  **evento principal** (era o item 0.9 do ROADMAP, pendente).
+Feita na conta **`matheusmmjs@gmail.com`** (é ela que tem GSC e GA4; a conta que
+gerencia o GBP, `fiorepilatesbr@gmail.com`, não tem acesso a nenhum dos dois).
+
+### Google Search Console — tudo saudável
+- **Ações manuais:** nenhum problema. **Segurança:** nenhum problema.
+- **Sitemap** `/sitemap.xml`: status "Processado", última leitura 1/set/2026, sem erro.
+  Mostrava 9 páginas (dado anterior ao PR #18); vai reprocessar para 8 após o deploy do
+  PR do `lastmod`.
+- **Structured data:** review snippet 1 válido / 0 erro; breadcrumbs 7 válidos / 0 erro.
+  (Dados de 30/ago, ainda não pegaram o schema novo do PR #18.)
+- **Indexação:** 9 indexadas, 3 não indexadas, todas benignas: `/gestantes.html` e
+  `/bolao` são só redirecionamentos (clean URL e campanha antiga) e 1 "rastreada, não
+  indexada". `/saude-da-mulher` ainda não aparece como redirect porque o dado é de
+  27/ago, anterior ao PR #18.
+- **Desempenho (3 meses):** o site recebe impressão para os termos certos ("pilates
+  bauru" 369, "pilates em bauru" 172, "fisioterapia pelvica bauru" 30, "pilates
+  gestante", "pilates perto de mim") mas quase **zero clique** (rankeando na página 2 a
+  3). Não é bug: é falta de autoridade local, exatamente o que o GBP + avaliações +
+  citações deste playbook atacam.
+
+### GA4 (`G-GN6B6NJNKL`) — coletando normal
+- Tempo real funcionando (1 usuário ativo no momento da checagem). 7 dias: 29 usuários,
+  276 eventos.
+- Eventos padrão firando (`page_view`, `scroll`, `session_start`, `user_engagement`,
+  `first_visit`, `click`).
+- **`whatsapp_click` está firando e marcado como evento principal (conversão).** Item
+  0.9 do ROADMAP, na prática, feito. `phone_click` não apareceu nos últimos 28 dias
+  (ninguém clicou em `tel:`; WhatsApp é o CTA primário).
+- "Vinculações do Search Console" foi mexida há ~3 dias (GA4 ↔ GSC provavelmente ok).
+
+### Ações [M] que sobram
+- **Adicionar `fiorepilatesbr@gmail.com` como usuário** no GSC (Configurações →
+  Usuários e permissões) e no GA4 (Administrador → Gerenciamento de acesso), para a
+  conta da clínica ter visibilidade.
+- Depois do deploy do PR do `lastmod`: GSC → Sitemaps → abrir o sitemap para forçar
+  releitura (ou só aguardar, o Google relê sozinho).
