@@ -215,9 +215,14 @@ gerencia o GBP, `fiorepilatesbr@gmail.com`, não tem acesso a nenhum dos dois).
   (ninguém clicou em `tel:`; WhatsApp é o CTA primário).
 - "Vinculações do Search Console" foi mexida há ~3 dias (GA4 ↔ GSC provavelmente ok).
 
+### Acesso da conta da clínica — ✅ feito 2026-09-02
+`fiorepilatesbr@gmail.com` adicionado via Chrome MCP:
+- **Google Search Console:** permissão **Total**.
+- **GA4** (propriedade Fiore, `a396020296p539240141`): função **Administrador**.
+Agora a conta que gerencia o GBP também vê e mexe no GSC e no GA4.
+
 ### Ações [M] que sobram
-- **Adicionar `fiorepilatesbr@gmail.com` como usuário** no GSC (Configurações →
-  Usuários e permissões) e no GA4 (Administrador → Gerenciamento de acesso), para a
-  conta da clínica ter visibilidade.
 - Depois do deploy do PR do `lastmod`: GSC → Sitemaps → abrir o sitemap para forçar
   releitura (ou só aguardar, o Google relê sozinho).
+- Bing: **nada a fazer depois do deploy.** O sitemap já foi importado; o Bing relê
+  sozinho. Opcional: Bing Webmaster → Sitemaps → "Resubmit" para acelerar.

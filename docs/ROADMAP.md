@@ -112,7 +112,7 @@ encerramento, não são pendências abertas.
 | 4.6 | Auditoria do GBP (Chrome MCP): achados e punch-list em [AEO-GEO.md](AEO-GEO.md). CEP 17012-621 alinhado (confirmado pelo dono). Reverificação 2026-09-02: punch-list aplicado | C (auditoria) + M (GBP) | ✅ 2026-09-02 |
 | 4.7 | Cadastro em diretórios/portais: Doctoralia (perfil da Raquel), guia de Bauru, portal de saúde da mulher; garantir URL pública da matéria da TV TEM | M | ⬜ |
 | 4.8 | Medição mensal: perguntar a ChatGPT/Gemini/Perplexity pelas 3 consultas-alvo e anotar se a Fiore aparece | M | ⬜ recorrente |
-| 4.9 | Revisão GSC + GA4 (2026-09-02): tudo saudável (sem ação manual/segurança, sitemap processado, structured data ok, GA4 coletando, `whatsapp_click` = conversão). Detalhes em [AEO-GEO.md](AEO-GEO.md). GSC e GA4 estão na conta `matheusmmjs@gmail.com`. Falta [M] adicionar `fiorepilatesbr@gmail.com` como usuário nos dois | C (revisão) + M (acesso) | 🔄 2026-09-02 |
+| 4.9 | Revisão GSC + GA4 (2026-09-02): tudo saudável (sem ação manual/segurança, sitemap processado, structured data ok, GA4 coletando, `whatsapp_click` = conversão). Detalhes em [AEO-GEO.md](AEO-GEO.md). `fiorepilatesbr@gmail.com` adicionado ao GSC (Total) e ao GA4 (Administrador) | C | ✅ 2026-09-02 |
 
 ## Cadências contínuas (não têm "fim")
 
