@@ -64,11 +64,14 @@
    "(14) 99659-8955", CEP 17012-621 (confirmado pelo dono em 2026-09-01; GBP, Instagram
    e o schema do site já usam esse valor).
 
-### 2. Bing Webmaster Tools (destrava ChatGPT Search e Copilot)
-1. bing.com/webmasters → entrar com a mesma conta Google (importa direto do Search Console).
-2. Adicionar `https://fiorepilates.com.br/`.
-3. Enviar `https://fiorepilates.com.br/sitemap.xml`.
-4. Conferir "Site Explorer" depois de alguns dias para ver o que foi indexado.
+### 2. Bing Webmaster Tools (destrava ChatGPT Search e Copilot) — ✅ feito 2026-09-02
+Feito via Chrome MCP: login no bing.com/webmasters com Google, importação direta do
+Search Console (sem verificação manual). Ficaram cadastrados `https://fiorepilates.com.br/`
+**e** `https://mirae.fiorepilates.com.br/`. O `sitemap.xml` foi importado junto (status
+"Processing", 0 erro / 0 aviso). Dados e relatórios levam até 48h para popular.
+- Acompanhar depois em **Site Explorer** e **Search Performance** o que foi indexado.
+- Após cada mudança grande no sitemap, o Bing recrawleia sozinho; se quiser forçar,
+  Sitemaps → "Resubmit".
 
 ### 3. Motor de avaliações (volume + recência)
 - Meta: 8 a 10 avaliações novas por mês no Google (hoje ~0). Concorrente Quality
@@ -160,3 +163,33 @@ Conta: gerenciada pela Fiore. 279 interações com clientes. 1.027 visualizaçõ
    do site) e respondê-las.
 8. **Fotos:** última foto há ~28 dias. Subir um lote agora (15 a 20) e manter 3/semana.
 9. **1 avaliação sem resposta** (Jade Garcia). Responder citando o serviço.
+
+### Progresso do punch-list (verificado via Chrome MCP em 2026-09-02)
+
+Feito pelo dono: **nome** → "Fiore Pilates e Fisioterapia" (o pino do Maps ainda mostra
+o nome antigo, é cache); **categoria principal** → "Estúdio de pilates"; **marcador do
+mapa** "Casa" → "Comercial"; **CEP** 17012-621; descrição, serviços, fotos e a resposta
+à avaliação da Jade Garcia. **Perguntas e respostas:** o Google descontinuou o recurso,
+não existe mais no painel nem na ficha; o FAQ do site cobre esse papel para IA e busca.
+
+Ainda pendente (dois achados novos desta verificação):
+- **Atributo "Oferece aulas on-line" está ligado.** A Fiore é presencial e individual.
+  Se não há aula on-line de verdade, desligar (Editar perfil → Serviços/Atributos):
+  atributo errado confunde e dilui relevância local.
+- **A conta da empresa deixou uma avaliação 5★ no próprio negócio** ("Sua avaliação",
+  há ~1 ano). Viola a política do Google (avaliação de proprietário) e pode ser removida
+  ou penalizar. Apagar em Maps → ficha → "Sua avaliação" → ⋮ → Excluir.
+
+### Acesso ao Google Search Console e ao GA4 (achado 2026-09-02)
+
+A conta que gerencia o Perfil da Empresa (`fiorepilatesbr@gmail.com`) **não tem acesso
+ao Search Console** do site, e `matheusmmjs@gmail.com` também aparece sem propriedades.
+O GSC deve estar sob outra conta (provavelmente `miraeappbr@gmail.com`). O GA4
+(`G-GN6B6NJNKL`) pediu re-login e não foi possível revisar.
+- **Ação [M]:** entrar na conta que é dona do GSC e do GA4 e **adicionar
+  `fiorepilatesbr@gmail.com` como usuário** nos dois, para a conta da clínica ter
+  visibilidade.
+- Depois do deploy do sitemap novo (datas de `lastmod` atualizadas): GSC → Sitemaps →
+  reenviar `sitemap.xml`.
+- GA4 a conferir: dados em tempo real chegando, e `whatsapp_click` marcado como
+  **evento principal** (era o item 0.9 do ROADMAP, pendente).
