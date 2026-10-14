@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Fiore Pilates | Pilates para Gestantes e Saúde da Mulher em Bauru</title>
+  <title>Pilates em Bauru para Gestantes e Mulheres | Fiore Pilates</title>
   <meta name="description"
-    content="Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher. Cuidado individualizado, acolhedor e seguro em todas as fases da vida. Agende sua avaliação inicial.">
+    content="Pilates e fisioterapia em Bauru para gestantes e saúde da mulher. Aulas individuais, do pré-natal ao pós-parto, em um espaço acolhedor. Agende sua avaliação.">
   <link rel="canonical" href="https://fiorepilates.com.br/">
   <meta name="author" content="Fiore Pilates">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" content="#24281D">
+  <meta name="theme-color" content="#21231E">
   <meta name="geo.region" content="BR-SP">
   <meta name="geo.placename" content="Bauru">
 
@@ -27,9 +27,9 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Fiore Pilates">
-  <meta property="og:title" content="Fiore Pilates | Pilates para Gestantes em Bauru">
+  <meta property="og:title" content="Pilates em Bauru para Gestantes e Mulheres | Fiore Pilates">
   <meta property="og:description"
-    content="Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher. Cuidado individualizado, acolhedor e seguro. Agende sua avaliação inicial.">
+    content="Pilates e fisioterapia em Bauru para gestantes e saúde da mulher. Aulas individuais, do pré-natal ao pós-parto, em um espaço acolhedor.">
   <meta property="og:url" content="https://fiorepilates.com.br/">
   <meta property="og:image" content="https://fiorepilates.com.br/assets/images/og-image.jpg">
   <meta property="og:image:width" content="1200">
@@ -38,21 +38,26 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Fiore Pilates | Pilates para Gestantes em Bauru">
+  <meta name="twitter:title" content="Pilates em Bauru para Gestantes e Mulheres | Fiore Pilates">
   <meta name="twitter:description"
     content="Estúdio de Pilates em Bauru especializado em gestantes e saúde da mulher. Cuidado acolhedor e seguro.">
   <meta name="twitter:image" content="https://fiorepilates.com.br/assets/images/og-image.jpg">
 
-  <!-- Fontes (preload para LCP) -->
-  <link rel="preload" href="./assets/fonts/poppins-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- Fontes e imagem do hero (preload para LCP) -->
+  <link rel="preload" href="./assets/fonts/poppins-latin-200.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="./assets/fonts/poppins-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/avif" media="(max-width: 760px)" imagesrcset="./assets/images/v2/hero-recanto-tall-640.avif 640w, ./assets/images/v2/hero-recanto-tall-1080.avif 1080w" imagesizes="100vw">
+  <link rel="preload" as="image" type="image/avif" media="(min-width: 761px)" imagesrcset="./assets/images/v2/hero-recanto-wide-960.avif 960w, ./assets/images/v2/hero-recanto-wide-1600.avif 1600w, ./assets/images/v2/hero-recanto-wide-2120.avif 2120w" imagesizes="100vw">
   <link rel="stylesheet" href="./assets/css/fiore.css">
 
   <!-- Dados estruturados: Negócio local -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["HealthAndBeautyBusiness", "Physiotherapy"],
+    "@type": [
+      "HealthAndBeautyBusiness",
+      "Physiotherapy"
+    ],
     "@id": "https://fiorepilates.com.br/#business",
     "name": "Fiore Pilates",
     "alternateName": "Fiore Pilates e Fisioterapia",
@@ -79,15 +84,74 @@
       "postalCode": "17012-621",
       "addressCountry": "BR"
     },
-    "geo": { "@type": "GeoCoordinates", "latitude": -22.3405673, "longitude": -49.0528841 },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -22.3405673,
+      "longitude": -49.0528841
+    },
     "hasMap": "https://maps.app.goo.gl/bQtjxJiBTJSpTJJ29",
-    "areaServed": { "@type": "City", "name": "Bauru" },
+    "areaServed": {
+      "@type": "City",
+      "name": "Bauru"
+    },
+    "availableLanguage": "pt-BR",
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "06:00", "closes": "20:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:00", "closes": "12:00" }
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "06:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "07:00",
+        "closes": "12:00"
+      }
     ],
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "45", "bestRating": "5", "worstRating": "1" },
-    "founder": { "@type": "Person", "name": "Raquel Cardoso", "jobTitle": "Fisioterapeuta" },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Estacionamento gratuito no local",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Entrada acessível para cadeira de rodas",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Banheiro acessível para cadeira de rodas",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Estacionamento acessível para cadeira de rodas",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Assentos acessíveis para cadeira de rodas",
+        "value": true
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "45",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "founder": {
+      "@id": "https://fiorepilates.com.br/#raquel"
+    },
     "knowsAbout": [
       "Pilates para gestantes",
       "Pilates pré-natal",
@@ -106,12 +170,100 @@
       "https://maps.app.goo.gl/bQtjxJiBTJSpTJJ29"
     ],
     "makesOffer": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para gestantes", "url": "https://fiorepilates.com.br/gestantes", "description": "Pilates pré-natal individualizado, respeitando cada fase da gestação." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fisioterapia pélvica e saúde da mulher", "url": "https://fiorepilates.com.br/fisioterapia-pelvica" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates pós-parto", "url": "https://fiorepilates.com.br/pilates-pos-parto" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para idosos e reabilitação", "url": "https://fiorepilates.com.br/pilates-idosos-reabilitacao" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Programa Florescer", "url": "https://fiorepilates.com.br/florescer" } }
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pilates para gestantes",
+          "url": "https://fiorepilates.com.br/gestantes",
+          "description": "Pilates pré-natal individualizado, respeitando cada fase da gestação."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Fisioterapia pélvica e saúde da mulher",
+          "url": "https://fiorepilates.com.br/fisioterapia-pelvica"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pilates pós-parto",
+          "url": "https://fiorepilates.com.br/pilates-pos-parto"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pilates para idosos e reabilitação",
+          "url": "https://fiorepilates.com.br/pilates-idosos-reabilitacao"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Programa Florescer",
+          "url": "https://fiorepilates.com.br/florescer"
+        }
+      }
     ]
+  }
+  </script>
+  <!-- Dados estruturados: fundadora (referenciada por @id nas outras páginas) e site -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://fiorepilates.com.br/#raquel",
+    "name": "Raquel Cardoso",
+    "jobTitle": "Fisioterapeuta",
+    "description": "Fisioterapeuta, fundadora da Fiore Pilates, especializada em cuidado pré e pós-natal e saúde da mulher.",
+    "url": "https://fiorepilates.com.br/#sobre",
+    "image": "https://fiorepilates.com.br/assets/images/v2/raquel-retrato.jpg",
+    "worksFor": {
+      "@id": "https://fiorepilates.com.br/#business"
+    },
+    "knowsAbout": [
+      "Pilates para gestantes",
+      "Pilates pré-natal",
+      "Pilates pós-parto",
+      "Fisioterapia pélvica",
+      "Saúde da mulher",
+      "Assoalho pélvico",
+      "Reabilitação"
+    ],
+    "award": "Moção de reconhecimento do CREFITO-3 (2025)",
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Registro profissional",
+      "name": "CREFITO-3/389610-F",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "CREFITO-3",
+        "url": "https://www.crefito3.org.br"
+      }
+    },
+    "sameAs": [
+      "https://www.instagram.com/pilatesfiore/"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://fiorepilates.com.br/#website",
+    "url": "https://fiorepilates.com.br/",
+    "name": "Fiore Pilates",
+    "inLanguage": "pt-BR",
+    "publisher": {
+      "@id": "https://fiorepilates.com.br/#business"
+    }
   }
   </script>
   <!-- Dados estruturados: Perguntas frequentes -->
@@ -120,7 +272,7 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Pilates é seguro durante a gestação?", "acceptedAnswer": { "@type": "Answer", "text": "Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo." } },
+      { "@type": "Question", "name": "Pilates é seguro durante a gestação?", "acceptedAnswer": { "@type": "Answer", "text": "Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo. Inicie sempre com a liberação do seu médico." } },
       { "@type": "Question", "name": "Preciso ter experiência prévia para começar?", "acceptedAnswer": { "@type": "Answer", "text": "Não precisa. Muitas alunas começam sem nunca ter feito Pilates. Tudo parte da avaliação inicial, que monta um plano no seu ritmo." } },
       { "@type": "Question", "name": "Vocês têm aula experimental?", "acceptedAnswer": { "@type": "Answer", "text": "Não trabalhamos com aula experimental. A sua experiência começa na avaliação inicial, um encontro individual para te conhecer e desenhar o seu plano." } },
       { "@type": "Question", "name": "A partir de quando uma gestante pode iniciar o Pilates?", "acceptedAnswer": { "@type": "Answer", "text": "O momento ideal varia para cada mulher. O recomendado é iniciar com liberação do seu médico e com acompanhamento de profissionais especializados, como na Fiore." } },
@@ -131,38 +283,21 @@
     ]
   }
   </script>
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GN6B6NJNKL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-GN6B6NJNKL');
-  </script>
-
-  <!-- Microsoft Clarity -->
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "y9u625nnoh");
-  </script>
 </head>
 
-<body>
-  <a href="#conteudo" class="btn" style="position:absolute;left:-9999px;top:0;z-index:100;" onfocus="this.style.left='1rem';this.style.top='1rem'" onblur="this.style.left='-9999px'">Pular para o conteúdo</a>
+<body class="has-overlay-header">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-  <!-- ===================== HEADER ===================== -->
+  <!-- ===================== HEADER (idêntico nas 10 páginas) ===================== -->
   <header class="site-header" data-header>
-    <div class="container nav">
+    <div class="container container--wide nav">
       <a class="brand" href="/" aria-label="Fiore Pilates, página inicial">
-        <img src="./assets/images/fiore-logo.svg" alt="Fiore Pilates" width="105" height="36">
+        <img class="logo-dark" src="./assets/images/fiore-logo.svg" alt="Fiore Pilates" width="105" height="36">
+        <img class="logo-light" src="./assets/images/fiore-logo-light.svg" alt="" aria-hidden="true" width="105" height="36">
       </a>
       <nav class="nav-links" aria-label="Navegação principal">
         <a href="/gestantes">Gestantes</a>
-        <a href="/#servicos">Serviços</a>
+        <a href="/#servicos">Cuidados</a>
         <a href="/florescer">Florescer</a>
         <a href="/eventos">Eventos</a>
         <a href="/#contato">Contato</a>
@@ -170,511 +305,541 @@
       <div class="nav-actions">
         <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn" target="_blank" rel="noopener">Agendar avaliação inicial</a>
       </div>
-      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
-        <span></span><span></span><span></span>
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="lbl-open" aria-hidden="true">Menu</span><span class="lbl-close" aria-hidden="true">Fechar</span>
+        <span class="bars" aria-hidden="true"></span>
       </button>
     </div>
   </header>
 
   <div class="mobile-menu" id="mobile-menu" data-mobile-menu>
-    <a href="/gestantes">Gestantes</a>
-    <a href="/#servicos">Serviços</a>
-    <a href="/florescer">Programa Florescer</a>
-    <a href="/eventos">Eventos</a>
-    <a href="/#contato">Contato</a>
-    <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--block" target="_blank" rel="noopener">Agendar avaliação inicial</a>
+    <nav aria-label="Menu">
+      <a href="/" aria-current="page"><span class="n">01</span>Início</a>
+      <a href="/gestantes"><span class="n">02</span>Gestantes</a>
+      <a href="/#servicos"><span class="n">03</span>Cuidados</a>
+      <a href="/florescer"><span class="n">04</span>Programa Florescer</a>
+      <a href="/eventos"><span class="n">05</span>Eventos</a>
+      <a href="/#contato"><span class="n">06</span>Contato</a>
+    </nav>
+    <div class="menu-foot">
+      <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--on-dark btn--block btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
+      <p>R. Baltazar Rodrigues, 4-82, Jardim Planalto, Bauru/SP<br><a href="tel:+5514996598955">(14) 99659-8955</a> · <a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener">@pilatesfiore</a></p>
+    </div>
   </div>
 
   <main id="conteudo">
 
-    <!-- ===================== HERO ===================== -->
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow reveal">Estúdio de Pilates em Bauru</span>
-          <h1 class="display reveal d1">Floresça com leveza<br>e <span class="serif-accent">bem-estar</span></h1>
-          <p class="lead reveal d2">Cuidamos e fortalecemos mulheres em todas as fases da vida, com um cuidado especial e
-            individualizado para <strong>gestantes</strong>. Um espaço acolhedor, seguro e feito para você.</p>
-          <div class="btn-row reveal d3">
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
-          </div>
-          <a href="#gestantes" class="link-fancy" style="margin-top:1.2rem">Sou gestante, quero saber mais <span aria-hidden="true">→</span></a>
-        </div>
-        <div class="hero-media reveal d2">
+    <!-- ===================== 00 · HERO (full-bleed, LCP: sem reveal, sem lazy) ===================== -->
+    <section class="hero hero--full" id="inicio">
+      <div class="hero-bg">
+        <div class="hero-bg-inner" data-parallax="0.12">
           <picture>
-            <source type="image/webp" srcset="./assets/images/hero-espaco-480.webp 480w, ./assets/images/hero-espaco.webp 618w" sizes="(min-width: 880px) 45vw, 92vw">
-            <img src="./assets/images/hero-espaco.jpg" srcset="./assets/images/hero-espaco-480.jpg 480w, ./assets/images/hero-espaco.jpg 618w" sizes="(min-width: 880px) 45vw, 92vw" alt="Espaço acolhedor do Fiore Pilates com luz natural e plantas" width="618" height="1100" fetchpriority="high">
-          </picture>
-          <div class="hero-badge">
-            <svg class="gicon" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;flex:none"><path fill="#4285F4" d="M23 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.2a5.3 5.3 0 0 1-2.3 3.5v2.9h3.7C21.7 18.9 23 15.9 23 12.3Z"/><path fill="#34A853" d="M12 24c3.1 0 5.7-1 7.6-2.8l-3.7-2.9c-1 .7-2.3 1.1-3.9 1.1-3 0-5.5-2-6.4-4.7H1.8v3A12 12 0 0 0 12 24Z"/><path fill="#FBBC05" d="M5.6 14.7a7.2 7.2 0 0 1 0-4.6v-3H1.8a12 12 0 0 0 0 10.6l3.8-3Z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.2.6 4.4 1.7l3.3-3.3A12 12 0 0 0 1.8 7.1l3.8 3C6.5 7.3 9 4.8 12 4.8Z"/></svg>
-            <div>
-              <span class="stars" aria-hidden="true">★★★★★</span>
-              <strong>5,0</strong>
-              <small>45 avaliações no Google</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== PROVA SOCIAL ===================== -->
-    <section class="proof section--tight">
-      <div class="container proof-grid">
-        <div class="proof-item reveal">
-          <div class="num">+<span>300</span></div>
-          <p>alunos atendidos ao longo da nossa história</p>
-        </div>
-        <div class="proof-item reveal d1">
-          <div class="num">+30<span>%</span></div>
-          <p>são gestantes acompanhadas de perto</p>
-        </div>
-        <div class="proof-item reveal d2">
-          <div class="num">5,0<span>★</span></div>
-          <p>nota no Google, com 45 avaliações</p>
-        </div>
-        <div class="proof-item reveal d3">
-          <div class="num">100<span>%</span></div>
-          <p>aulas individualizadas, feitas para você</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== GESTANTES (DESTAQUE) ===================== -->
-    <section class="section bg-sand" id="gestantes">
-      <div class="container split">
-        <div class="split-media tall reveal">
-          <picture>
-            <source type="image/webp" srcset="./assets/images/pilates-aula-480.webp 480w, ./assets/images/pilates-aula.webp 787w" sizes="(min-width: 880px) 45vw, 92vw">
-            <img src="./assets/images/pilates-aula.jpg" srcset="./assets/images/pilates-aula-480.jpg 480w, ./assets/images/pilates-aula.jpg 787w" sizes="(min-width: 880px) 45vw, 92vw" alt="Sala de Pilates da Fiore em Bauru, com Reformer e aparelhos, em ambiente claro e acolhedor" width="787" height="1400" loading="lazy">
+            <source media="(max-width: 760px)" type="image/avif" srcset="./assets/images/v2/hero-recanto-tall-640.avif 640w, ./assets/images/v2/hero-recanto-tall-1080.avif 1080w" sizes="100vw">
+            <source media="(max-width: 760px)" type="image/webp" srcset="./assets/images/v2/hero-recanto-tall-640.webp 640w, ./assets/images/v2/hero-recanto-tall-1080.webp 1080w" sizes="100vw">
+            <source media="(max-width: 760px)" srcset="./assets/images/v2/hero-recanto-tall.jpg 1080w" sizes="100vw">
+            <source type="image/avif" srcset="./assets/images/v2/hero-recanto-wide-960.avif 960w, ./assets/images/v2/hero-recanto-wide-1600.avif 1600w, ./assets/images/v2/hero-recanto-wide-2120.avif 2120w" sizes="100vw">
+            <source type="image/webp" srcset="./assets/images/v2/hero-recanto-wide-960.webp 960w, ./assets/images/v2/hero-recanto-wide-1600.webp 1600w, ./assets/images/v2/hero-recanto-wide-2120.webp 2120w" sizes="100vw">
+            <img src="./assets/images/v2/hero-recanto-wide.jpg" alt="Recanto da Fiore Pilates em Bauru, com cortina de folhas, luz natural e aparelhos de Pilates ao fundo" width="2120" height="1192" fetchpriority="high" decoding="async">
           </picture>
         </div>
-        <div class="split-copy">
-          <span class="eyebrow reveal">Nosso cuidado com gestantes</span>
-          <h2 class="reveal d1">Um Pilates que acolhe você e o seu bebê</h2>
-          <p class="reveal d2">A gestação é uma jornada única e merece um cuidado à altura. Na Fiore, cada aula é
-            pensada para a sua fase, respeitando o seu corpo e o seu tempo. Com acompanhamento adequado, o Pilates
-            <strong>pode ajudar</strong> no alívio de desconfortos, na consciência corporal e na preparação para o
-            parto.</p>
-          <ul class="checklist reveal d2">
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Avaliação individual e plano adaptado a cada trimestre</li>
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Profissionais especializadas em cuidado pré-natal e pós-parto</li>
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Ambiente seguro, sereno e preparado para você</li>
-          </ul>
-          <div class="btn-row reveal d3">
-            <a href="/gestantes" class="btn btn--lg">Conhecer o Pilates para gestantes</a>
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20conhecer%20a%20Fiore." class="btn btn--ghost btn--lg" target="_blank" rel="noopener">Falar no WhatsApp</a>
-          </div>
-          <p class="note note--safety reveal d3" style="margin-top:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg> Inicie sempre com a liberação do seu médico.</p>
-          <p class="note reveal d3" style="margin-top:0.75rem">Avaliação inicial da gestante: R$ 150, presencial e completa, com anamnese e testes. Você recebe a análise em PDF e o valor é abatido no plano.</p>
-        </div>
       </div>
-    </section>
-
-    <!-- ===================== BENEFÍCIOS ===================== -->
-    <section class="section" id="beneficios">
-      <div class="container">
-        <div class="section-head center reveal">
-          <span class="eyebrow center">Por que Pilates</span>
-          <h2 class="text-balance">Benefícios que você sente no corpo e na rotina</h2>
-          <p class="lead">Mais do que exercício, um cuidado que se reflete em cada movimento do seu dia.</p>
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="container container--wide hero-inner">
+        <h1 class="hero-title">
+          <span class="h1-kicker">Pilates para gestantes e saúde da mulher em Bauru</span>
+          <span class="h1-display"><span class="line"><span>Floresça</span></span> <span class="line"><span>com <span class="accent">leveza.</span></span></span></span>
+        </h1>
+        <p class="lead">Aulas individuais com fisioterapeutas, da gestação ao pós-parto e em todas as fases da mulher.</p>
+        <div class="btn-row">
+          <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--on-dark btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
+          <a href="/gestantes" class="link-line link-line--light">Sou gestante <span aria-hidden="true">→</span></a>
         </div>
-        <div class="cards cols-3">
-          <article class="card reveal">
-            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2c-1.8 1.6-1.8 3.4 0 5s1.8 3.4 0 5s-1.8 3.4 0 5s1.8 3.4 0 5"/><circle cx="12" cy="2.4" r="0.9" fill="currentColor" stroke="none"/></svg></div>
-            <h3>Alívio de dores</h3>
-            <p>Exercícios que contribuem para o alívio de dores lombares, pélvicas e tensões do dia a dia.</p>
-          </article>
-          <article class="card reveal d1">
-            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="4" r="1.8"/><path d="M12 8v8"/><path d="M8 20h8"/><path d="M8 13l4-2 4 2"/></svg></div>
-            <h3>Postura e mobilidade</h3>
-            <p>Mais consciência corporal, equilíbrio e liberdade de movimento em todas as fases da vida.</p>
-          </article>
-          <article class="card reveal d2">
-            <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="2" y="14.5" width="20" height="2.5" rx="1.2"/><rect x="6" y="8.5" width="12" height="5" rx="1.5"/></svg></div>
-            <h3>Força e equilíbrio</h3>
-            <p>Fortalecimento profundo e seguro, do core à postura, com técnica e progressão.</p>
-          </article>
-          <article class="card reveal">
-            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12c2-3 4-3 6 0s4 3 6 0s4-3 6 0"/><path d="M4 17c2-3 4-3 6 0s4 3 6 0s4-3 6 0" opacity="0.5"/></svg></div>
-            <h3>Bem-estar e leveza</h3>
-            <p>Um respiro na rotina: respiração, relaxamento e conexão entre corpo e mente.</p>
-          </article>
-          <article class="card reveal d1">
-            <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><rect x="4" y="15.5" width="16" height="2" rx="1"/><path d="M6 15.5a6 6 0 0 1 12 0Z"/><rect x="11" y="3.5" width="2" height="4" rx="1"/><rect x="4" y="7" width="2" height="4" rx="1" transform="rotate(-45 5 9)"/><rect x="18" y="7" width="2" height="4" rx="1" transform="rotate(45 19 9)"/></svg></div>
-            <h3>Mais energia no dia</h3>
-            <p>Disposição e qualidade de vida que acompanham você muito além das aulas.</p>
-          </article>
-          <article class="card reveal d2">
-            <div class="ic"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg></div>
-            <h3>Recuperação segura</h3>
-            <p>Reabilitação e pós-parto com acompanhamento atento, respeitando o seu tempo de retorno.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== DEPOIMENTOS ===================== -->
-    <section class="section" id="depoimentos">
-      <div class="container">
-        <div class="reviews-head">
-          <div class="reveal">
-            <span class="eyebrow">Quem vive a Fiore</span>
-            <h2 class="text-balance" style="margin-top:0.8rem">Amado por quem valoriza<br>o bem-estar</h2>
-            <a class="press-badge" href="/eventos"><span aria-hidden="true">📺</span><span>Como visto na TV TEM</span><span aria-hidden="true">→</span></a>
-          </div>
-          <a class="grating reveal d1" href="https://www.google.com/search?q=Fiore+Pilates+Bauru+SP" target="_blank" rel="noopener" aria-label="Ver avaliações no Google">
+        <div class="hero-foot">
+          <a class="g-badge" href="https://www.google.com/search?q=Fiore+Pilates+Bauru+SP" target="_blank" rel="noopener">
             <svg class="gicon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.2a5.3 5.3 0 0 1-2.3 3.5v2.9h3.7C21.7 18.9 23 15.9 23 12.3Z"/><path fill="#34A853" d="M12 24c3.1 0 5.7-1 7.6-2.8l-3.7-2.9c-1 .7-2.3 1.1-3.9 1.1-3 0-5.5-2-6.4-4.7H1.8v3A12 12 0 0 0 12 24Z"/><path fill="#FBBC05" d="M5.6 14.7a7.2 7.2 0 0 1 0-4.6v-3H1.8a12 12 0 0 0 0 10.6l3.8-3Z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.2.6 4.4 1.7l3.3-3.3A12 12 0 0 0 1.8 7.1l3.8 3C6.5 7.3 9 4.8 12 4.8Z"/></svg>
-            <span class="g">5,0</span>
-            <div>
-              <span class="stars" aria-hidden="true">★★★★★</span>
-              <small>45 avaliações no Google</small>
+            <span><span class="stars" aria-hidden="true">★★★★★</span> <strong>5,0</strong> <small>· 45 avaliações no Google</small></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MARQUEE ===================== -->
+    <div class="marquee" role="region" aria-label="Cuidados da Fiore">
+      <div class="marquee-track">
+        <ul><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Gestação</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Pós-parto</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Saúde da mulher</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Fisioterapia pélvica</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Reabilitação</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Bem-estar</span></li></ul>
+        <ul aria-hidden="true"><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Gestação</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Pós-parto</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Saúde da mulher</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Fisioterapia pélvica</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Reabilitação</span></li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Bem-estar</span></li></ul>
+      </div>
+    </div>
+
+    <!-- ===================== 01 · MANIFESTO ===================== -->
+    <section class="section" id="manifesto">
+      <div class="container container--wide">
+        <div class="manifesto">
+          <span class="eyebrow"><span class="n">01</span>Manifesto</span>
+          <p class="manifesto-text" data-words style="margin-top:2rem">Cuidamos e fortalecemos mulheres em todas as fases da vida, com um cuidado especial para gestantes. Um espaço acolhedor e seguro, onde cada pessoa se sente verdadeiramente bem cuidada.</p>
+          <p class="manifesto-sign">
+            <picture><source type="image/avif" srcset="./assets/images/v2/raquel-circulo-640.avif 640w" sizes="52px"><source type="image/webp" srcset="./assets/images/v2/raquel-circulo-640.webp 640w" sizes="52px"><img src="./assets/images/v2/raquel-circulo.jpg" alt="" width="1500" height="1875" loading="lazy" decoding="async"></picture>
+            <span><strong>Raquel Cardoso</strong>Fundadora e fisioterapeuta</span>
+          </p>
+        </div>
+        <h2 class="visually-hidden">Benefícios que você sente no corpo e na rotina</h2>
+        <div class="benefits">
+          <div class="benefit reveal"><span class="n">01</span><h3>Alívio de dores</h3><p>Pode contribuir para aliviar dores lombares, pélvicas e tensões do dia a dia.</p></div>
+          <div class="benefit reveal d1"><span class="n">02</span><h3>Postura e mobilidade</h3><p>Consciência corporal, equilíbrio e liberdade de movimento.</p></div>
+          <div class="benefit reveal d2"><span class="n">03</span><h3>Força e equilíbrio</h3><p>Fortalecimento profundo e seguro, com técnica e progressão.</p></div>
+          <div class="benefit reveal"><span class="n">04</span><h3>Bem-estar e leveza</h3><p>Respiração, relaxamento e conexão entre corpo e mente.</p></div>
+          <div class="benefit reveal d1"><span class="n">05</span><h3>Mais energia no dia</h3><p>Disposição que acompanha você muito além das aulas.</p></div>
+          <div class="benefit reveal d2"><span class="n">06</span><h3>Recuperação segura</h3><p>Reabilitação e pós-parto no seu tempo de retorno.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 02 · JORNADA DA GESTANTE (ink) ===================== -->
+    <section class="section bg-ink" id="gestantes">
+      <div class="container container--wide">
+        <div class="journey-grid">
+          <figure>
+            <div class="arch reveal-clip">
+              <div class="vloop" data-vloop><picture><source type="image/avif" srcset="./assets/images/v2/poster-loop-gestante-reformer.avif"><source type="image/webp" srcset="./assets/images/v2/poster-loop-gestante-reformer.webp"><img src="./assets/images/v2/poster-loop-gestante-reformer.jpg" alt="Gestante em aula de Pilates no Reformer da Fiore, com fisioterapeuta" width="720" height="896" loading="lazy" decoding="async"></picture><video muted loop playsinline preload="none" data-src="./assets/videos/loop-gestante-reformer.mp4" aria-hidden="true" tabindex="-1"></video><button type="button" class="vloop-btn" data-video-toggle aria-pressed="false" aria-label="Reproduzir vídeo" hidden><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg></button></div>
             </div>
-          </a>
-        </div>
-        <div class="reviews">
-          <figure class="review reveal">
-            <div class="stars" aria-hidden="true">★★★★★</div>
-            <blockquote><p>“Comecei com a Raquel com 12 semanas de gestação e fomos até as 39. Ela sempre adaptou os exercícios para a gravidez e me ajudou a realizar o parto que eu queria: o parto normal.”</p></blockquote>
-            <figcaption class="who"><span class="avatar">J</span><span><strong>Juliana</strong><small>Aluna gestante</small></span></figcaption>
+            <figcaption class="media-caption">Pilates na gestação, no Reformer da Fiore.</figcaption>
           </figure>
-          <figure class="review reveal d1">
-            <div class="stars" aria-hidden="true">★★★★★</div>
-            <blockquote><p>“Mudou a minha vida de verdade. Sofria com dores pelo corpo todos os dias. Com a Fiore descobri uma nova vida… sem dores.”</p></blockquote>
-            <figcaption class="who"><span class="avatar">C</span><span><strong>Cássia</strong><small>Aluna</small></span></figcaption>
-          </figure>
-          <figure class="review reveal d2">
-            <div class="stars" aria-hidden="true">★★★★★</div>
-            <blockquote><p>“Sempre fui sedentária e decidi fazer Pilates por causa da gestação. Nunca pensei que fosse gostar tanto! A Raquel é super atenciosa e o espaço é aconchegante. Recomendo para gestantes e não gestantes.”</p></blockquote>
-            <figcaption class="who"><span class="avatar">A</span><span><strong>Ana</strong><small>Aluna gestante</small></span></figcaption>
-          </figure>
-          <figure class="review reveal">
-            <div class="stars" aria-hidden="true">★★★★★</div>
-            <blockquote><p>“Têm me ajudado muito durante a gestação. Recomendo demais! Atenciosa e entende os limites dos alunos.”</p></blockquote>
-            <figcaption class="who"><span class="avatar">E</span><span><strong>Eliane</strong><small>Aluna gestante</small></span></figcaption>
-          </figure>
-          <figure class="review reveal d1">
-            <div class="stars" aria-hidden="true">★★★★★</div>
-            <blockquote><p>“Local super aconchegante, excelente atendimento, ambiente familiar e organização impecável. Faz toda a diferença. Parabéns!”</p></blockquote>
-            <figcaption class="who"><span class="avatar">C</span><span><strong>Cristiane</strong><small>Aluna</small></span></figcaption>
-          </figure>
-          <figure class="review reveal d2">
-            <div class="stars" aria-hidden="true">★★★★★</div>
-            <blockquote><p>“Profissional especializada e diferenciada! Essa é a minha indicação.”</p></blockquote>
-            <figcaption class="who"><span class="avatar">R</span><span><strong>Rafaela</strong><small>Aluna</small></span></figcaption>
-          </figure>
-        </div>
-        <p class="note center reveal" style="margin-top:1.5rem">Trechos de avaliações públicas de alunas. Veja todas no nosso perfil do Google.</p>
-      </div>
-    </section>
-
-    <!-- ===================== SERVIÇOS ===================== -->
-    <section class="section bg-tint" id="servicos">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Para quem cuidamos</span>
-          <h2 class="text-balance">Um cuidado para cada fase, com a mesma excelência</h2>
-          <p class="lead">Nosso diferencial são as gestantes, mas a Fiore acolhe mulheres, idosos e quem busca mais
-            saúde e qualidade de vida.</p>
-        </div>
-        <div class="cards cols-3">
-          <a href="/gestantes" class="card reveal">
-            <h3>Pilates para gestantes</h3>
-            <p>Pré-natal individualizado, da descoberta ao pós-parto, respeitando cada fase.</p>
-            <span class="card-arrow">Saiba mais →</span>
-          </a>
-          <a href="/pilates-pos-parto" class="card reveal d1">
-            <h3>Pilates pós-parto</h3>
-            <p>Fortalecimento do core e do assoalho pélvico, respeitando o seu tempo de recuperação.</p>
-            <span class="card-arrow">Saiba mais →</span>
-          </a>
-          <a href="/fisioterapia-pelvica" class="card reveal d2">
-            <h3>Fisioterapia pélvica e saúde da mulher</h3>
-            <p>Cuidado especializado com o assoalho pélvico e com a saúde da mulher, na gestação, no pós-parto e em todas as fases da vida.</p>
-            <span class="card-arrow">Saiba mais →</span>
-          </a>
-          <a href="/pilates-idosos-reabilitacao" class="card reveal d3">
-            <h3>Idosos e reabilitação</h3>
-            <p>Aulas individualizadas e seguras para equilíbrio, força, mobilidade e um retorno cuidadoso ao movimento.</p>
-            <span class="card-arrow">Saiba mais →</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== SOBRE ===================== -->
-    <section class="section" id="sobre">
-      <div class="container split reverse">
-        <div class="split-media reveal">
-          <img src="./assets/images/team/raquel.jpg" alt="Raquel Cardoso, fundadora e fisioterapeuta da Fiore Pilates" width="450" height="800" loading="lazy">
-        </div>
-        <div class="split-copy">
-          <span class="eyebrow reveal">Nossa história</span>
-          <h2 class="reveal d1">A Fiore nasceu de um sonho cheio de cuidado</h2>
-          <p class="reveal d2">Um sonho da fisioterapeuta <strong>Raquel Cardoso</strong>, que queria criar um espaço
-            onde cada pessoa se sentisse verdadeiramente bem cuidada. O nome <em>“Fiore”</em>, flor, em italiano, foi
-            inspirado na avó de Raquel, que cultivava um jardim cheio de vida e beleza. Lembranças que até hoje inspiram
-            cada detalhe do nosso espaço.</p>
-          <p class="reveal d2">Mais do que um estúdio, a Fiore é um <strong>ecossistema de cuidado e excelência</strong>:
-            pessoas, técnica e acolhimento trabalhando juntos para transformar a experiência da maternidade e da saúde
-            da mulher.</p>
-          <div class="btn-row reveal d3">
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20espa%C3%A7o%20da%20Fiore." class="btn btn--ghost" target="_blank" rel="noopener">Conhecer nosso espaço</a>
+          <div class="journey-copy">
+            <span class="reveal"><span class="eyebrow"><span class="n">02</span>Gestação</span></span>
+            <h2 class="reveal d1">Um Pilates que acolhe você e o seu bebê</h2>
+            <p class="lead reveal d2">Cada aula é pensada para a sua fase, com fisioterapeutas especializadas em pré-natal e pós-parto. Com acompanhamento adequado, o Pilates <strong>pode ajudar</strong> no alívio de desconfortos, na consciência corporal e na preparação para o parto.</p>
+            <div class="btn-row reveal d3" style="margin-top:2rem">
+              <a href="/gestantes" class="btn btn--on-dark btn--lg">Conhecer o Pilates para gestantes</a>
+              <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Sou%20gestante%20e%20gostaria%20de%20conhecer%20a%20Fiore." class="btn btn--ghost btn--on-dark btn--lg" target="_blank" rel="noopener">Falar no WhatsApp</a>
+            </div>
           </div>
         </div>
+        <ol class="timeline">
+          <li class="tl-step reveal"><span class="when">1º trimestre</span><h3>Adaptação e escuta</h3><p>Respiração, consciência corporal e ajustes leves, respeitando enjoos e cansaço.</p></li>
+          <li class="tl-step reveal d1"><span class="when">2º trimestre</span><h3>Força e postura</h3><p>Força e mobilidade, adaptando os exercícios ao crescimento da barriga.</p></li>
+          <li class="tl-step reveal d2"><span class="when">3º trimestre</span><h3>Preparo para o parto</h3><p>Intensidade ajustada, com foco em conforto e alívio na reta final.</p></li>
+          <li class="tl-step reveal d3"><span class="when">Pós-parto</span><h3>Recuperação no seu tempo</h3><p>Core e assoalho pélvico, com um retorno cuidadoso ao movimento.</p></li>
+        </ol>
+        <div class="journey-notes reveal">
+          <p class="note note--safety"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg> Inicie sempre com a liberação do seu médico.</p>
+          <p class="note">Avaliação inicial da gestante: R$ 150, presencial e completa, com anamnese e testes. Você recebe a análise em PDF e o valor é abatido no plano.</p>
+        </div>
       </div>
-      <div class="container" style="margin-top:3rem">
-        <div class="team reveal d2">
+    </section>
+
+    <!-- ===================== 03 · CUIDADOS (lista editorial) ===================== -->
+    <section class="section" id="servicos">
+      <div class="container container--wide">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <span class="eyebrow"><span class="n">03</span>Cuidados</span>
+            <h2 style="margin-top:1.4rem">Um cuidado para cada fase, com a mesma excelência</h2>
+          </div>
+          <p class="lead">Nosso diferencial são as gestantes, mas a Fiore acolhe mulheres, idosos e quem busca mais saúde e qualidade de vida.</p>
+        </div>
+        <nav class="svc-list" aria-label="Cuidados da Fiore">
+          <a class="svc-row" href="/gestantes">
+            <span class="n">01</span>
+            <h3>Gestantes</h3>
+            <p>Pré-natal individualizado, da descoberta ao pós-parto, respeitando cada fase.</p>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <span class="svc-thumb" aria-hidden="true"><picture><source type="image/avif" srcset="./assets/images/v2/poster-loop-gestante-reformer.avif"><source type="image/webp" srcset="./assets/images/v2/poster-loop-gestante-reformer.webp"><img src="./assets/images/v2/poster-loop-gestante-reformer.jpg" alt="" width="720" height="896" loading="lazy" decoding="async"></picture></span>
+          </a>
+          <a class="svc-row" href="/pilates-pos-parto">
+            <span class="n">02</span>
+            <h3>Pós-parto</h3>
+            <p>Core e assoalho pélvico, respeitando o seu tempo de recuperação.</p>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <span class="svc-thumb" aria-hidden="true"><picture><source type="image/avif" srcset="./assets/images/v2/recanto-sofa-640.avif 640w" sizes="220px"><source type="image/webp" srcset="./assets/images/v2/recanto-sofa-640.webp 640w" sizes="220px"><img src="./assets/images/v2/recanto-sofa.jpg" alt="" width="1080" height="1350" loading="lazy" decoding="async"></picture></span>
+          </a>
+          <a class="svc-row" href="/fisioterapia-pelvica">
+            <span class="n">03</span>
+            <h3>Fisioterapia pélvica</h3>
+            <p>Cuidado com o assoalho pélvico e a saúde da mulher, em todas as fases da vida.</p>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <span class="svc-thumb" aria-hidden="true"><picture><source type="image/avif" srcset="./assets/images/v2/detalhe-bolas-640.avif 640w" sizes="220px"><source type="image/webp" srcset="./assets/images/v2/detalhe-bolas-640.webp 640w" sizes="220px"><img src="./assets/images/v2/detalhe-bolas.jpg" alt="" width="1080" height="1350" loading="lazy" decoding="async"></picture></span>
+          </a>
+          <a class="svc-row" href="/#metodo">
+            <span class="n">04</span>
+            <h3>Pilates individual</h3>
+            <p>Aulas feitas para você, com fisioterapeuta e plano próprio.</p>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <span class="svc-thumb" aria-hidden="true"><picture><source type="image/avif" srcset="./assets/images/v2/cadillac-640.avif 640w" sizes="220px"><source type="image/webp" srcset="./assets/images/v2/cadillac-640.webp 640w" sizes="220px"><img src="./assets/images/v2/cadillac.jpg" alt="" width="1080" height="1350" loading="lazy" decoding="async"></picture></span>
+          </a>
+          <a class="svc-row" href="/pilates-idosos-reabilitacao">
+            <span class="n">05</span>
+            <h3>Idosos e reabilitação</h3>
+            <p>Equilíbrio, força e mobilidade, com um retorno seguro ao movimento.</p>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <span class="svc-thumb" aria-hidden="true"><picture><source type="image/avif" srcset="./assets/images/v2/detalhe-barrel-640.avif 640w" sizes="220px"><source type="image/webp" srcset="./assets/images/v2/detalhe-barrel-640.webp 640w" sizes="220px"><img src="./assets/images/v2/detalhe-barrel.jpg" alt="" width="1080" height="1350" loading="lazy" decoding="async"></picture></span>
+          </a>
+          <a class="svc-row" href="/florescer">
+            <span class="n">06</span>
+            <h3>Fiore Toque</h3>
+            <p>Massoterapia e toque terapêutico que podem ajudar a aliviar tensões.</p>
+            <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+            <span class="svc-thumb" aria-hidden="true"><picture><source type="image/avif" srcset="./assets/images/v2/recanto-cortina-640.avif 640w" sizes="220px"><source type="image/webp" srcset="./assets/images/v2/recanto-cortina-640.webp 640w" sizes="220px"><img src="./assets/images/v2/recanto-cortina.jpg" alt="" width="1080" height="1350" loading="lazy" decoding="async"></picture></span>
+          </a>
+        </nav>
+        <div class="svc-foot reveal" id="florescer">
+          <div>
+            <span class="eyebrow">Programa Florescer</span>
+            <h3 style="margin-top:1rem">Um cuidado 360° para a sua jornada</h3>
+            <p>Pilates, fisioterapia pélvica e terapias manuais juntos por você, num só plano montado na avaliação inicial.</p>
+          </div>
+          <a href="/florescer" class="btn btn--lg">Conhecer o Florescer <span class="arr" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 04 · FUNDADORA + EQUIPE (mist) ===================== -->
+    <section class="section bg-mist" id="sobre">
+      <div class="container container--wide">
+        <div class="founder-grid">
+          <div class="founder-media">
+            <div class="frame ratio-45 main reveal-clip">
+              <picture><source type="image/avif" srcset="./assets/images/v2/raquel-retrato-640.avif 640w, ./assets/images/v2/raquel-retrato-1080.avif 1080w, ./assets/images/v2/raquel-retrato-1500.avif 1500w" sizes="(min-width: 960px) 520px, 92vw"><source type="image/webp" srcset="./assets/images/v2/raquel-retrato-640.webp 640w, ./assets/images/v2/raquel-retrato-1080.webp 1080w, ./assets/images/v2/raquel-retrato-1500.webp 1500w" sizes="(min-width: 960px) 520px, 92vw"><img src="./assets/images/v2/raquel-retrato.jpg" alt="Raquel Cardoso, fundadora e fisioterapeuta da Fiore Pilates, no estúdio em Bauru" width="1500" height="1875" loading="lazy" decoding="async"></picture>
+            </div>
+            <div class="circle reveal d2">
+              <picture><source type="image/avif" srcset="./assets/images/v2/raquel-circulo-640.avif 640w" sizes="200px"><source type="image/webp" srcset="./assets/images/v2/raquel-circulo-640.webp 640w" sizes="200px"><img src="./assets/images/v2/raquel-circulo.jpg" alt="Raquel Cardoso segurando um anel de Pilates" width="1500" height="1875" loading="lazy" decoding="async"></picture>
+            </div>
+          </div>
+          <div class="founder-copy">
+            <span class="reveal"><span class="eyebrow"><span class="n">04</span>Nossa história</span></span>
+            <p class="founder-quote reveal d1">Fiore é flor, em italiano. Nasceu de um sonho cheio de cuidado.</p>
+            <p class="reveal d2">Um sonho da fisioterapeuta <strong>Raquel Cardoso</strong>: criar um espaço onde cada pessoa se sentisse verdadeiramente bem cuidada. O nome foi inspirado na avó de Raquel, que cultivava um jardim cheio de vida e beleza. Lembranças que até hoje inspiram cada detalhe do nosso espaço.</p>
+            <p class="reveal d2">Mais do que um estúdio, um <strong>ecossistema de cuidado</strong>: pessoas, técnica e acolhimento juntos pela maternidade e pela saúde da mulher.</p>
+            <p class="founder-id reveal d3">Raquel Cardoso · Fisioterapeuta · CREFITO-3/389610-F</p>
+            <p class="credential reveal d3"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Moção de reconhecimento do CREFITO-3 (2025)</span></p>
+            <div class="btn-row reveal d3" style="margin-top:2rem">
+              <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20espa%C3%A7o%20da%20Fiore." class="btn btn--ghost" target="_blank" rel="noopener">Conhecer nosso espaço</a>
+            </div>
+          </div>
+        </div>
+        <div class="team-head reveal">
+          <h3>A equipe</h3>
+        </div>
+        <div class="team">
           <div class="member reveal">
-            <div class="ph"><img src="./assets/images/team/raquel.jpg" alt="Raquel Cardoso, fundadora e fisioterapeuta da Fiore" loading="lazy"></div>
+            <div class="ph"><img src="./assets/images/team/raquel.jpg" alt="Raquel Cardoso, fundadora e fisioterapeuta da Fiore" width="450" height="800" loading="lazy" decoding="async"></div>
             <h3>Raquel Cardoso</h3><p>Fundadora · Fisioterapeuta</p>
           </div>
           <div class="member reveal d1">
-            <div class="ph"><img src="./assets/images/team/andressa.jpg" alt="Andressa, fisioterapeuta da Fiore" loading="lazy"></div>
+            <div class="ph"><img src="./assets/images/team/andressa.jpg" alt="Andressa, fisioterapeuta da Fiore" width="480" height="600" loading="lazy" decoding="async"></div>
             <h3>Andressa</h3><p>Fisioterapeuta</p>
           </div>
           <div class="member reveal d2">
-            <div class="ph"><img src="./assets/images/team/filipe.jpg" alt="Filipe, fisioterapeuta da Fiore" loading="lazy"></div>
+            <div class="ph"><img src="./assets/images/team/filipe.jpg" alt="Filipe, fisioterapeuta da Fiore" width="450" height="800" loading="lazy" decoding="async"></div>
             <h3>Filipe</h3><p>Fisioterapeuta</p>
           </div>
           <div class="member reveal d3">
-            <div class="ph"><img src="./assets/images/team/rosana.jpg" alt="Rosana, massoterapeuta do Fiore Toque" loading="lazy"></div>
+            <div class="ph"><img src="./assets/images/team/rosana.jpg" alt="Rosana, massoterapeuta do Fiore Toque" width="450" height="800" loading="lazy" decoding="async"></div>
             <h3>Rosana</h3><p>Fiore Toque · Massoterapia</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== PROGRAMA FLORESCER ===================== -->
-    <section class="section bg-forest" id="florescer">
-      <div class="container">
-        <div class="section-head center reveal">
-          <span class="eyebrow center">Programa Florescer</span>
-          <h2 class="text-balance">Um cuidado 360° para a sua jornada</h2>
-          <p class="lead">Pilates, fisioterapia pélvica e terapias manuais trabalhando juntos por você, com base em
-            ciência, experiência e empatia.</p>
-          <div class="btn-row center reveal d2" style="margin-top:1.5rem;justify-content:center">
-            <a href="/florescer" class="btn btn--gold btn--lg">Conhecer o Programa Florescer</a>
+    <!-- ===================== 05 · MÉTODO + NÚMEROS ===================== -->
+    <section class="section" id="metodo">
+      <div class="container container--wide">
+        <div class="method-grid">
+          <div class="method-media">
+            <div class="frame ratio-45 reveal-clip">
+              <div class="vloop" data-vloop><picture><source type="image/avif" srcset="./assets/images/v2/poster-loop-cadillac.avif"><source type="image/webp" srcset="./assets/images/v2/poster-loop-cadillac.webp"><img src="./assets/images/v2/poster-loop-cadillac.jpg" alt="Aluna em exercício de Pilates no Cadillac da Fiore" width="720" height="900" loading="lazy" decoding="async"></picture><video muted loop playsinline preload="none" data-src="./assets/videos/loop-cadillac.mp4" aria-hidden="true" tabindex="-1"></video><button type="button" class="vloop-btn" data-video-toggle aria-pressed="false" aria-label="Reproduzir vídeo" hidden><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg></button></div>
+            </div>
           </div>
+          <div class="method-copy">
+            <span class="reveal"><span class="eyebrow"><span class="n">05</span>Nossa metodologia</span></span>
+            <h2 class="reveal d1">Um método estruturado, feito para você evoluir</h2>
+            <p class="reveal d2">Aplicamos o <strong>Pilates Contemporâneo</strong>: em vez de uma sequência fixa, adaptamos exercícios e progressão ao seu corpo e objetivo, com base em fisioterapia. Toda a equipe é formada em Fisioterapia, com formação específica em Pilates, e combina Reformer, Chair, Cadillac, Barrel e Solo conforme a sua necessidade.</p>
+            <div class="steps reveal d2">
+              <div class="step-row"><div class="dot">01</div><div><h3>Avaliação inicial individualizada</h3><p>Seu histórico, objetivos e necessidades, num encontro acolhedor.</p></div></div>
+              <div class="step-row"><div class="dot">02</div><div><h3>Plano de aula personalizado</h3><p>Sob medida, respeitando o seu corpo e o seu momento.</p></div></div>
+              <div class="step-row"><div class="dot">03</div><div><h3>Registro contínuo de evolução</h3><p>Cada conquista acompanhada, para você sentir o seu progresso.</p></div></div>
+              <div class="step-row"><div class="dot">04</div><div><h3>Reavaliações periódicas</h3><p>Ajustamos o plano com você, sempre buscando os melhores resultados.</p></div></div>
+            </div>
+            <div class="btn-row reveal d3">
+              <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20entender%20como%20funcionam%20as%20aulas%20da%20Fiore." class="btn" target="_blank" rel="noopener">Entender como funciona</a>
+            </div>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><div class="num">+300</div><p>alunos atendidos ao longo da nossa história</p></div>
+          <div class="stat reveal d1"><div class="num">+30<span>%</span></div><p>são gestantes acompanhadas de perto</p></div>
+          <div class="stat reveal d2"><div class="num">5,0<span>★</span></div><p>nota no Google, com 45 avaliações</p></div>
+          <div class="stat reveal d3"><div class="num">100<span>%</span></div><p>aulas individualizadas, feitas para você</p></div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== TECNOLOGIA & CUIDADO ===================== -->
+    <!-- ===================== 06 · O ESPAÇO (carrossel scroll-snap) ===================== -->
+    <section class="section" id="espaco" data-carousel style="padding-top:0">
+      <div class="container container--wide">
+        <div class="carousel-head reveal">
+          <div class="section-head">
+            <span class="eyebrow"><span class="n">06</span>Nosso espaço</span>
+            <h2 style="margin-top:1.4rem">Um ambiente pensado para o seu bem-estar</h2>
+            <p class="lead">Sereno e acolhedor. Cada detalhe foi preparado para você se sentir em casa.</p>
+          </div>
+          <div class="carousel-nav">
+            <button type="button" class="carousel-btn" data-carousel-prev aria-controls="espaco-track" aria-label="Foto anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+            <button type="button" class="carousel-btn" data-carousel-next aria-controls="espaco-track" aria-label="Próxima foto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-track" id="espaco-track" data-carousel-track tabindex="0" role="region" aria-label="Fotos do espaço da Fiore (use as setas do teclado)">
+          <figure class="slide">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/jardim-640.avif 640w, ./assets/images/v2/jardim-1080.avif 1080w" sizes="(min-width: 900px) 27vw, 78vw"><source type="image/webp" srcset="./assets/images/v2/jardim-640.webp 640w, ./assets/images/v2/jardim-1080.webp 1080w" sizes="(min-width: 900px) 27vw, 78vw"><img src="./assets/images/v2/jardim.jpg" alt="Jardim de entrada da Fiore, com oliveira e canteiros" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="n">01</span>O jardim</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/porta-640.avif 640w, ./assets/images/v2/porta-1080.avif 1080w" sizes="(min-width: 900px) 27vw, 78vw"><source type="image/webp" srcset="./assets/images/v2/porta-640.webp 640w, ./assets/images/v2/porta-1080.webp 1080w" sizes="(min-width: 900px) 27vw, 78vw"><img src="./assets/images/v2/porta.jpg" alt="Porta de madeira em arco na entrada da Fiore" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="n">02</span>A porta de entrada</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="frame"><div class="vloop" data-vloop><picture><source type="image/avif" srcset="./assets/images/v2/poster-loop-estudio-tour.avif"><source type="image/webp" srcset="./assets/images/v2/poster-loop-estudio-tour.webp"><img src="./assets/images/v2/poster-loop-estudio-tour.jpg" alt="Entrada e recanto da Fiore" width="720" height="900" loading="lazy" decoding="async"></picture><video muted loop playsinline preload="none" data-src="./assets/videos/loop-estudio-tour.mp4" aria-hidden="true" tabindex="-1"></video><button type="button" class="vloop-btn" data-video-toggle aria-pressed="false" aria-label="Reproduzir vídeo" hidden><svg class="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg></button></div></div>
+            <figcaption><span class="n">03</span>Um passeio pelo estúdio</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/recanto-cortina-640.avif 640w, ./assets/images/v2/recanto-cortina-1080.avif 1080w" sizes="(min-width: 900px) 27vw, 78vw"><source type="image/webp" srcset="./assets/images/v2/recanto-cortina-640.webp 640w, ./assets/images/v2/recanto-cortina-1080.webp 1080w" sizes="(min-width: 900px) 27vw, 78vw"><img src="./assets/images/v2/recanto-cortina.jpg" alt="Recanto de descanso com cortina de folhas e quadros botânicos" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="n">04</span>O recanto</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/estudio-luz-640.avif 640w, ./assets/images/v2/estudio-luz-1080.avif 1080w" sizes="(min-width: 900px) 27vw, 78vw"><source type="image/webp" srcset="./assets/images/v2/estudio-luz-640.webp 640w, ./assets/images/v2/estudio-luz-1080.webp 1080w" sizes="(min-width: 900px) 27vw, 78vw"><img src="./assets/images/v2/estudio-luz.jpg" alt="Sala de aparelhos com Reformer e janelas amplas" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="n">05</span>Luz natural</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/cadillac-640.avif 640w, ./assets/images/v2/cadillac-1080.avif 1080w" sizes="(min-width: 900px) 27vw, 78vw"><source type="image/webp" srcset="./assets/images/v2/cadillac-640.webp 640w, ./assets/images/v2/cadillac-1080.webp 1080w" sizes="(min-width: 900px) 27vw, 78vw"><img src="./assets/images/v2/cadillac.jpg" alt="Aparelho Cadillac preparado para a aula" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="n">06</span>Cadillac</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/detalhe-barrel-640.avif 640w, ./assets/images/v2/detalhe-barrel-1080.avif 1080w" sizes="(min-width: 900px) 27vw, 78vw"><source type="image/webp" srcset="./assets/images/v2/detalhe-barrel-640.webp 640w, ./assets/images/v2/detalhe-barrel-1080.webp 1080w" sizes="(min-width: 900px) 27vw, 78vw"><img src="./assets/images/v2/detalhe-barrel.jpg" alt="Detalhe do aparelho Barrel em madeira" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="n">07</span>Barrel</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/recanto-sofa-640.avif 640w, ./assets/images/v2/recanto-sofa-1080.avif 1080w" sizes="(min-width: 900px) 27vw, 78vw"><source type="image/webp" srcset="./assets/images/v2/recanto-sofa-640.webp 640w, ./assets/images/v2/recanto-sofa-1080.webp 1080w" sizes="(min-width: 900px) 27vw, 78vw"><img src="./assets/images/v2/recanto-sofa.jpg" alt="Sofá com almofadas e manta verde no recanto" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="n">08</span>Para respirar</figcaption>
+          </figure>
+          <figure class="slide">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/detalhe-bolas-640.avif 640w, ./assets/images/v2/detalhe-bolas-1080.avif 1080w" sizes="(min-width: 900px) 27vw, 78vw"><source type="image/webp" srcset="./assets/images/v2/detalhe-bolas-640.webp 640w, ./assets/images/v2/detalhe-bolas-1080.webp 1080w" sizes="(min-width: 900px) 27vw, 78vw"><img src="./assets/images/v2/detalhe-bolas.jpg" alt="Bolas e acessórios coloridos usados nas aulas" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="n">09</span>Detalhes</figcaption>
+          </figure>
+      </div>
+      <div class="container container--wide">
+        <div class="carousel-progress" aria-hidden="true"><i data-carousel-progress></i></div>
+      </div>
+    </section>
+
+    <!-- ===================== 07 · DEPOIMENTOS (ink, um por vez) ===================== -->
+    <section class="section bg-ink" id="depoimentos">
+      <div class="container container--wide">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <span class="eyebrow"><span class="n">07</span>Quem vive a Fiore</span>
+            <h2 style="margin-top:1.4rem">Amado por quem valoriza o bem-estar</h2>
+          </div>
+        </div>
+        <div class="reviews-stage">
+        <div class="rotator" data-rotator role="region" aria-roledescription="carrossel" aria-label="Depoimentos de alunas">
+          <div class="rotator-viewport" data-rotator-viewport aria-live="off">
+            <figure class="quote is-active" data-rotator-item>
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote><p>“Comecei com a Raquel com 12 semanas de gestação e fomos até as 39. Ela sempre adaptou os exercícios para a gravidez e me ajudou a realizar o parto que eu queria: o parto normal.”</p></blockquote>
+              <figcaption><span class="avatar" aria-hidden="true">J</span><span><strong>Juliana</strong><small>Aluna gestante</small></span></figcaption>
+            </figure>
+            <figure class="quote" data-rotator-item>
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote><p>“Mudou a minha vida de verdade. Sofria com dores pelo corpo todos os dias. Com a Fiore descobri uma nova vida… sem dores.”</p></blockquote>
+              <figcaption><span class="avatar" aria-hidden="true">C</span><span><strong>Cássia</strong><small>Aluna</small></span></figcaption>
+            </figure>
+            <figure class="quote" data-rotator-item>
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote><p>“Sempre fui sedentária e decidi fazer Pilates por causa da gestação. Nunca pensei que fosse gostar tanto! A Raquel é super atenciosa e o espaço é aconchegante. Recomendo para gestantes e não gestantes.”</p></blockquote>
+              <figcaption><span class="avatar" aria-hidden="true">A</span><span><strong>Ana</strong><small>Aluna gestante</small></span></figcaption>
+            </figure>
+            <figure class="quote" data-rotator-item>
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote><p>“Têm me ajudado muito durante a gestação. Recomendo demais! Atenciosa e entende os limites dos alunos.”</p></blockquote>
+              <figcaption><span class="avatar" aria-hidden="true">E</span><span><strong>Eliane</strong><small>Aluna gestante</small></span></figcaption>
+            </figure>
+            <figure class="quote" data-rotator-item>
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote><p>“Local super aconchegante, excelente atendimento, ambiente familiar e organização impecável. Faz toda a diferença. Parabéns!”</p></blockquote>
+              <figcaption><span class="avatar" aria-hidden="true">C</span><span><strong>Cristiane</strong><small>Aluna</small></span></figcaption>
+            </figure>
+            <figure class="quote" data-rotator-item>
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <blockquote><p>“Profissional especializada e diferenciada! Essa é a minha indicação.”</p></blockquote>
+              <figcaption><span class="avatar" aria-hidden="true">R</span><span><strong>Rafaela</strong><small>Aluna</small></span></figcaption>
+            </figure>
+          </div>
+          <div class="rotator-controls">
+            <button type="button" class="carousel-btn" data-rotator-prev aria-label="Depoimento anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+            <button type="button" class="carousel-btn" data-rotator-next aria-label="Próximo depoimento"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            <span class="rotator-count" data-rotator-count aria-hidden="true">01 / 06</span>
+            <div class="rotator-dots" data-rotator-dots></div>
+          </div>
+        </div>
+        <div class="reviews-aside">
+          <a class="g-badge" href="https://www.google.com/search?q=Fiore+Pilates+Bauru+SP" target="_blank" rel="noopener"><svg class="gicon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.2a5.3 5.3 0 0 1-2.3 3.5v2.9h3.7C21.7 18.9 23 15.9 23 12.3Z"/><path fill="#34A853" d="M12 24c3.1 0 5.7-1 7.6-2.8l-3.7-2.9c-1 .7-2.3 1.1-3.9 1.1-3 0-5.5-2-6.4-4.7H1.8v3A12 12 0 0 0 12 24Z"/><path fill="#FBBC05" d="M5.6 14.7a7.2 7.2 0 0 1 0-4.6v-3H1.8a12 12 0 0 0 0 10.6l3.8-3Z"/><path fill="#EA4335" d="M12 4.8c1.7 0 3.2.6 4.4 1.7l3.3-3.3A12 12 0 0 0 1.8 7.1l3.8 3C6.5 7.3 9 4.8 12 4.8Z"/></svg><span><span class="stars" aria-hidden="true">★★★★★</span> <strong>5,0</strong> <small>· 45 avaliações no Google</small></span></a>
+          <p class="note">Trechos de avaliações públicas de alunas. Veja todas no nosso perfil do Google.</p>
+          <a class="press-link" href="/eventos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Como visto na TV TEM <span aria-hidden="true">→</span></a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 08 · NA MÍDIA E NA COMUNIDADE (mist) ===================== -->
+    <section class="section bg-mist" id="eventos">
+      <div class="container container--wide">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <span class="eyebrow"><span class="n">08</span>Na mídia e na comunidade</span>
+            <h2 style="margin-top:1.4rem">Perto de você e da nossa comunidade</h2>
+          </div>
+          <p class="lead">Encontros, informação de qualidade e conteúdo para gestantes todos os dias nas nossas redes. O cuidado vai além do estúdio.</p>
+        </div>
+        <div class="community-grid">
+          <a class="c-card reveal" href="/eventos">
+            <div class="frame"><img src="./assets/images/poster-tvtem.jpg" alt="Entrevista da Fiore Pilates para a TV TEM" width="720" height="960" loading="lazy" decoding="async"></div>
+            <span class="tag">Na mídia · TV TEM</span>
+            <h3>Pilates na gestação, na TV TEM</h3>
+          </a>
+          <a class="c-card reveal d1" href="/eventos">
+            <div class="frame"><img src="./assets/images/eventos/2026-08-encontro-diastase-pos-parto.jpg" alt="Encontro sobre diástase e pós-parto na Fiore Pilates" width="618" height="773" loading="lazy" decoding="async"></div>
+            <span class="tag">Encontros na Fiore</span>
+            <h3>Encontro sobre diástase e pós-parto</h3>
+          </a>
+          <figure class="c-card reveal d2">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/crefito-mocao-640.avif 640w, ./assets/images/v2/crefito-mocao-1080.avif 1080w" sizes="(min-width: 1000px) 25vw, 46vw"><source type="image/webp" srcset="./assets/images/v2/crefito-mocao-640.webp 640w, ./assets/images/v2/crefito-mocao-1080.webp 1080w" sizes="(min-width: 1000px) 25vw, 46vw"><img src="./assets/images/v2/crefito-mocao.jpg" alt="Raquel Cardoso recebendo a moção de reconhecimento do CREFITO-3" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="tag">Reconhecimento</span><h3>Moção de reconhecimento do CREFITO-3</h3></figcaption>
+          </figure>
+          <figure class="c-card reveal d3">
+            <div class="frame"><picture><source type="image/avif" srcset="./assets/images/v2/mimo-um-ano-640.avif 640w, ./assets/images/v2/mimo-um-ano-1080.avif 1080w" sizes="(min-width: 1000px) 25vw, 46vw"><source type="image/webp" srcset="./assets/images/v2/mimo-um-ano-640.webp 640w, ./assets/images/v2/mimo-um-ano-1080.webp 1080w" sizes="(min-width: 1000px) 25vw, 46vw"><img src="./assets/images/v2/mimo-um-ano.jpg" alt="Sacolas de presente da Fiore com laço verde" width="1080" height="1350" loading="lazy" decoding="async"></picture></div>
+            <figcaption><span class="tag">Nossas alunas</span><h3>Um mimo para quem completa um ano com a gente</h3></figcaption>
+          </figure>
+        </div>
+        <div class="community-foot reveal">
+          <a href="/eventos" class="btn">Ver nossos eventos</a>
+          <a href="https://www.instagram.com/pilatesfiore/" class="btn btn--ghost" target="_blank" rel="noopener">Seguir no Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 09 · TECNOLOGIA ACOLHEDORA (Mirae, compacto) ===================== -->
     <section class="section" id="tecnologia">
-      <div class="container split">
-        <div class="split-media reveal">
-          <figure class="video-frame">
-            <video controls preload="none" playsinline poster="./assets/images/poster-mirae-tour.jpg" width="1080" height="1920" aria-label="Vídeo: conheça o Mirae, a tecnologia própria da Fiore">
+      <div class="container">
+        <div class="tech-grid">
+          <figure class="video-frame reveal">
+            <video controls preload="none" playsinline data-poster="./assets/images/poster-mirae-tour.jpg" width="1080" height="1920" aria-label="Vídeo: conheça o Mirae, a tecnologia própria da Fiore">
               <source src="./assets/videos/mirae-tour.mp4" type="video/mp4">
             </video>
           </figure>
-        </div>
-        <div class="split-copy">
-          <span class="eyebrow reveal">Tecnologia acolhedora</span>
-          <h2 class="reveal d1">Cuidado humano, apoiado por tecnologia própria</h2>
-          <p class="reveal d2">Acreditamos em um cuidado moderno e organizado, sem nunca perder o calor humano. Por
-            isso, criamos o <strong>Mirae</strong> aqui dentro da Fiore: tecnologia própria pensada pro nosso jeito
-            de cuidar, com foco sempre nas alunas, do primeiro contato ao acompanhamento de cada evolução. Deu tão
-            certo que hoje o Mirae também está disponível para outros estúdios de Pilates.</p>
-          <ul class="checklist reveal d2">
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Prontuário completo, com idade gestacional e data prevista do parto calculadas automaticamente</li>
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Pressão arterial acompanhada a cada sessão, com aviso à equipe se algo sair do esperado</li>
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Mi, nossa assistente de inteligência artificial, ajuda a tirar dúvidas e confirmar presença pelo WhatsApp</li>
-            <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Contrato e matrícula organizados automaticamente, sem planilha, do primeiro contato ao pós-parto</li>
-          </ul>
-          <blockquote class="note reveal d2" style="border-left:2px solid var(--sage);padding-left:1rem;margin:1.25rem 0;font-style:italic">"A Mi proativa avisa quem está sumido antes de a gente perceber, e o prontuário com a agenda multi-aluno mudou completamente nossa rotina. Não consigo imaginar voltar para planilha."<footer class="note" style="margin-top:0.4rem;font-style:normal">Equipe Fiore Pilates</footer></blockquote>
-          <div class="btn-row reveal d3">
-            <a href="https://mirae.fiorepilates.com.br/" class="btn btn--ghost" target="_blank" rel="noopener">Acessar o Mirae</a>
+          <div>
+            <span class="reveal"><span class="eyebrow"><span class="n">09</span>Tecnologia acolhedora</span></span>
+            <h2 class="reveal d1" style="margin-block:1.4rem 1.25rem">Cuidado humano, apoiado por tecnologia própria</h2>
+            <p class="reveal d2">Criamos o <strong>Mirae</strong> aqui dentro da Fiore: tecnologia própria pensada para o nosso jeito de cuidar, com foco nas alunas, do primeiro contato ao acompanhamento de cada evolução.</p>
+            <ul class="checklist reveal d2">
+              <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg></span> Prontuário completo, com idade gestacional e data prevista do parto calculadas automaticamente</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg></span> Pressão arterial acompanhada a cada sessão, com aviso à equipe se algo sair do esperado</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg></span> Mi, nossa assistente de inteligência artificial, ajuda a tirar dúvidas e confirmar presença pelo WhatsApp</li>
+              <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg></span> Contrato e matrícula organizados automaticamente, sem planilha, do primeiro contato ao pós-parto</li>
+            </ul>
+            <blockquote class="tech-quote reveal d3"><p>"A Mi proativa avisa quem está sumido antes de a gente perceber, e o prontuário com a agenda multi-aluno mudou completamente nossa rotina. Não consigo imaginar voltar para planilha."</p><p class="note" style="margin-top:0.5rem">Equipe Fiore Pilates</p></blockquote>
+            <div class="btn-row reveal d3" style="margin-top:2rem">
+              <a href="https://mirae.fiorepilates.com.br/" class="btn btn--ghost" target="_blank" rel="noopener">Acessar o Mirae</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== METODOLOGIA ===================== -->
-    <section class="section bg-sand" id="metodo">
-      <div class="container split">
-        <div class="split-copy">
-          <span class="eyebrow reveal">Nossa metodologia</span>
-          <h2 class="reveal d1">Um método estruturado, feito para você evoluir</h2>
-          <p class="reveal d2">Cada aluna é única e o seu plano também. Veja como cuidamos da sua jornada do começo ao
-            fim.</p>
-          <p class="reveal d2">Aplicamos o <strong>Pilates Contemporâneo</strong>: em vez de uma sequência fixa,
-            adaptamos exercícios e progressão ao seu corpo e objetivo, com base em conhecimento de fisioterapia.
-            Toda a equipe é formada em Fisioterapia, com formação específica em Pilates. Trabalhamos com Reformer,
-            Chair, Cadillac, Barrel e Solo, combinados conforme a sua necessidade em cada aula.</p>
-          <div class="btn-row reveal d3">
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20entender%20como%20funcionam%20as%20aulas%20da%20Fiore." class="btn" target="_blank" rel="noopener">Entender como funciona</a>
+    <!-- ===================== 10 · FAQ (visível = JSON-LD) ===================== -->
+    <section class="section bg-tint" id="faq">
+      <div class="container container--wide">
+        <div class="faq-layout">
+          <div class="section-head reveal">
+            <span class="eyebrow"><span class="n">10</span>Perguntas frequentes</span>
+            <h2 style="margin-top:1.4rem">Tudo o que você precisa saber</h2>
+            <p>Ficou alguma dúvida? Fale com a gente.</p>
+            <div class="btn-row" style="margin-top:1.5rem"><a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20as%20aulas%20da%20Fiore." class="btn btn--ghost" target="_blank" rel="noopener">Tirar dúvidas no WhatsApp</a></div>
           </div>
-        </div>
-        <div class="steps reveal d1">
-          <div class="step-row">
-            <div class="dot">1</div>
-            <div><h3>Avaliação inicial individualizada</h3><p>Entendemos seu histórico, objetivos e necessidades em um encontro acolhedor.</p></div>
-          </div>
-          <div class="step-row">
-            <div class="dot">2</div>
-            <div><h3>Plano de aula personalizado</h3><p>Montamos um plano sob medida, respeitando o seu corpo e o seu momento.</p></div>
-          </div>
-          <div class="step-row">
-            <div class="dot">3</div>
-            <div><h3>Registro contínuo de evolução</h3><p>Acompanhamos cada conquista para que você sinta o seu progresso.</p></div>
-          </div>
-          <div class="step-row">
-            <div class="dot">4</div>
-            <div><h3>Reavaliações periódicas</h3><p>Ajustamos o plano com você, sempre buscando os melhores resultados.</p></div>
+          <div class="faq" data-faq>
+            <details class="faq-item reveal">
+              <summary class="faq-q">Pilates é seguro durante a gestação? <span class="pm" aria-hidden="true"></span></summary>
+              <div class="faq-a"><p>Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo. Inicie sempre com a liberação do seu médico.</p></div>
+            </details>
+            <details class="faq-item reveal">
+              <summary class="faq-q">Preciso ter experiência prévia para começar? <span class="pm" aria-hidden="true"></span></summary>
+              <div class="faq-a"><p>Não precisa. Muitas alunas começam sem nunca ter feito Pilates. Tudo parte da avaliação inicial, que monta um plano no seu ritmo.</p></div>
+            </details>
+            <details class="faq-item reveal">
+              <summary class="faq-q">Vocês têm aula experimental? <span class="pm" aria-hidden="true"></span></summary>
+              <div class="faq-a"><p>Não trabalhamos com aula experimental. A sua experiência começa na avaliação inicial, um encontro individual para te conhecer e desenhar o seu plano.</p></div>
+            </details>
+            <details class="faq-item reveal">
+              <summary class="faq-q">A partir de quando uma gestante pode iniciar o Pilates? <span class="pm" aria-hidden="true"></span></summary>
+              <div class="faq-a"><p>O momento ideal varia para cada mulher. O recomendado é iniciar com liberação do seu médico e com acompanhamento de profissionais especializados, como na Fiore.</p></div>
+            </details>
+            <details class="faq-item reveal">
+              <summary class="faq-q">Como funciona a avaliação inicial? <span class="pm" aria-hidden="true"></span></summary>
+              <div class="faq-a"><p>É um encontro individual em que entendemos seu histórico, objetivos e necessidades. A partir dele montamos um plano personalizado e acompanhamos sua evolução ao longo das aulas.</p></div>
+            </details>
+            <details class="faq-item reveal">
+              <summary class="faq-q">A Fiore atende só gestantes? <span class="pm" aria-hidden="true"></span></summary>
+              <div class="faq-a"><p>Não. Gestantes são o nosso cuidado mais especial, mas atendemos mulheres em todas as fases, no pós-parto, na saúde da mulher, e também idosos e reabilitação.</p></div>
+            </details>
+            <details class="faq-item reveal">
+              <summary class="faq-q">As aulas são individuais ou em grupo? <span class="pm" aria-hidden="true"></span></summary>
+              <div class="faq-a"><p>O cuidado é sempre individualizado. Cada aula segue o plano feito para você na avaliação inicial.</p></div>
+            </details>
+            <details class="faq-item reveal">
+              <summary class="faq-q">Onde fica o estúdio Fiore Pilates? <span class="pm" aria-hidden="true"></span></summary>
+              <div class="faq-a"><p>Estamos na R. Baltazar Rodrigues, 4-82, Jardim Planalto, Bauru/SP, em um espaço pensado para o seu conforto e bem-estar.</p></div>
+            </details>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== NOSSO ESPAÇO ===================== -->
-    <section class="section" id="espaco">
-      <div class="container">
-        <div class="section-head center reveal">
-          <span class="eyebrow center">Nosso espaço</span>
-          <h2 class="text-balance">Um ambiente pensado para o seu bem-estar</h2>
-          <p class="lead">Elegante, sereno e acolhedor, cada detalhe foi preparado para você se sentir em casa.</p>
-        </div>
-        <div class="gallery reveal">
-          <img src="./assets/images/espaco-studio.jpg" alt="Sala de Pilates da Fiore com aparelhos e luz natural" width="787" height="1400" loading="lazy">
-          <img src="./assets/images/espaco-recanto.jpg" alt="Recanto acolhedor de espera no estúdio Fiore" width="787" height="1400" loading="lazy">
-          <img src="./assets/images/pilates-aula.jpg" alt="Aparelhos de Pilates prontos para a aula na Fiore" width="787" height="1400" loading="lazy">
-          <img src="./assets/images/espaco-reformer.jpg" alt="Aparelho Reformer no estúdio Fiore" width="787" height="1400" loading="lazy">
-          <img src="./assets/images/espaco-ceu.jpg" alt="Sala com teto pintado de céu azul no estúdio Fiore" width="787" height="1400" loading="lazy">
-          <img src="./assets/images/espaco-detalhe.jpg" alt="Detalhes e acessórios do estúdio Fiore" width="787" height="1400" loading="lazy">
-          <img src="./assets/images/espaco-entrada.jpg" alt="Entrada do estúdio Fiore com as portas vermelhas características" width="787" height="1400" loading="lazy">
-          <img src="./assets/images/espaco-fachada.jpg" alt="Fachada e parede com a marca Fiore em Bauru" width="787" height="1400" loading="lazy">
+    <!-- ===================== CTA FINAL (full-bleed) ===================== -->
+    <section class="cta-final" id="agendar">
+      <div class="bg" data-parallax="0.1">
+        <picture>
+          <source type="image/avif" srcset="./assets/images/v2/jardim-wide-960.avif 960w, ./assets/images/v2/jardim-wide-1600.avif 1600w, ./assets/images/v2/jardim-wide-2200.avif 2200w" sizes="100vw">
+          <source type="image/webp" srcset="./assets/images/v2/jardim-wide-960.webp 960w, ./assets/images/v2/jardim-wide-1600.webp 1600w, ./assets/images/v2/jardim-wide-2200.webp 2200w" sizes="100vw">
+          <img src="./assets/images/v2/jardim-wide.jpg" alt="" width="2200" height="1237" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div class="container reveal">
+        <span class="eyebrow center">Vamos começar?</span>
+        <h2>Aqui, você vai ser cuidada de verdade</h2>
+        <p>Dê o primeiro passo. Agende sua avaliação inicial e venha sentir o cuidado da Fiore de perto.</p>
+        <div class="btn-row center">
+          <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--on-dark btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
+          <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20as%20aulas%20da%20Fiore." class="btn btn--on-dark btn--ghost btn--lg" target="_blank" rel="noopener">Tirar dúvidas</a>
         </div>
       </div>
     </section>
 
-    <!-- ===================== EVENTOS / PRESENÇA LOCAL ===================== -->
-    <section class="section bg-tint" id="eventos">
-      <div class="container split">
-        <div class="split-copy">
-          <span class="eyebrow reveal">Presença em Bauru</span>
-          <h2 class="reveal d1">Perto de você e da nossa comunidade</h2>
-          <p class="reveal d2">A Fiore acredita no cuidado que vai além do estúdio. Estamos presentes na vida das
-            famílias de Bauru, apoiando futuras mamães e levando informação de qualidade sobre saúde da mulher e
-            maternidade.</p>
-          <p class="reveal d2">Quer saber das próximas novidades, encontros e conteúdos para gestantes? Acompanhe a gente
-            de perto.</p>
-          <div class="btn-row reveal d3">
-            <a href="/eventos" class="btn">Ver nossos eventos</a>
-            <a href="https://www.instagram.com/pilatesfiore/" class="btn btn--ghost" target="_blank" rel="noopener">Seguir no Instagram</a>
-          </div>
-        </div>
-        <div class="cards reveal d1" style="align-content:start">
-          <figure class="video-frame">
-            <video controls preload="none" playsinline poster="./assets/images/poster-cafe-gestantes.jpg" width="720" height="1280" aria-label="Vídeo: café da manhã com gestantes na Fiore">
-              <source src="./assets/videos/cafe-gestantes.mp4" type="video/mp4">
-            </video>
-            <figcaption>Café da manhã com as gestantes da Fiore</figcaption>
-          </figure>
-          <article class="card card--soft">
-            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h16v10H9l-4 4V5Z"/><path d="M8 9h8M8 12h5"/></svg></div>
-            <h3>Conteúdo para gestantes</h3>
-            <p>Mitos e verdades, dicas e bastidores reais, todos os dias nas nossas redes.</p>
-          </article>
-          <article class="card card--soft">
-            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg></div>
-            <h3>Cuidado local em Bauru</h3>
-            <p>Um espaço de referência em saúde da mulher e maternidade no Jardim Planalto.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== FAQ ===================== -->
-    <section class="section" id="faq">
-      <div class="container">
-        <div class="section-head center reveal">
-          <span class="eyebrow center">Perguntas frequentes</span>
-          <h2 class="text-balance">Tudo o que você precisa saber</h2>
-        </div>
-        <div class="faq" data-faq>
-          <details class="faq-item reveal">
-            <summary class="faq-q">Pilates é seguro durante a gestação? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>Com acompanhamento adequado e profissional especializado, o Pilates pode ser uma prática segura na gestação. Na Fiore, cada aula é individualizada e adaptada à sua fase, respeitando os limites do seu corpo. Inicie sempre com a liberação do seu médico.</p></div>
-          </details>
-          <details class="faq-item reveal">
-            <summary class="faq-q">Preciso ter experiência prévia para começar? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>Não precisa. Muitas alunas começam sem nunca ter feito Pilates. Tudo parte da avaliação inicial, que monta um plano no seu ritmo.</p></div>
-          </details>
-          <details class="faq-item reveal">
-            <summary class="faq-q">Vocês têm aula experimental? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>Não trabalhamos com aula experimental. A sua experiência começa na avaliação inicial, um encontro individual para te conhecer e desenhar o seu plano.</p></div>
-          </details>
-          <details class="faq-item reveal">
-            <summary class="faq-q">A partir de quando uma gestante pode iniciar? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>O momento ideal varia para cada mulher. O recomendado é iniciar com a liberação do seu médico e com acompanhamento de profissionais especializados, como a nossa equipe.</p></div>
-          </details>
-          <details class="faq-item reveal">
-            <summary class="faq-q">Como funciona a avaliação inicial? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>É um encontro individual em que entendemos seu histórico, objetivos e necessidades. A partir dele montamos um plano personalizado e acompanhamos a sua evolução ao longo das aulas.</p></div>
-          </details>
-          <details class="faq-item reveal">
-            <summary class="faq-q">A Fiore atende só gestantes? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>Não. Gestantes são o nosso cuidado mais especial, mas atendemos mulheres em todas as fases, no pós-parto, na saúde da mulher, e também idosos e reabilitação.</p></div>
-          </details>
-          <details class="faq-item reveal">
-            <summary class="faq-q">As aulas são individuais ou em grupo? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>O cuidado é sempre individualizado. Cada aula segue o plano feito para você na avaliação inicial.</p></div>
-          </details>
-          <details class="faq-item reveal">
-            <summary class="faq-q">Onde fica o estúdio Fiore Pilates? <span class="pm" aria-hidden="true"></span></summary>
-            <div class="faq-a"><p>Estamos na R. Baltazar Rodrigues, 4-82, Jardim Planalto, Bauru/SP, em um espaço pensado para o seu conforto e bem-estar. Veja o mapa logo abaixo.</p></div>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== MAPA / CONTATO ===================== -->
-    <section class="section bg-sand" id="contato">
-      <div class="container">
+    <!-- ===================== 11 · ONDE ESTAMOS ===================== -->
+    <section class="section" id="contato">
+      <div class="container container--wide">
         <div class="section-head reveal">
-          <span class="eyebrow">Onde estamos</span>
-          <h2 class="text-balance">Venha nos visitar em Bauru</h2>
+          <span class="eyebrow"><span class="n">11</span>Onde estamos</span>
+          <h2 style="margin-top:1.4rem">Venha nos visitar em Bauru</h2>
         </div>
         <div class="map-wrap">
           <ul class="info-list reveal">
-            <li>
-              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
-              <div><h3>Endereço</h3><p>R. Baltazar Rodrigues, 4-82<br>Jardim Planalto, Bauru/SP</p></div>
-            </li>
-            <li>
-              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></span>
-              <div><h3>WhatsApp</h3><p><a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Fiore." target="_blank" rel="noopener">(14) 99659-8955</a></p></div>
-            </li>
-            <li>
-              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-              <div><h3>Horário</h3><p>Seg a Sex: 6h às 20h<br>Sábado: 7h às 12h</p></div>
-            </li>
-            <li>
-              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
-              <div><h3>Redes sociais</h3><p><a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener">@pilatesfiore</a> · <a href="https://www.tiktok.com/@fiorepilates" target="_blank" rel="noopener">TikTok</a> · <a href="https://www.facebook.com/profile.php?id=61577645214737" target="_blank" rel="noopener">Facebook</a></p></div>
-            </li>
+            <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><h3>Endereço</h3><p>R. Baltazar Rodrigues, 4-82<br>Jardim Planalto, Bauru/SP</p></div></li>
+            <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></span><div><h3>WhatsApp</h3><p><a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Fiore." target="_blank" rel="noopener">(14) 99659-8955</a></p></div></li>
+            <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><h3>Horário</h3><p>Seg a Sex: 6h às 20h<br>Sábado: 7h às 12h</p></div></li>
+            <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span><div><h3>Redes sociais</h3><p><a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener">@pilatesfiore</a> · <a href="https://www.tiktok.com/@fiorepilates" target="_blank" rel="noopener">TikTok</a> · <a href="https://www.facebook.com/profile.php?id=61577645214737" target="_blank" rel="noopener">Facebook</a></p></div></li>
           </ul>
           <div class="map-frame reveal d1">
-            <iframe title="Mapa do Fiore Pilates em Bauru" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            <iframe title="Mapa do Fiore Pilates em Bauru" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
               src="https://www.google.com/maps?q=R.%20Baltazar%20Rodrigues%2C%204-82%20-%20Jardim%20Planalto%2C%20Bauru%20-%20SP&output=embed"></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== CTA FINAL ===================== -->
-    <section class="section">
-      <div class="container">
-        <div class="cta-band reveal">
-          <img class="leaf-bg" src="./assets/images/fiore-simbolo.svg" alt="" aria-hidden="true">
-          <span class="eyebrow center" style="justify-content:center">Vamos começar?</span>
-          <h2 class="text-balance" style="margin-top:1rem">Aqui, você vai ser cuidada de verdade</h2>
-          <p>Dê o primeiro passo da sua jornada de bem-estar. Agende sua avaliação inicial e venha sentir o cuidado da
-            Fiore de perto.</p>
-          <div class="btn-row" style="justify-content:center">
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--on-dark btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial</a>
-            <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20as%20aulas%20da%20Fiore." class="btn btn--on-dark btn--ghost btn--lg" target="_blank" rel="noopener">Tirar dúvidas</a>
           </div>
         </div>
       </div>
@@ -682,22 +847,26 @@
 
   </main>
 
-  <!-- ===================== FOOTER ===================== -->
+  <!-- ===================== FOOTER (idêntico nas 10 páginas) ===================== -->
   <footer class="site-footer">
-    <div class="container">
+    <div class="container container--wide">
+      <div class="footer-top">
+        <p class="tagline">Floresça com <span class="accent">leveza</span> e <span class="nowrap">bem-estar.</span></p>
+        <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20inicial%20na%20Fiore." class="btn btn--on-dark btn--lg" target="_blank" rel="noopener">Agendar avaliação inicial <span class="arr" aria-hidden="true">→</span></a>
+      </div>
       <div class="footer-grid">
         <div>
-          <a class="brand" href="/"><img src="./assets/images/fiore-logo-light.svg" alt="Fiore Pilates" width="105" height="36"></a>
+          <a class="brand" href="/" aria-label="Fiore Pilates, página inicial"><img src="./assets/images/fiore-logo-light.svg" alt="Fiore Pilates" width="105" height="36" loading="lazy"></a>
           <address>
             R. Baltazar Rodrigues, 4-82<br>
             Jardim Planalto, Bauru/SP<br>
             <a href="tel:+5514996598955">(14) 99659-8955</a>
           </address>
           <div class="footer-social">
-            <a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
-            <a href="https://www.tiktok.com/@fiorepilates" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9v2.4c-1.3.1-2.5-.3-3.6-1v5.3c0 3.4-2.5 5.4-5.3 5.4A5.2 5.2 0 0 1 6 13.7c0-3 2.4-5.2 5.6-5v2.5c-.4-.1-.8-.2-1.2-.2-1.5 0-2.6 1.2-2.6 2.7 0 1.6 1.1 2.7 2.6 2.7 1.5 0 2.6-1.1 2.6-2.7V3h1.5Z"/></svg></a>
-            <a href="https://www.facebook.com/profile.php?id=61577645214737" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3 1-3 3v2H8v3h3v7h3v-7h2.5l.5-3H14V9Z"/></svg></a>
-            <a href="https://wa.me/5514996598955" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></a>
+            <a href="https://www.instagram.com/pilatesfiore/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+            <a href="https://www.tiktok.com/@fiorepilates" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9v2.4c-1.3.1-2.5-.3-3.6-1v5.3c0 3.4-2.5 5.4-5.3 5.4A5.2 5.2 0 0 1 6 13.7c0-3 2.4-5.2 5.6-5v2.5c-.4-.1-.8-.2-1.2-.2-1.5 0-2.6 1.2-2.6 2.7 0 1.6 1.1 2.7 2.6 2.7 1.5 0 2.6-1.1 2.6-2.7V3h1.5Z"/></svg></a>
+            <a href="https://www.facebook.com/profile.php?id=61577645214737" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3c-2 0-3 1-3 3v2H8v3h3v7h3v-7h2.5l.5-3H14V9Z"/></svg></a>
+            <a href="https://wa.me/5514996598955" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></a>
           </div>
           <div class="footer-convenios">
             <span class="label">Convênios aceitos</span>
@@ -710,11 +879,13 @@
         </div>
         <div class="footer-col">
           <h3>Navegar</h3>
-          <a href="#gestantes">Gestantes</a>
-          <a href="#servicos">Serviços</a>
+          <a href="/">Início</a>
+          <a href="/#servicos">Cuidados</a>
           <a href="/florescer">Programa Florescer</a>
           <a href="/eventos">Eventos</a>
-          <a href="#sobre">Sobre</a>
+          <a href="/conteudos">Conteúdos</a>
+          <a href="/#sobre">Sobre</a>
+          <a href="/#contato">Contato</a>
         </div>
         <div class="footer-col">
           <h3>Cuidados</h3>
@@ -722,6 +893,7 @@
           <a href="/pilates-pos-parto">Pilates pós-parto</a>
           <a href="/fisioterapia-pelvica">Fisioterapia pélvica e saúde da mulher</a>
           <a href="/pilates-idosos-reabilitacao">Idosos e reabilitação</a>
+          <a href="/guia-gestante">Guia da Gestante Ativa</a>
         </div>
         <div class="footer-col">
           <h3>Fale com a Fiore</h3>
@@ -734,19 +906,21 @@
       </div>
       <div class="footer-bottom">
         <span>© <span data-year>2026</span> Fiore Pilates LTDA · CNPJ 60.413.273/0001-90 · Bauru/SP</span>
-        <span>Floresça com leveza e bem-estar.</span>
+        <span>Pilates e fisioterapia para gestantes e saúde da mulher</span>
+        <span class="footer-legal"><a href="/privacidade">Privacidade</a><button type="button" data-cookie-prefs>Preferências de cookies</button></span>
       </div>
+      <img class="footer-wordmark" src="./assets/images/fiore-wordmark.svg" alt="" aria-hidden="true" width="1130" height="421" loading="lazy" decoding="async">
     </div>
   </footer>
 
-  <!-- WhatsApp flutuante -->
+  <!-- WhatsApp flutuante (desktop) -->
   <a class="wa-float" href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Fiore%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.5-1.2-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.8-1c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.6-.1 1.2Z"/></svg>
     <span class="wa-label">Falar no WhatsApp</span>
   </a>
 
   <button type="button" class="back-to-top" data-back-to-top aria-label="Voltar ao topo">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
   </button>
 
   <!-- Barra de ação fixa (mobile) -->

@@ -2,6 +2,7 @@
 
 - **Status:** Aceito
 - **Data:** 2026-05-22
+- **Atualizado por:** [ADR 0023](0023-padrao-de-marca-premissa.md) (paleta corrigida a partir dos vetores; marca vira premissa)
 - **Substitui:** [ADR 0006](0006-tipografia-fraunces-inter.md)
 
 ## Contexto

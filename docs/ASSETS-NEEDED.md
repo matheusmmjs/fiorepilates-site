@@ -15,7 +15,7 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
   sala do céu, entrada) na seção "Nosso espaço". Originais em `~/Downloads/FIORE 2`.
 - **Equipe:** Jamile saiu (removida do site). Time Florescer = **Raquel** (fundadora),
   **Andressa** e **Filipe** (fisioterapeutas) + **Rosana** (massoterapeuta, Fiore Toque).
-  Fotos organizadas em `assets/images/team/`. Sem CREFITO no site (decisão do cliente).
+  Fotos organizadas em `assets/images/team/`. CREFITO: desde 2026-10-14 o registro da Raquel (CREFITO-3/389610-F) aparece no site e nos dados estruturados, autorizado por Matheus (antes a decisão era não mostrar). Os demais fisioterapeutas seguem sem número até autorizarem.
 - **Coordenadas (geo):** -22.3405673, -49.0528841 no schema + `hasMap`.
 - **Razão social / CNPJ:** Fiore Pilates LTDA · 60.413.273/0001-90 (rodapé + `legalName`/`taxID`).
 - **Redes:** TikTok `@fiorepilates` e Facebook (perfil real) no rodapé + `sameAs`.
@@ -43,6 +43,31 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
 4. **Foto horizontal (paisagem)** real (opcional): a OG de `/gestantes` hoje usa um
    card desenhado da marca (`og-gestantes.jpg`, 1200×630); uma foto real pode substituir
    depois, se quiser.
+
+### Novos (redesign 2.0, outubro de 2026)
+
+5. ✅ **Autorização do vídeo da gestante no Reformer** (confirmado em 2026-10-14: é a Raquel) (`assets/videos/loop-gestante-reformer.mp4`,
+   do reel de 22/06/2026). Pela legenda do post é uma professora da Fiore na própria
+   gestação, provavelmente a Raquel. Confirmar quem é e se pode ir ao site.
+6. ✅ **Autorização da instrutora do vídeo no Cadillac** (confirmada em 2026-10-14) (`assets/videos/loop-cadillac.mp4`,
+   reel de 02/10/2026).
+7. **Ensaio fotográfico profissional** (a maior alavanca de premium, ver
+   [ADR 0022](adr/0022-redesign-2-0-premium.md)): uma manhã de luz natural; gestantes reais
+   em aula com termo assinado; mãos e detalhes; retratos padronizados da equipe (mesmo
+   fundo e figurino); fachada e jardim sem grande-angular; 3 a 4 fotos **horizontais**
+   em alta para o topo das páginas; vídeos curtos sem texto e sem música.
+8. **Termo de imagem padrão** assinado na matrícula, para alunas, bebês e equipe.
+9. ✅ **E-mail de contato público** (`matheus@fiorepilates.com.br`, em /privacidade; sugestão: criar alias `contato@` ou `privacidade@` no iCloud) para a página de privacidade (LGPD) e o aviso de cookies.
+10. ✅ **Fonte oficial (resolvido, Poppins, ver ADR 0023):** o PDF do manual foi diagramado em Montserrat e Kamerik 205; o site
+    usa Poppins (ADR 0007). Confirmar com a designer.
+
+11. **Legendas dos vídeos com fala** (massoterapia, florescer, café com gestantes):
+    `whisper-cli` está instalado, falta baixar um modelo (`ggml-small.bin`, ~500 MB).
+    Arquivos esperados: `assets/videos/<nome>.pt.vtt`.
+12. **Originais sem marca d'água** de massoterapia, florescer e café com gestantes: os
+    atuais têm "clideo.com" gravado (e o do Florescer tem erro de português na legenda).
+13. **Revisão da Raquel nos 5 guias** de `/conteudos` antes do merge (números citados,
+    listas de "quando procurar o médico", dicas práticas).
 
 ## Como entregar imagens/vídeos
 

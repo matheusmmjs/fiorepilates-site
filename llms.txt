@@ -2,10 +2,11 @@
 
 > Estúdio de Pilates em Bauru/SP especializado em gestantes e saúde da mulher, com
 > atendimento individualizado. Também oferece fisioterapia pélvica, Pilates pós-parto
-> e Pilates para idosos e reabilitação. Fundado pela fisioterapeuta Raquel Cardoso.
+> e Pilates para idosos e reabilitação. Fundado pela fisioterapeuta Raquel Cardoso (CREFITO-3/389610-F), que revisa todo o conteúdo de saúde do site.
 > Nota 5,0 no Google (45 avaliações). Endereço: R. Baltazar Rodrigues, 4-82, Jardim
 > Planalto, Bauru/SP. WhatsApp: (14) 99659-8955. Horário: seg a sex 6h às 20h,
 > sábado 7h às 12h. A prática deve começar com liberação médica.
+> Atualizado em 2026-10-14.
 
 ## Páginas
 
@@ -17,6 +18,14 @@
 - [Programa Florescer](https://fiorepilates.com.br/florescer): programa integrado de Pilates, fisioterapia pélvica e terapias manuais.
 - [Eventos e comunidade](https://fiorepilates.com.br/eventos): cafés com gestantes, parcerias e cobertura na imprensa (TV TEM).
 - [Guia da Gestante Ativa em Bauru](https://fiorepilates.com.br/guia-gestante): material gratuito enviado por WhatsApp.
+- [Guias de saúde da mulher](https://fiorepilates.com.br/conteudos): guias curtos revisados pela fisioterapeuta Raquel Cardoso:
+  - [Pilates na gravidez: o que muda em cada trimestre](https://fiorepilates.com.br/conteudos/pilates-na-gravidez-por-trimestre)
+  - [Quando voltar ao Pilates depois do parto normal e da cesárea](https://fiorepilates.com.br/conteudos/quando-voltar-ao-pilates-depois-do-parto)
+  - [Diástase abdominal: o que é e como cuidar](https://fiorepilates.com.br/conteudos/diastase-abdominal)
+  - [Fisioterapia pélvica: o que é e quando procurar](https://fiorepilates.com.br/conteudos/fisioterapia-pelvica-quando-procurar)
+  - [Dor lombar na gravidez: o que pode ajudar](https://fiorepilates.com.br/conteudos/dor-lombar-na-gravidez)
+
+- [Política de privacidade](https://fiorepilates.com.br/privacidade): como o site trata dados (GA4 e Clarity só com consentimento).
 
 ## Conteúdo completo
 

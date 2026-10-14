@@ -1,5 +1,47 @@
-# Todos os robôs liberados, inclusive os de IA (GPTBot, ClaudeBot, PerplexityBot,
-# Google-Extended). Resumo do site para modelos: /llms.txt
+# Fiore Pilates: queremos ser encontradas e citadas, tanto por buscadores quanto por
+# assistentes de IA (ChatGPT, Claude, Perplexity, Gemini, Apple, Meta). Por isso todos os
+# robôs abaixo estão liberados de forma explícita e nada público é bloqueado (ADR 0019).
+# Resumo do site para modelos: /llms.txt
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
 User-agent: *
 Allow: /
 

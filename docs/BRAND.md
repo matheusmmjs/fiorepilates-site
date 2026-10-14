@@ -108,51 +108,92 @@ organizada, protocolos estruturados, experiência moderna. Tom: humano, suave, e
 - **Evitar:** visual datado ou genérico · excesso de elementos · falta de identidade
   emocional.
 
-## Paleta (exata, extraída dos SVGs da marca)
+## Padrão visual da marca (premissa inegociável)
 
-| Token        | Hex       | Uso |
-|--------------|-----------|-----|
-| `--forest`   | `#24281D` | verde profundo, seções escuras, títulos |
-| `--sage`     | `#858E5E` | verde sálvia, cor primária da marca, ícones |
-| `--cream`    | `#FDFFF7` | branco quente, fundo principal |
-| `--ink`      | `#181917` | quase-preto quente, texto forte |
-| `--sand`     | `#F4F2E8` | areia, fundo alternado |
-| `--sage-tint`| `#E7EAD9` | sálvia clara, fundos suaves, ícones |
-| `--gold` (olive) | `#5E6440` | accent de texto/linhas/estrelas (o manual **não** usa dourado) |
-| `--gold-soft` (sálvia) | `#A7AE84` | accent sobre fundos escuros |
+> Decisão de Raquel e Matheus em 2026-10-14: **tipografia, logo e cores da Fiore são
+> premissa.** Vale para site, Instagram, TikTok, WhatsApp, PDFs, apresentações, impressos,
+> brindes, fachada e qualquer material novo, feito por nós, por agência ou por IA. Nada
+> foge disso; exceção só com novo ADR. Ver [ADR 0023](adr/0023-padrao-de-marca-premissa.md).
 
-> O deck de estratégia citava "dourado", mas o **manual visual usa só verdes + creme +
-> quase-preto**, e seguimos o manual. Para reativar dourado, ajustar os tokens. Ver
-> [ADR 0007](adr/0007-fidelidade-manual-marca-poppins.md).
+Fonte da verdade: o pacote entregue pela designer que criou a identidade e o logo
+(`~/Downloads/Fiore Pilates 2/`: `BRAND & DESIGN - FIORE.pdf`, `Logo/`, `Tipografia/`,
+`Digital/`). Os valores abaixo foram lidos dos **arquivos vetoriais**, não de print.
 
-## Tipografia
+### Tipografia: Poppins, e só Poppins
 
-- **Poppins** (oficial, conforme manual "BRAND & DESIGN - FIORE.pdf"). Sans geométrica,
-  limpa, arredondada e moderna. As formas arredondadas transmitem leveza, acessibilidade
-  e cuidado sem perder a sofisticação. Títulos em pesos leves (200 a 300), texto (400 a 500).
-- Auto-hospedada em `assets/fonts/` (woff2, latin + latin-ext). Ver
-  [ADR 0007](adr/0007-fidelidade-manual-marca-poppins.md).
+- **Família única: Poppins.** É a fonte que a designer entregou na pasta `Tipografia/`
+  e a que ela usa em todas as peças de aplicação ("O florescer do seu equilíbrio",
+  "Corpo em equilíbrio, raízes em flor", "Em breve"). O manual descreve: "limpa, suave e
+  moderna... formas arredondadas e bem definidas".
+- **Pesos:** 200 e 300 para títulos grandes (o tom fino e elegante); 400 para texto;
+  500 para rótulos e botões; 600 só para destaque pontual. Sem 700 ou mais pesado.
+- **Rótulos** em maiúsculas com espaçamento largo (como "EM BREVE" e "FIORE PILATES" do
+  manual). Frases sempre em caixa normal, nunca tudo em maiúsculas.
+- **Proibido:** fonte cursiva ou manuscrita, serifada, condensada (tipo Bebas), itálico
+  como estilo, e qualquer outra família, inclusive as fontes prontas do Instagram, Canva
+  ou CapCut. Para legenda de vídeo, também Poppins.
+- **Por que o PDF do manual mostra Montserrat e Kamerik 205:** são as fontes do *modelo
+  de apresentação* da designer (cabeçalho "FIORE / IDENTIDADE VISUAL", títulos dos
+  slides). Não fazem parte da marca. Conferido em 2026-10-14 nos arquivos.
+- No site: auto-hospedada em `assets/fonts/` (woff2). Peso novo = novo `@font-face`.
 
-## Símbolo e logo
+### Logo: sempre o arquivo oficial
 
-Composição **Folha + Flor** que "floresce":
+- **O que é:** símbolo **folha + flor** (a folha do jardim da avó da Raquel e a flor que
+  "floresce") + o nome **fiore** em caixa-baixa. O nome é **desenho da designer**, não
+  texto digitado: tem base geométrica parecida com a Poppins Medium, mas o "r" e o "e"
+  têm cortes próprios e o espaçamento é dela. Por isso **nunca se escreve "fiore" em
+  Poppins para imitar o logo**: usa-se sempre o arquivo.
+- **Versões oficiais** (pasta `Logo/` da entrega, com e sem "Pilates", com e sem ®):
+  símbolo sozinho; símbolo + fiore na horizontal; símbolo + fiore + "Pilates". No site:
+  `assets/images/fiore-logo.svg` (fundo claro), `fiore-logo-light.svg` (fundo escuro),
+  `fiore-simbolo.svg` (símbolo), `fiore-wordmark.svg` (só o nome, recortado do vetor
+  oficial, usado no rodapé gigante).
+- **Cores do logo por fundo** (como nas aplicações do manual): sobre branco quente ou
+  pistache névoa, símbolo sálvia e nome quase-preto; sobre quase-preto ou verde profundo,
+  símbolo sálvia ou pistache e nome branco quente; sobre oliva, símbolo pistache e nome
+  branco quente;
+  versão de uma cor só em quase-preto ou branco quente quando o fundo pedir.
+- **Nunca:** esticar ou achatar, girar, mudar a proporção entre símbolo e nome, trocar a
+  fonte do nome, recolorir fora da paleta (nada de dourado, rosa ou gradiente), aplicar
+  sombra, contorno, brilho ou efeito, colocar sobre foto sem contraste, redesenhar o
+  símbolo, separar folha e flor.
+- **Respiro e tamanho** (o manual não define; adotamos): espaço livre em volta de pelo
+  menos metade da altura do símbolo; no digital, o símbolo nunca menor que 24 px de altura.
 
-- **Folha:** leveza, cuidado e conexão (inspirada na infância da Raquel com a avó).
-- **Flor:** delicadeza, cuidado e crescimento.
+### Cores: as do manual, e só elas
 
-Wordmark "fiore" geométrico (caixa-baixa, Poppins), com subtítulo "Pilates". Recolore por
-fundo (creme sobre escuro, sálvia sobre olive, olive sobre creme, escuro sobre branco).
-Marca registrada **®**. Arquivos oficiais:
-`assets/images/fiore-simbolo.svg` (símbolo), `fiore-logo.svg` (lockup, fundo claro),
-`fiore-logo-light.svg` (wordmark creme, fundo escuro).
+**Paleta oficial** (página "Cores" do manual, lida do vetor):
 
-## Arquivos oficiais (na máquina do cliente)
+| Nome | Hex | Uso |
+|---|---|---|
+| Quase-preto verde (`ink`) | `#21231E` | títulos, texto forte, botão principal, fundos escuros |
+| Oliva (`olive`) | `#5C633E` | rótulos, links, detalhes finos sobre claro |
+| Sálvia (`sage`) | `#868F5E` | cor-assinatura, símbolo, acento em texto grande |
+| Pistache (`pistachio`) | `#B2BC7D` | acento sobre fundo escuro |
+| Pistache claro (`pistachio-soft`) | `#CCD4A1` | detalhes, ilustração, superfícies |
+| Pistache névoa (`mist`) | `#ECF0CF` | fundo-assinatura da marca |
 
-- Manual: `~/Downloads/Fiore Pilates/BRAND & DESIGN - FIORE.pdf`
-- Vetores: `~/Downloads/Fiore Pilates/Logo/Vetor/` (SVG, AI, PDF)
-- PNGs: `~/Downloads/Fiore Pilates/Logo/Png/` (logo, símbolo, versões ®)
-- Tipografia: `~/Downloads/Fiore Pilates/Tipografia/Poppins/`
-- Carrossel/conceito: `~/Downloads/Fiore Pilates/Digital/`
+**Cores dos arquivos do logo** (usadas como estão, nunca recolorir o logo por código):
+verde profundo `#24281D`, sálvia `#858E5E`, quase-preto `#181917` e **branco quente
+`#FDFFF7`**, que é também o fundo base do site.
+
+**Derivações permitidas:** só transparências ou misturas de cores oficiais, registradas
+como token em `assets/css/fiore.css` (ex.: `mist-soft #F5F8E3` = névoa 50% sobre o branco
+quente; tons de texto secundário derivados do quase-preto; linhas em quase-preto com
+transparência).
+
+**Proibido:** dourado (o deck de estratégia citava, o manual não tem), bege ou areia,
+rosa, azul, preto puro `#000`, branco puro como cor de marca, gradientes coloridos.
+
+**Exceções funcionais (só estas):** o verde do botão de WhatsApp (`#1f7a52`), porque a
+pessoa reconhece o botão pela cor; as cores do "G" do Google no selo de avaliações.
+
+### Como conferir antes de publicar qualquer peça
+
+1. A fonte é Poppins? 2. O logo é o arquivo oficial, sem distorção e na cor certa para o
+fundo? 3. Todas as cores estão na tabela acima? 4. O texto segue a voz (sem travessão,
+linguagem ética com gestantes)? Se alguma resposta for não, a peça volta.
 
 ## Relacionados
 

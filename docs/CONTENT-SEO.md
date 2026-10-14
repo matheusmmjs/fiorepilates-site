@@ -81,6 +81,18 @@ Número: **(14) 99659-8955** → `https://wa.me/5514996598955?text=...` (texto U
 - Conteúdo recorrente para gestantes (Instagram/TikTok) — reforça autoridade local.
   Oportunidade: público do "Curso para Gestantes da Unimed Bauru".
 
+## Guias (`/conteudos`)
+
+Hub `/conteudos` + 5 guias em `conteudos/<slug>.html` (URL `/conteudos/<slug>`, caminhos
+sempre absolutos `/assets/...`). Padrão de cada guia: resposta direta em 2 frases no topo
+(é o trecho que as IAs citam), sumário, 4 a 6 seções curtas, aviso "Inicie sempre com a
+liberação do seu médico.", lista "quando procurar o médico", 4 FAQ (visível = JSON-LD),
+fontes verificadas, byline "Conteúdo revisado por Raquel Cardoso, fisioterapeuta,
+CREFITO-3/389610-F", links para 2 guias irmãos e a página de serviço, CTA final no
+WhatsApp. 600 a 850 palavras: enxuto. JSON-LD: BreadcrumbList + Article (author e
+reviewedBy `#raquel`) + FAQPage. Toda página nova entra no `sitemap.xml`, no `llms.txt`
+e no `llms-full.txt` (regerar a partir do `<main>`).
+
 ## Backlog de conteúdo (futuro)
 
 - Página/seção **Fiore Toque**.

@@ -1,0 +1,10 @@
+# Nada interno vai para produção (ver ADR 0021).
+# docs/ e os arquivos de contexto têm estratégia, preços B2B e dados de terceiros.
+docs/
+.vscode/
+.claude/
+.agents/
+.impeccable/
+*.md
+skills-lock.json
+assets/brand/og/

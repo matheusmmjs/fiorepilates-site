@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<!--
+  Card OG 1200x630 (og-guia-gestante). Fonte editável; o JPG em assets/images/og-guia-gestante.jpg é só a exportação.
+  Como re-renderizar: ver assets/brand/og/render.sh (Chrome headless + Pillow). Imagens por caminho
+  relativo a esta pasta; a Poppins vem da entrega da designer (file:// local, ajuste se mudar de máquina):
+  ~/Downloads/Fiore Pilates 2/Tipografia/Poppins/. Logo: sempre o SVG oficial, nunca digitado.
+  Paleta: #21231E #5C633E #868F5E #B2BC7D #CCD4A1 #ECF0CF #24281D #858E5E #181917 #FDFFF7.
+-->
+<style>
+@font-face{font-family:Poppins;font-weight:300;src:url("file:///Users/raquelcardoso/Downloads/Fiore%20Pilates%202/Tipografia/Poppins/Poppins-Light.ttf")}
+@font-face{font-family:Poppins;font-weight:400;src:url("file:///Users/raquelcardoso/Downloads/Fiore%20Pilates%202/Tipografia/Poppins/Poppins-Regular.ttf")}
+@font-face{font-family:Poppins;font-weight:500;src:url("file:///Users/raquelcardoso/Downloads/Fiore%20Pilates%202/Tipografia/Poppins/Poppins-Medium.ttf")}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{font-family:Poppins,sans-serif;position:relative;background:#ECF0CF;color:#21231E}
+.panel{position:absolute;left:0;top:0;width:660px;height:630px;padding:56px 64px 52px;display:flex;flex-direction:column}
+.logo{width:250px;display:block}
+.main{margin-top:auto;margin-bottom:auto;padding-top:6px}
+.label{font-weight:500;font-size:17px;letter-spacing:.18em;text-transform:uppercase;color:#5C633E;line-height:1.7;max-width:520px}
+.rule{width:44px;height:2px;background:#868F5E;margin:22px 0 24px}
+h1{font-weight:300;font-size:78px;line-height:1.1;letter-spacing:-.015em;color:#21231E}
+.url{font-weight:400;font-size:20px;letter-spacing:.06em;color:#5C633E}
+.photo{position:absolute;right:0;top:0;width:540px;height:630px;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:50% 25%;display:block}
+</style></head><body>
+<div class="panel">
+  <img class="logo" src="../../images/fiore-logo.svg" alt="fiore Pilates">
+  <div class="main">
+    <p class="label">Material gratuito</p>
+    <div class="rule"></div>
+    <h1>Guia da<br>Gestante<br>Ativa</h1>
+  </div>
+  <p class="url">fiorepilates.com.br</p>
+</div>
+<div class="photo"><img src="../../images/v2/raquel-retrato.jpg" alt=""></div>
+</body></html>

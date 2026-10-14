@@ -11,6 +11,10 @@ Documentação do site da Fiore: o que foi feito, **por que** e como manter.
 - **[ROADMAP.md](ROADMAP.md)** — roadmap único do ecossistema: Parte 1 crescimento digital da clínica (fases, status, Bolão da Copa 2026), Parte 2 frente comercial da Fiore Labs.
 - **[BENCHMARKING.md](BENCHMARKING.md)** — comparação com concorrentes de Bauru e referência dos EUA (dados reais via Apify/Firecrawl), atualizar a cada poucos meses.
 - **[COMO-PUBLICAR-EVENTO.md](COMO-PUBLICAR-EVENTO.md)** — fluxo para adicionar eventos na página `/eventos`.
+- **estudos/**: estudos de outubro de 2026 que embasam o site 2.0 (auditoria técnica,
+  análise do Instagram, "focar em gestantes em 2027?"). Têm preços internos e dados de
+  terceiros, então ficam **fora do repositório enquanto ele for público** no GitHub; entram
+  quando o repo virar privado.
 
 ## Ecossistema Fiore e Fiore Labs
 
@@ -41,7 +45,12 @@ Registros do **porquê** de cada decisão importante:
 - [0015 · Oferta comercial da Fiore Labs e regra de domínio](adr/0015-unidade-tech-oferta-comercial-e-regra-de-dominio.md)
 - [0016 · Linktree substituído por link único da bio para o site](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)
 - [0017 · Florescer Empresas: linha B2B2C de Pilates na gestação](adr/0017-florescer-empresas-modelo-b2b2c.md)
-- [0020 · Ecossistema Fiore: Fiore Pilates e Fiore Labs](adr/0020-ecossistema-fiore-e-fiore-labs.md) *(substitui o 0013; 0018 e 0019 em outro branch)*
+- [0018 · Unificação de fisioterapia pélvica e saúde da mulher](adr/0018-unificacao-fisioterapia-pelvica-e-saude-da-mulher.md)
+- [0019 · AEO/GEO: otimização para busca generativa](adr/0019-aeo-geo-otimizacao-para-busca-generativa.md)
+- [0020 · Ecossistema Fiore: Fiore Pilates e Fiore Labs](adr/0020-ecossistema-fiore-e-fiore-labs.md) *(substitui o 0013)*
+- [0021 · Documentos internos fora do deploy](adr/0021-docs-internos-fora-do-deploy.md)
+- [0022 · Site 2.0, premium e fiel ao manual](adr/0022-redesign-2-0-premium.md)
+- [0023 · Tipografia, logo e cores como premissa da marca](adr/0023-padrao-de-marca-premissa.md)
 
 ## Como adicionar um ADR
 
