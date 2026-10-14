@@ -4,9 +4,10 @@ Catálogo dos assets visuais gerados para a Fiore (artes, cards OG, mockups e im
 editoriais). Para assets SVG, a **fonte editável é o SVG** em `assets/brand/`; o arquivo
 raster (JPG/PNG) é só a exportação final. Para editar, mexa no SVG e re-exporte.
 
-Paleta e tipografia oficiais: ver [BRAND.md](BRAND.md). Resumo: forest `#24281D`,
-sand `#F4F2E8`, cream `#FDFFF7`, olive `#5E6440`, sage `#A7AE84`, leaf `#858E5E`,
-estrela `#F2C94C`. Fonte **Poppins** (com fallback de sistema na renderização).
+Paleta, tipografia e logo são **premissa**: ver o padrão em [BRAND.md](BRAND.md) e o
+[ADR 0023](adr/0023-padrao-de-marca-premissa.md). Resumo: `#21231E #5C633E #868F5E #B2BC7D
+#CCD4A1 #ECF0CF` + as do logo `#24281D #858E5E #181917 #FDFFF7`; fonte **Poppins**. Artes
+antigas com bege ou amarelo devem ser ajustadas na próxima edição.
 
 ## Catálogo
 

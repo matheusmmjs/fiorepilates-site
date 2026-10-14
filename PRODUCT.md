@@ -102,8 +102,9 @@ futuro deve preservar:
 - **Prova social só real.** Nunca inventar avaliações, números ou depoimentos.
   `AggregateRating` só com nota e nº reais do Google.
 - **NAP idêntico** em site, Google Perfil da Empresa, Instagram e Facebook.
-- Marca base no manual interno: paleta sage/forest/cream/gold, Poppins, símbolo da folha.
-  Ver [docs/BRAND.md](docs/BRAND.md) e [docs/brand-manual.md](docs/brand-manual.md).
+- **Tipografia, logo e cores são premissa** ([ADR 0023](docs/adr/0023-padrao-de-marca-premissa.md)):
+  só Poppins, logo sempre pelo arquivo oficial, cores só da paleta do manual. Padrão
+  completo em [docs/BRAND.md](docs/BRAND.md).
 
 ## Evidence on Hand
 

@@ -2,27 +2,27 @@
 name: Fiore Pilates
 description: Site institucional acolhedor e premium de um estúdio de Pilates para gestantes em Bauru
 colors:
-  ink: "#181917"
-  forest: "#24281D"
-  sage: "#858E5E"
-  sage-soft: "#A7AE84"
-  sage-tint: "#E7EAD9"
-  cream: "#FDFFF7"
-  sand: "#F4F2E8"
-  olive: "#5E6440"
-  text: "#2B2C26"
-  text-soft: "#5C5E52"
+  ink: "#21231E"
+  olive: "#5C633E"
+  sage: "#868F5E"
+  pistachio: "#B2BC7D"
+  pistachio-soft: "#CCD4A1"
+  mist: "#ECF0CF"
+  mist-soft: "#F5F8E3"
+  paper: "#FDFFF7"
+  text: "#21231E"
+  text-soft: "#45473D"
   text-mute: "#63655A"
-  line: "rgba(36, 40, 29, 0.14)"
-  line-soft: "rgba(36, 40, 29, 0.08)"
+  line: "rgba(33, 35, 30, 0.16)"
+  line-soft: "rgba(33, 35, 30, 0.09)"
   whatsapp: "#1f7a52"
 typography:
   display:
     fontFamily: "Poppins, system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
-    fontSize: "clamp(2.6rem, 6.4vw, 5rem)"
-    fontWeight: 300
-    lineHeight: 1.02
-    letterSpacing: "-0.01em"
+    fontSize: "clamp(3rem, 9vw, 7.5rem)"
+    fontWeight: 200
+    lineHeight: 0.98
+    letterSpacing: "-0.035em"
   display-sub:
     fontFamily: "Poppins, system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
     fontSize: "clamp(2.1rem, 5vw, 3.2rem)"
@@ -77,18 +77,18 @@ spacing:
   maxWidth: "1180px"
 components:
   button-primary:
-    backgroundColor: "{colors.forest}"
-    textColor: "{colors.cream}"
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
     rounded: "{rounded.pill}"
     padding: "0.95rem 1.7rem"
   button-primary-lg:
-    backgroundColor: "{colors.forest}"
-    textColor: "{colors.cream}"
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
     rounded: "{rounded.pill}"
     padding: "1.1rem 2.1rem"
   button-ghost:
     backgroundColor: "transparent"
-    textColor: "{colors.forest}"
+    textColor: "{colors.ink}"
     rounded: "{rounded.pill}"
     padding: "0.95rem 1.7rem"
   button-whatsapp:
@@ -97,22 +97,22 @@ components:
     rounded: "{rounded.pill}"
     padding: "0.95rem 1.7rem"
   card:
-    backgroundColor: "{colors.cream}"
+    backgroundColor: "{colors.paper}"
     textColor: "{colors.text-soft}"
     rounded: "{rounded.md}"
     padding: "clamp(1.5rem, 3vw, 2rem)"
   card-forest:
-    backgroundColor: "{colors.forest}"
-    textColor: "{colors.cream}"
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
     rounded: "{rounded.md}"
     padding: "clamp(1.5rem, 3vw, 2rem)"
   cta-band:
-    backgroundColor: "{colors.forest}"
-    textColor: "{colors.cream}"
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.paper}"
     rounded: "{rounded.lg}"
     padding: "clamp(2.5rem, 6vw, 4.5rem)"
   input:
-    backgroundColor: "{colors.cream}"
+    backgroundColor: "{colors.paper}"
     textColor: "{colors.text}"
     rounded: "{rounded.chip}"
     padding: "0.85rem 1rem"
@@ -138,19 +138,20 @@ texto abaixo diz como aplicá-los. Fonte de verdade no código: `assets/css/fior
 
 ## Color
 
-Fundo padrão é **cream** (`#FDFFF7`); seções alternam com **sand** (`#F4F2E8`) e, para
-respiro visual forte, blocos **forest** (`#24281D`) com texto creme. **sage-tint**
-(`#E7EAD9`) preenche ícones e chips pequenos.
+**Premissa:** cores só da paleta do manual; padrão completo em [docs/BRAND.md](docs/BRAND.md)
+([ADR 0023](docs/adr/0023-padrao-de-marca-premissa.md)). Base da página é **paper**
+(`#FDFFF7`, o branco quente oficial dos arquivos do logo); o fundo assinatura é **mist** (`#ECF0CF`), o
+pistache das peças do manual; momentos escuros em **ink** (`#21231E`) com texto mist.
+O bege "sand" antigo saiu: não existe no manual.
 
-- **forest** — títulos, botão primário, blocos de destaque, rodapé.
-- **sage** — acento vivo: setas de card, "serif-accent", seleção de texto, ícones.
-- **olive** (`#5E6440`) — o token histórico chama-se `--gold`, mas **a marca não usa
-  dourado**: é um olive discreto para eyebrows, linhas finas e foco. Não introduzir
-  dourado de verdade.
-- **whatsapp** (`#1f7a52`) — só no botão verde de WhatsApp.
-- Texto: `text` para ênfase, `text-soft` para corpo, `text-mute` para legendas.
-- Regra do acento único: numa mesma tela, sage OU um bloco forest carregam o destaque,
-  nunca os dois competindo.
+- **ink**: títulos, botão primário, seções escuras, rodapé.
+- **olive** (`#5C633E`): rótulos, links, foco sobre fundo claro.
+- **sage**: acento vivo, só em texto grande sobre claro (3,4:1 não serve para texto pequeno).
+- **pistachio / pistachio-soft**: acento sobre fundo escuro, detalhes, ícones.
+- **whatsapp** (`#1f7a52`): só no botão verde de WhatsApp.
+- Aliases antigos continuam valendo no CSS (`--forest`=ink, `--cream`=paper, `--sand`=mist,
+  `--gold`=olive, `--sage-tint`=mist-soft), para as páginas internas.
+- Regra do acento único: numa mesma tela, o pistache OU um bloco ink carregam o destaque.
 
 ## Typography
 
@@ -158,7 +159,7 @@ Uma única família: **Poppins** auto-hospedada (pesos 200–600). Não reintrod
 Fraunces nem Inter ([ADR 0007](docs/adr/0007-fidelidade-manual-marca-poppins.md)); o
 comentário no topo do CSS que cita "Fraunces + Inter" está desatualizado.
 
-- **display** — herói da home, peso 300, quase sem entrelinha. O "serif-accent" dentro
+- **display**: herói da home, Poppins **200**, grande e com tracking negativo (a "tipografia fina" pedida para 2027). Rótulos em maiúsculas espaçadas com numeração editorial ("01 · Manifesto"). O "serif-accent" dentro
   do título é `sage` peso 500 (não é outra fonte, é cor + peso).
 - **display-sub** (`.display.display--sub`) — herói das páginas internas, mais quieto
   que o da home. É o padrão para o H1 de qualquer página que não seja a `index`.
@@ -207,22 +208,29 @@ comentário no topo do CSS que cita "Fraunces + Inter" está desatualizado.
 
 ## Motion
 
-- Curva única: `--ease: cubic-bezier(0.22, 1, 0.36, 1)`, durações 0.3–0.5s.
-- Entradas: elementos `.reveal` (+ `.d1`/`.d2`/`.d3` de atraso) sobem e aparecem no
-  scroll via IntersectionObserver em `fiore.js`.
-- Hovers: micro `translateY`, aumento de `gap` em setas/links, blur no header.
-- Respeitar `prefers-reduced-motion` (já desliga `scroll-behavior`).
+- Curva única: `--ease: cubic-bezier(0.22, 1, 0.36, 1)`, durações 0.3 a 1.6s.
+- Sem bibliotecas (ADR 0002). Tudo em `fiore.js` e CSS: Ken Burns no hero, títulos e
+  imagens com máscara ao entrar, manifesto que acende palavra por palavra, parallax leve
+  (só desktop), carrossel com scroll-snap, depoimentos um por vez, faixa de cuidados em loop,
+  header que some ao descer e volta ao subir.
+- O conteúdo é visível sem JS: o `fiore.js` põe `.js` no `<html>` e só então anima.
+  Nada acima da dobra usa `.reveal`.
+- Vídeos em loop: mudos, carregados perto da viewport, pausados fora da tela; com
+  `prefers-reduced-motion` ou economia de dados, ficam no pôster com botão de play.
+- Tudo respeita `prefers-reduced-motion`.
 
 ## Imagery
 
-- Fotos reais e claras do espaço (`assets/images/espaco-*.jpg`, `pilates-aula.jpg`),
-  tom quente, luz natural, plantas. Sempre `rounded.lg` + sombra difusa em contexto de
-  destaque.
-- **Não usar imagem gerada por IA** de pessoas. Não há foto de gestante real em aula
-  ainda; usar foto do espaço no lugar até existir uma real e autorizada.
-- Símbolo da folha (`fiore-simbolo.svg`) como marca d'água discreta (opacidade 4–8%),
-  nunca como elemento de destaque.
-- Favicon: `assets/images/favicon.svg` quadrado (folha creme sobre forest).
+- Fotos reais, luz natural, plantas. Recortes responsivos em `assets/images/v2/`:
+  `<nome>-<largura>.avif|webp` + `<nome>.jpg`, 4:5 por padrão, 16:9 com sufixo `-wide`.
+  Sempre `<picture>` com AVIF, WebP e JPG, `width`/`height` e `sizes` corretos.
+- **Moldura em arco** (topo arredondado) para vídeo e retrato de destaque: ecoa a porta do
+  estúdio e a curva da folha.
+- **Não usar imagem gerada por IA** de pessoas. Pessoa identificável (aluna, gestante,
+  bebê, instrutora) só com termo de imagem assinado.
+- Símbolo da folha como marca d'água discreta; wordmark gigante e translúcido no rodapé
+  (`assets/images/fiore-wordmark.svg`).
+- O gargalo é fotografia editorial: ver [ASSETS-NEEDED.md](docs/ASSETS-NEEDED.md).
 
 ## Voice
 

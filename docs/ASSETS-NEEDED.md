@@ -44,6 +44,23 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
    card desenhado da marca (`og-gestantes.jpg`, 1200×630); uma foto real pode substituir
    depois, se quiser.
 
+### Novos (redesign 2.0, outubro de 2026)
+
+5. ✅ **Autorização do vídeo da gestante no Reformer** (confirmado em 2026-10-14: é a Raquel) (`assets/videos/loop-gestante-reformer.mp4`,
+   do reel de 22/06/2026). Pela legenda do post é uma professora da Fiore na própria
+   gestação, provavelmente a Raquel. Confirmar quem é e se pode ir ao site.
+6. ✅ **Autorização da instrutora do vídeo no Cadillac** (confirmada em 2026-10-14) (`assets/videos/loop-cadillac.mp4`,
+   reel de 02/10/2026).
+7. **Ensaio fotográfico profissional** (a maior alavanca de premium, ver
+   [ADR 0022](adr/0022-redesign-2-0-premium.md)): uma manhã de luz natural; gestantes reais
+   em aula com termo assinado; mãos e detalhes; retratos padronizados da equipe (mesmo
+   fundo e figurino); fachada e jardim sem grande-angular; 3 a 4 fotos **horizontais**
+   em alta para o topo das páginas; vídeos curtos sem texto e sem música.
+8. **Termo de imagem padrão** assinado na matrícula, para alunas, bebês e equipe.
+9. ✅ **E-mail de contato público** (`matheus@fiorepilates.com.br`, em /privacidade; sugestão: criar alias `contato@` ou `privacidade@` no iCloud) para a página de privacidade (LGPD) e o aviso de cookies.
+10. ✅ **Fonte oficial (resolvido, Poppins, ver ADR 0023):** o PDF do manual foi diagramado em Montserrat e Kamerik 205; o site
+    usa Poppins (ADR 0007). Confirmar com a designer.
+
 ## Como entregar imagens/vídeos
 
 Imagens: como vier (JPG/PNG/HEIC) — otimizamos e renomeamos. Vídeos: preferir link

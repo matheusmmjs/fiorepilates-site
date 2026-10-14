@@ -4,6 +4,14 @@ Site institucional do **Fiore Pilates** (Bauru/SP) — Pilates especializado em
 **gestantes** e saúde da mulher. Objetivo: site premium, mobile-first, SEO local forte,
 alta conversão para WhatsApp. Sensação-alvo: *"aqui eu vou ser cuidada de verdade."*
 
+## Premissa da marca (nunca fugir)
+
+**Tipografia, logo e cores são premissa** ([ADR 0023](docs/adr/0023-padrao-de-marca-premissa.md)):
+só **Poppins**; logo sempre pelo arquivo oficial (o nome "fiore" é desenho, nunca digitar);
+cores só da paleta do manual (`#21231E #5C633E #868F5E #B2BC7D #CCD4A1 #ECF0CF` + as do logo
+`#24281D #858E5E #181917 #FDFFF7`). Sem dourado, bege, script, serifa ou condensada. Padrão
+completo e checklist em [docs/BRAND.md](docs/BRAND.md). Vale para site, redes e qualquer material.
+
 ## Antes de mexer, leia
 
 - `PRODUCT.md` — verdade de produto (usuárias, propósito, posicionamento, restrições). Formato impeccable.
@@ -40,10 +48,16 @@ Labs (landing de cada produto e `fiorelabs.com.br`).
 
 ## Stack e regras
 
+- **Nada interno vai para produção:** `.vercelignore` exclui `docs/` e todo `*.md` do deploy
+  ([ADR 0021](docs/adr/0021-docs-internos-fora-do-deploy.md)). Nunca publicar estratégia,
+  preços ou dados de terceiros como arquivo do site.
 - **HTML estático puro**, sem framework/build. Páginas: `index.html`, `gestantes.html`.
   Deploy estático na Vercel. Não introduzir build sem reabrir [ADR 0001](docs/adr/0001-stack-html-estatico.md).
 - **URLs:** domínio canônico apex (`fiorepilates.com.br`, sem www) + clean URLs —
   links internos **sem** `.html` (ex.: `/gestantes`). Ver [ADR 0009](docs/adr/0009-urls-canonicas-dominio-apex-clean-urls.md).
+- Visual 2.0 ([ADR 0022](docs/adr/0022-redesign-2-0-premium.md)): paleta do manual com
+  `mist #ECF0CF` como fundo assinatura, display Poppins 200, loops de vídeo mudos e imagens
+  em `assets/images/v2/` (AVIF/WebP/JPG). Estudos de base em `docs/estudos/`.
 - Estilo: design system em `assets/css/fiore.css` (tokens no `:root` + componentes por classe).
   **Não** reintroduzir Bootstrap. JS só em `assets/js/fiore.js`.
 - **Header/footer/WhatsApp flutuante/barra mobile são duplicados** entre páginas —
