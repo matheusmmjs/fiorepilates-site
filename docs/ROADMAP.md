@@ -83,7 +83,7 @@ encerramento, não são pendências abertas.
 | 2.8 | Lead magnet "Guia da Gestante Ativa em Bauru" (PDF via WhatsApp) — PDF + página `/guia-gestante` + captação por WhatsApp + promo em `/gestantes` ([LEAD-MAGNET.md](LEAD-MAGNET.md)) | C+M | ✅ (C) 2026-06-18 — conteúdo inicial revisado, falta divulgar |
 | 2.9 | Selo de convênios (Wellhub, TotalPass, Namu Pass) no rodapé das 9 páginas, linkando pras páginas reais de parceria (confirmadas por busca) em vez de menção solta em texto | C | ✅ 2026-08-29 |
 | 2.10 | Migrar Linktree → link único da bio para a home com `utm_source=instagram&utm_medium=bio` ([ADR 0016](adr/0016-linktree-substituido-por-link-unico-para-o-site.md)) | M (C: ADR + auditoria) | ✅ (M) 2026-08-29 bio trocada; Linktree mantido no ar como órfão, decisão do dono |
-| 2.11 | Página `/privacidade` cobrindo GA4 e Microsoft Clarity (o que é coletado, gravação de sessão, base legal, contato), link no rodapé das páginas. Público sensível (gestantes) e hoje o site não tem política nem aviso de cookies | C | ⬜ (levantado na review do PR #11) |
+| 2.11 | Página `/privacidade` cobrindo GA4 e Microsoft Clarity (o que é coletado, gravação de sessão, base legal, contato), link no rodapé das páginas. Público sensível (gestantes) e hoje o site não tem política nem aviso de cookies | C | ✅ 2026-10-14 (`/privacidade` + aviso de cookies, GA4 e Clarity só após consentimento, PR #21) |
 
 ## Fase 3 — Aquisição e escala (até 90 dias)
 
@@ -91,7 +91,7 @@ encerramento, não são pendências abertas.
 |---|------|------|--------|
 | 3.1 | Meta Ads: campanha de mensagens (gestantes Bauru +10 km) + remarketing | M (C: estrutura) | ⏳ 2.7 |
 | 3.2 | Google Ads: pesquisa gestantes/pilates/marca, raio 8–10 km, extensão de local | M (C: estrutura) | ⏳ 0.9 + ~15 conversões/mês |
-| 3.3 | Blog estático (reabrir [ADR 0001](adr/0001-stack-html-estatico.md) → Astro) — 2 artigos/mês long-tail | C | ⬜ |
+| 3.3 | Guias estáticos em `/conteudos` (HTML puro, sem reabrir o ADR 0001): 5 publicados em 2026-10-14; cadência sugerida de 1 a 2 por mês, curtos e terminando no WhatsApp | C | 🟡 5 no ar, seguir cadência |
 | 3.4 | Parcerias: 10 obstetras/doulas de Bauru + Curso de Gestantes Unimed | M | ⬜ |
 | 3.5 | PR local: pauta no Social Bauru (história da marca + tecnologia própria) | M | 🔄 2026-08-28 — saiu na TV TEM (não Social Bauru), cobertura publicada em `/eventos` + selo "Como visto na TV TEM" na home; ainda sem cobertura em veículo escrito local (JCNet e afins verificados em 2026-08-29, nada publicado, recheck em alguns dias) |
 | 3.6 | Café da manhã com gestantes como funil mensal (inscrição rastreada) | M | ⬜ |

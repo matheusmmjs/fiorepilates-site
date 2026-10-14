@@ -54,7 +54,10 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": ["HealthAndBeautyBusiness", "Physiotherapy"],
+    "@type": [
+      "HealthAndBeautyBusiness",
+      "Physiotherapy"
+    ],
     "@id": "https://fiorepilates.com.br/#business",
     "name": "Fiore Pilates",
     "alternateName": "Fiore Pilates e Fisioterapia",
@@ -81,15 +84,74 @@
       "postalCode": "17012-621",
       "addressCountry": "BR"
     },
-    "geo": { "@type": "GeoCoordinates", "latitude": -22.3405673, "longitude": -49.0528841 },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -22.3405673,
+      "longitude": -49.0528841
+    },
     "hasMap": "https://maps.app.goo.gl/bQtjxJiBTJSpTJJ29",
-    "areaServed": { "@type": "City", "name": "Bauru" },
+    "areaServed": {
+      "@type": "City",
+      "name": "Bauru"
+    },
+    "availableLanguage": "pt-BR",
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "06:00", "closes": "20:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:00", "closes": "12:00" }
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "06:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "07:00",
+        "closes": "12:00"
+      }
     ],
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "45", "bestRating": "5", "worstRating": "1" },
-    "founder": { "@type": "Person", "name": "Raquel Cardoso", "jobTitle": "Fisioterapeuta" },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Estacionamento gratuito no local",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Entrada acessível para cadeira de rodas",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Banheiro acessível para cadeira de rodas",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Estacionamento acessível para cadeira de rodas",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Assentos acessíveis para cadeira de rodas",
+        "value": true
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "45",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "founder": {
+      "@id": "https://fiorepilates.com.br/#raquel"
+    },
     "knowsAbout": [
       "Pilates para gestantes",
       "Pilates pré-natal",
@@ -108,12 +170,100 @@
       "https://maps.app.goo.gl/bQtjxJiBTJSpTJJ29"
     ],
     "makesOffer": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para gestantes", "url": "https://fiorepilates.com.br/gestantes", "description": "Pilates pré-natal individualizado, respeitando cada fase da gestação." } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fisioterapia pélvica e saúde da mulher", "url": "https://fiorepilates.com.br/fisioterapia-pelvica" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates pós-parto", "url": "https://fiorepilates.com.br/pilates-pos-parto" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pilates para idosos e reabilitação", "url": "https://fiorepilates.com.br/pilates-idosos-reabilitacao" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Programa Florescer", "url": "https://fiorepilates.com.br/florescer" } }
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pilates para gestantes",
+          "url": "https://fiorepilates.com.br/gestantes",
+          "description": "Pilates pré-natal individualizado, respeitando cada fase da gestação."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Fisioterapia pélvica e saúde da mulher",
+          "url": "https://fiorepilates.com.br/fisioterapia-pelvica"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pilates pós-parto",
+          "url": "https://fiorepilates.com.br/pilates-pos-parto"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Pilates para idosos e reabilitação",
+          "url": "https://fiorepilates.com.br/pilates-idosos-reabilitacao"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Programa Florescer",
+          "url": "https://fiorepilates.com.br/florescer"
+        }
+      }
     ]
+  }
+  </script>
+  <!-- Dados estruturados: fundadora (referenciada por @id nas outras páginas) e site -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://fiorepilates.com.br/#raquel",
+    "name": "Raquel Cardoso",
+    "jobTitle": "Fisioterapeuta",
+    "description": "Fisioterapeuta, fundadora da Fiore Pilates, especializada em cuidado pré e pós-natal e saúde da mulher.",
+    "url": "https://fiorepilates.com.br/#sobre",
+    "image": "https://fiorepilates.com.br/assets/images/v2/raquel-retrato.jpg",
+    "worksFor": {
+      "@id": "https://fiorepilates.com.br/#business"
+    },
+    "knowsAbout": [
+      "Pilates para gestantes",
+      "Pilates pré-natal",
+      "Pilates pós-parto",
+      "Fisioterapia pélvica",
+      "Saúde da mulher",
+      "Assoalho pélvico",
+      "Reabilitação"
+    ],
+    "award": "Moção de reconhecimento do CREFITO-3 (2025)",
+    "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Registro profissional",
+      "name": "CREFITO-3/389610-F",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "CREFITO-3",
+        "url": "https://www.crefito3.org.br"
+      }
+    },
+    "sameAs": [
+      "https://www.instagram.com/pilatesfiore/"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://fiorepilates.com.br/#website",
+    "url": "https://fiorepilates.com.br/",
+    "name": "Fiore Pilates",
+    "inLanguage": "pt-BR",
+    "publisher": {
+      "@id": "https://fiorepilates.com.br/#business"
+    }
   }
   </script>
   <!-- Dados estruturados: Perguntas frequentes -->
@@ -138,7 +288,7 @@
 <body class="has-overlay-header">
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-  <!-- ===================== HEADER (idêntico nas 8 páginas) ===================== -->
+  <!-- ===================== HEADER (idêntico nas 10 páginas) ===================== -->
   <header class="site-header" data-header>
     <div class="container container--wide nav">
       <a class="brand" href="/" aria-label="Fiore Pilates, página inicial">
@@ -359,6 +509,7 @@
             <p class="founder-quote reveal d1">Fiore é flor, em italiano. Nasceu de um sonho cheio de cuidado.</p>
             <p class="reveal d2">Um sonho da fisioterapeuta <strong>Raquel Cardoso</strong>: criar um espaço onde cada pessoa se sentisse verdadeiramente bem cuidada. O nome foi inspirado na avó de Raquel, que cultivava um jardim cheio de vida e beleza. Lembranças que até hoje inspiram cada detalhe do nosso espaço.</p>
             <p class="reveal d2">Mais do que um estúdio, um <strong>ecossistema de cuidado</strong>: pessoas, técnica e acolhimento juntos pela maternidade e pela saúde da mulher.</p>
+            <p class="founder-id reveal d3">Raquel Cardoso · Fisioterapeuta · CREFITO-3/389610-F</p>
             <p class="credential reveal d3"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 21C4 10 10 4 21 4c0 11-6 17-17 17Z"/></svg><span>Moção de reconhecimento do CREFITO-3 (2025)</span></p>
             <div class="btn-row reveal d3" style="margin-top:2rem">
               <a href="https://wa.me/5514996598955?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20o%20espa%C3%A7o%20da%20Fiore." class="btn btn--ghost" target="_blank" rel="noopener">Conhecer nosso espaço</a>
@@ -696,7 +847,7 @@
 
   </main>
 
-  <!-- ===================== FOOTER (idêntico nas 8 páginas) ===================== -->
+  <!-- ===================== FOOTER (idêntico nas 10 páginas) ===================== -->
   <footer class="site-footer">
     <div class="container container--wide">
       <div class="footer-top">
@@ -732,6 +883,7 @@
           <a href="/#servicos">Cuidados</a>
           <a href="/florescer">Programa Florescer</a>
           <a href="/eventos">Eventos</a>
+          <a href="/conteudos">Conteúdos</a>
           <a href="/#sobre">Sobre</a>
           <a href="/#contato">Contato</a>
         </div>

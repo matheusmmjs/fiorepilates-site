@@ -44,9 +44,16 @@ Três leituras orientaram o desenho:
 5. **Imagens responsivas.** Recortes novos dos originais em alta (série de retratos da
    Raquel, jardim, porta, recanto, aparelhos) em AVIF e WebP com fallback JPG, em
    `assets/images/v2/`. O hero da home é pré-carregado.
-6. **Escopo.** Home e `/gestantes` redesenhadas; header, menu, rodapé, WhatsApp e barra
-   mobile novos e idênticos nas 8 páginas; as 6 páginas internas herdam paleta e
-   tipografia e ganham o redesenho completo numa etapa seguinte.
+6. **Escopo: o site inteiro.** Todas as páginas redesenhadas (home, gestantes, pós-parto,
+   fisioterapia pélvica, idosos, Florescer, eventos, guia, privacidade, 404) + hub
+   `/conteudos` com 5 guias. Header, menu, rodapé, WhatsApp e barra mobile idênticos em
+   todas. Cada página tem um objetivo: "Agendar avaliação inicial" no WhatsApp com a
+   mensagem certa para a intenção.
+   SEO/AEO/GEO junto: títulos e descrições no tamanho, H1 com palavra-chave local, FAQ
+   visível igual ao JSON-LD em todas as páginas, grafo de dados estruturados ligado
+   (`#business`, `#raquel` com CREFITO-3/389610-F, WebSite, reviewedBy nas páginas de
+   saúde), cards de compartilhamento por página (`assets/brand/og/`), `robots.txt` com os
+   robôs de IA explícitos, `llms.txt`/`llms-full.txt` regerados.
 7. **Correções da auditoria que vieram junto:** skip link sem handler inline, foco visível
    em fundo escuro, contraste AA nos botões, títulos e descrições da home e de gestantes no
    tamanho certo e com "Pilates em Bauru" no início, frase sobre o Mirae ser vendido a

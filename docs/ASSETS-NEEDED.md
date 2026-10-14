@@ -15,7 +15,7 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
   sala do céu, entrada) na seção "Nosso espaço". Originais em `~/Downloads/FIORE 2`.
 - **Equipe:** Jamile saiu (removida do site). Time Florescer = **Raquel** (fundadora),
   **Andressa** e **Filipe** (fisioterapeutas) + **Rosana** (massoterapeuta, Fiore Toque).
-  Fotos organizadas em `assets/images/team/`. Sem CREFITO no site (decisão do cliente).
+  Fotos organizadas em `assets/images/team/`. CREFITO: desde 2026-10-14 o registro da Raquel (CREFITO-3/389610-F) aparece no site e nos dados estruturados, autorizado por Matheus (antes a decisão era não mostrar). Os demais fisioterapeutas seguem sem número até autorizarem.
 - **Coordenadas (geo):** -22.3405673, -49.0528841 no schema + `hasMap`.
 - **Razão social / CNPJ:** Fiore Pilates LTDA · 60.413.273/0001-90 (rodapé + `legalName`/`taxID`).
 - **Redes:** TikTok `@fiorepilates` e Facebook (perfil real) no rodapé + `sameAs`.
@@ -60,6 +60,14 @@ neste PR (assets + fase 2). Restam só os itens marcados em **⏳ Pendente** no 
 9. ✅ **E-mail de contato público** (`matheus@fiorepilates.com.br`, em /privacidade; sugestão: criar alias `contato@` ou `privacidade@` no iCloud) para a página de privacidade (LGPD) e o aviso de cookies.
 10. ✅ **Fonte oficial (resolvido, Poppins, ver ADR 0023):** o PDF do manual foi diagramado em Montserrat e Kamerik 205; o site
     usa Poppins (ADR 0007). Confirmar com a designer.
+
+11. **Legendas dos vídeos com fala** (massoterapia, florescer, café com gestantes):
+    `whisper-cli` está instalado, falta baixar um modelo (`ggml-small.bin`, ~500 MB).
+    Arquivos esperados: `assets/videos/<nome>.pt.vtt`.
+12. **Originais sem marca d'água** de massoterapia, florescer e café com gestantes: os
+    atuais têm "clideo.com" gravado (e o do Florescer tem erro de português na legenda).
+13. **Revisão da Raquel nos 5 guias** de `/conteudos` antes do merge (números citados,
+    listas de "quando procurar o médico", dicas práticas).
 
 ## Como entregar imagens/vídeos
 

@@ -149,8 +149,8 @@ O bege "sand" antigo saiu: não existe no manual.
 - **sage**: acento vivo, só em texto grande sobre claro (3,4:1 não serve para texto pequeno).
 - **pistachio / pistachio-soft**: acento sobre fundo escuro, detalhes, ícones.
 - **whatsapp** (`#1f7a52`): só no botão verde de WhatsApp.
-- Aliases antigos continuam valendo no CSS (`--forest`=ink, `--cream`=paper, `--sand`=mist,
-  `--gold`=olive, `--sage-tint`=mist-soft), para as páginas internas.
+- Os aliases antigos (`--forest`, `--cream`, `--sand`, `--gold`, `--sage-tint`) e as classes
+  `.bg-forest`/`.bg-sand` saíram em 2026-10 (onda 2): todas as páginas usam os nomes do manual.
 - Regra do acento único: numa mesma tela, o pistache OU um bloco ink carregam o destaque.
 
 ## Typography

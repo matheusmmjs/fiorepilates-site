@@ -55,25 +55,40 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://fiorepilates.com.br/gestantes#webpage",
+    "url": "https://fiorepilates.com.br/gestantes",
+    "name": "Pilates para Gestantes em Bauru",
+    "description": "Pilates para gestantes em Bauru com fisioterapeutas: aulas individuais adaptadas a cada trimestre, do pré-natal ao pós-parto. Agende sua avaliação inicial.",
+    "inLanguage": "pt-BR",
+    "isPartOf": {
+      "@id": "https://fiorepilates.com.br/#website"
+    },
+    "about": {
+      "@id": "https://fiorepilates.com.br/#business"
+    },
+    "reviewedBy": {
+      "@id": "https://fiorepilates.com.br/#raquel"
+    },
+    "lastReviewed": "2026-10-14",
+    "dateModified": "2026-10-14"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Pilates para Gestantes",
     "name": "Pilates para Gestantes em Bauru",
     "description": "Pilates pré-natal individualizado e seguro, com aulas adaptadas a cada fase da gestação, em Bauru/SP.",
-    "areaServed": { "@type": "City", "name": "Bauru" },
+    "areaServed": {
+      "@type": "City",
+      "name": "Bauru"
+    },
     "provider": {
-      "@type": "HealthAndBeautyBusiness",
-      "@id": "https://fiorepilates.com.br/#business",
-      "name": "Fiore Pilates",
-      "url": "https://fiorepilates.com.br/",
-      "telephone": "+5514996598955",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "R. Baltazar Rodrigues, 4-82, Jardim Planalto",
-        "addressLocality": "Bauru",
-        "addressRegion": "SP",
-        "addressCountry": "BR"
-      }
-    }
+      "@id": "https://fiorepilates.com.br/#business"
+    },
+    "url": "https://fiorepilates.com.br/gestantes"
   }
   </script>
   <script type="application/ld+json">
@@ -97,7 +112,7 @@
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-  <!-- ===================== HEADER (idêntico nas 8 páginas) ===================== -->
+  <!-- ===================== HEADER (idêntico nas 10 páginas) ===================== -->
   <header class="site-header" data-header>
     <div class="container container--wide nav">
       <a class="brand" href="/" aria-label="Fiore Pilates, página inicial">
@@ -357,6 +372,15 @@
             </details>
           </div>
         </div>
+        <!-- Para ler com calma: guias relacionados (/conteudos) -->
+        <div class="section-cta reveal">
+          <span class="eyebrow">Para ler com calma</span>
+          <div class="btn-row">
+            <a class="link-line" href="/conteudos/pilates-na-gravidez-por-trimestre">Pilates em cada trimestre <span aria-hidden="true">→</span></a>
+            <a class="link-line" href="/conteudos/dor-lombar-na-gravidez">Dor lombar na gravidez <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <p class="byline"><picture><source type="image/avif" srcset="./assets/images/v2/raquel-circulo-640.avif"><source type="image/webp" srcset="./assets/images/v2/raquel-circulo-640.webp"><img src="./assets/images/v2/raquel-circulo.jpg" alt="" width="1500" height="1875" loading="lazy" decoding="async"></picture><span>Conteúdo revisado por <strong>Raquel Cardoso</strong>, fisioterapeuta, CREFITO-3/389610-F · Atualizado em <time datetime="2026-10-14">outubro de 2026</time></span></p>
       </div>
     </section>
 
@@ -398,7 +422,7 @@
 
   </main>
 
-  <!-- ===================== FOOTER (idêntico nas 8 páginas) ===================== -->
+  <!-- ===================== FOOTER (idêntico nas 10 páginas) ===================== -->
   <footer class="site-footer">
     <div class="container container--wide">
       <div class="footer-top">
@@ -434,6 +458,7 @@
           <a href="/#servicos">Cuidados</a>
           <a href="/florescer">Programa Florescer</a>
           <a href="/eventos">Eventos</a>
+          <a href="/conteudos">Conteúdos</a>
           <a href="/#sobre">Sobre</a>
           <a href="/#contato">Contato</a>
         </div>
